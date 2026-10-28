@@ -12,10 +12,14 @@ from build_town import BIOMES
 def main():
     mod = PROJECT / "mods/diantre"
     ids = set()
+    bounds = {}
     for path in [mod / "tilesetdefs/tileset_grassland.txt", *(mod / "tilesetdefs/town").glob("*.txt")]:
         for line in path.read_text().splitlines():
             if line.startswith("tile="):
-                ids.add(int(line[5:].split(",")[0]))
+                tile, sx, sy, width, height, ox, oy = map(int, line[5:].split(","))
+                assert tile not in ids, (path, tile, "duplicate palette tile ID")
+                ids.add(tile)
+                bounds[tile] = height, oy
     cases = 0
     for biome in BIOMES:
         directory = mod / "maps/town/chunks" / biome
@@ -84,6 +88,16 @@ def main():
                         wall = rendered["cliff_faces"][y-1]
                         assert all(wall[xx] for xx in range(left, right+1)
                                    if xx not in (x, x+1)), (path, mask, "gap in cave wall")
+                        assert all(rendered["cliff_faces_upper"][y-1][xx]
+                                   for xx in range(left, right+1)), (path, mask, "gap in upper entrance wall")
+                        # Compare the arch with the nearest corners of the
+                        # adjacent terrain diamonds, including the isometric
+                        # shift between tiles. Both flanks must cover its top.
+                        arch_top = min((xx+y-1)*48 - bounds[visible[y-1][xx]][1]
+                                       for xx in (x, x+1))
+                        lip_bottom = max((xx+y-1)*48 + bounds[tops[y-1][xx]][0]//2 - bounds[tops[y-1][xx]][1]
+                                         for xx in (x-1, x+2))
+                        assert lip_bottom < arch_top, (path, mask, "cave arch protrudes above cliff")
                         assert all((xx, y-2) in plateau for xx in (x, x+1)), (path, mask, "unsupported cave opening")
                         assert (x+1, y) in reach, (path, mask, "blocked entrance apron")
                         assert not any(visible[yy][xx] in BIOMES[biome].decorations

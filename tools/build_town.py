@@ -14,8 +14,9 @@ SIZE = 16
 REGION = 64
 WORLD = 80  # decorative margin beyond the generated, explorable region
 CLIFF_CAP_OFFSET = 5000
+CLIFF_TILE_BASE = 20000  # Earlier cached hills retain their original tile IDs.
 CLIFF_HEIGHT = 192
-CLIFF_RISES = (CLIFF_HEIGHT, 96, 96)
+CLIFF_RISES = (CLIFF_HEIGHT * 2, 96, 96)
 
 
 @dataclass(frozen=True)
@@ -72,15 +73,18 @@ def ground(biome, x, y):
     return tiles[(x % 4 + (y % 4) * 4) % len(tiles)]
 
 
-def cliff_layers(terraces):
+def cliff_layers(terraces, base_upper):
     result = ""
     for level, (faces, tops) in enumerate(terraces):
         suffix = f"_{level + 1}" if level else ""
-        result += layer("cliff_faces" + suffix, faces) + layer("cliff_tops" + suffix, tops)
+        result += layer("cliff_faces" + suffix, faces)
+        if not level:
+            result += layer("cliff_faces_upper", base_upper)
+        result += layer("cliff_tops" + suffix, tops)
     return result
 
 
-def dungeon_entrance(biome, variant, bg, terraces, obj, col):
+def dungeon_entrance(biome, variant, bg, terraces, base_upper, obj, col):
     # The hillside stays outside the native connector strips and away from
     # foreground trees in adjacent chunks. Flare randomly places the end chunk.
     x, y = [(3, 5), (2, 6), (3, 6)][variant]
@@ -98,11 +102,12 @@ def dungeon_entrance(biome, variant, bg, terraces, obj, col):
             obj[yy][xx], col[yy][xx] = 0, 0
             bg[yy][xx] = ground(biome, xx, yy)
     # Successively narrower terraces recede behind the cave. Shorter upper
-    # risers form a hillside while the full-height base contains the doorway.
+    # risers form a hillside. Two stacked wall sections at the base keep the
+    # cave arch below the terrain lip, without an intermediate grass ledge.
     # Every terrain level renders before the mouth, keeping the arch visible.
     profiles = [(right, front), (right - 1, front - 2), (right - 2, front - 3)]
     for level, ((edge, lip), (faces, tops)) in enumerate(zip(profiles, terraces)):
-        band = CLIFF_CAP_OFFSET * (level + 1)
+        band = CLIFF_TILE_BASE + CLIFF_CAP_OFFSET * (level + 1)
         for yy in range(back, lip + 1):
             for xx in range(left, edge + 1):
                 if yy == back:
@@ -117,6 +122,8 @@ def dungeon_entrance(biome, variant, bg, terraces, obj, col):
                     tile = 0
                 if tile:
                     faces[yy][xx] = offset + tile + (band if level else 0)
+                    if not level:
+                        base_upper[yy][xx] = band + offset + tile
                 tops[yy][xx] = band + ground(biome, xx, yy)
     terraces[0][0][front][x:x + 2] = [0, 0]
     obj[front][x], obj[front][x + 1] = offset + 226, offset + 227
@@ -131,6 +138,7 @@ def chunk(biome, role, variant):
     bg = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
     obj, col = grid(SIZE, 0), grid(SIZE, 0)
     terraces = [(grid(SIZE, 0), grid(SIZE, 0)) for _ in CLIFF_RISES]
+    base_upper = grid(SIZE, 0)
     extra = ""
     # Closed edges are opened only for the links chosen by the native generator.
     for y in range(SIZE):
@@ -181,7 +189,7 @@ def chunk(biome, role, variant):
             extra += event(5, 10, "activate=on_interact", "hotspot=location",
                            "stash=true", "tooltip=Shared Stash", "soundfx=soundfx/wood_open.ogg")
     elif role == "end":
-        extra += dungeon_entrance(biome, variant, bg, terraces, obj, col)
+        extra += dungeon_entrance(biome, variant, bg, terraces, base_upper, obj, col)
     header = (f"[header]\nwidth={SIZE}\nheight={SIZE}\ntilewidth=192\ntileheight=96\n"
               "orientation=isometric\nhero_pos=8,10\n"
               f"procgen_type={role}\ntileset=tilesetdefs/town/palette.txt\n")
@@ -189,7 +197,7 @@ def chunk(biome, role, variant):
     # keeps those cutouts from exposing the renderer's black clear colour.
     underlay = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
     return (header + layer("background_base", underlay) + layer("background", bg) +
-            cliff_layers(terraces) +
+            cliff_layers(terraces, base_upper) +
             layer("object", obj) + layer("collision", col) + extra)
 
 
@@ -228,9 +236,10 @@ def cliff_palette(grassland):
                         values[3] -= crop
                         values[-1] += elevation - crop
                     else:
-                        elevation += rise
-                        continue
-                    band = CLIFF_CAP_OFFSET * (level + 1)
+                        # A second full wall section extends the entrance
+                        # cliff upward; both sections share one terrain cap.
+                        values[-1] += CLIFF_HEIGHT
+                    band = CLIFF_TILE_BASE + CLIFF_CAP_OFFSET * (level + 1)
                     lines.append("tile=" + ",".join(map(str, [band + tile, *values])))
                     elevation += rise
                 found.add(tile)
@@ -263,7 +272,7 @@ def main():
     if not grassland.is_file():
         grassland = ROOT.parents[1] / "mods/diantre/tilesetdefs/tileset_grassland.txt"
     cliff_palette(grassland)
-    palette += "INCLUDE tilesetdefs/town/cliffs.txt\n"
+    palette += "INCLUDE tilesetdefs/town/cliffs_legacy.txt\nINCLUDE tilesetdefs/town/cliffs.txt\n"
     write("tilesetdefs/town/palette.txt", palette)
     for biome, spec in BIOMES.items():
         title, decorations = spec.title, spec.decorations
@@ -278,7 +287,8 @@ def main():
                 f"title={title}\nmusic=music/town_theme.ogg\n"
                 "tileset=tilesetdefs/town/palette.txt\n")
         text += (layer("background_base", bg) + layer("background", bg) +
-                 cliff_layers([(grid(WORLD, 0), grid(WORLD, 0)) for _ in CLIFF_RISES]) +
+                 cliff_layers([(grid(WORLD, 0), grid(WORLD, 0)) for _ in CLIFF_RISES],
+                              grid(WORLD, 0)) +
                  layer("object", obj) + layer("collision", col))
         text += event(0, 0, f"procgen_filename=maps/town/rules/{biome}.txt", width=REGION, height=REGION)
         text += event(0, 0, "activate=on_load", f"set_status=diantre_town_{biome}",
