@@ -15,6 +15,7 @@ REGION = 64
 WORLD = 80  # decorative margin beyond the generated, explorable region
 CLIFF_CAP_OFFSET = 5000
 CLIFF_HEIGHT = 192
+CLIFF_RISES = (CLIFF_HEIGHT, 96, 96)
 
 
 @dataclass(frozen=True)
@@ -71,8 +72,16 @@ def ground(biome, x, y):
     return tiles[(x % 4 + (y % 4) * 4) % len(tiles)]
 
 
-def dungeon_entrance(biome, variant, bg, faces, tops, obj, col):
-    # The plateau stays outside the native connector strips and away from
+def cliff_layers(terraces):
+    result = ""
+    for level, (faces, tops) in enumerate(terraces):
+        suffix = f"_{level + 1}" if level else ""
+        result += layer("cliff_faces" + suffix, faces) + layer("cliff_tops" + suffix, tops)
+    return result
+
+
+def dungeon_entrance(biome, variant, bg, terraces, obj, col):
+    # The hillside stays outside the native connector strips and away from
     # foreground trees in adjacent chunks. Flare randomly places the end chunk.
     x, y = [(3, 5), (2, 6), (3, 6)][variant]
     left, right, back, front = 0, 5, 0, y - 1
@@ -88,25 +97,28 @@ def dungeon_entrance(biome, variant, bg, faces, tops, obj, col):
         for xx in range(left, right + 1):
             obj[yy][xx], col[yy][xx] = 0, 0
             bg[yy][xx] = ground(biome, xx, yy)
-    # Continuous native cliff faces surround a solid, inaccessible plateau.
-    # Raised copies of the biome's ground cover the wall sprites' black backs.
-    # The mouth renders last, so the terrain cap cannot cover its arch.
-    for yy in range(back, front + 1):
-        for xx in range(left, right + 1):
-            if yy == back:
-                tile = 66 if xx == left else 67 if xx == right else 51
-            elif yy == front:
-                tile = 65 if xx == left else 64 if xx == right else 49
-            elif xx == left:
-                tile = 50
-            elif xx == right:
-                tile = 48
-            else:
-                tile = 0
-            if tile:
-                faces[yy][xx] = offset + tile
-            tops[yy][xx] = CLIFF_CAP_OFFSET + ground(biome, xx, yy)
-    faces[front][x:x + 2] = [0, 0]
+    # Successively narrower terraces recede behind the cave. Shorter upper
+    # risers form a hillside while the full-height base contains the doorway.
+    # Every terrain level renders before the mouth, keeping the arch visible.
+    profiles = [(right, front), (right - 1, front - 2), (right - 2, front - 3)]
+    for level, ((edge, lip), (faces, tops)) in enumerate(zip(profiles, terraces)):
+        band = CLIFF_CAP_OFFSET * (level + 1)
+        for yy in range(back, lip + 1):
+            for xx in range(left, edge + 1):
+                if yy == back:
+                    tile = 66 if xx == left else 67 if xx == edge else 51
+                elif yy == lip:
+                    tile = 65 if xx == left else 64 if xx == edge else 49
+                elif xx == left:
+                    tile = 50
+                elif xx == edge:
+                    tile = 48
+                else:
+                    tile = 0
+                if tile:
+                    faces[yy][xx] = offset + tile + (band if level else 0)
+                tops[yy][xx] = band + ground(biome, xx, yy)
+    terraces[0][0][front][x:x + 2] = [0, 0]
     obj[front][x], obj[front][x + 1] = offset + 226, offset + 227
     block(col, left, back, right - left + 1, front - back + 1)
     return (event(x, y, "activate=on_interact", "hotspot=location",
@@ -118,7 +130,7 @@ def chunk(biome, role, variant):
     rng = random.Random(f"diantre-town-v1:{biome}:{role}:{variant}")
     bg = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
     obj, col = grid(SIZE, 0), grid(SIZE, 0)
-    faces, tops = grid(SIZE, 0), grid(SIZE, 0)
+    terraces = [(grid(SIZE, 0), grid(SIZE, 0)) for _ in CLIFF_RISES]
     extra = ""
     # Closed edges are opened only for the links chosen by the native generator.
     for y in range(SIZE):
@@ -169,7 +181,7 @@ def chunk(biome, role, variant):
             extra += event(5, 10, "activate=on_interact", "hotspot=location",
                            "stash=true", "tooltip=Shared Stash", "soundfx=soundfx/wood_open.ogg")
     elif role == "end":
-        extra += dungeon_entrance(biome, variant, bg, faces, tops, obj, col)
+        extra += dungeon_entrance(biome, variant, bg, terraces, obj, col)
     header = (f"[header]\nwidth={SIZE}\nheight={SIZE}\ntilewidth=192\ntileheight=96\n"
               "orientation=isometric\nhero_pos=8,10\n"
               f"procgen_type={role}\ntileset=tilesetdefs/town/palette.txt\n")
@@ -177,15 +189,18 @@ def chunk(biome, role, variant):
     # keeps those cutouts from exposing the renderer's black clear colour.
     underlay = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
     return (header + layer("background_base", underlay) + layer("background", bg) +
-            layer("cliff_faces", faces) + layer("cliff_tops", tops) +
+            cliff_layers(terraces) +
             layer("object", obj) + layer("collision", col) + extra)
 
 
 def cliff_palette(grassland):
-    """Raise existing terrain through tile offsets; keep the source art intact."""
-    wanted = {tile for spec in BIOMES.values() for tile in spec.ground_tiles}
+    """Reuse atlas regions and offsets for terrain caps and shorter upper cliffs."""
+    ground_tiles = {tile for spec in BIOMES.values() for tile in spec.ground_tiles}
+    face_tiles = {tile + offset for offset in (0, 1000)
+                  for tile in (48, 49, 50, 51, 64, 65, 66, 67)}
+    wanted = ground_tiles | face_tiles
     found = set()
-    lines = ["# Raised terrain caps reuse unchanged Empyrean atlas regions."]
+    lines = ["# Terraces reuse unchanged Empyrean atlases with raised or cropped tile regions."]
     sources = [grassland, *(ROOT / "tilesetdefs/town" / (name + ".txt")
                            for name in ("snowplains", "cave", "ruins", "dungeon"))]
     last_image = None
@@ -194,14 +209,30 @@ def cliff_palette(grassland):
             if line.startswith("img="):
                 image = line[4:]
             elif line.startswith("tile="):
-                tile, *values = map(int, line[5:].split(","))
+                tile, *source_values = map(int, line[5:].split(","))
                 if tile not in wanted:
                     continue
                 if image != last_image:
                     lines.extend(["\n[tileset]", "img=" + image])
                     last_image = image
-                values[-1] += CLIFF_HEIGHT
-                lines.append("tile=" + ",".join(map(str, [CLIFF_CAP_OFFSET + tile, *values])))
+                elevation = 0
+                for level, rise in enumerate(CLIFF_RISES):
+                    values = source_values[:]
+                    if tile in ground_tiles:
+                        values[-1] += elevation + rise
+                    elif level:
+                        # Trim the top of the wall region, retaining its foot.
+                        # The terrace above covers the cropped upper edge.
+                        crop = CLIFF_HEIGHT - rise
+                        values[1] += crop
+                        values[3] -= crop
+                        values[-1] += elevation - crop
+                    else:
+                        elevation += rise
+                        continue
+                    band = CLIFF_CAP_OFFSET * (level + 1)
+                    lines.append("tile=" + ",".join(map(str, [band + tile, *values])))
+                    elevation += rise
                 found.add(tile)
     if found != wanted:
         raise ValueError(f"Missing plateau terrain tiles: {sorted(wanted - found)}")
@@ -247,7 +278,7 @@ def main():
                 f"title={title}\nmusic=music/town_theme.ogg\n"
                 "tileset=tilesetdefs/town/palette.txt\n")
         text += (layer("background_base", bg) + layer("background", bg) +
-                 layer("cliff_faces", grid(WORLD, 0)) + layer("cliff_tops", grid(WORLD, 0)) +
+                 cliff_layers([(grid(WORLD, 0), grid(WORLD, 0)) for _ in CLIFF_RISES]) +
                  layer("object", obj) + layer("collision", col))
         text += event(0, 0, f"procgen_filename=maps/town/rules/{biome}.txt", width=REGION, height=REGION)
         text += event(0, 0, "activate=on_load", f"set_status=diantre_town_{biome}",

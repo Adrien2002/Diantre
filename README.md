@@ -44,8 +44,9 @@ used by this mod.
   terrain, marsh, meadow, riverside, snow, cave, ruins and citadel.
 - Random town layouts, scenery variants and a single dungeon entrance, connected
   to the character's spawn point by a walkable path. Click the entrance to descend.
-- The cave mouth is embedded in a continuous cliff with a raised terrain plateau
-  behind it and a clear approach. Snow biomes use matching snow-covered cliffs.
+- The cave mouth opens into the foot of a three-tier hillside. Successively
+  smaller terraces rise behind the entrance, with a clear approach at ground
+  level. Snow biomes use matching snow-covered cliffs and terraces.
 - Three generated Iron Labyrinth floors, using Empyrean's classes, equipment,
   monsters and summoning mechanics.
 - Surface exits, return portals and recall scrolls lead back to the dungeon

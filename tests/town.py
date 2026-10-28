@@ -34,7 +34,7 @@ def main():
                 continue
             base = next(s["data"] for s in data if s.get("type") == "collision")
             scenery = {s["type"]: s["data"] for s in data
-                       if s.get("type") in ("object", "cliff_faces", "cliff_tops")}
+                       if s.get("type") == "object" or s.get("type", "").startswith("cliff_")}
             for mask in range(1, 16):
                 collision = [row[:] for row in base]
                 rendered = {name: [row[:] for row in values] for name, values in scenery.items()}
@@ -64,9 +64,19 @@ def main():
                         plateau = {(xx, yy) for yy, row in enumerate(tops)
                                    for xx, tile in enumerate(row) if tile}
                         assert len(plateau) >= 20, (path, mask, "missing cliff plateau")
+                        upper_tops = [name for name in scenery if name.startswith("cliff_tops_")]
+                        assert len(upper_tops) == 2, (path, mask, "missing hillside terraces")
+                        previous = plateau
+                        for name in upper_tops:
+                            footprint = {(xx, yy) for yy, row in enumerate(scenery[name])
+                                         for xx, tile in enumerate(row) if tile}
+                            assert footprint and footprint < previous, (path, mask, "unsupported upper terrace")
+                            assert max(xx for xx, yy in footprint) < max(xx for xx, yy in previous), (path, mask, "terrace has no side setback")
+                            assert max(yy for xx, yy in footprint) < max(yy for xx, yy in previous), (path, mask, "terrace has no front setback")
+                            previous = footprint
                         for xx, yy in plateau:
                             assert collision[yy][xx] == 1, (path, mask, "walkable plateau")
-                            for name in ("cliff_faces", "cliff_tops"):
+                            for name in scenery.keys() - {"object"}:
                                 assert rendered[name][yy][xx] == scenery[name][yy][xx], (path, mask, "cliff cut by connector")
                             if yy != y-1 or xx not in (x, x+1):
                                 assert not visible[yy][xx], (path, mask, "freestanding cliff props")
