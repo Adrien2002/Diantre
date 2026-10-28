@@ -44,6 +44,8 @@ used by this mod.
   terrain, marsh, meadow, riverside, snow, cave, ruins and citadel.
 - Random town layouts, scenery variants and a single dungeon entrance, connected
   to the character's spawn point by a walkable path. Click the entrance to descend.
+- The cave mouth sits in a solid rock outcrop with a clear approach; snow biomes
+  use the matching snow-covered rocks and entrance.
 - Three generated Iron Labyrinth floors, using Empyrean's classes, equipment,
   monsters and summoning mechanics.
 - Surface exits, return portals and recall scrolls lead back to the dungeon
@@ -54,6 +56,8 @@ Saves are stored separately from Empyrean under `saves/diantre`.
 
 Start a new game when upgrading to version 0.3. Older cached maps retain the
 exits from the version that generated them; they are not migrated automatically.
+Town scenery updates also appear in new games; existing saves keep their cached
+surface layout.
 Custom quests, an endless dungeon and further balance work remain planned.
 See [project direction](docs/DIRECTION.md).
 

@@ -67,6 +67,42 @@ def ground(biome, x, y):
     return tiles[(x % 4 + (y % 4) * 4) % len(tiles)]
 
 
+def dungeon_entrance(biome, variant, bg, obj, col):
+    # Reserve a complete rocky outcrop outside the native connector strips.
+    # The mouth and its supporting rock must survive every link combination.
+    # Keep the landmark away from the foreground edge: trees in neighbouring
+    # chunks can overhang several tiles. The end chunk itself is still random.
+    x, y = [(3, 5), (2, 5), (3, 4)][variant]
+    left, right = 1, 5
+    back, front = y - 3, y - 1
+    offset = 1000 if biome == "snow" else 0
+    # A clearing lets the player see the mouth beneath the tall forest canopy.
+    for yy in range(1, 14):
+        for xx in range(1, 12):
+            if obj[yy][xx]:
+                obj[yy][xx] = 0
+                if 2 <= xx < SIZE - 2 and 2 <= yy < SIZE - 2:
+                    col[yy][xx] = 0
+    for yy in range(back, min(SIZE - 1, y + 2)):
+        for xx in range(left, right + 1):
+            obj[yy][xx], col[yy][xx] = 0, 0
+            bg[yy][xx] = ground(biome, xx, yy)
+    # Solid, textured columns give the cliff depth and a closed silhouette.
+    # These are the existing natural rock sprites, not freestanding gateways.
+    rocks = (134, 132, 133, 135, 134)
+    for xx in range(left + 1, right):
+        obj[back][xx] = offset + rocks[(xx + variant) % len(rocks)]
+    for xx in range(left, right + 1):
+        obj[back + 1][xx] = offset + rocks[(xx + variant + 2) % len(rocks)]
+    for xx in range(left, right + 1):
+        obj[front][xx] = offset + rocks[(xx + variant + 1) % len(rocks)]
+    obj[front][x], obj[front][x + 1] = offset + 226, offset + 227
+    block(col, left, back, right - left + 1, front - back + 1)
+    return (event(x, y, "activate=on_interact", "hotspot=location",
+                  "tooltip=Dungeon Entrance", "script=scripts/town/enter_dungeon.txt", width=2) +
+            event(x, y + 1, "intermap_id=dungeon_exit"))
+
+
 def chunk(biome, role, variant):
     rng = random.Random(f"diantre-town-v1:{biome}:{role}:{variant}")
     bg = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
@@ -121,17 +157,7 @@ def chunk(biome, role, variant):
             extra += event(5, 10, "activate=on_interact", "hotspot=location",
                            "stash=true", "tooltip=Shared Stash", "soundfx=soundfx/wood_open.ogg")
     elif role == "end":
-        # Variants move the cave within the end chunk as well as across the map.
-        x, y = [(10, 12), (3, 5), (3, 12)][variant]
-        for yy in range(max(2, y-3), min(SIZE-2, y+3)):
-            for xx in range(max(2, x-2), min(SIZE-2, x+4)):
-                obj[yy][xx], col[yy][xx] = 0, 0
-                bg[yy][xx] = ground(biome, xx, yy)
-        obj[y-1][x], obj[y-1][x+1] = 226, 227
-        # The mouth is open; cliffs behind it do not intersect the cross.
-        extra += event(x, y, "activate=on_interact", "hotspot=location",
-                       "tooltip=Dungeon Entrance", "script=scripts/town/enter_dungeon.txt", width=2)
-        extra += event(x, y+1, "intermap_id=dungeon_exit")
+        extra += dungeon_entrance(biome, variant, bg, obj, col)
     header = (f"[header]\nwidth={SIZE}\nheight={SIZE}\ntilewidth=192\ntileheight=96\n"
               "orientation=isometric\nhero_pos=8,10\n"
               f"procgen_type={role}\ntileset=tilesetdefs/town/palette.txt\n")

@@ -50,7 +50,23 @@ def main():
                         assert pos in reach, (path, mask, "unreachable entrance/vendor")
                     if s.get("script") == "scripts/town/enter_dungeon.txt":
                         x, y = map(int, s["location"].split(",")[:2])
-                        assert visible[y-1][x:x+2] == [226, 227], (path, mask, "hidden cave mouth")
+                        offset = 1000 if biome == "snow" else 0
+                        assert visible[y-1][x:x+2] == [offset + 226, offset + 227], (path, mask, "hidden cave mouth")
+                        # The mouth must be attached to solid rock that remains
+                        # visible after the native generator copies its links.
+                        left, right = 1, 5
+                        for yy in range(y-3, y):
+                            for xx in range(left, right+1):
+                                assert collision[yy][xx] == 1, (path, mask, "walkable rock outcrop")
+                                if objects[yy][xx]:
+                                    assert visible[yy][xx] == objects[yy][xx], (path, mask, "cut off rock outcrop")
+                        assert all(visible[y-2][xx] for xx in range(left, right+1)), (path, mask, "missing cave backing")
+                        assert (x+1, y) in reach, (path, mask, "blocked entrance apron")
+                        assert not any(visible[yy][xx] in BIOMES[biome].decorations
+                                       for yy in range(y, 14) for xx in range(1, 12)), (path, mask, "overgrown entrance clearing")
+                    if s.get("intermap_id") == "dungeon_exit":
+                        pos = tuple(map(int, s["location"].split(",")[:2]))
+                        assert pos in reach, (path, mask, "blocked dungeon return")
                     if s.get("stash") == "true":
                         x, y = map(int, s["location"].split(",")[:2])
                         assert visible[y][x] == 297, (path, mask, "hidden stash")
