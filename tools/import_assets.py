@@ -126,6 +126,8 @@ def main():
                   "maps/iron_labyrinth_f2.txt", "maps/iron_labyrinth_f3.txt",
                   "tilesetdefs/tileset_grassland.txt",
                   "music/town_theme.ogg", "cutscenes/intro.txt", "cutscenes/credits.txt",
+                  # Existing cached towns still reference the prototype shops.
+                  "npcs/town/provisions.txt", "npcs/town/smith.txt",
                   "animations/hero.txt"])
 
     categories = defaultdict(set)

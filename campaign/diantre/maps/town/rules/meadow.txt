@@ -1,7 +1,7 @@
 [settings]
 doors_max=0
-main_path_length_min=3
-main_path_length_max=3
+main_path_length_min=4
+main_path_length_max=4
 main_path_attempts_max=1000
 branch_length_min=0
 branch_length_max=0
@@ -18,3 +18,6 @@ filename=maps/town/chunks/meadow/end_2.txt
 filename=maps/town/chunks/meadow/normal_0.txt
 filename=maps/town/chunks/meadow/normal_1.txt
 filename=maps/town/chunks/meadow/normal_2.txt
+filename=maps/town/chunks/meadow/normal_3.txt
+filename=maps/town/chunks/meadow/normal_4.txt
+filename=maps/town/chunks/meadow/normal_5.txt

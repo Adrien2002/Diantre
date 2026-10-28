@@ -54,11 +54,19 @@ def main():
                 tile, sx, sy, width, height, ox, oy = map(int, line[5:].split(","))
                 assert tile not in bounds, (path, tile, "Duplicate palette ID")
                 bounds[tile] = height, oy
-    # All legal native paths of three lots in a 2x2 region, in either direction.
+    # All legal native paths through four lots in a 2x2 region, in either direction.
     corners = ((0, 0), (1, 0), (0, 1), (1, 1))
-    layouts = [p for p in permutations(corners, 3)
+    layouts = [p for p in permutations(corners, 4)
                if all(abs(a[0]-b[0])+abs(a[1]-b[1]) == 1 for a, b in zip(p, p[1:]))]
     assert len(layouts) == 8
+    expected = {f"npcs/town/{name}.txt" for name in
+                ("udana", "florin", "yora", "abasi", "bakat", "martigan", "loren")}
+    for name in expected:
+        profile = (mod / name).read_text()
+        assert "vendor=true" in profile and "talker=false" in profile, name
+        assert not any(line.startswith(("vendor_requires", "status_stock=", "[dialog]", "INCLUDE "))
+                       for line in profile.splitlines()), (name, "Shop depends on campaign quests")
+        assert "constant_stock=" in profile or "random_stock=" in profile, (name, "Empty shop")
     cases = 0
     for biome in BIOMES:
         parent = sections((mod / f"maps/town/{biome}.txt").read_text())
@@ -81,11 +89,14 @@ def main():
                 for name, values in surface_layers(links).items():
                     if name not in ("background_base", "background"):
                         assert all(values[yy][xx] == 0 for yy in range(y, y+h) for xx in range(x, x+w)), "Link overwrites a town feature"
-        for layout, variants in product(layouts, product(range(VARIANTS), repeat=3)):
+        for layout, market_order, variants in product(layouts, permutations((0, 1)),
+                                                       product(range(VARIANTS), repeat=4)):
             layers = {s["type"]: [row[:] for row in s["data"]]
                       for s in parent if s["section"] == "layer" and s["type"] in ("collision", "object")}
-            targets, homes = [], []
-            for role, (cx, cy), variant in zip(("start", "normal", "end"), layout, variants):
+            targets, homes, merchants = [], [], []
+            choices = (variants[0], market_order[0]*VARIANTS+variants[1],
+                       market_order[1]*VARIANTS+variants[2], variants[3])
+            for role, (cx, cy), variant in zip(("start", "normal", "normal", "end"), layout, choices):
                 data = chunks[f"{role}_{variant}"]
                 ox, oy = cx*CHUNK_SIZE, cy*CHUNK_SIZE
                 for entry in data:
@@ -101,18 +112,23 @@ def main():
                     if entry["section"] == "npc":
                         x, y = map(int, entry["location"].split(",")[:2])
                         homes.append((x+ox-3, y+oy-2))
+                        merchants.append(entry["filename"])
             # Native on-load perimeter/plaza events act on the assembled town.
             assembled = [{"section": "layer", "type": name, "data": values}
                          for name, values in layers.items()]
             assembled.extend(s for s in parent if s["section"] == "event" and "mapmod" in s)
             layers = surface_layers(assembled)
-            reachable = check_open_square(layers, start)
+            try:
+                reachable = check_open_square(layers, start)
+            except AssertionError as error:
+                raise AssertionError((biome, layout, market_order, variants, str(error))) from error
             assert all(pos in reachable for pos in targets), (biome, layout, variants, "Unreachable service or entrance")
-            assert len(homes) == len(set(homes)) == 2
+            assert len(merchants) == 7 and set(merchants) == expected, "Missing or repeated merchant"
+            assert len(homes) == len(set(homes)) == 7
             assert all(layers["object"][y][x] == BIOMES[biome].house for x, y in homes), "Missing merchant house"
             cases += 1
     print(f"PASS: {len(BIOMES)} biomes, {cases} complete town arrangements; open plaza and broad approaches, "
-          "two merchant houses, accessible entrance, intact hillsides and safe borders.")
+          "seven unique merchant houses, accessible entrance, intact hillsides and safe borders.")
 
 
 if __name__ == "__main__":

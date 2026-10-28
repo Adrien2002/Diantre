@@ -5849,6 +5849,14 @@
       ],
       "changes": []
     },
+    "images/portraits/goblin.png": {
+      "sha256": "246edec650f907b044b42275b16b1c73931c395396794079801dac01caba8eb7",
+      "bytes": 101901,
+      "sources": [
+        "empyrean_campaign/images/portraits/goblin.png"
+      ],
+      "changes": []
+    },
     "images/portraits/male01.png": {
       "sha256": "d92ddf0ebf24d547b734852094a4cf6496998791508c7419a859efff57008697",
       "bytes": 110111,
@@ -7648,8 +7656,8 @@
       "changes": []
     },
     "languages/data.pot": {
-      "sha256": "6f652ae929aec61bd4cdfee598499e7202806cc3902f056ad9bdadc723051bfa",
-      "bytes": 93204,
+      "sha256": "a123fd9d1d1bbe0558020bafaa8dcd2de68edfb4f839f21427425c12c1e47412",
+      "bytes": 93604,
       "sources": [
         "diantre/localization template"
       ],
@@ -8400,32 +8408,32 @@
       "changes": []
     },
     "maps/town/cave.txt": {
-      "sha256": "b13bb51a1f75454b55773797b7baba5ee7348198826612951ed7fd19f19a4935",
-      "bytes": 264483,
+      "sha256": "5dab76e60d82317b4acb0104b063ee4c9664bfdf90bdf07151b8ed5d5b45eadb",
+      "bytes": 264012,
       "sources": [
         "diantre/maps/town/cave.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/cave/end_0.txt": {
-      "sha256": "a84143aae43a5c7961ea78afa2b9d8d355a76bb730479d7c0b50efdc53e87303",
-      "bytes": 31929,
+      "sha256": "161609880b3d78dbb88744dd07a7a43d8d9ae105891d56ac61af4c8d79db4088",
+      "bytes": 32007,
       "sources": [
         "diantre/maps/town/chunks/cave/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/cave/end_1.txt": {
-      "sha256": "cb7f869bea44db387e0d911703cf8055f7d810b26ffc69eed2136b02ae9deca8",
-      "bytes": 32010,
+      "sha256": "f35fc57ea24049a767def319cf24fb82254fa2fd29b98bb0a87fac00ceac1411",
+      "bytes": 32088,
       "sources": [
         "diantre/maps/town/chunks/cave/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/cave/end_2.txt": {
-      "sha256": "70e9c5fef09aa3fc1b828682f8b203bc2b05ffded1216c15263bcaff284354dc",
-      "bytes": 32010,
+      "sha256": "82a5cd43b3dfc2344455abe115ec234d36be21fea7bf7c37388ac61e3c5f46af",
+      "bytes": 32088,
       "sources": [
         "diantre/maps/town/chunks/cave/end_2.txt"
       ],
@@ -8440,72 +8448,96 @@
       "changes": []
     },
     "maps/town/chunks/cave/normal_0.txt": {
-      "sha256": "6fff78265de2286154dc0dcb7269c52c45005b047100783d3f8f5b74aaf1b1e5",
-      "bytes": 31392,
+      "sha256": "3acdb301da961ad0126246cdd61b4ba985022aaf7d0e17da8659b9e72f358077",
+      "bytes": 31518,
       "sources": [
         "diantre/maps/town/chunks/cave/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/cave/normal_1.txt": {
-      "sha256": "2de368d707d1a22f1455715238c276030729e65cb45e9069eb58b27da67b9dbd",
-      "bytes": 31362,
+      "sha256": "a6546df0f4f0e6a98fd749704c802e254b7033587ed9a399a9c0914999018961",
+      "bytes": 31488,
       "sources": [
         "diantre/maps/town/chunks/cave/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/cave/normal_2.txt": {
-      "sha256": "a3e59ce9bd0fada2e632a1aa4620e4210252a7cfeba3168b545f24a0072c6bc5",
-      "bytes": 31365,
+      "sha256": "043bb9db5e57d1f61a861913c3d11d94c8ced8072fd9e02677f39875517263dd",
+      "bytes": 31491,
       "sources": [
         "diantre/maps/town/chunks/cave/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/cave/normal_3.txt": {
+      "sha256": "b44a6384e3d62c408b8f753cd29140545c8b56c6f90118e0f452a897545e25e9",
+      "bytes": 31501,
+      "sources": [
+        "diantre/maps/town/chunks/cave/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/cave/normal_4.txt": {
+      "sha256": "572b6891ff299e84511722f96237fd61c0982f386f3e398f687a26abf849c8ae",
+      "bytes": 31501,
+      "sources": [
+        "diantre/maps/town/chunks/cave/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/cave/normal_5.txt": {
+      "sha256": "5cfaf8b889616ab8ae9ef6b12997bb50dd6b05d01598fb7204afcf7de97d6e72",
+      "bytes": 31522,
+      "sources": [
+        "diantre/maps/town/chunks/cave/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/cave/start_0.txt": {
-      "sha256": "d041e8f4000f625ae641ca95dca6979bc00972af11846632e980d01edf318541",
-      "bytes": 31525,
+      "sha256": "7a36df9841ab1801d1ddccabb53de47882cea03f7267056bd68d89c17ddec9fc",
+      "bytes": 31599,
       "sources": [
         "diantre/maps/town/chunks/cave/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/cave/start_1.txt": {
-      "sha256": "d32026de4e278bb44cbd56c23e735db3cfa44c7578e728ff5a083416bb84a34c",
-      "bytes": 31534,
+      "sha256": "d8d17c89cd2c64228940d0368d9255d2bb2fec4ae177f5bd795c35e69ac28e4d",
+      "bytes": 31608,
       "sources": [
         "diantre/maps/town/chunks/cave/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/cave/start_2.txt": {
-      "sha256": "6c08442a0caef99c73d4871c6fb0562d1d0971f9773990113675f3fdce4617fc",
-      "bytes": 31531,
+      "sha256": "122ca17d5c164e2bf68f09414a647cfdeb46699bfa6b1f5e02fa044d905c20ce",
+      "bytes": 31605,
       "sources": [
         "diantre/maps/town/chunks/cave/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/citadel/end_0.txt": {
-      "sha256": "f7c2cb82f1494880e79df5111dab277e53abe0087006763aa77881971df4c4e2",
-      "bytes": 31926,
+      "sha256": "cb39e757ef265fd6ac2671d0200d31757bd6a3460c631f546af2344a841e06ba",
+      "bytes": 32004,
       "sources": [
         "diantre/maps/town/chunks/citadel/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/citadel/end_1.txt": {
-      "sha256": "c35e6cd1954dbe14d33ab03ea8921836d94bc5f906cda4a4a9b181b37662b576",
-      "bytes": 32001,
+      "sha256": "ee34188e73e6ef6cd80e5f235254c6618e03f2a3d15757658829c0c1279c0a60",
+      "bytes": 32079,
       "sources": [
         "diantre/maps/town/chunks/citadel/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/citadel/end_2.txt": {
-      "sha256": "b989c66e87e3f9de731e7ee8ee2605a5be19f63633ca733a9e69892bbafb2d1c",
-      "bytes": 32013,
+      "sha256": "e7dd63f6d60927cfe2ede21b9ed21f56cf3b43e15c6c43f8b92c4bd41d8e5548",
+      "bytes": 32091,
       "sources": [
         "diantre/maps/town/chunks/citadel/end_2.txt"
       ],
@@ -8520,72 +8552,96 @@
       "changes": []
     },
     "maps/town/chunks/citadel/normal_0.txt": {
-      "sha256": "97776396a1bf6136c39b3943b6cb741a8184b4e3b8e5549cbee1c591ca86bf87",
-      "bytes": 31392,
+      "sha256": "757bcc5dd3efc0788b5353e027fbc384b54bdfc10e0364a73dc44cc331554e09",
+      "bytes": 31521,
       "sources": [
         "diantre/maps/town/chunks/citadel/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/citadel/normal_1.txt": {
-      "sha256": "36cbc407cf3cad3e0c8dd82ea9776bb0e1f3ba64aeb188773470b345e5fda44f",
-      "bytes": 31386,
+      "sha256": "9f56ce09b4c9fbd53035735c4d6194a78768ccb6821aefd457cdb67ca5dcec95",
+      "bytes": 31515,
       "sources": [
         "diantre/maps/town/chunks/citadel/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/citadel/normal_2.txt": {
-      "sha256": "13f195c43a89b1838b2e0947c3bcf3f35d8c69db16444e797e73c404cb70738b",
-      "bytes": 31371,
+      "sha256": "4a3c729811f7bdfa059c22d91c4345dbd6e25aea8e669b130b7099742943e8e2",
+      "bytes": 31500,
       "sources": [
         "diantre/maps/town/chunks/citadel/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/citadel/normal_3.txt": {
+      "sha256": "fece65bc3095480258663309268045991f983bbec33ccdd61c8c1a0ab16a1f74",
+      "bytes": 31510,
+      "sources": [
+        "diantre/maps/town/chunks/citadel/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/citadel/normal_4.txt": {
+      "sha256": "ddc0e62cd69e2afff43f297124fa5f9f118d0308b2eaf8dc215f6e53c37e9cfe",
+      "bytes": 31519,
+      "sources": [
+        "diantre/maps/town/chunks/citadel/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/citadel/normal_5.txt": {
+      "sha256": "af3086129c23f23266a39acb3cd60675feccadb017f0ff997c7dd91bc0e1704e",
+      "bytes": 31519,
+      "sources": [
+        "diantre/maps/town/chunks/citadel/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/citadel/start_0.txt": {
-      "sha256": "310761d6d6965b97ab41064d733425cbdf5b213c0cc322c75463dc900edd2aee",
-      "bytes": 31516,
+      "sha256": "506a264e34184719eb20f87f2fec309300a5930588e7ff399e703ff6149623b2",
+      "bytes": 31590,
       "sources": [
         "diantre/maps/town/chunks/citadel/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/citadel/start_1.txt": {
-      "sha256": "447baa764c2aa3b1568487a24d2aff19f1cfb1a207f3250c2dc5e6072397b4c3",
-      "bytes": 31528,
+      "sha256": "82336230412ac7361557ef0a009e1a3360fd534cd3b5ddbbf6cc12f7a81a7aca",
+      "bytes": 31602,
       "sources": [
         "diantre/maps/town/chunks/citadel/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/citadel/start_2.txt": {
-      "sha256": "a8b40eec6edfd7155e7eb149cb36cf461d1c3a111ebb299141ec194b7be9268a",
-      "bytes": 31522,
+      "sha256": "485483b99b61ea75dc4f357318821d2c4c425881ec5d2dab501e8da1f0e9845b",
+      "bytes": 31596,
       "sources": [
         "diantre/maps/town/chunks/citadel/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/coast/end_0.txt": {
-      "sha256": "7d5681bcad454c6d0055994f6d48e2a0810072c9e60514b86d51db10939bbd1a",
-      "bytes": 27803,
+      "sha256": "2d957ab5af38d0ddc38df1ed1f9e1287087e77f2ab68db43e975cf55d4984d90",
+      "bytes": 27897,
       "sources": [
         "diantre/maps/town/chunks/coast/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/coast/end_1.txt": {
-      "sha256": "6a59900a6237ecbd32b27cd60ba7c04a5ef3e18168b7338aa99fbf062fe20314",
-      "bytes": 27897,
+      "sha256": "317af7ad4093ca54d28d6721fc2a92ecf0b67e986ec8a861f4746e98f475bc94",
+      "bytes": 27991,
       "sources": [
         "diantre/maps/town/chunks/coast/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/coast/end_2.txt": {
-      "sha256": "b1d2085c75f043c2eaf4ca445e75461d2e47d2cd4924796fda3036f0ba96035b",
-      "bytes": 27893,
+      "sha256": "3b96e6c8b0b394c23942708c736c7656a827c07f14c529fbf1fdec318d6f23ce",
+      "bytes": 27987,
       "sources": [
         "diantre/maps/town/chunks/coast/end_2.txt"
       ],
@@ -8600,72 +8656,96 @@
       "changes": []
     },
     "maps/town/chunks/coast/normal_0.txt": {
-      "sha256": "71c6f80df032a5bebaa93621cae261c48df5ad80f31be298c7e266b7162644c9",
-      "bytes": 27300,
+      "sha256": "1f2605a097a1238cef957ac341d3f6e2e47dacc943e94628675adc1219253838",
+      "bytes": 27411,
       "sources": [
         "diantre/maps/town/chunks/coast/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/coast/normal_1.txt": {
-      "sha256": "cdf6247deb59f55a13a3e61945e060e4ca79378eb316899969529ec2e6e23999",
-      "bytes": 27292,
+      "sha256": "966debe56c0c126b70f4de150c0f2a1c1fed108e2d6cb2ef78656b64e0c064bc",
+      "bytes": 27403,
       "sources": [
         "diantre/maps/town/chunks/coast/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/coast/normal_2.txt": {
-      "sha256": "97ac83228539bd07f8fc3ee9f809bc682f534f63f49b79501327932eff58ca65",
-      "bytes": 27294,
+      "sha256": "3a0d6cc5bb48c6845d648389c291784b52a4a89c80a270291014486c884f003d",
+      "bytes": 27405,
       "sources": [
         "diantre/maps/town/chunks/coast/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/coast/normal_3.txt": {
+      "sha256": "863ea0feb39ab9a8f92be595af62d6c9786ef47276d522a80dabcbc70da1d5ee",
+      "bytes": 27411,
+      "sources": [
+        "diantre/maps/town/chunks/coast/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/coast/normal_4.txt": {
+      "sha256": "eba6a303aab4a061956a998b6f794b7540fff2c27a08a9eebbdb50f76a459252",
+      "bytes": 27415,
+      "sources": [
+        "diantre/maps/town/chunks/coast/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/coast/normal_5.txt": {
+      "sha256": "3d7d7bd939bcb2804457210270b158e35c3a93969eb8885431b0489868813e3f",
+      "bytes": 27411,
+      "sources": [
+        "diantre/maps/town/chunks/coast/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/coast/start_0.txt": {
-      "sha256": "40936b5d10903934c7df00db847d0f913118c054635b29a19431b9b8d14bf82f",
-      "bytes": 27439,
+      "sha256": "3de9e1c1c3d989ba150ef3181c7211a4fdbf982c71475556ce004a0b6e2c76d9",
+      "bytes": 27497,
       "sources": [
         "diantre/maps/town/chunks/coast/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/coast/start_1.txt": {
-      "sha256": "559bcff3a054e44bdd62b986310a3a5f264a50bfbddd3e02c16cc33ed6e48429",
-      "bytes": 27443,
+      "sha256": "a548d275a8a3737a3da574178ec4eb1e155bba315cc7d18d13721e1c339a3312",
+      "bytes": 27501,
       "sources": [
         "diantre/maps/town/chunks/coast/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/coast/start_2.txt": {
-      "sha256": "eb3e9cea17cc31897f599045774f7942345d97416a2f03f6ade0dd631d5b1d4d",
-      "bytes": 27445,
+      "sha256": "a0fd319ff9bc48d3dd9187e86a8f485e412416b761dde0a79d3119505b76be61",
+      "bytes": 27503,
       "sources": [
         "diantre/maps/town/chunks/coast/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/forest/end_0.txt": {
-      "sha256": "0fbb687030ff5825222a51ae0b390af4ac8374b86fc47ab4349481d93fc24395",
-      "bytes": 27825,
+      "sha256": "cd1f94bd66ffd508739ad4d70d1f8beadf2cc23ecc355961de7fb9eaa86a9eaa",
+      "bytes": 27903,
       "sources": [
         "diantre/maps/town/chunks/forest/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/forest/end_1.txt": {
-      "sha256": "7ed1a3909195c3bb20381d1d8efb37b25eafe1d558bfef20f153ec2a4bd554a4",
-      "bytes": 27905,
+      "sha256": "b738af15acfe0467de1e092f61e17da84d10e54717f920f340fe7dd6dadb2d47",
+      "bytes": 27983,
       "sources": [
         "diantre/maps/town/chunks/forest/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/forest/end_2.txt": {
-      "sha256": "8e66eaf78bd9fb3063f3370d31ca2a14e2925cfb38b117d1f22443a7652f0f4c",
-      "bytes": 27909,
+      "sha256": "7096516ce52a8144c4b11abb43812692701b2781537cf5aa315af6d534f74b94",
+      "bytes": 27987,
       "sources": [
         "diantre/maps/town/chunks/forest/end_2.txt"
       ],
@@ -8680,72 +8760,96 @@
       "changes": []
     },
     "maps/town/chunks/forest/normal_0.txt": {
-      "sha256": "93f6c709ff8abd24b36bcf3d814eca597be2c368cc73a0472451e728dfd2b0c0",
-      "bytes": 27290,
+      "sha256": "d2ce791091ad5fa48d2a4998d99ef294f9d7407cdd4f77cb32cf8cf0efadfeb3",
+      "bytes": 27418,
       "sources": [
         "diantre/maps/town/chunks/forest/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/forest/normal_1.txt": {
-      "sha256": "fbd86a8f7d774e74a2aebba2555eb3110061ed2f616a52adeab01876081e218d",
-      "bytes": 27286,
+      "sha256": "01db2b008ed6714a924a21fd166ec1a99b2af2bb9cd767d27dbc70fc89152339",
+      "bytes": 27414,
       "sources": [
         "diantre/maps/town/chunks/forest/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/forest/normal_2.txt": {
-      "sha256": "01593d1ec433fc2b6e92a010dd336b30080b8addf1c99331dbf03e3b4eff2609",
-      "bytes": 27296,
+      "sha256": "58ee6d74c38c0da9e374d07c3416199044875320cacae4b018646661c8eec659",
+      "bytes": 27424,
       "sources": [
         "diantre/maps/town/chunks/forest/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/forest/normal_3.txt": {
+      "sha256": "848653ff51b9bd2bb76bb6c3ef701774f4f2142dc58acc22401c04a7aaee455a",
+      "bytes": 27418,
+      "sources": [
+        "diantre/maps/town/chunks/forest/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/forest/normal_4.txt": {
+      "sha256": "d8c9bc68353da72c8fbcd8288fafc1cb58eb968efb151dac3c3c29a6bf5d7264",
+      "bytes": 27412,
+      "sources": [
+        "diantre/maps/town/chunks/forest/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/forest/normal_5.txt": {
+      "sha256": "2e8421e977c6c43cc8befc7c28375b64bfe8b10ea9398b348aadaa19f6545183",
+      "bytes": 27418,
+      "sources": [
+        "diantre/maps/town/chunks/forest/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/forest/start_0.txt": {
-      "sha256": "6c713f6536f8285a930505528d3282812c74ff3fe1379eea53d4536395323742",
-      "bytes": 27425,
+      "sha256": "ec612cb8a777a020147acf66c3ce5b6c0a61cdc0069f03cd6abc9b3b3a3d64d9",
+      "bytes": 27499,
       "sources": [
         "diantre/maps/town/chunks/forest/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/forest/start_1.txt": {
-      "sha256": "a9cd72063bddc63c025636d718bab7d54edd7838e3c7ac660049ce7a50055dfe",
-      "bytes": 27431,
+      "sha256": "2c289ec7495bd106535d2efee2f1883a1e4009659f8a17608674c20c2fcbc8b4",
+      "bytes": 27505,
       "sources": [
         "diantre/maps/town/chunks/forest/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/forest/start_2.txt": {
-      "sha256": "62acf1441c0e5d02485c975549dd36db1f28316d39df743f4ba5e2c02081da6b",
-      "bytes": 27433,
+      "sha256": "9859962b52e529d9ebabbcd623de6e2223615d9e541961a0af66c03c6523cfb8",
+      "bytes": 27507,
       "sources": [
         "diantre/maps/town/chunks/forest/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/meadow/end_0.txt": {
-      "sha256": "363debe11bbceef0f938442277cc04746d016f114e516512ccf042e861962b54",
-      "bytes": 27805,
+      "sha256": "4ad731bba8c47131f1c4b7c051f99c2978984a73358f92fa80409bd39d6d70f2",
+      "bytes": 27883,
       "sources": [
         "diantre/maps/town/chunks/meadow/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/meadow/end_1.txt": {
-      "sha256": "5475dcf1e1a6c57da07982148066b0c55640c2d7fe7f368fdbe0a665d7060fca",
-      "bytes": 27897,
+      "sha256": "3051108fd613cfe0604d600de030fb2bc4c96d8aa3b5cbd7c20f81fd0bbfb102",
+      "bytes": 27975,
       "sources": [
         "diantre/maps/town/chunks/meadow/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/meadow/end_2.txt": {
-      "sha256": "aa236ab9d53c4fc76a744876653ab29ba626b22a6419e02f1a43c676a72fb28d",
-      "bytes": 27897,
+      "sha256": "c62b123bd3b2a4f32aac85ea6937acc401b15290bf4e87d8c103f990447dd5f0",
+      "bytes": 27975,
       "sources": [
         "diantre/maps/town/chunks/meadow/end_2.txt"
       ],
@@ -8760,72 +8864,96 @@
       "changes": []
     },
     "maps/town/chunks/meadow/normal_0.txt": {
-      "sha256": "503ad80abf8e6e3adc39fe22affc38fce9e244b6bddd73137992dd44450823a8",
-      "bytes": 27268,
+      "sha256": "35f7ee027126eb4b2624e44db9231d01d558f55e4520573c960ff36c15b2bafc",
+      "bytes": 27396,
       "sources": [
         "diantre/maps/town/chunks/meadow/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/meadow/normal_1.txt": {
-      "sha256": "96bd5956ab8f7c027f12f77da1c22c246181a0f8cf3fa2942fa5a45fa98bde1f",
-      "bytes": 27264,
+      "sha256": "e87eddf308dd00312ca12f4fef722150896c60b07f03f33f86e5d84620f474fc",
+      "bytes": 27392,
       "sources": [
         "diantre/maps/town/chunks/meadow/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/meadow/normal_2.txt": {
-      "sha256": "d5b5b7a9021dbe12c22f63af70de10322d18cdaa6caa1970bd64e62f4f94f1d2",
-      "bytes": 27266,
+      "sha256": "d01c73ecf47b3b2324f4df0134b2c630339a057767479d6b983ce8668943dd73",
+      "bytes": 27394,
       "sources": [
         "diantre/maps/town/chunks/meadow/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/meadow/normal_3.txt": {
+      "sha256": "436ad545bcf47c927385def2d70a8eb7c1cf73445613284f342cea201227055f",
+      "bytes": 27402,
+      "sources": [
+        "diantre/maps/town/chunks/meadow/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/meadow/normal_4.txt": {
+      "sha256": "bd6837f89421fde95de4a04c0a3a87cb19a0db14b19e007b3a0095d04bcfc6e5",
+      "bytes": 27394,
+      "sources": [
+        "diantre/maps/town/chunks/meadow/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/meadow/normal_5.txt": {
+      "sha256": "42fb33f92bea614b5d40502c2a46cf502c2ec1a096ccfa7cd6169fafbb707345",
+      "bytes": 27384,
+      "sources": [
+        "diantre/maps/town/chunks/meadow/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/meadow/start_0.txt": {
-      "sha256": "4973eb069ddfa3a0c083041ea4eb3cfc8313d8d0e879927ad12aecb61c235272",
-      "bytes": 27409,
+      "sha256": "6e5c31f24b9c0375fb8c6699205ca1efd82cf28d1b35c827d74c1410318b0a50",
+      "bytes": 27483,
       "sources": [
         "diantre/maps/town/chunks/meadow/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/meadow/start_1.txt": {
-      "sha256": "640a6174f92138375c774fd45e0cfa596cf567037336c6f29da991be94b92f8a",
-      "bytes": 27399,
+      "sha256": "8fbd7a9bc756aef6320c59db7eccb0421e99a39f54f8300bfc7c4a08e3070589",
+      "bytes": 27473,
       "sources": [
         "diantre/maps/town/chunks/meadow/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/meadow/start_2.txt": {
-      "sha256": "9519f45956c88e51421e0af5f44e3ac7afff114051a8c3c8de8480a6558b3031",
-      "bytes": 27399,
+      "sha256": "ba8f0e0b6fff557fae5cdf15a7f12a133f0fddb8c8623d1c5647638fb795c879",
+      "bytes": 27473,
       "sources": [
         "diantre/maps/town/chunks/meadow/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/rocky/end_0.txt": {
-      "sha256": "9d955188f761a48b44dd6eb86fc226da746410026f9dda93905b0ef2d92483c2",
-      "bytes": 27813,
+      "sha256": "8ff64b2a8cb0ee2b55a7e4e735b241f4afeb625d26201696af9b3b7ec76f89a8",
+      "bytes": 27891,
       "sources": [
         "diantre/maps/town/chunks/rocky/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/rocky/end_1.txt": {
-      "sha256": "b2ed3efe4f7f2fe6ce004cad67a05a1c48adec216cf5e4402bede0b97aa4c57d",
-      "bytes": 27895,
+      "sha256": "90d9e258d2fa00747e2179d20dc304d3add398811a6ab33e116b89430080d4a7",
+      "bytes": 27973,
       "sources": [
         "diantre/maps/town/chunks/rocky/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/rocky/end_2.txt": {
-      "sha256": "f6cda7d21e546c11e90d5c69a19e665fc11bdc95f7aa61974786f12fbacac8bc",
-      "bytes": 27899,
+      "sha256": "df64d6185a3cdd44136870755bf1f45044124f8f97de8edea214575f1145737d",
+      "bytes": 27977,
       "sources": [
         "diantre/maps/town/chunks/rocky/end_2.txt"
       ],
@@ -8840,72 +8968,96 @@
       "changes": []
     },
     "maps/town/chunks/rocky/normal_0.txt": {
-      "sha256": "73b8a8798c6f9631775d9fecda43a161813d381d0c1adeab8ab2a35082a57031",
-      "bytes": 27268,
+      "sha256": "480289ea2af9a8f2c19ab9a1ab50ba57018551e896644e74a54ade29d11fd940",
+      "bytes": 27395,
       "sources": [
         "diantre/maps/town/chunks/rocky/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/rocky/normal_1.txt": {
-      "sha256": "7b61876f87da61c7a671b81330bc11c0791af39eb6f0f0400d06181f65095d46",
-      "bytes": 27268,
+      "sha256": "2b9fe9ed5f414987244fbde6bd28f9bbc5e08a6281a34b2a91e7dcf8a8d29c1e",
+      "bytes": 27395,
       "sources": [
         "diantre/maps/town/chunks/rocky/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/rocky/normal_2.txt": {
-      "sha256": "47dfb852abd7930c0cd307fcfb8073e4bd024bac16aaa1014041b426b88cdde9",
-      "bytes": 27282,
+      "sha256": "b23fbcf1ab95e682ca33d474fb3c9965a2eec78445ad9f0619577155201ac74e",
+      "bytes": 27409,
       "sources": [
         "diantre/maps/town/chunks/rocky/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/rocky/normal_3.txt": {
+      "sha256": "5c0f429601320f85991dd2cb91c3c1fc9dcde8af1a4358ac57f9b1f68a987f29",
+      "bytes": 27405,
+      "sources": [
+        "diantre/maps/town/chunks/rocky/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/rocky/normal_4.txt": {
+      "sha256": "8d07efe193ba7782a1c70f3fca456c843da0f1eef85de8a176809a419b31a1ab",
+      "bytes": 27407,
+      "sources": [
+        "diantre/maps/town/chunks/rocky/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/rocky/normal_5.txt": {
+      "sha256": "8ccb6e75a385fe175a16913f8f0e28ed13f12417deb3a1404ec61718c8b56b56",
+      "bytes": 27403,
+      "sources": [
+        "diantre/maps/town/chunks/rocky/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/rocky/start_0.txt": {
-      "sha256": "a896bf70e4474674d8c8a8485e0da0f7580070dfbcbd6fc8f00fccca78b4be47",
-      "bytes": 27413,
+      "sha256": "881cb8d180125ed32addf305bf74422a702b994765e5b6a7afa58374407ba909",
+      "bytes": 27487,
       "sources": [
         "diantre/maps/town/chunks/rocky/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/rocky/start_1.txt": {
-      "sha256": "e53a92aa7d0bbe340ed007317bc26c8f819cc8d8d92c6836b08a81a281e8abc1",
-      "bytes": 27415,
+      "sha256": "74a4514c2f0f16ddc2046e750bb353b3db293491d5ac0a890312211ef8fd2106",
+      "bytes": 27489,
       "sources": [
         "diantre/maps/town/chunks/rocky/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/rocky/start_2.txt": {
-      "sha256": "aa9c3771bf17e162dd4e2faec49184cb0f7f03e3c5a0f7b4ba0db41a452e7d5e",
-      "bytes": 27419,
+      "sha256": "b25d005b907bce3919ac896132487f612600f89a78941dffae456d9aa8ce261d",
+      "bytes": 27493,
       "sources": [
         "diantre/maps/town/chunks/rocky/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/ruins/end_0.txt": {
-      "sha256": "fe7ba79d0b2e29b4a71e64575921363622fe8779a0789042ac7811878898a824",
-      "bytes": 31923,
+      "sha256": "000933c006e6e95525de141e30dd2108effc048d41acbb8b8b1a5dd6ce227e47",
+      "bytes": 32001,
       "sources": [
         "diantre/maps/town/chunks/ruins/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/ruins/end_1.txt": {
-      "sha256": "c14e10a2beccd3d3318f367b91fb1d4e7a82762c662a992ed06e1cd36ca830e9",
-      "bytes": 32028,
+      "sha256": "b74e214f3be7ad6b62214a8f4feb12049f473780d0601a09a7384667a201bce2",
+      "bytes": 32106,
       "sources": [
         "diantre/maps/town/chunks/ruins/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/ruins/end_2.txt": {
-      "sha256": "8b1515be7dc273ebc75c78fea850e4a8ada59ab47917fbfe8f1d1e4567ee77ad",
-      "bytes": 31998,
+      "sha256": "9d76336734e44daac11aff554990be71bfe27b3825fb75c81a8e952c0514a061",
+      "bytes": 32076,
       "sources": [
         "diantre/maps/town/chunks/ruins/end_2.txt"
       ],
@@ -8920,72 +9072,96 @@
       "changes": []
     },
     "maps/town/chunks/ruins/normal_0.txt": {
-      "sha256": "d6c8a54c4faa3bec08f6e3c12eabab24442293cd986b419215f6124f5f05a990",
-      "bytes": 31374,
+      "sha256": "4f6164816d1a0352fe41185649304680733cac88128eba1fef529ae5527b719b",
+      "bytes": 31501,
       "sources": [
         "diantre/maps/town/chunks/ruins/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/ruins/normal_1.txt": {
-      "sha256": "66296fee4586c8a1c6eceb1b85f411a86196bd9af1b46e63f15df40e9986bf1b",
-      "bytes": 31374,
+      "sha256": "0bb35d231144a9eadc285a8ea6a73e996b89f91d442935a323b23548d6e9b362",
+      "bytes": 31501,
       "sources": [
         "diantre/maps/town/chunks/ruins/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/ruins/normal_2.txt": {
-      "sha256": "e52e7ef31e1e3961f8752520634c8017ad10281c54c978de05776f380a5de0f5",
-      "bytes": 31392,
+      "sha256": "54bcc8a412572708ded9fe1940431224da7f6dbbbc54e66ffd58561c0480d740",
+      "bytes": 31519,
       "sources": [
         "diantre/maps/town/chunks/ruins/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/ruins/normal_3.txt": {
+      "sha256": "fe5f5f3e055d054e364ae7782e8be5d207507378b44a05810299891b07533eb7",
+      "bytes": 31514,
+      "sources": [
+        "diantre/maps/town/chunks/ruins/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/ruins/normal_4.txt": {
+      "sha256": "8249b5a6225622167b86c63beb0fa30700494047930f155159f7b4393eed81ab",
+      "bytes": 31502,
+      "sources": [
+        "diantre/maps/town/chunks/ruins/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/ruins/normal_5.txt": {
+      "sha256": "4a6d291b46b3067ebd2be449b62edf4f97397ca2efc814a93078083bc1a80660",
+      "bytes": 31493,
+      "sources": [
+        "diantre/maps/town/chunks/ruins/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/ruins/start_0.txt": {
-      "sha256": "042bba7dce467f1bb83b6182b34ecd9859cdf609d38fb351852b1f8f5417d001",
-      "bytes": 31513,
+      "sha256": "b1522525d1b0c90b738b762d41b8e754f1158d11dfe902b8d1e3f2bab77a87a9",
+      "bytes": 31587,
       "sources": [
         "diantre/maps/town/chunks/ruins/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/ruins/start_1.txt": {
-      "sha256": "f37564ac99e33273ecd796c8f7377f1e80d613531559417354ce05660e94a1ab",
-      "bytes": 31516,
+      "sha256": "85e2c3bdc369665dd6fa146f2effb8c2f0151db9f403c6b2592d61dcc5e6af48",
+      "bytes": 31590,
       "sources": [
         "diantre/maps/town/chunks/ruins/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/ruins/start_2.txt": {
-      "sha256": "b1dbc3e0cb5f092a7a76842c351cfeb021ef75df99e9f39c21616d0b70310b99",
-      "bytes": 31519,
+      "sha256": "c7cfcf376858fa6bd316a0952e4e8aeacfb8663b3c079f23ce253437c96b6667",
+      "bytes": 31593,
       "sources": [
         "diantre/maps/town/chunks/ruins/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/snow/end_0.txt": {
-      "sha256": "72affd727f45900b5e1adc5ba6cddc3835423d53b00a0ba5afc8853ebe2be5a9",
-      "bytes": 31951,
+      "sha256": "50eec806fca339374b1784e34dc82d44f7d9c3aa76d320dbb467bfa057b983e6",
+      "bytes": 32030,
       "sources": [
         "diantre/maps/town/chunks/snow/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/snow/end_1.txt": {
-      "sha256": "eabcf837debfd9006b4b7e3393496abceea97b2ff5507f84597d8eec4d6580cd",
-      "bytes": 32048,
+      "sha256": "d051f2ff5608a256a4e4f59156a826a14eac4c09f31e95fa678fb8029a150fc8",
+      "bytes": 32127,
       "sources": [
         "diantre/maps/town/chunks/snow/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/snow/end_2.txt": {
-      "sha256": "b7a145c863091cea2aaa21b3e05485ea3528c3e1ad85d42146ddb3366a9b32c7",
-      "bytes": 32036,
+      "sha256": "2fa8d9401310034afb22c8629f0aee0317fd55badcd6065a6c8cd6ec24f2c853",
+      "bytes": 32115,
       "sources": [
         "diantre/maps/town/chunks/snow/end_2.txt"
       ],
@@ -9000,72 +9176,96 @@
       "changes": []
     },
     "maps/town/chunks/snow/normal_0.txt": {
-      "sha256": "669ebe0efd08e8405f453cba6ad2c8c8f4fabf084eaa347baf8977d06751bbe5",
-      "bytes": 31381,
+      "sha256": "54adf25304b600b791957cf1589391dfc107e4364f87317f4f501be7445ce41b",
+      "bytes": 31508,
       "sources": [
         "diantre/maps/town/chunks/snow/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/snow/normal_1.txt": {
-      "sha256": "bda2b7ad41c4567f08b2e721a77083ed9271213619ad411943aa988693533207",
-      "bytes": 31381,
+      "sha256": "130597f9da1e22b8f89e32b410badd1f7580e4649fa06281c9ff3a2fb763b061",
+      "bytes": 31508,
       "sources": [
         "diantre/maps/town/chunks/snow/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/snow/normal_2.txt": {
-      "sha256": "c5ad1fe8c4adb1b127893e2cda86c4d2b1ce58e7637b7cda08a6590257c8296c",
-      "bytes": 31375,
+      "sha256": "29237716781dab15fb3e6726591ab25656c75bd767ee12ea32b4b50c6fb8a948",
+      "bytes": 31502,
       "sources": [
         "diantre/maps/town/chunks/snow/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/snow/normal_3.txt": {
+      "sha256": "c8e4dea4a3cb77bbfac95bcaf5f8ab1eefe686dc48d16c14f36d4ac015abc511",
+      "bytes": 31500,
+      "sources": [
+        "diantre/maps/town/chunks/snow/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/snow/normal_4.txt": {
+      "sha256": "579071a08f6c3815408d03df869f15aaf5e772cc2d3550e17f11a1e96565f7f6",
+      "bytes": 31521,
+      "sources": [
+        "diantre/maps/town/chunks/snow/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/snow/normal_5.txt": {
+      "sha256": "a02164877a910f8eecde61a40aaa429b59ee17a171dca74cfaf0fac25829ccc2",
+      "bytes": 31506,
+      "sources": [
+        "diantre/maps/town/chunks/snow/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/snow/start_0.txt": {
-      "sha256": "ff7851491e3f74cf46a56127ad405212b9666e7b7a6c21890b546eeb6daff62a",
-      "bytes": 31508,
+      "sha256": "2193dc9f50c8555dd4e5319fa69359f6d954ed786739752e69486954460b71c2",
+      "bytes": 31583,
       "sources": [
         "diantre/maps/town/chunks/snow/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/snow/start_1.txt": {
-      "sha256": "3c91b9fe142989320a18e9ab83c96cb665bbf7a4d5d3dedd7376f21a5a19991f",
-      "bytes": 31526,
+      "sha256": "fb626ce1b4dafabb974e7e4ed481295ad23c82bd5b0353e70ad9cf6d2fa9dacb",
+      "bytes": 31601,
       "sources": [
         "diantre/maps/town/chunks/snow/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/snow/start_2.txt": {
-      "sha256": "5c5d6de8ce5830407248b7bad37b0e6aa34ec968a80c149d501faefd4c3cea33",
-      "bytes": 31529,
+      "sha256": "b37e47f84b3393d7e762a162942b2e13a09448923802db09b8486c5a8f080bab",
+      "bytes": 31604,
       "sources": [
         "diantre/maps/town/chunks/snow/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/swamp/end_0.txt": {
-      "sha256": "78218b57281b5a510b006502ff71d5032130b904826cded432ccfb3156d5b3c5",
-      "bytes": 27803,
+      "sha256": "420284c50347a5611082b4eae30255bd488c21ee802f4780b876bf1ae51a4289",
+      "bytes": 27897,
       "sources": [
         "diantre/maps/town/chunks/swamp/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/swamp/end_1.txt": {
-      "sha256": "6b18a5f9fc36259f34f9f5fb2b281d38addc57ce2242b49d4a56b97106eb940c",
-      "bytes": 27907,
+      "sha256": "7d0761add02e426af19b712b0cd445af1924ece7bc472f438fa84cde53a4a603",
+      "bytes": 28001,
       "sources": [
         "diantre/maps/town/chunks/swamp/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/swamp/end_2.txt": {
-      "sha256": "45128716378ed913080338a8d740c226c15bc2ab1ec53f6059a6f0c5d43b27f5",
-      "bytes": 27899,
+      "sha256": "8165fa96fec7a9e66492d42efc80ec95e12a5bbdc46c83a11d8fd1c3a7103ac8",
+      "bytes": 27993,
       "sources": [
         "diantre/maps/town/chunks/swamp/end_2.txt"
       ],
@@ -9080,72 +9280,96 @@
       "changes": []
     },
     "maps/town/chunks/swamp/normal_0.txt": {
-      "sha256": "8f14bc8c6b9c312eb51adcc885f859a0d4252531031d6101ef058cff6814ed1d",
-      "bytes": 27290,
+      "sha256": "39961577f0701fadf7a98e316a1a9811b758712a16f791934808a2a9d3f7f1ef",
+      "bytes": 27417,
       "sources": [
         "diantre/maps/town/chunks/swamp/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/swamp/normal_1.txt": {
-      "sha256": "3b730d50d2188320b2217bd85f3859140112231f366541e3cd5411bd93dfc0dd",
-      "bytes": 27286,
+      "sha256": "057c6d6045a9e9d3cf57a91cd43c1137f7f89b747206eb456589249b939eeafb",
+      "bytes": 27413,
       "sources": [
         "diantre/maps/town/chunks/swamp/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/swamp/normal_2.txt": {
-      "sha256": "eef48630c9f88ce0db4e595033c0eccc8b40699843523f59d7645ba6cf3b0806",
-      "bytes": 27282,
+      "sha256": "53d33842b608ddb6771e0482f85aeeeeb8f96c5b4cc735916797d65f824e6cbb",
+      "bytes": 27409,
       "sources": [
         "diantre/maps/town/chunks/swamp/normal_2.txt"
       ],
       "changes": []
     },
-    "maps/town/chunks/swamp/start_0.txt": {
-      "sha256": "ce2792474c60cb654d107361e041c4c72b4e7a621d7148647de645bdf113183e",
+    "maps/town/chunks/swamp/normal_3.txt": {
+      "sha256": "1a70af686c239ba984221e2bd7ebf8f3f451674ff868494b0319160defd70a18",
       "bytes": 27427,
+      "sources": [
+        "diantre/maps/town/chunks/swamp/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/swamp/normal_4.txt": {
+      "sha256": "2c60f778a329302bdbfb21217f330437a9e58afae294a607609860f56d501336",
+      "bytes": 27411,
+      "sources": [
+        "diantre/maps/town/chunks/swamp/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/swamp/normal_5.txt": {
+      "sha256": "8883806455f0916b9508c48f6096aac913743ade2f63eb00df84266ff566f382",
+      "bytes": 27403,
+      "sources": [
+        "diantre/maps/town/chunks/swamp/normal_5.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/swamp/start_0.txt": {
+      "sha256": "69f31336dc9ffcdfb32b119ac7d443b1e7c7283908f8f04c445026756099466a",
+      "bytes": 27501,
       "sources": [
         "diantre/maps/town/chunks/swamp/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/swamp/start_1.txt": {
-      "sha256": "d84c6f7f7ee3805a05e0707774971c277260bde5279e5b96a620e11edf0d120b",
-      "bytes": 27429,
+      "sha256": "8e4eb6f4a13eb3376d0428350eea30061c14d7cf5d9c26343e269b322c1426a6",
+      "bytes": 27503,
       "sources": [
         "diantre/maps/town/chunks/swamp/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/swamp/start_2.txt": {
-      "sha256": "d09bd8b464d58c661592137a78d0f6ee5b34a4c08b97397794986aa4ec1586b8",
-      "bytes": 27441,
+      "sha256": "5160a57bb39bd7e6692c66630b7bf7399e19242b560cd12db4f09b6bc75344b6",
+      "bytes": 27515,
       "sources": [
         "diantre/maps/town/chunks/swamp/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/woodland/end_0.txt": {
-      "sha256": "3d3ae7b008d1b0e3b02fd72ce03ace10c2e788a76b395d9c570fe910e3edd39d",
-      "bytes": 27829,
+      "sha256": "b448a1ff220c6f6964fe41199531fe17423c0db9625b4814a84d8c5e8f1f0f87",
+      "bytes": 27907,
       "sources": [
         "diantre/maps/town/chunks/woodland/end_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/woodland/end_1.txt": {
-      "sha256": "86a00a3c75f35b3b76425ecacb1e8757eedd4c2939402be40480a21f2b97771c",
-      "bytes": 27921,
+      "sha256": "6a94ee35b89250076211c728a8ed850c8dd5b6c094f9ecf4347a02d963cbdc2f",
+      "bytes": 27999,
       "sources": [
         "diantre/maps/town/chunks/woodland/end_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/woodland/end_2.txt": {
-      "sha256": "0ff563fa8d62b7c462c63bb11c06b51810f462c11337d138e8b94d1d72c1fa4c",
-      "bytes": 27923,
+      "sha256": "6d3f7ba30c2914d7c2f74fd76c6f94ba7ce19c751e893ececeefbf0abf16ac9c",
+      "bytes": 28001,
       "sources": [
         "diantre/maps/town/chunks/woodland/end_2.txt"
       ],
@@ -9160,200 +9384,224 @@
       "changes": []
     },
     "maps/town/chunks/woodland/normal_0.txt": {
-      "sha256": "dee172221e7c65c4cd524d55becd9bd62cec5c9c7acf0bd5b51366a9826e558b",
-      "bytes": 27274,
+      "sha256": "e1385990158312019cebe117c3e75d0d2add91df79e7e73b118d01767082fedf",
+      "bytes": 27404,
       "sources": [
         "diantre/maps/town/chunks/woodland/normal_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/woodland/normal_1.txt": {
-      "sha256": "4efa4a7f672c622c3d33b4d0f5f03d746732b8fb288fad49ac1cf146eb3732d3",
-      "bytes": 27276,
+      "sha256": "85528484811ddbe7554841a0392480a5304b9153b5ef27a8528764285bfbb882",
+      "bytes": 27406,
       "sources": [
         "diantre/maps/town/chunks/woodland/normal_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/woodland/normal_2.txt": {
-      "sha256": "c1246183e16c4725938463864b87646a632bb417f56ff2bdc11d0a40b28ac86b",
-      "bytes": 27268,
+      "sha256": "1049bc059bae08a735cb6477a1e8758d5c8f10d002b196d61e97d65cb83704b6",
+      "bytes": 27398,
       "sources": [
         "diantre/maps/town/chunks/woodland/normal_2.txt"
       ],
       "changes": []
     },
+    "maps/town/chunks/woodland/normal_3.txt": {
+      "sha256": "418c5cc0141737f221e5a907625f28cc222fe568e1fdc7bb060035ff53b22783",
+      "bytes": 27414,
+      "sources": [
+        "diantre/maps/town/chunks/woodland/normal_3.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/woodland/normal_4.txt": {
+      "sha256": "56cb09a70f6471e4efa161c451bfcb67411c81adadb9f56a03b2a5cf92afff27",
+      "bytes": 27408,
+      "sources": [
+        "diantre/maps/town/chunks/woodland/normal_4.txt"
+      ],
+      "changes": []
+    },
+    "maps/town/chunks/woodland/normal_5.txt": {
+      "sha256": "a09ad75791b9f8f66a1b18da6855844e3cd7f1350c02a3bc00247f19989414db",
+      "bytes": 27404,
+      "sources": [
+        "diantre/maps/town/chunks/woodland/normal_5.txt"
+      ],
+      "changes": []
+    },
     "maps/town/chunks/woodland/start_0.txt": {
-      "sha256": "bd22275c26c90e0f35092208bcd98546def6491b928a88b4f139685b3c8eff09",
-      "bytes": 27419,
+      "sha256": "056a5a986b2e1c61ee328fdcf3a4514977469d7f2e4ccb070ef7d1af355c7df7",
+      "bytes": 27493,
       "sources": [
         "diantre/maps/town/chunks/woodland/start_0.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/woodland/start_1.txt": {
-      "sha256": "2d5bcd8b93e5ef003cd0a369b0c0a6611028352439a4101b7881f8bf5c9b6873",
-      "bytes": 27425,
+      "sha256": "e233f4610b5d6ba65d46bd43ee8dab5e0a4b09a54b09cccc98012a9800639d27",
+      "bytes": 27499,
       "sources": [
         "diantre/maps/town/chunks/woodland/start_1.txt"
       ],
       "changes": []
     },
     "maps/town/chunks/woodland/start_2.txt": {
-      "sha256": "cc1b7e21b7d48cf35799531a9ee23299d17b289824141c5d8a9ed3a18d405e07",
-      "bytes": 27421,
+      "sha256": "c557c414f9e6dacbd9f3719189f365d293a9c3302e701d588c82aa6a09b0e27b",
+      "bytes": 27495,
       "sources": [
         "diantre/maps/town/chunks/woodland/start_2.txt"
       ],
       "changes": []
     },
     "maps/town/citadel.txt": {
-      "sha256": "9399c772e2581cbfb60a8435fadcf8284ad99caf0468e4e2d0c7b2a1fc706e81",
-      "bytes": 264485,
+      "sha256": "f8afad46eeb3c17901548d2fd34aceb19980327503181fac512250923ed34564",
+      "bytes": 264014,
       "sources": [
         "diantre/maps/town/citadel.txt"
       ],
       "changes": []
     },
     "maps/town/coast.txt": {
-      "sha256": "a18fa7dea0dbb958ba47752b727cb00b7e22367fc143cf720e7e964abbad2131",
-      "bytes": 232188,
+      "sha256": "02e78263b3c83a94a63795ac5c671b969fc62aedda867d8c544791765209579f",
+      "bytes": 231781,
       "sources": [
         "diantre/maps/town/coast.txt"
       ],
       "changes": []
     },
     "maps/town/forest.txt": {
-      "sha256": "1ef5a9c25e791ec7fb8bf1e3160b4a1b0ecdaabdbd3aa55ad41bd512312448c2",
-      "bytes": 232188,
+      "sha256": "39393c7bf1f9f064c98541fad73d8e896c7e511eda2f96529a15c4d76fe56e67",
+      "bytes": 231781,
       "sources": [
         "diantre/maps/town/forest.txt"
       ],
       "changes": []
     },
     "maps/town/meadow.txt": {
-      "sha256": "888fec6d2f7a47713a150d9a447ad7d07857f603c0967d9c8d82128d8f1f3939",
-      "bytes": 232186,
+      "sha256": "e39ec69baea729a3d8b92bde93696a2cda22ee0a60392417724acf3997275871",
+      "bytes": 231779,
       "sources": [
         "diantre/maps/town/meadow.txt"
       ],
       "changes": []
     },
     "maps/town/rocky.txt": {
-      "sha256": "cf283be8fbc16ec995c77aca8ddaffcd1152a653f18a645591c58fc8de80a855",
-      "bytes": 232183,
+      "sha256": "f0916331b39f13d3c436afe89e32a24f7b9ecab53c649f3a77924f1e01514a42",
+      "bytes": 231776,
       "sources": [
         "diantre/maps/town/rocky.txt"
       ],
       "changes": []
     },
     "maps/town/ruins.txt": {
-      "sha256": "301fa373b0885a9dd613033e14534a98ef1d4c64fcb32f93c7ca78f6d0b4a5bb",
-      "bytes": 264476,
+      "sha256": "931657c921c7636acd8a5aa9a6059b878b58b6b3b63e9898cbf8f0ae8d205831",
+      "bytes": 264005,
       "sources": [
         "diantre/maps/town/ruins.txt"
       ],
       "changes": []
     },
     "maps/town/rules/cave.txt": {
-      "sha256": "8d7623106d558646c2074449681ddf49c4037baec538f4637cd7b207ce398126",
-      "bytes": 604,
+      "sha256": "abdd45815be257cbf758f9955f05e4dd91a9a4c9b211b21fe049b82de1eb7951",
+      "bytes": 736,
       "sources": [
         "diantre/maps/town/rules/cave.txt"
       ],
       "changes": []
     },
     "maps/town/rules/citadel.txt": {
-      "sha256": "98f2cc1d87b432fbc3a71bfa04e5dc7610d46813a605933d624ef994bfa2991a",
-      "bytes": 634,
+      "sha256": "1824b27a94b72f4f2b02cc541e2b9d77e194ec3c576d7520204ad9d506b0f1f0",
+      "bytes": 775,
       "sources": [
         "diantre/maps/town/rules/citadel.txt"
       ],
       "changes": []
     },
     "maps/town/rules/coast.txt": {
-      "sha256": "df389efdb958b1f141e1f3a122ba7354f18d5b680602ce9ff8b6248d32ad9cdc",
-      "bytes": 614,
+      "sha256": "07067a135622120c87f723fbc68811a3caf50e58399a97271261004f3c1cd5d2",
+      "bytes": 749,
       "sources": [
         "diantre/maps/town/rules/coast.txt"
       ],
       "changes": []
     },
     "maps/town/rules/forest.txt": {
-      "sha256": "7e9382d325cd5732fefadd11a00e1e11b24102bc344e9ac63768d3109a2a014b",
-      "bytes": 624,
+      "sha256": "06a826c4321a1f95e7c1dceca291ccf3d21ec50ee208424b8ac24671c9eab893",
+      "bytes": 762,
       "sources": [
         "diantre/maps/town/rules/forest.txt"
       ],
       "changes": []
     },
     "maps/town/rules/meadow.txt": {
-      "sha256": "2012dff55c92cfeb6a22b1614cb0afb3d6df4c9e49afff1de9c9bae13546a23f",
-      "bytes": 624,
+      "sha256": "3ece8e6c1374aa0c4f423bc3ec2c0e887e786456283bc87082c54dd681289377",
+      "bytes": 762,
       "sources": [
         "diantre/maps/town/rules/meadow.txt"
       ],
       "changes": []
     },
     "maps/town/rules/rocky.txt": {
-      "sha256": "8117bf196c9bcd8f150a4cd815f898d99a681fb726356dbf36ead8d5f28ed8cf",
-      "bytes": 614,
+      "sha256": "283134e3f69f9986152acde153984b09b7565de7fcb0f26575351b1facdb2c08",
+      "bytes": 749,
       "sources": [
         "diantre/maps/town/rules/rocky.txt"
       ],
       "changes": []
     },
     "maps/town/rules/ruins.txt": {
-      "sha256": "7e366266b9f9cb0d212e534b01cf16e23beeaebb76f00f06f80b506c308b5d42",
-      "bytes": 614,
+      "sha256": "fe13bf86a5123af2a9b75dbd58e2fe4333e8ac6faeefdb17d095862fa864afbe",
+      "bytes": 749,
       "sources": [
         "diantre/maps/town/rules/ruins.txt"
       ],
       "changes": []
     },
     "maps/town/rules/snow.txt": {
-      "sha256": "030388e773a62c54768269aa99260832453f1431295dbb8453ef234787cc82d1",
-      "bytes": 604,
+      "sha256": "f095ed7b0bf7a0aee3e5a89f2320c46ec21abb20c0c54f02258a05bd65124dfd",
+      "bytes": 736,
       "sources": [
         "diantre/maps/town/rules/snow.txt"
       ],
       "changes": []
     },
     "maps/town/rules/swamp.txt": {
-      "sha256": "063ead98369e0062ee1af7705f4ac5e94f42e0442d114ba62a85cce66348b1e5",
-      "bytes": 614,
+      "sha256": "1cdf80ee9dcf14d8f812d2c3c58239bd08417a0a6f47c4ed990ab4d9aaa20524",
+      "bytes": 749,
       "sources": [
         "diantre/maps/town/rules/swamp.txt"
       ],
       "changes": []
     },
     "maps/town/rules/woodland.txt": {
-      "sha256": "dd6ca6bf588db0bb8d9abe1b224f0cc8c9e7e8b47d92b099419e98d902d42543",
-      "bytes": 644,
+      "sha256": "1dbb30e0e76fbe7767c2405cabf587619d2c6f9627c6ab9344c76ab73c64b117",
+      "bytes": 788,
       "sources": [
         "diantre/maps/town/rules/woodland.txt"
       ],
       "changes": []
     },
     "maps/town/snow.txt": {
-      "sha256": "b3cf728607a0287c659538317b8e96b8cc457f363324e75819c95ec11d595483",
-      "bytes": 264476,
+      "sha256": "fbecfe27f86f239c34c31fb7df36cb70abf50cf8d1378f34f0307f38221e09e9",
+      "bytes": 264005,
       "sources": [
         "diantre/maps/town/snow.txt"
       ],
       "changes": []
     },
     "maps/town/swamp.txt": {
-      "sha256": "3f95a7ae5d9f696a94b57cf9bb548be3873c952ccd6dfa5dda2a4be2102d3686",
-      "bytes": 232183,
+      "sha256": "8763b2e6a9dfb40f080e54a875204215e20a0adde3a23b954c216bfa42dad559",
+      "bytes": 231776,
       "sources": [
         "diantre/maps/town/swamp.txt"
       ],
       "changes": []
     },
     "maps/town/woodland.txt": {
-      "sha256": "0b8adc1b520c3672271df775b1ddf89a5a6a3f506f7e26116b19d3e054084816",
-      "bytes": 232189,
+      "sha256": "c5ae0aa46d11a17d894946e2601dd89cd8afc31a0ec013c9511c30653c1295e9",
+      "bytes": 231782,
       "sources": [
         "diantre/maps/town/woodland.txt"
       ],
@@ -9601,6 +9849,46 @@
       ],
       "changes": []
     },
+    "npcs/town/abasi.txt": {
+      "sha256": "d469675484032d7de46edf13f3d455463c884e1847da550d82bc56e52dac3008",
+      "bytes": 490,
+      "sources": [
+        "diantre/npcs/town/abasi.txt"
+      ],
+      "changes": []
+    },
+    "npcs/town/bakat.txt": {
+      "sha256": "e94684e182e1d00e706fb18ad8713875b275dc516756b8b83c2d8b6a3e9ab10c",
+      "bytes": 355,
+      "sources": [
+        "diantre/npcs/town/bakat.txt"
+      ],
+      "changes": []
+    },
+    "npcs/town/florin.txt": {
+      "sha256": "2abd2172cf9770f18b1beb4a23800036aaa5f915b69b1778f094cb6ed1f7eb49",
+      "bytes": 487,
+      "sources": [
+        "diantre/npcs/town/florin.txt"
+      ],
+      "changes": []
+    },
+    "npcs/town/loren.txt": {
+      "sha256": "88cf03ca0c55ad9b7ae5250b879f7e1f4e162a32b264eb435f7cce5f0ab6ef79",
+      "bytes": 335,
+      "sources": [
+        "diantre/npcs/town/loren.txt"
+      ],
+      "changes": []
+    },
+    "npcs/town/martigan.txt": {
+      "sha256": "56cb2584b659264b3e0f1287ae105490c9fde0d7f07130352d0897089ceb9fdd",
+      "bytes": 295,
+      "sources": [
+        "diantre/npcs/town/martigan.txt"
+      ],
+      "changes": []
+    },
     "npcs/town/provisions.txt": {
       "sha256": "4005a04dd28d7515bdeef558814c309a97b0694e7b4462c5628a2fd06975def2",
       "bytes": 137,
@@ -9614,6 +9902,22 @@
       "bytes": 151,
       "sources": [
         "diantre/npcs/town/smith.txt"
+      ],
+      "changes": []
+    },
+    "npcs/town/udana.txt": {
+      "sha256": "a4ec17d0acd21046c2a28a02845cc4316f4f2a2eefe79bba30e1e068c7ef25b6",
+      "bytes": 483,
+      "sources": [
+        "diantre/npcs/town/udana.txt"
+      ],
+      "changes": []
+    },
+    "npcs/town/yora.txt": {
+      "sha256": "89bee71a41b81ee24469fde9f152410735a48e9d5a3eda9dfcbecbf68cbd0663",
+      "bytes": 536,
+      "sources": [
+        "diantre/npcs/town/yora.txt"
       ],
       "changes": []
     },

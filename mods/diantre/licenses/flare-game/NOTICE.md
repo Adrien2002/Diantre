@@ -26,10 +26,14 @@ The fixed boss chasm is omitted; the last generated floor returns to the town.
 No fixed town or other campaign maps are included. New reusable surface chunks
 provide ten biome/atmosphere variants. Tile IDs from the snow, cave, ruins and
 dungeon atlases are offset into a shared palette; their images are unmodified.
+The seven town merchant profiles adapt Empyrean's names, appearances and shop
+stock. Campaign dialogue, quest requirements and quest-gated stock are removed;
+Loren uses the Iron Labyrinth stock with the default shop pricing. Each merchant
+has a separate house and is placed exactly once in a newly generated town.
 
 `../../ASSET_MANIFEST.json` records the selected files, source mod(s), changes,
 sizes and SHA-256 hashes. Binary art/audio/font files are copied without changes.
-Files under `campaign/diantre` in the project contain the original Diantre overrides.
+Files under `campaign/diantre` in the project contain Diantre overrides and adapted game data.
 
 The engine and its `default` mod are supplied separately by Flare and keep their
 own licenses; they are not redistributed inside Diantre.

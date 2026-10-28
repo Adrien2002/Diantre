@@ -14,10 +14,11 @@ SIZE = CHUNK_SIZE = 32
 REGION = CHUNK_SIZE * 2
 WORLD = REGION + 24
 TOWN_MIN = 17
-TOWN_MAX = 61  # Exclusive; the playable surface is one 44 by 44 square.
+TOWN_MAX = 64  # Exclusive; seven houses surround one open 47 by 47 surface.
 PLAZA_MIN = 28
 PLAZA_MAX = 49  # Exclusive; no buildings or scenery occupy the central square.
 VARIANTS = 3
+MARKETS = (("yora", "abasi"), ("bakat", "martigan"))
 CLIFF_CAP_OFFSET = 5000
 CLIFF_TILE_BASE = 20000  # Earlier cached hills retain their original tile IDs.
 CLIFF_JOIN_OFFSET = 20000
@@ -159,15 +160,12 @@ def town_boundary(biome):
     return event(0, 0, "activate=on_load", "mapmod=" + ";".join(changes))
 
 
-def house(biome, variant, obj, col):
-    x, y = [(17, 22), (19, 23), (18, 24)][variant]
-    # Leave a generous yard around each building so it reads as a town lot.
-    for yy in range(16, 31):
-        for xx in range(16, 31):
-            obj[yy][xx], col[yy][xx] = 0, 0
+def house(biome, anchor, merchant, obj, col):
+    x, y = anchor
     obj[y][x] = BIOMES[biome].house
     block(col, x, y-4, 4, 5)
-    return x+3, y+2
+    return (f"\n[npc]\ntype=npc\nlocation={x+3},{y+2},1,1\ndirection=5\n"
+            f"filename=npcs/town/{merchant}.txt\n")
 
 
 def chunk(biome, role, variant):
@@ -191,28 +189,42 @@ def chunk(biome, role, variant):
         # link copying without carving paths through the surface.
         for direction in ("north", "south", "west", "east"):
             extra += event(0, 0, f"procgen_link={direction}")
-    elif role in ("start", "normal"):
-        x, y = house(biome, variant, obj, col)
-        vendor = "provisions" if role == "start" else "smith"
-        extra += (f"\n[npc]\ntype=npc\nlocation={x},{y},1,1\ndirection=5\n"
-                  f"filename=npcs/town/{vendor}.txt\n")
-        if role == "start":
-            obj[y+1][x+1] = 297
-            extra += event(x+1, y+1, "activate=on_interact", "hotspot=location",
-                           "stash=true", "tooltip=Shared Stash", "soundfx=soundfx/wood_open.ogg")
+    else:
+        # Two houses fit in each market lot without closing its open edges.
+        # Their yards also keep tall vegetation away from every shopkeeper.
+        for y in range(16, SIZE):
+            for x in range(16, SIZE):
+                obj[y][x], col[y][x] = 0, 0
+        local_variant = variant % VARIANTS
+        first = [(17, 20), (18, 21), (17, 22)][local_variant]
+        second = [(27, 24), (27, 25), (26, 25)][local_variant]
+        if role == "end":
+            extra += dungeon_entrance(biome, local_variant, bg, terraces, base_upper, obj, col)
+            extra += house(biome, second, "loren", obj, col)
+        else:
+            merchants = ("florin", "udana") if role == "start" else MARKETS[variant // VARIANTS]
+            if local_variant == 1:
+                merchants = merchants[::-1]
+            for anchor, merchant in zip((first, second), merchants):
+                extra += house(biome, anchor, merchant, obj, col)
+            if role == "start":
+                x, y = first[0]+4, first[1]+3
+                obj[y][x] = 297
+                extra += event(x, y, "activate=on_interact", "hotspot=location",
+                               "stash=true", "tooltip=Shared Stash", "soundfx=soundfx/wood_open.ogg")
         if biome in ("swamp", "coast"):
             pond = [[152, 145, 145, 153], [144, 176, 177, 146],
                     [144, 180, 181, 146], [155, 147, 147, 154]]
-            pockets = [(25, 18), (18, 27)] if biome == "coast" else [(25, 18)]
-            for px, py in pockets:
-                for yy, row in enumerate(pond, py):
-                    for xx, tile in enumerate(row, px):
-                        bg[yy][xx], obj[yy][xx], col[yy][xx] = tile, 0, 1
-    elif role == "end":
-        extra += dungeon_entrance(biome, variant, bg, terraces, base_upper, obj, col)
+            for y, row in enumerate(pond, 16):
+                for x, tile in enumerate(row, 25):
+                    bg[y][x], obj[y][x], col[y][x] = tile, 0, 1
+    # Both normal market groups are used exactly once. A shared status excludes
+    # every variant of an already placed group; biome prefixes isolate new maps.
+    unique = (f"procgen_unique_status=diantre_town_{biome}_market_{variant // VARIANTS}\n"
+              if role == "normal" else "")
     header = (f"[header]\nwidth={CHUNK_SIZE}\nheight={CHUNK_SIZE}\ntilewidth=192\ntileheight=96\n"
               "orientation=isometric\nhero_pos=24,27\n"
-              f"procgen_type={role}\ntileset=tilesetdefs/town/palette.txt\n")
+              f"procgen_type={role}\n{unique}tileset=tilesetdefs/town/palette.txt\n")
     # Keep a continuous ground underlay beneath transparent water/cliff sprites.
     underlay = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
     return (header + layer("background_base", underlay) + layer("background", bg) +
@@ -324,14 +336,14 @@ def main():
         text += event(0, 0, "activate=on_load", f"set_status=diantre_town_{biome}",
                        "unset_status=" + ",".join("diantre_town_"+b for b in BIOMES if b != biome))
         write(f"maps/town/{biome}.txt", text)
-        rules = ("[settings]\ndoors_max=0\nmain_path_length_min=3\nmain_path_length_max=3\n"
+        rules = ("[settings]\ndoors_max=0\nmain_path_length_min=4\nmain_path_length_max=4\n"
                  "main_path_attempts_max=1000\nbranch_length_min=0\nbranch_length_max=0\n"
                  "branches_per_door_level_max=0\n\n[chunks]\n")
         directory = ROOT / "maps/town/chunks" / biome
         if directory.exists():
             for path in directory.glob("*.txt"):
                 path.unlink()
-        for role, count in [("links", 1), ("start", VARIANTS), ("end", VARIANTS), ("normal", VARIANTS)]:
+        for role, count in [("links", 1), ("start", VARIANTS), ("end", VARIANTS), ("normal", VARIANTS * len(MARKETS))]:
             for variant in range(count):
                 name = f"maps/town/chunks/{biome}/{role}_{variant}.txt"
                 write(name, chunk(biome, role, variant))
@@ -344,12 +356,6 @@ def main():
             "diantre_town_"+b for b in BIOMES) + "\nintermap_random=maps/town/biomes.txt\n")
     write("scripts/town/enter_dungeon.txt", "[event]\nset_status=emp_il_f1\n"
           "intermap=maps/iron_labyrinth_f1.txt\nsoundfx=soundfx/environment/stairs.ogg\n")
-    write("npcs/town/provisions.txt", "name=Lysa, Provisions\n"
-          "animations=animations/npcs/peasant_woman1.txt\ndirection=5\nvendor=true\ntalker=false\n"
-          "constant_stock=2:20,3:20,1105:5\n")
-    write("npcs/town/smith.txt", "name=Borin, Equipment\n"
-          "animations=animations/npcs/knight.txt\ndirection=5\nvendor=true\ntalker=false\n"
-          "random_stock=loot/il_loren.txt\nrandom_stock_count=5,8\n")
     print(f"Built {len(BIOMES)} town biomes and their reusable native-procgen chunks.")
 
 

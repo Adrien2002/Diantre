@@ -40,7 +40,10 @@ used by this mod.
 ## Current prototype
 
 - A safe procedural town built around one large open square, with a separate
-  house for each of its two merchants and a shared stash.
+  house for each of its seven merchants and a shared stash.
+- All seven Empyrean merchants: Udana, Florin, Yora, Abasi, Bakat, Martigan and
+  Loren. Each shop is available from the start, with its own appearance and
+  stock. Empyrean's quest requirements and campaign dialogue are removed.
 - Ten randomly selected environments: conifer forest, broadleaf woodland, rocky
   terrain, marsh, meadow, riverside, snow, cave, ruins and citadel.
 - Random building lots and scenery, with a single dungeon entrance set apart
@@ -71,7 +74,7 @@ See [project direction](docs/DIRECTION.md).
 
 Assets come from `flareteam/flare-game`, revision
 `af6eee6d339ac98011864bfe89da837fe7769c28`. The bundled selection is approximately
-**402 MiB**. It follows game-file references, random monster categories, equipment
+**403 MiB**. It follows game-file references, random monster categories, equipment
 animations and implicit engine resources. Complete equipment and power catalogs
 are retained for their dynamic dependencies.
 
@@ -94,11 +97,12 @@ python3 tools/build_town.py
 ```
 
 This authors mod data; Flare performs the random selection and assembly at
-runtime. Three building lots occupy randomly selected corners around one open
-plaza: two merchant houses and the dungeon hillside. The unused corner remains
-open. Lot edges have no walls or narrow connectors; native on-load map changes
-maintain the shared outer boundary and keep the plaza clear. No complete playable
-town map has a fixed layout.
+runtime. Four lots occupy randomly selected corners around one open plaza.
+Three lots have two merchant houses each; the fourth has Loren's house and the dungeon
+hillside. Native unique-chunk statuses place each market group exactly once,
+so all seven merchants appear in every new town. Lot edges have no walls or
+narrow connectors; native on-load map changes maintain the shared outer boundary
+and keep the plaza clear. No complete playable town map has a fixed layout.
 
 To reproduce asset extraction from local sources at the revision listed above:
 
@@ -128,7 +132,7 @@ FLARE_HOME="$HOME/Games/Flare" python3 tests/smoke.py
 ```
 
 The asset audit checks bundled files, dependencies and licenses. Terrain checks
-cover 2,160 complete town arrangements, including their open plaza, separate
+cover 12,960 complete town arrangements, including their open plaza, separate
 merchant houses and broad approaches. The engine test creates two
 characters, checks distinct layouts, reloads a save, descends into the dungeon
 and returns to the same town entrance without regenerating either map. It also

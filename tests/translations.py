@@ -17,6 +17,8 @@ def main():
     assert template == catalog(mod), "Translation template is stale"
     messages = {ast.literal_eval(line[6:]) for line in template.splitlines() if line.startswith("msgid ")}
     for text in [*(b.title for b in BIOMES.values()), "Lysa, Provisions", "Borin, Equipment",
+                 "Udana, Metalworker", "Florin, Apothecary", "Yora, Enchanter", "Abasi, Traveling Merchant",
+                 "Bakat, Goblin Packrat", "Martigan", "Loren, Undead Trader",
                  "Dungeon Entrance", "Shared Stash", "Return to Town"]:
         assert text in messages, f"Missing translatable string: {text}"
     assert not list((mod / "languages").glob("*.po")), "No active translated catalogs yet"

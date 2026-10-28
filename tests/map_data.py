@@ -58,7 +58,7 @@ def check_open_square(layers, start):
     """A shared open plaza, broad approaches, and a complete outer backdrop."""
     collision = layers["collision"]
     reachable = connected(collision, start)
-    low, high = 17, 61
+    low, high = 17, 64
     width = high-low
     assert len(reachable) > width*width*0.88, "Town is divided into small clearings"
     assert all(low <= x < high and low <= y < high for x, y in reachable), "Open town perimeter"
@@ -66,8 +66,8 @@ def check_open_square(layers, start):
         for x in range(28, 49):
             assert collision[y][x] == layers["object"][y][x] == 0, "Obstructed central plaza"
     for i in range(low, high):
-        assert sum(collision[i][x] == 0 for x in range(low, high)) >= width*0.55, ("Narrow town row", i)
-        assert sum(collision[y][i] == 0 for y in range(low, high)) >= width*0.55, ("Narrow town column", i)
+        assert sum(collision[i][x] == 0 for x in range(low, high)) >= width*0.5, ("Narrow town row", i)
+        assert sum(collision[y][i] == 0 for y in range(low, high)) >= width*0.5, ("Narrow town column", i)
     # Cover the largest supported test viewport at every accessible position.
     extent = 3440/384 + 1440/192
     height, width = len(collision), len(collision[0])
@@ -90,10 +90,13 @@ def town_details(path):
     reachable = check_open_square(layers, start)
     assert door in reachable, (path, "Dungeon entrance not reachable from town arrival")
     npcs = [d for d in data if d["section"] == "npc"]
-    assert len(npcs) == 2, (path, "Must have exactly two town vendors")
+    expected = {f"npcs/town/{name}.txt" for name in
+                ("udana", "florin", "yora", "abasi", "bakat", "martigan", "loren")}
+    assert len(npcs) == 7, (path, "Must have exactly seven town vendors")
+    assert {npc["filename"] for npc in npcs} == expected, (path, "Missing or duplicate merchant")
     houses = {(x, y) for y, row in enumerate(layers["object"])
               for x, tile in enumerate(row) if tile in (296, 1744)}
-    assert len(houses) == 2, (path, "Each vendor needs a separate house")
+    assert len(houses) == 7, (path, "Each vendor needs a separate house")
     for npc in npcs:
         pos = tuple(map(int, npc["location"].split(",")[:2]))
         assert pos in reachable, (path, "Inaccessible vendor", pos)
@@ -101,5 +104,17 @@ def town_details(path):
     assert len([d for d in data if d.get("stash") in ("true", "1")]) == 1
     assert not [d for d in data if d["section"] == "enemy"], "Town must be safe"
     exit_point = next(d for d in data if d.get("intermap_id") == "dungeon_exit")
-    return {"header": header, "entrance": door,
+    # Every shop and the cave return must connect to the plaza through a route
+    # at least three tiles wide, rather than just a one-tile forest passage.
+    height, width = len(collision), len(collision[0])
+    broad = [[1]*width for _ in range(height)]
+    for y in range(1, height-1):
+        for x in range(1, width-1):
+            if all(collision[yy][xx] == 0 for yy in range(y-1, y+2) for xx in range(x-1, x+2)):
+                broad[y][x] = 0
+    approaches = connected(broad, (38, 38))
+    for entry in [*npcs, exit_point]:
+        pos = tuple(map(int, entry["location"].split(",")[:2]))
+        assert pos in approaches, (path, "Narrow approach to merchant or dungeon", pos)
+    return {"header": header, "entrance": door, "npcs": npcs,
             "exit": tuple(map(int, exit_point["location"].split(",")[:2]))}
