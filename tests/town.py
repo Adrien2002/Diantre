@@ -19,10 +19,13 @@ def main():
     cases = 0
     for biome in BIOMES:
         directory = mod / "maps/town/chunks" / biome
+        parent_layers = [s["type"] for s in sections((mod / f"maps/town/{biome}.txt").read_text())
+                         if s["section"] == "layer"]
         links = sections((directory / "links_0.txt").read_text())
         strips = [tuple(map(int, s["location"].split(","))) for s in links if "procgen_link" in s]
         for path in directory.glob("*.txt"):
             data = sections(path.read_text())
+            assert [s["type"] for s in data if s["section"] == "layer"] == parent_layers, (path, "inconsistent native layer order")
             assert not [s for s in data if s["section"] == "enemy"], path
             for s in data:
                 if s["section"] == "layer" and s.get("type") != "collision":
@@ -30,16 +33,19 @@ def main():
             if path.name.startswith("links"):
                 continue
             base = next(s["data"] for s in data if s.get("type") == "collision")
-            objects = next(s["data"] for s in data if s.get("type") == "object")
+            scenery = {s["type"]: s["data"] for s in data
+                       if s.get("type") in ("object", "cliff_faces", "cliff_tops")}
             for mask in range(1, 16):
                 collision = [row[:] for row in base]
-                visible = [row[:] for row in objects]
+                rendered = {name: [row[:] for row in values] for name, values in scenery.items()}
+                visible = rendered["object"]
                 for i, (x, y, w, h) in enumerate(strips):
                     if mask & (1 << i):
                         for yy in range(y, y+h):
                             for xx in range(x, x+w):
                                 collision[yy][xx] = 0
-                                visible[yy][xx] = 0
+                                for values in rendered.values():
+                                    values[yy][xx] = 0
                 reach = connected(collision, (8, 10))
                 for i, (x, y, w, h) in enumerate(strips):
                     if mask & (1 << i):
@@ -52,15 +58,23 @@ def main():
                         x, y = map(int, s["location"].split(",")[:2])
                         offset = 1000 if biome == "snow" else 0
                         assert visible[y-1][x:x+2] == [offset + 226, offset + 227], (path, mask, "hidden cave mouth")
-                        # The mouth must be attached to solid rock that remains
-                        # visible after the native generator copies its links.
-                        left, right = 1, 5
-                        for yy in range(y-3, y):
-                            for xx in range(left, right+1):
-                                assert collision[yy][xx] == 1, (path, mask, "walkable rock outcrop")
-                                if objects[yy][xx]:
-                                    assert visible[yy][xx] == objects[yy][xx], (path, mask, "cut off rock outcrop")
-                        assert all(visible[y-2][xx] for xx in range(left, right+1)), (path, mask, "missing cave backing")
+                        # A continuous, blocked landmass must back the opening.
+                        # Check every terrain layer after native link overlays.
+                        tops = scenery["cliff_tops"]
+                        plateau = {(xx, yy) for yy, row in enumerate(tops)
+                                   for xx, tile in enumerate(row) if tile}
+                        assert len(plateau) >= 20, (path, mask, "missing cliff plateau")
+                        for xx, yy in plateau:
+                            assert collision[yy][xx] == 1, (path, mask, "walkable plateau")
+                            for name in ("cliff_faces", "cliff_tops"):
+                                assert rendered[name][yy][xx] == scenery[name][yy][xx], (path, mask, "cliff cut by connector")
+                            if yy != y-1 or xx not in (x, x+1):
+                                assert not visible[yy][xx], (path, mask, "freestanding cliff props")
+                        left, right = min(xx for xx, yy in plateau), max(xx for xx, yy in plateau)
+                        wall = rendered["cliff_faces"][y-1]
+                        assert all(wall[xx] for xx in range(left, right+1)
+                                   if xx not in (x, x+1)), (path, mask, "gap in cave wall")
+                        assert all((xx, y-2) in plateau for xx in (x, x+1)), (path, mask, "unsupported cave opening")
                         assert (x+1, y) in reach, (path, mask, "blocked entrance apron")
                         assert not any(visible[yy][xx] in BIOMES[biome].decorations
                                        for yy in range(y, 14) for xx in range(1, 12)), (path, mask, "overgrown entrance clearing")
