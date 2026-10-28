@@ -1,0 +1,24 @@
+# Flare loads this map after character creation.
+# Omit destination coordinates: the generator places the entrance chunk and
+# computes its hero_pos. A fixed position can land inside a wall.
+
+[header]
+width=1
+height=1
+hero_pos=0,0
+fogofwar=0
+
+[event]
+type=event
+location=0,0,1,1
+activate=on_load
+save_game=true
+
+# Let the initial save create this character's maps/ cache before generation.
+# The spawn map is hidden; this one-tick delay does not add an intro scene.
+[event]
+type=event
+location=0,0,1,1
+activate=on_load
+delay=1ms
+intermap_random=maps/town/biomes.txt

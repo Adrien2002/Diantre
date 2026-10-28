@@ -1,0 +1,4 @@
+APPEND
+
+# Keep characters, generated maps and stash separate from Empyrean.
+save_prefix=diantre

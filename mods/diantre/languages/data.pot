@@ -1,0 +1,4219 @@
+# Diantre game data translation template.
+# Game data and this template are licensed under CC-BY-SA-3.0.
+# Keep English msgids unchanged; translate msgstr in data.<language>.po.
+msgid ""
+msgstr ""
+"Project-Id-Version: Diantre\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cutscenes/credits_empyrean.txt:67 cutscenes/credits_fantasycore.txt:82
+msgid "(bnk159hair, kangdonghun1230, HunSeongPark, paparad0x)"
+msgstr ""
+
+#: books/merchants_journal.txt:28
+msgid "+1  Cloth Shirt"
+msgstr ""
+
+#: books/merchants_journal.txt:64
+msgid "+1  Dagger"
+msgstr ""
+
+#: books/merchants_journal.txt:38
+msgid "+1  Gold Ring"
+msgstr ""
+
+#: books/merchants_journal.txt:18
+msgid "-1  Dagger"
+msgstr ""
+
+#: books/merchants_journal.txt:33
+msgid "-18"
+msgstr ""
+
+#: books/merchants_journal.txt:54
+msgid "-2  Health Potion"
+msgstr ""
+
+#: books/merchants_journal.txt:69
+msgid "-25"
+msgstr ""
+
+#: books/merchants_journal.txt:43
+msgid "-50"
+msgstr ""
+
+#: books/merchants_journal.txt:23
+msgid "100"
+msgstr ""
+
+#: books/merchants_journal.txt:59
+msgid "120"
+msgstr ""
+
+#: books/il_notes_1.txt:13
+msgid "1462/3/10"
+msgstr ""
+
+#: books/il_notes_2.txt:13
+msgid "1462/3/15"
+msgstr ""
+
+#: books/il_notes_2.txt:32
+msgid "1462/3/16"
+msgstr ""
+
+#: books/il_notes_3.txt:13
+msgid "1462/3/23"
+msgstr ""
+
+#: books/il_notes_4.txt:13
+msgid "1462/3/25"
+msgstr ""
+
+#: books/il_notes_4.txt:32
+msgid "1462/4/27"
+msgstr ""
+
+#: books/il_notes_5.txt:13
+msgid "1462/6/3"
+msgstr ""
+
+#: books/il_notes_6.txt:13
+msgid "1462/8/12"
+msgstr ""
+
+#: books/il_notes_7.txt:13
+msgid "1462/8/13"
+msgstr ""
+
+#: books/wardens_notes_2.txt:24
+msgid "1468/7/10"
+msgstr ""
+
+#: books/wardens_notes.txt:13
+msgid "1468/7/9"
+msgstr ""
+
+#: books/merchants_journal.txt:13
+msgid "1472/9/27"
+msgstr ""
+
+#: books/merchants_journal.txt:49
+msgid "1472/9/28"
+msgstr ""
+
+#: menus/character.txt:8
+msgid "168,66,240,28"
+msgstr ""
+
+#: menus/gameload.txt:9
+msgid "24,24,left,top"
+msgstr ""
+
+#: items/categories/quest.txt:386
+msgid "A dark, magical energy flows through the tip of this small blade."
+msgstr ""
+
+#: books/il_notes_6.txt:38
+msgid "A few of the guys were still working on the floor above and didn't follow us into the chamber. We'll head back down and rendezvous with them tomorrow."
+msgstr ""
+
+#: items/categories/level_8_unique.txt:4
+msgid "A remnant of those who guarded Fort Amir."
+msgstr ""
+
+#: items/categories/level_12_unique.txt:39
+msgid "A royal mail with a 'K' engraved on the breast."
+msgstr ""
+
+#: items/categories/quest.txt:23
+msgid "Abasi's Journal"
+msgstr ""
+
+#: items/categories/quest.txt:410
+msgid "According to Florin, this is the only ink capable of being used in the Book of the Dead."
+msgstr ""
+
+#: engine/damage_types.txt:45
+msgid "Adds elemental dark damage to non-elemental attacks."
+msgstr ""
+
+#: engine/damage_types.txt:18
+msgid "Adds elemental fire damage to non-elemental attacks."
+msgstr ""
+
+#: engine/damage_types.txt:27
+msgid "Adds elemental ice damage to non-elemental attacks."
+msgstr ""
+
+#: engine/damage_types.txt:36
+msgid "Adds elemental lightning damage to non-elemental attacks."
+msgstr ""
+
+#: engine/classes.txt:30
+msgid "Adept"
+msgstr ""
+
+#: engine/classes.txt:31
+msgid "Adepts have natural abilities in casting magical spells. Primary attribute: Mental"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:45
+msgid "Adrian Chaves Fernandez"
+msgstr ""
+
+#: engine/titles.txt:63
+msgid "Adventurer"
+msgstr ""
+
+#: items/categories/level_15.txt:315
+msgid "Adventurer Affluence Ring"
+msgstr ""
+
+#: items/categories/level_15.txt:207
+msgid "Adventurer Archwizard Spellbook"
+msgstr ""
+
+#: items/categories/level_11.txt:325
+msgid "Adventurer Artifact Ring"
+msgstr ""
+
+#: items/categories/level_11.txt:265
+msgid "Adventurer Blaze Ring"
+msgstr ""
+
+#: items/categories/level_7.txt:265
+msgid "Adventurer Burn Ring"
+msgstr ""
+
+#: items/categories/level_3.txt:224
+msgid "Adventurer Dark Ring"
+msgstr ""
+
+#: items/categories/level_7.txt:285
+msgid "Adventurer Electric Ring"
+msgstr ""
+
+#: items/categories/level_3.txt:233
+msgid "Adventurer Experience Ring"
+msgstr ""
+
+#: items/categories/level_7.txt:185
+msgid "Adventurer Fighting Leather Belt"
+msgstr ""
+
+#: items/categories/level_3.txt:197
+msgid "Adventurer Fire Ring"
+msgstr ""
+
+#: items/categories/level_11.txt:275
+msgid "Adventurer Freeze Ring"
+msgstr ""
+
+#: items/categories/level_7.txt:275
+msgid "Adventurer Frost Ring"
+msgstr ""
+
+#: items/categories/level_15.txt:275
+msgid "Adventurer Glacial Ring"
+msgstr ""
+
+#: items/categories/level_11.txt:295
+msgid "Adventurer Gloom Ring"
+msgstr ""
+
+#: items/categories/level_3.txt:206
+msgid "Adventurer Ice Ring"
+msgstr ""
+
+#: items/categories/level_15.txt:265
+msgid "Adventurer Inferno Ring"
+msgstr ""
+
+#: items/categories/level_11.txt:305
+msgid "Adventurer Intellectual Ring"
+msgstr ""
+
+#: items/categories/level_7.txt:305
+msgid "Adventurer Knowledge Ring"
+msgstr ""
+
+#: items/categories/level_3.txt:123
+msgid "Adventurer Leather Belt"
+msgstr ""
+
+#: items/categories/level_3.txt:215
+msgid "Adventurer Lightning Ring"
+msgstr ""
+
+#: items/categories/level_7.txt:325
+msgid "Adventurer Loot Ring"
+msgstr ""
+
+#: items/categories/level_11.txt:315
+msgid "Adventurer Lucrative Ring"
+msgstr ""
+
+#: items/categories/level_3.txt:132
+msgid "Adventurer Pendant"
+msgstr ""
+
+#: items/categories/level_7.txt:315
+msgid "Adventurer Prosperity Ring"
+msgstr ""
+
+#: items/categories/level_11.txt:196
+msgid "Adventurer Ranger Pendant"
+msgstr ""
+
+#: items/categories/level_7.txt:196
+msgid "Adventurer Recon Pendant"
+msgstr ""
+
+#: items/categories/level_15.txt:325
+msgid "Adventurer Relic Ring"
+msgstr ""
+
+#: items/categories/level_15.txt:305
+msgid "Adventurer Scholar Ring"
+msgstr ""
+
+#: items/categories/level_7.txt:295
+msgid "Adventurer Shadow Ring"
+msgstr ""
+
+#: items/categories/level_11.txt:285
+msgid "Adventurer Shock Ring"
+msgstr ""
+
+#: items/categories/level_15.txt:196
+msgid "Adventurer Sniper Pendant"
+msgstr ""
+
+#: items/categories/level_7.txt:207
+msgid "Adventurer Sorcerer Spellbook"
+msgstr ""
+
+#: items/categories/level_3.txt:141
+msgid "Adventurer Spellbook"
+msgstr ""
+
+#: items/categories/level_3.txt:251
+msgid "Adventurer Treasure Ring"
+msgstr ""
+
+#: items/categories/level_15.txt:295
+msgid "Adventurer Void Ring"
+msgstr ""
+
+#: items/categories/level_15.txt:285
+msgid "Adventurer Volt Ring"
+msgstr ""
+
+#: items/categories/level_15.txt:185
+msgid "Adventurer Warlord Leather Belt"
+msgstr ""
+
+#: items/categories/level_11.txt:185
+msgid "Adventurer Warrior Leather Belt"
+msgstr ""
+
+#: items/categories/level_3.txt:242
+msgid "Adventurer Wealth Ring"
+msgstr ""
+
+#: items/categories/level_11.txt:207
+msgid "Adventurer Wizard Spellbook"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:34
+msgid "Agustin Ferrario"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:73
+msgid "Alchemist's Skirt"
+msgstr ""
+
+#: books/crafting_alchemy.txt:21
+msgid "Alchemy"
+msgstr ""
+
+#: scripts/powers/respec_tome.txt:7
+msgid "All stat and power points have been reset."
+msgstr ""
+
+#: books/crafting_alchemy.txt:69 items/categories/crafting.txt:16
+msgid "Aloe Vera"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:3
+msgid "Amir Blade"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:4
+msgid "An essential tool for any blacksmith."
+msgstr ""
+
+#: items/categories/quest.txt:362
+msgid "An odor of iron and its abrasive petals make this rare plant easy to identify."
+msgstr ""
+
+#: items/types.txt:74
+msgid "Ancient Relic"
+msgstr ""
+
+#: enemies/lvl15_wyvern_ancient.txt:3
+msgid "Ancient Wyvern"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:47
+msgid "Andrea Ranaldi"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:48
+msgid "Andreas Berheim Brudin"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:49
+msgid "Andrey Kapitonov"
+msgstr ""
+
+#: books/wardens_notes.txt:18
+msgid "Another subject asked to take the test. I can't remember the last time anyone made it through, but they always want to try. I gave them the same advice as with all the subjects:"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:35 cutscenes/credits_fantasycore.txt:50
+msgid "Ansh Mishra"
+msgstr ""
+
+#: engine/hero_options.txt:8
+msgid "Anthem"
+msgstr ""
+
+#: enemies/lvl13_antlion_larva.txt:3
+msgid "Antlion Larva"
+msgstr ""
+
+#: powers/base/magician/barrier.txt:2
+msgid "Applies permanent protection against all elemental damage."
+msgstr ""
+
+#: engine/titles.txt:18
+msgid "Archwizard"
+msgstr ""
+
+#: items/categories/level_4.txt:137
+msgid "Archwizard Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_4.txt:65
+msgid "Archwizard Cloth Pants"
+msgstr ""
+
+#: items/categories/level_4.txt:101
+msgid "Archwizard Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_4.txt:29
+msgid "Archwizard Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_16.txt:242
+msgid "Archwizard Greatstaff"
+msgstr ""
+
+#: items/categories/level_8.txt:242
+msgid "Archwizard Rod"
+msgstr ""
+
+#: items/categories/level_12.txt:137
+msgid "Archwizard Silk Boots"
+msgstr ""
+
+#: items/categories/level_12.txt:29
+msgid "Archwizard Silk Hood"
+msgstr ""
+
+#: items/categories/level_12.txt:101
+msgid "Archwizard Silk Skirt"
+msgstr ""
+
+#: items/categories/level_12.txt:173
+msgid "Archwizard Silk Sleeves"
+msgstr ""
+
+#: items/categories/level_12.txt:65
+msgid "Archwizard Silk Vest"
+msgstr ""
+
+#: items/categories/level_12.txt:242
+msgid "Archwizard Staff"
+msgstr ""
+
+#: items/categories/level_16.txt:137
+msgid "Archwizard Velvet Boots"
+msgstr ""
+
+#: items/categories/level_16.txt:29
+msgid "Archwizard Velvet Hood"
+msgstr ""
+
+#: items/categories/level_16.txt:101
+msgid "Archwizard Velvet Skirt"
+msgstr ""
+
+#: items/categories/level_16.txt:173
+msgid "Archwizard Velvet Sleeves"
+msgstr ""
+
+#: items/categories/level_16.txt:65
+msgid "Archwizard Velvet Vest"
+msgstr ""
+
+#: items/categories/level_4.txt:206
+msgid "Archwizard Wand"
+msgstr ""
+
+#: items/categories/level_8.txt:137
+msgid "Archwizard Wool Boots"
+msgstr ""
+
+#: items/categories/level_8.txt:29
+msgid "Archwizard Wool Hood"
+msgstr ""
+
+#: items/categories/level_8.txt:101
+msgid "Archwizard Wool Skirt"
+msgstr ""
+
+#: items/categories/level_8.txt:173
+msgid "Archwizard Wool Sleeves"
+msgstr ""
+
+#: items/categories/level_8.txt:65
+msgid "Archwizard Wool Vest"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:36
+msgid "Ardwen's Gloves"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:101
+msgid "Ardwen's Ring"
+msgstr ""
+
+#: items/types.txt:33
+msgid "Artifact"
+msgstr ""
+
+#: engine/hero_options.txt:36
+msgid "Ashdara"
+msgstr ""
+
+#: engine/titles.txt:34
+msgid "Assassin"
+msgstr ""
+
+#: powers/base/warrior/cleave.txt:2
+msgid "Attack all enemies in a wide arc."
+msgstr ""
+
+#: engine/hero_options.txt:40
+msgid "Ayah"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:36
+msgid "Bafy"
+msgstr ""
+
+#: maps/iron_labyrinth/room10.txt:195 maps/iron_labyrinth/room12.txt:168 maps/iron_labyrinth/room17.txt:161 maps/iron_labyrinth/room9.txt:209
+msgid "Barrel"
+msgstr ""
+
+#: powers/base/magician/barrier.txt:1
+msgid "Barrier"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:51
+msgid "Bas Doodeman"
+msgstr ""
+
+#: powers/categories/magician.txt:10
+msgid "Basic magic attack."
+msgstr ""
+
+#: powers/categories/warrior.txt:10
+msgid "Basic melee attack."
+msgstr ""
+
+#: powers/base/ranger/shoot.txt:4
+msgid "Basic ranged attack."
+msgstr ""
+
+#: engine/titles.txt:54
+msgid "Battle Archmage"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:52
+msgid "Battle Leathers"
+msgstr ""
+
+#: engine/titles.txt:110
+msgid "Battle Mage"
+msgstr ""
+
+#: items/categories/quest.txt:95
+msgid "Bear Figurine"
+msgstr ""
+
+#: powers/base/ranger/bear_trap.txt:1
+msgid "Bear Trap"
+msgstr ""
+
+#: books/mog_2.txt:12
+msgid "Beneath a rock on the moldy peninsula"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:37 cutscenes/credits_fantasycore.txt:52
+msgid "Benson"
+msgstr ""
+
+#: items/categories/quest.txt:371
+msgid "Black Quill"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:16
+msgid "Blarumyrran"
+msgstr ""
+
+#: books/crafting_alchemy.txt:122 items/categories/quest.txt:347
+msgid "Blast Powder"
+msgstr ""
+
+#: powers/base/magician/burn.txt:4
+msgid "Blast multiple enemies in a distant area with fire. Has a chance to inflict a severe burn that makes enemies very weak to fire damage."
+msgstr ""
+
+#: powers/effects.txt:13
+msgid "Bleeding"
+msgstr ""
+
+#: items/categories/quest.txt:407
+msgid "Blood Inkwell"
+msgstr ""
+
+#: powers/base/warrior/blood_strike.txt:1
+msgid "Blood Strike"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:53
+msgid "Blood Tunic"
+msgstr ""
+
+#: engine/hero_options.txt:35
+msgid "Blynn"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:54
+msgid "Bonbadil"
+msgstr ""
+
+#: items/types.txt:55
+msgid "Book"
+msgstr ""
+
+#: npcs/town/smith.txt:1
+msgid "Borin, Equipment"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:26 cutscenes/credits_fantasycore.txt:32 cutscenes/credits_fantasycore.txt:39
+msgid "Brandon Morris"
+msgstr ""
+
+#: engine/classes.txt:6
+msgid "Brute"
+msgstr ""
+
+#: engine/classes.txt:7
+msgid "Brutes rely on physical strength and melee weapons to strike down foes. Primary attribute: Physical"
+msgstr ""
+
+#: powers/base/magician/burn.txt:1
+msgid "Burn"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:39
+msgid "Błażej Pęksyk"
+msgstr ""
+
+#: powers/base/ranger/caltrops.txt:1
+msgid "Caltrops"
+msgstr ""
+
+#: engine/hero_options.txt:37
+msgid "Calyss"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:56
+msgid "Carlos Sanchez"
+msgstr ""
+
+#: items/categories/quest.txt:119
+msgid "Cat Figurine"
+msgstr ""
+
+#: items/categories/level_9.txt:32
+msgid "Chain Boots"
+msgstr ""
+
+#: items/categories/level_9.txt:5
+msgid "Chain Coif"
+msgstr ""
+
+#: items/categories/level_9.txt:14
+msgid "Chain Cuirass"
+msgstr ""
+
+#: items/categories/level_9.txt:41
+msgid "Chain Gloves"
+msgstr ""
+
+#: items/categories/level_9.txt:23
+msgid "Chain Greaves"
+msgstr ""
+
+#: engine/hero_options.txt:15
+msgid "Chane"
+msgstr ""
+
+#: powers/categories/magician.txt:7
+msgid "Channel"
+msgstr ""
+
+#: powers/base/magician/mystic_blast.txt:2
+msgid "Channel an orb that deals dark damage. Targets gain a resistance to dark damage, but become weaker to other types of magic. The effect can be applied up to 3 times on a target."
+msgstr ""
+
+#: powers/base/ranger/charged_shot.txt:1
+msgid "Charged Shot"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:57
+msgid "Chris Oelmueller"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:58
+msgid "Christoph J. Thompson"
+msgstr ""
+
+#: powers/base/warrior/cleave.txt:1
+msgid "Cleave"
+msgstr ""
+
+#: engine/titles.txt:105
+msgid "Cleric"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:10 cutscenes/credits_fantasycore.txt:10
+msgid "Clint Bellanger"
+msgstr ""
+
+#: items/categories/level_1.txt:26
+msgid "Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_1.txt:12
+msgid "Cloth Pants"
+msgstr ""
+
+#: items/categories/level_1.txt:19
+msgid "Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_1.txt:5
+msgid "Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:20
+msgid "Compact enough to be deadly at all ranges of combat."
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:24
+msgid "Composers"
+msgstr ""
+
+#: maps/town/forest.txt:8
+msgid "Conifer Clearing"
+msgstr ""
+
+#: items/types.txt:43
+msgid "Consumable"
+msgstr ""
+
+#: books/crafting_alchemy.txt:33
+msgid "Craft"
+msgstr ""
+
+#: items/types.txt:78
+msgid "Crafting Resource"
+msgstr ""
+
+#: items/types.txt:83
+msgid "Crafting Tool"
+msgstr ""
+
+#: maps/iron_labyrinth/room10.txt:182 maps/iron_labyrinth/room15.txt:174 maps/iron_labyrinth/room16.txt:175 maps/iron_labyrinth/room17.txt:174 maps/iron_labyrinth/room5.txt:174 maps/iron_labyrinth/room7.txt:174
+msgid "Crate"
+msgstr ""
+
+#: powers/base/magician/shield.txt:4
+msgid "Create a force field that absorbs damage."
+msgstr ""
+
+#: powers/base/magician/freeze.txt:4
+msgid "Create a ray of several piercing cold shards that slow enemies. Shards have a chance of shattering into a cloud of frost that makes enemies weak to ice damage."
+msgstr ""
+
+#: items/categories/level_9.txt:122
+msgid "Crest Shield"
+msgstr ""
+
+#: maps/iron_labyrinth/room11.txt:211
+msgid "Crypt"
+msgstr ""
+
+#: items/qualities.txt:45
+msgid "Currency"
+msgstr ""
+
+#: enemies/lvl1_zombie_raised.txt:3
+msgid "Cursed Zombie"
+msgstr ""
+
+#: items/items.txt:61
+msgid "DEV Boots"
+msgstr ""
+
+#: items/items.txt:70
+msgid "DEV Invisibility Boots"
+msgstr ""
+
+#: items/items.txt:79 powers/powers.txt:101
+msgid "DEV Tome"
+msgstr ""
+
+#: items/categories/level_1.txt:33
+msgid "Dagger"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:70
+msgid "Dancing through the shadows."
+msgstr ""
+
+#: engine/damage_types.txt:44
+msgid "Dark"
+msgstr ""
+
+#: engine/damage_types.txt:43
+msgid "Dark Damage"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:69
+msgid "Dark Steppers"
+msgstr ""
+
+#: powers/base/warrior/shield_bash.txt:2
+msgid "Dash into enemies, crushing them with sheer force."
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:41
+msgid "David Bell"
+msgstr ""
+
+#: powers/base/warrior/blood_strike.txt:2
+msgid "Deal a powerful blow that inflicts a bleeding wound."
+msgstr ""
+
+#: engine/hero_options.txt:7
+msgid "Delrek"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:53
+msgid "Designed to keep its wearer moving forward."
+msgstr ""
+
+#: settings.txt:1
+msgid "Diantre: a procedural hamlet and dungeon using Flare and Empyrean assets."
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:42 cutscenes/credits_fantasycore.txt:59
+msgid "Diego J. Romero López"
+msgstr ""
+
+#: powers/base/ranger/charged_shot.txt:2
+msgid "Draw a shot for an extended period, increasing its impact."
+msgstr ""
+
+#: items/categories/level_12_unique.txt:91
+msgid "Drinking potions may create another potion of the same type."
+msgstr ""
+
+#: maps/town/chunks/cave/end_0.txt:96 maps/town/chunks/cave/end_1.txt:96 maps/town/chunks/cave/end_2.txt:96 maps/town/chunks/citadel/end_0.txt:96 maps/town/chunks/citadel/end_1.txt:96 maps/town/chunks/citadel/end_2.txt:96 maps/town/chunks/coast/end_0.txt:96 maps/town/chunks/coast/end_1.txt:96 maps/town/chunks/coast/end_2.txt:96 maps/town/chunks/forest/end_0.txt:96 maps/town/chunks/forest/end_1.txt:96 maps/town/chunks/forest/end_2.txt:96 maps/town/chunks/meadow/end_0.txt:96 maps/town/chunks/meadow/end_1.txt:96 maps/town/chunks/meadow/end_2.txt:96 maps/town/chunks/rocky/end_0.txt:96 maps/town/chunks/rocky/end_1.txt:96 maps/town/chunks/rocky/end_2.txt:96 maps/town/chunks/ruins/end_0.txt:96 maps/town/chunks/ruins/end_1.txt:96 maps/town/chunks/ruins/end_2.txt:96 maps/town/chunks/snow/end_0.txt:96 maps/town/chunks/snow/end_1.txt:96 maps/town/chunks/snow/end_2.txt:96 maps/town/chunks/swamp/end_0.txt:96 maps/town/chunks/swamp/end_1.txt:96 maps/town/chunks/swamp/end_2.txt:96 maps/town/chunks/woodland/end_0.txt:96 maps/town/chunks/woodland/end_1.txt:96 maps/town/chunks/woodland/end_2.txt:96
+msgid "Dungeon Entrance"
+msgstr ""
+
+#: books/crafting_alchemy.txt:291 items/categories/quest.txt:173
+msgid "Dynamite"
+msgstr ""
+
+#: books/wardens_notes.txt:24
+msgid "East at the first symbol."
+msgstr ""
+
+#: engine/hero_options.txt:14
+msgid "Ecnerwal"
+msgstr ""
+
+#: engine/hero_options.txt:24
+msgid "Eldmoor"
+msgstr ""
+
+#: books/crafting_alchemy.txt:278 items/categories/potions.txt:63 powers/base/items/elemental_potion.txt:3 powers/effects.txt:184
+msgid "Elemental Potion"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:44 cutscenes/credits_fantasycore.txt:62
+msgid "Elias Nykrem"
+msgstr ""
+
+#: engine/hero_options.txt:28
+msgid "Elise"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:45 cutscenes/credits_fantasycore.txt:63
+msgid "Eliška Žillová"
+msgstr ""
+
+#: powers/base/ranger/ember_shot.txt:1
+msgid "Ember Shot"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:64
+msgid "Emil"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:46
+msgid "Emile Jeannin"
+msgstr ""
+
+#: books/crafting_alchemy.txt:52 items/categories/crafting.txt:3
+msgid "Empty Bottle"
+msgstr ""
+
+#: powers/base/warrior/enchanted_blade.txt:1
+msgid "Enchanted Blade"
+msgstr ""
+
+#: powers/base/magician/energy_flow.txt:1
+msgid "Energy Flow"
+msgstr ""
+
+#: items/qualities.txt:21
+msgid "Epic"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:47 cutscenes/credits_fantasycore.txt:65
+msgid "Eric R"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:68
+msgid "Escape Boots"
+msgstr ""
+
+#: engine/hero_options.txt:16
+msgid "Esteban"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:48
+msgid "Eugenio Martínez Seguín"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:66
+msgid "Evgen Pavlov"
+msgstr ""
+
+#: items/categories/quest.txt:430 items/categories/quest.txt:441 items/categories/quest.txt:452 items/categories/quest.txt:463 items/categories/quest.txt:474 items/categories/quest.txt:485 items/categories/quest.txt:496
+msgid "Excavation Journal Pages"
+msgstr ""
+
+#: engine/titles.txt:177
+msgid "Exiled"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:49 cutscenes/credits_fantasycore.txt:67
+msgid "Fatih Polat"
+msgstr ""
+
+#: items/types.txt:29
+msgid "Feet"
+msgstr ""
+
+#: engine/titles.txt:125
+msgid "Fighter"
+msgstr ""
+
+#: items/categories/level_10.txt:113
+msgid "Fighting Chain Boots"
+msgstr ""
+
+#: items/categories/level_10.txt:5
+msgid "Fighting Chain Coif"
+msgstr ""
+
+#: items/categories/level_10.txt:41
+msgid "Fighting Chain Cuirass"
+msgstr ""
+
+#: items/categories/level_10.txt:149
+msgid "Fighting Chain Gloves"
+msgstr ""
+
+#: items/categories/level_10.txt:77
+msgid "Fighting Chain Greaves"
+msgstr ""
+
+#: items/categories/level_2.txt:92
+msgid "Fighting Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_2.txt:35
+msgid "Fighting Cloth Pants"
+msgstr ""
+
+#: items/categories/level_2.txt:64
+msgid "Fighting Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_2.txt:5
+msgid "Fighting Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_2.txt:147
+msgid "Fighting Dagger"
+msgstr ""
+
+#: items/categories/level_14.txt:218
+msgid "Fighting Greatsword"
+msgstr ""
+
+#: items/categories/level_6.txt:113
+msgid "Fighting Leather Boots"
+msgstr ""
+
+#: items/categories/level_6.txt:149
+msgid "Fighting Leather Gloves"
+msgstr ""
+
+#: items/categories/level_6.txt:5
+msgid "Fighting Leather Hood"
+msgstr ""
+
+#: items/categories/level_6.txt:77
+msgid "Fighting Leather Pants"
+msgstr ""
+
+#: items/categories/level_6.txt:41
+msgid "Fighting Leather Tunic"
+msgstr ""
+
+#: items/categories/level_10.txt:218
+msgid "Fighting Longsword"
+msgstr ""
+
+#: items/categories/level_14.txt:113
+msgid "Fighting Plate Boots"
+msgstr ""
+
+#: items/categories/level_14.txt:41
+msgid "Fighting Plate Cuirass"
+msgstr ""
+
+#: items/categories/level_14.txt:149
+msgid "Fighting Plate Gauntlets"
+msgstr ""
+
+#: items/categories/level_14.txt:77
+msgid "Fighting Plate Greaves"
+msgstr ""
+
+#: items/categories/level_14.txt:5
+msgid "Fighting Plate Helmet"
+msgstr ""
+
+#: items/categories/level_6.txt:218
+msgid "Fighting Shortsword"
+msgstr ""
+
+#: engine/damage_types.txt:17
+msgid "Fire"
+msgstr ""
+
+#: engine/damage_types.txt:16
+msgid "Fire Damage"
+msgstr ""
+
+#: powers/base/ranger/piercing_shot.txt:2
+msgid "Fire a shot that ignores armor and goes through multiple enemies."
+msgstr ""
+
+#: powers/base/ranger/ember_shot.txt:2
+msgid "Fire a spray of burning embers at close range. Effective against armored enemies. Inflicts a burn that makes enemies weaker to fire damage."
+msgstr ""
+
+#: powers/base/ranger/rapid_fire.txt:2
+msgid "Fire five low power missiles in quick succession."
+msgstr ""
+
+#: powers/base/magician/fireball.txt:1
+msgid "Fireball"
+msgstr ""
+
+#: items/categories/scrolls.txt:38 powers/categories/items.txt:66 powers/effects.txt:190
+msgid "Fireball Scroll"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:5
+msgid "Flare Game Credits - empyrean_campaign"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:5
+msgid "Flare Game Credits - fantasycore"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:4
+msgid "Fleshband"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:26 cutscenes/credits_fantasycore.txt:30
+msgid "Foley Artists"
+msgstr ""
+
+#: maps/town/citadel.txt:8
+msgid "Forgotten Citadel"
+msgstr ""
+
+#: powers/base/magician/freeze.txt:1
+msgid "Freeze"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:50 cutscenes/credits_fantasycore.txt:68
+msgid "Fyrenic"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:51
+msgid "Gabriel Iasi"
+msgstr ""
+
+#: items/types.txt:47
+msgid "Gem"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:52
+msgid "Gi0n"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:69
+msgid "Giovanni Dalla Torre"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:23
+msgid "Glowing when worn, it clears the wearer's mind and allows them to deeply focus."
+msgstr ""
+
+#: items/categories/level_4_unique.txt:19
+msgid "Goblin Branch"
+msgstr ""
+
+#: scripts/powers/goblin_steal.txt:107
+msgid "Goblin Thief stole a potion!"
+msgstr ""
+
+#: items/categories/quest.txt:85
+msgid "Goblin's Ruby"
+msgstr ""
+
+#: engine/loot.txt:14 items/items.txt:8
+msgid "Gold"
+msgstr ""
+
+#: items/categories/quest.txt:34
+msgid "Gold Family Ring"
+msgstr ""
+
+#: powers/base/ranger/scavenger.txt:2
+msgid "Good fortune shines upon you, revealing treasures that others might have overlooked."
+msgstr ""
+
+#: engine/titles.txt:3
+msgid "Grand Master"
+msgstr ""
+
+#: powers/base/warrior/vampirism.txt:4
+msgid "Grants attacks the ability to leech enemy health."
+msgstr ""
+
+#: items/categories/quest.txt:359
+msgid "Gravebloom"
+msgstr ""
+
+#: items/categories/level_13.txt:104
+msgid "Greatbow"
+msgstr ""
+
+#: items/categories/level_13.txt:113
+msgid "Greatstaff"
+msgstr ""
+
+#: items/categories/level_13.txt:95
+msgid "Greatsword"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:36
+msgid "Greed Cowl"
+msgstr ""
+
+#: engine/hero_options.txt:22
+msgid "Gryphon"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:38
+msgid "Guardsman Cuirass"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:53 cutscenes/credits_fantasycore.txt:70
+msgid "GunChleoc"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:29
+msgid "GuntherDorksen"
+msgstr ""
+
+#: engine/hero_options.txt:41
+msgid "Gywn"
+msgstr ""
+
+#: items/types.txt:21
+msgid "Hands"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:71
+msgid "Hans Joachim Desserud"
+msgstr ""
+
+#: powers/base/ranger/haste.txt:1 powers/effects.txt:61
+msgid "Haste"
+msgstr ""
+
+#: items/categories/scrolls.txt:60 powers/categories/items.txt:86
+msgid "Haste Scroll"
+msgstr ""
+
+#: items/types.txt:13
+msgid "Head"
+msgstr ""
+
+#: books/crafting_alchemy.txt:213 items/categories/potions.txt:5 powers/base/items/health_potion.txt:3
+msgid "Health Potion"
+msgstr ""
+
+#: items/qualities.txt:15
+msgid "High"
+msgstr ""
+
+#: engine/titles.txt:49
+msgid "High Priest"
+msgstr ""
+
+#: engine/titles.txt:59
+msgid "High Warden"
+msgstr ""
+
+#: engine/hero_options.txt:34
+msgid "Hira"
+msgstr ""
+
+#: enemies/lvl15_hobgoblin.txt:3
+msgid "Hobgoblin"
+msgstr ""
+
+#: enemies/lvl15_hobgoblin_archer.txt:3
+msgid "Hobgoblin Archer"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:40
+msgid "Holly Daniel"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:57
+msgid "Hot. Hot. Hot."
+msgstr ""
+
+#: soundfx/subtitles.txt:19 soundfx/subtitles.txt:34 soundfx/subtitles.txt:53
+msgid "How can I help you?"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:19
+msgid "Huntsman Bow"
+msgstr ""
+
+#: books/il_notes_4.txt:19
+msgid "I've calmed down enough to write a coherent letter to the Chamber requesting the resources we need. Now we just have to wait. In the meantime, we'll continue exploring as carefully as possible."
+msgstr ""
+
+#: engine/damage_types.txt:26
+msgid "Ice"
+msgstr ""
+
+#: powers/base/magician/ice_bolt.txt:1
+msgid "Ice Bolt"
+msgstr ""
+
+#: items/categories/scrolls.txt:49 powers/categories/items.txt:75 powers/effects.txt:196
+msgid "Ice Bolt Scroll"
+msgstr ""
+
+#: engine/damage_types.txt:25
+msgid "Ice Damage"
+msgstr ""
+
+#: engine/hero_options.txt:19
+msgid "Ichijo"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:54 cutscenes/credits_fantasycore.txt:73
+msgid "Igor Paliychuk"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:55
+msgid "Igor Polyakov"
+msgstr ""
+
+#: powers/base/warrior/enchanted_blade.txt:2
+msgid "Imbues attacks with extra dark damage."
+msgstr ""
+
+#: powers/effects.txt:45 powers/effects.txt:52
+msgid "Immunity"
+msgstr ""
+
+#: items/categories/scrolls.txt:71 powers/categories/items.txt:100
+msgid "Immunity Scroll"
+msgstr ""
+
+#: powers/base/ranger/wolfs_eye.txt:2
+msgid "Improves the ability to hit and critically wound enemies."
+msgstr ""
+
+#: books/mog_3.txt:12
+msgid "In the pile of bones near the three submerged pillars"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:56
+msgid "Inferno Pendant"
+msgstr ""
+
+#: books/mog_4.txt:12
+msgid "Inside the blocked off mine cart"
+msgstr ""
+
+#: items/categories/level_5.txt:122
+msgid "Iron Buckler"
+msgstr ""
+
+#: items/categories/quest.txt:419
+msgid "Iron Labyrinth Key"
+msgstr ""
+
+#: maps/iron_labyrinth/f2/start.txt:159 maps/iron_labyrinth_f1.txt:13
+msgid "Iron Labyrinth: Level 1"
+msgstr ""
+
+#: maps/iron_labyrinth/f1/end.txt:159 maps/iron_labyrinth/f3/start.txt:159 maps/iron_labyrinth_f2.txt:13
+msgid "Iron Labyrinth: Level 2"
+msgstr ""
+
+#: maps/iron_labyrinth/f2/end.txt:159 maps/iron_labyrinth_f3.txt:13
+msgid "Iron Labyrinth: Level 3"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:56
+msgid "Issac Zhang"
+msgstr ""
+
+#: books/il_notes_6.txt:19
+msgid "It's finally over! We reached a massive chamber inhabited by a giant antlion! The mages were able to hold it back while we grabbed everything that wasn't nailed down. Thought we were trapped when we had to barricade the gate. Thank the heavens that the portal brought us back here."
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:57
+msgid "Iwan Gabovitch"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:58 cutscenes/credits_fantasycore.txt:74
+msgid "Jaakko Muilu"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:59
+msgid "Jacobo Feijóo"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:60 cutscenes/credits_fantasycore.txt:75
+msgid "Janet Hunt"
+msgstr ""
+
+#: engine/hero_options.txt:13
+msgid "Jereth"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:17
+msgid "Jessica Cox"
+msgstr ""
+
+#: engine/hero_options.txt:18
+msgid "Jochanan"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:61
+msgid "João Francisco Gauze Carrer"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:76
+msgid "Juan Pablo Tamayo"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:62 cutscenes/credits_fantasycore.txt:77
+msgid "Julvenzor"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:11 cutscenes/credits_empyrean.txt:17 cutscenes/credits_fantasycore.txt:18 cutscenes/credits_fantasycore.txt:33
+msgid "Justin Jacobs"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:18 cutscenes/credits_fantasycore.txt:11
+msgid "Justin Nichol"
+msgstr ""
+
+#: engine/hero_options.txt:31
+msgid "Karyli"
+msgstr ""
+
+#: items/categories/quest.txt:294
+msgid "Kayl's Staff"
+msgstr ""
+
+#: engine/titles.txt:140
+msgid "Keeper"
+msgstr ""
+
+#: items/categories/level_10.txt:254
+msgid "Keeper Crest Shield"
+msgstr ""
+
+#: items/categories/level_6.txt:254
+msgid "Keeper Iron Buckler"
+msgstr ""
+
+#: items/categories/level_14.txt:254
+msgid "Keeper Tower Shield"
+msgstr ""
+
+#: items/categories/level_2.txt:183
+msgid "Keeper Wood Buckler"
+msgstr ""
+
+#: engine/hero_options.txt:17
+msgid "Kelen"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:64 cutscenes/credits_fantasycore.txt:79
+msgid "Kevin Setterborn"
+msgstr ""
+
+#: items/types.txt:51
+msgid "Key"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:65 cutscenes/credits_fantasycore.txt:80
+msgid "Kirim Saja"
+msgstr ""
+
+#: engine/titles.txt:146
+msgid "Knave"
+msgstr ""
+
+#: items/categories/quest.txt:383
+msgid "Knife of Sacrifices"
+msgstr ""
+
+#: engine/titles.txt:95
+msgid "Knight"
+msgstr ""
+
+#: powers/base/warrior/quake.txt:4
+msgid "Knock back nearby enemies with a chance to stun."
+msgstr ""
+
+#: items/categories/level_12_unique.txt:74
+msgid "Knowledge of formulating many concoctions bestows its wearer."
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:66 cutscenes/credits_fantasycore.txt:81
+msgid "Kor_OfenTHource"
+msgstr ""
+
+#: items/categories/quest.txt:13
+msgid "Krolan's Emerald"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:3
+msgid "Krolan's Hammer"
+msgstr ""
+
+#: items/categories/quest.txt:3
+msgid "Krolan's Key"
+msgstr ""
+
+#: engine/hero_options.txt:9
+msgid "Kuroko"
+msgstr ""
+
+#: enemies/il_antlion.txt:3
+msgid "Labyrinth Antlion"
+msgstr ""
+
+#: enemies/il_antlion_hatchling.txt:3
+msgid "Labyrinth Antlion Hatchling"
+msgstr ""
+
+#: enemies/il_antlion_fire.txt:3
+msgid "Labyrinth Fire Antlion"
+msgstr ""
+
+#: enemies/il_wyvern_fire.txt:3
+msgid "Labyrinth Fire Wyvern"
+msgstr ""
+
+#: enemies/il_zombie_frozen.txt:4
+msgid "Labyrinth Frozen Zombie"
+msgstr ""
+
+#: enemies/il_goblin.txt:3
+msgid "Labyrinth Goblin"
+msgstr ""
+
+#: enemies/il_goblin_runner.txt:3
+msgid "Labyrinth Goblin Runner"
+msgstr ""
+
+#: enemies/il_hobgoblin.txt:3
+msgid "Labyrinth Hobgoblin"
+msgstr ""
+
+#: enemies/il_hobgoblin_archer.txt:3
+msgid "Labyrinth Hobgoblin Archer"
+msgstr ""
+
+#: enemies/il_antlion_ice.txt:3
+msgid "Labyrinth Ice Antlion"
+msgstr ""
+
+#: enemies/il_wyvern_ice.txt:3
+msgid "Labyrinth Ice Wyvern"
+msgstr ""
+
+#: enemies/il_skeleton_archer.txt:3
+msgid "Labyrinth Skeleton Archer"
+msgstr ""
+
+#: enemies/il_skeleton_mage_fire.txt:3
+msgid "Labyrinth Skeleton Fire Mage"
+msgstr ""
+
+#: enemies/il_skeleton_mage_ice.txt:3
+msgid "Labyrinth Skeleton Ice Mage"
+msgstr ""
+
+#: enemies/il_skeleton_knight.txt:3
+msgid "Labyrinth Skeleton Knight"
+msgstr ""
+
+#: enemies/il_wyvern.txt:3
+msgid "Labyrinth Wyvern"
+msgstr ""
+
+#: enemies/il_zombie.txt:3
+msgid "Labyrinth Zombie"
+msgstr ""
+
+#: powers/base/magician/fireball.txt:2
+msgid "Launch a ball of fire that does extra mental damage."
+msgstr ""
+
+#: powers/base/magician/ice_bolt.txt:2
+msgid "Launch a chunk of ice that slows enemies."
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:8
+msgid "Lead Content Designers"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:8
+msgid "Lead Visual Artists"
+msgstr ""
+
+#: items/categories/level_5.txt:32
+msgid "Leather Boots"
+msgstr ""
+
+#: items/categories/level_5.txt:41
+msgid "Leather Gloves"
+msgstr ""
+
+#: items/categories/level_5.txt:5
+msgid "Leather Hood"
+msgstr ""
+
+#: items/categories/level_5.txt:23
+msgid "Leather Pants"
+msgstr ""
+
+#: items/categories/level_5.txt:14
+msgid "Leather Tunic"
+msgstr ""
+
+#: maps/iron_labyrinth/room16.txt:189 maps/iron_labyrinth/room5.txt:187
+msgid "Lectern"
+msgstr ""
+
+#: items/types.txt:25
+msgid "Legs"
+msgstr ""
+
+#: soundfx/subtitles.txt:23 soundfx/subtitles.txt:38 soundfx/subtitles.txt:57
+msgid "Let's trade."
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:71 cutscenes/credits_fantasycore.txt:85
+msgid "Li Yang"
+msgstr ""
+
+#: engine/damage_types.txt:35
+msgid "Lightning"
+msgstr ""
+
+#: engine/damage_types.txt:34
+msgid "Lightning Damage"
+msgstr ""
+
+#: powers/base/magician/thunderstrike.txt:4
+msgid "Lightning strikes from the sky with a high chance to critically damage movement-impaired enemies. Upon striking an enemy, releases a wave of energy that has a chance of stunning other enemies."
+msgstr ""
+
+#: items/categories/level_4_unique.txt:102
+msgid "Lochport's finest."
+msgstr ""
+
+#: maps/iron_labyrinth/door_ns1.txt:161 maps/iron_labyrinth/door_ns1.txt:174 maps/iron_labyrinth/door_ns1.txt:190 maps/iron_labyrinth/door_ns1.txt:206 maps/iron_labyrinth/door_ns1.txt:237 maps/iron_labyrinth/door_ns1.txt:250 maps/iron_labyrinth/door_ns1.txt:266 maps/iron_labyrinth/door_ns1.txt:282 maps/iron_labyrinth/door_ns1.txt:313 maps/iron_labyrinth/door_ns1.txt:326 maps/iron_labyrinth/door_ns1.txt:342 maps/iron_labyrinth/door_ns1.txt:358 maps/iron_labyrinth/door_ns2.txt:161 maps/iron_labyrinth/door_ns2.txt:174 maps/iron_labyrinth/door_ns2.txt:190 maps/iron_labyrinth/door_ns2.txt:206 maps/iron_labyrinth/door_ns2.txt:237 maps/iron_labyrinth/door_ns2.txt:250 maps/iron_labyrinth/door_ns2.txt:266 maps/iron_labyrinth/door_ns2.txt:282 maps/iron_labyrinth/door_ns2.txt:313 maps/iron_labyrinth/door_ns2.txt:326 maps/iron_labyrinth/door_ns2.txt:342 maps/iron_labyrinth/door_ns2.txt:358 maps/iron_labyrinth/door_we1.txt:161 maps/iron_labyrinth/door_we1.txt:174 maps/iron_labyrinth/door_we1.txt:190 maps/iron_labyrinth/door_we1.txt:206 maps/iron_labyrinth/door_we1.txt:237 maps/iron_labyrinth/door_we1.txt:250 maps/iron_labyrinth/door_we1.txt:266 maps/iron_labyrinth/door_we1.txt:282 maps/iron_labyrinth/door_we1.txt:313 maps/iron_labyrinth/door_we1.txt:326 maps/iron_labyrinth/door_we1.txt:342 maps/iron_labyrinth/door_we1.txt:358 maps/iron_labyrinth/door_we2.txt:161 maps/iron_labyrinth/door_we2.txt:174 maps/iron_labyrinth/door_we2.txt:190 maps/iron_labyrinth/door_we2.txt:206 maps/iron_labyrinth/door_we2.txt:237 maps/iron_labyrinth/door_we2.txt:250 maps/iron_labyrinth/door_we2.txt:266 maps/iron_labyrinth/door_we2.txt:282 maps/iron_labyrinth/door_we2.txt:313 maps/iron_labyrinth/door_we2.txt:326 maps/iron_labyrinth/door_we2.txt:342 maps/iron_labyrinth/door_we2.txt:358 maps/iron_labyrinth/treasure_room.txt:160 maps/iron_labyrinth/treasure_room.txt:174 maps/iron_labyrinth/treasure_room.txt:193 maps/iron_labyrinth/treasure_room.txt:207
+msgid "Locked Door"
+msgstr ""
+
+#: items/categories/level_9.txt:104
+msgid "Longbow"
+msgstr ""
+
+#: items/categories/level_9.txt:95
+msgid "Longsword"
+msgstr ""
+
+#: soundfx/subtitles.txt:15 soundfx/subtitles.txt:30 soundfx/subtitles.txt:49
+msgid "Looking to buy something?"
+msgstr ""
+
+#: engine/titles.txt:39
+msgid "Lord"
+msgstr ""
+
+#: npcs/il_loren.txt:1
+msgid "Loren, Undead Trader"
+msgstr ""
+
+#: items/categories/quest.txt:270
+msgid "Lorund's Sword"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:5
+msgid "Lost Totem"
+msgstr ""
+
+#: engine/hero_options.txt:25
+msgid "Lott"
+msgstr ""
+
+#: items/qualities.txt:3
+msgid "Low"
+msgstr ""
+
+#: npcs/town/provisions.txt:1
+msgid "Lysa, Provisions"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:76 cutscenes/credits_fantasycore.txt:89
+msgid "MOB2"
+msgstr ""
+
+#: powers/effects.txt:253
+msgid "MP Regen"
+msgstr ""
+
+#: powers/trees/default.txt:11
+msgid "Magician"
+msgstr ""
+
+#: items/types.txt:5
+msgid "Main Hand"
+msgstr ""
+
+#: engine/hero_options.txt:39
+msgid "Malia"
+msgstr ""
+
+#: books/crafting_alchemy.txt:86 items/categories/crafting.txt:27
+msgid "Mana Crystal"
+msgstr ""
+
+#: books/crafting_alchemy.txt:226 items/categories/potions.txt:16 powers/base/items/mana_potion.txt:3
+msgid "Mana Potion"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:20
+msgid "Mana flows inside its primitive exterior."
+msgstr ""
+
+#: powers/base/magician/energy_flow.txt:2
+msgid "Mana reserves are increased and regenerate faster."
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:72
+msgid "Maria Cano"
+msgstr ""
+
+#: maps/town/swamp.txt:8
+msgid "Marsh Refuge"
+msgstr ""
+
+#: engine/titles.txt:7
+msgid "Master"
+msgstr ""
+
+#: items/categories/level_16.txt:315
+msgid "Master Affluence Ring"
+msgstr ""
+
+#: items/categories/level_16.txt:207
+msgid "Master Archwizard Spellbook"
+msgstr ""
+
+#: items/categories/level_12.txt:325
+msgid "Master Artifact Ring"
+msgstr ""
+
+#: items/categories/level_12.txt:265
+msgid "Master Blaze Ring"
+msgstr ""
+
+#: items/categories/level_8.txt:265
+msgid "Master Burn Ring"
+msgstr ""
+
+#: items/categories/level_4.txt:259
+msgid "Master Dark Ring"
+msgstr ""
+
+#: items/categories/level_8.txt:285
+msgid "Master Electric Ring"
+msgstr ""
+
+#: items/categories/level_4.txt:269
+msgid "Master Experience Ring"
+msgstr ""
+
+#: items/categories/level_8.txt:185
+msgid "Master Fighting Leather Belt"
+msgstr ""
+
+#: items/categories/level_4.txt:229
+msgid "Master Fire Ring"
+msgstr ""
+
+#: items/categories/level_12.txt:275
+msgid "Master Freeze Ring"
+msgstr ""
+
+#: items/categories/level_8.txt:275
+msgid "Master Frost Ring"
+msgstr ""
+
+#: items/categories/level_16.txt:275
+msgid "Master Glacial Ring"
+msgstr ""
+
+#: items/categories/level_12.txt:295
+msgid "Master Gloom Ring"
+msgstr ""
+
+#: items/categories/level_4.txt:239
+msgid "Master Ice Ring"
+msgstr ""
+
+#: items/categories/level_16.txt:265
+msgid "Master Inferno Ring"
+msgstr ""
+
+#: items/categories/level_12.txt:305
+msgid "Master Intellectual Ring"
+msgstr ""
+
+#: items/categories/level_8.txt:305
+msgid "Master Knowledge Ring"
+msgstr ""
+
+#: items/categories/level_4.txt:149
+msgid "Master Leather Belt"
+msgstr ""
+
+#: items/categories/level_4.txt:249
+msgid "Master Lightning Ring"
+msgstr ""
+
+#: items/categories/level_8.txt:325
+msgid "Master Loot Ring"
+msgstr ""
+
+#: items/categories/level_12.txt:315
+msgid "Master Lucrative Ring"
+msgstr ""
+
+#: items/categories/level_4.txt:160
+msgid "Master Pendant"
+msgstr ""
+
+#: items/categories/level_8.txt:315
+msgid "Master Prosperity Ring"
+msgstr ""
+
+#: items/categories/level_12.txt:196
+msgid "Master Ranger Pendant"
+msgstr ""
+
+#: items/categories/level_8.txt:196
+msgid "Master Recon Pendant"
+msgstr ""
+
+#: items/categories/level_16.txt:325
+msgid "Master Relic Ring"
+msgstr ""
+
+#: items/categories/level_16.txt:305
+msgid "Master Scholar Ring"
+msgstr ""
+
+#: items/categories/level_8.txt:295
+msgid "Master Shadow Ring"
+msgstr ""
+
+#: items/categories/level_12.txt:285
+msgid "Master Shock Ring"
+msgstr ""
+
+#: items/categories/level_16.txt:196
+msgid "Master Sniper Pendant"
+msgstr ""
+
+#: items/categories/level_8.txt:207
+msgid "Master Sorcerer Spellbook"
+msgstr ""
+
+#: items/categories/level_4.txt:171
+msgid "Master Spellbook"
+msgstr ""
+
+#: items/categories/level_4.txt:289
+msgid "Master Treasure Ring"
+msgstr ""
+
+#: items/categories/level_16.txt:295
+msgid "Master Void Ring"
+msgstr ""
+
+#: items/categories/level_16.txt:285
+msgid "Master Volt Ring"
+msgstr ""
+
+#: items/categories/level_16.txt:185
+msgid "Master Warlord Leather Belt"
+msgstr ""
+
+#: items/categories/level_12.txt:185
+msgid "Master Warrior Leather Belt"
+msgstr ""
+
+#: items/categories/level_4.txt:279
+msgid "Master Wealth Ring"
+msgstr ""
+
+#: items/categories/level_12.txt:207
+msgid "Master Wizard Spellbook"
+msgstr ""
+
+#: items/qualities.txt:68
+msgid "Mastite"
+msgstr ""
+
+#: items/categories/mastite.txt:406
+msgid "Mastite Archwizard Boots"
+msgstr ""
+
+#: items/categories/mastite.txt:385
+msgid "Mastite Archwizard Hood"
+msgstr ""
+
+#: items/categories/mastite.txt:399
+msgid "Mastite Archwizard Skirt"
+msgstr ""
+
+#: items/categories/mastite.txt:413
+msgid "Mastite Archwizard Sleeves"
+msgstr ""
+
+#: items/categories/mastite.txt:392
+msgid "Mastite Archwizard Vest"
+msgstr ""
+
+#: items/categories/mastite.txt:59
+msgid "Mastite Belt"
+msgstr ""
+
+#: items/categories/mastite.txt:52
+msgid "Mastite Buckler"
+msgstr ""
+
+#: items/categories/mastite.txt:270
+msgid "Mastite Chain Boots"
+msgstr ""
+
+#: items/categories/mastite.txt:249
+msgid "Mastite Chain Coif"
+msgstr ""
+
+#: items/categories/mastite.txt:256
+msgid "Mastite Chain Cuirass"
+msgstr ""
+
+#: items/categories/mastite.txt:277
+msgid "Mastite Chain Gloves"
+msgstr ""
+
+#: items/categories/mastite.txt:263
+msgid "Mastite Chain Greaves"
+msgstr ""
+
+#: items/categories/mastite.txt:441
+msgid "Mastite Crest Shield"
+msgstr ""
+
+#: items/categories/mastite.txt:31
+msgid "Mastite Dagger"
+msgstr ""
+
+#: items/categories/mastite.txt:24
+msgid "Mastite Gloves"
+msgstr ""
+
+#: items/categories/mastite.txt:427
+msgid "Mastite Greatbow"
+msgstr ""
+
+#: items/categories/mastite.txt:434
+msgid "Mastite Greatstaff"
+msgstr ""
+
+#: items/categories/mastite.txt:420
+msgid "Mastite Greatsword"
+msgstr ""
+
+#: items/categories/mastite.txt:241
+msgid "Mastite Iron Buckler"
+msgstr ""
+
+#: items/categories/mastite.txt:171
+msgid "Mastite Leather Boots"
+msgstr ""
+
+#: items/categories/mastite.txt:178
+msgid "Mastite Leather Gloves"
+msgstr ""
+
+#: items/categories/mastite.txt:150
+msgid "Mastite Leather Hood"
+msgstr ""
+
+#: items/categories/mastite.txt:164
+msgid "Mastite Leather Pants"
+msgstr ""
+
+#: items/categories/mastite.txt:157
+msgid "Mastite Leather Tunic"
+msgstr ""
+
+#: items/categories/mastite.txt:327
+msgid "Mastite Longbow"
+msgstr ""
+
+#: items/categories/mastite.txt:320
+msgid "Mastite Longsword"
+msgstr ""
+
+#: items/categories/mastite.txt:206
+msgid "Mastite Mage Boots"
+msgstr ""
+
+#: items/categories/mastite.txt:185
+msgid "Mastite Mage Hood"
+msgstr ""
+
+#: items/categories/mastite.txt:199
+msgid "Mastite Mage Skirt"
+msgstr ""
+
+#: items/categories/mastite.txt:213
+msgid "Mastite Mage Sleeves"
+msgstr ""
+
+#: items/categories/mastite.txt:192
+msgid "Mastite Mage Vest"
+msgstr ""
+
+#: items/categories/mastite.txt:10
+msgid "Mastite Pants"
+msgstr ""
+
+#: items/categories/mastite.txt:66 items/categories/mastite.txt:73 items/categories/mastite.txt:80 items/categories/mastite.txt:87
+msgid "Mastite Pendant"
+msgstr ""
+
+#: items/categories/mastite.txt:370
+msgid "Mastite Plate Boots"
+msgstr ""
+
+#: items/categories/mastite.txt:356
+msgid "Mastite Plate Cuirass"
+msgstr ""
+
+#: items/categories/mastite.txt:377
+msgid "Mastite Plate Gauntlets"
+msgstr ""
+
+#: items/categories/mastite.txt:363
+msgid "Mastite Plate Greaves"
+msgstr ""
+
+#: items/categories/mastite.txt:349
+msgid "Mastite Plate Helmet"
+msgstr ""
+
+#: items/categories/mastite.txt:101 items/categories/mastite.txt:108 items/categories/mastite.txt:115 items/categories/mastite.txt:122 items/categories/mastite.txt:129 items/categories/mastite.txt:136 items/categories/mastite.txt:143
+msgid "Mastite Ring"
+msgstr ""
+
+#: items/categories/mastite.txt:234
+msgid "Mastite Rod"
+msgstr ""
+
+#: items/categories/mastite.txt:17
+msgid "Mastite Sandals"
+msgstr ""
+
+#: items/categories/mastite.txt:3
+msgid "Mastite Shirt"
+msgstr ""
+
+#: items/categories/mastite.txt:227
+msgid "Mastite Shortbow"
+msgstr ""
+
+#: items/categories/mastite.txt:220
+msgid "Mastite Shortsword"
+msgstr ""
+
+#: items/categories/mastite.txt:38
+msgid "Mastite Slingshot"
+msgstr ""
+
+#: items/categories/mastite.txt:94
+msgid "Mastite Spellbook"
+msgstr ""
+
+#: items/categories/mastite.txt:334
+msgid "Mastite Staff"
+msgstr ""
+
+#: items/categories/mastite.txt:341
+msgid "Mastite Tower Shield"
+msgstr ""
+
+#: items/categories/mastite.txt:45
+msgid "Mastite Wand"
+msgstr ""
+
+#: items/categories/mastite.txt:306
+msgid "Mastite Wizard Boots"
+msgstr ""
+
+#: items/categories/mastite.txt:285
+msgid "Mastite Wizard Hood"
+msgstr ""
+
+#: items/categories/mastite.txt:299
+msgid "Mastite Wizard Skirt"
+msgstr ""
+
+#: items/categories/mastite.txt:313
+msgid "Mastite Wizard Sleeves"
+msgstr ""
+
+#: items/categories/mastite.txt:292
+msgid "Mastite Wizard Vest"
+msgstr ""
+
+#: maps/town/meadow.txt:8
+msgid "Meadow Village"
+msgstr ""
+
+#: engine/hero_options.txt:12
+msgid "Meck"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:101
+msgid "Metzger's Battlemace"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:84
+msgid "Mez's Wraps"
+msgstr ""
+
+#: engine/hero_options.txt:33
+msgid "Mikal"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:73
+msgid "Mikalái Valér'evich Sakalóuski"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:86
+msgid "Mikhail Karalevich"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:87
+msgid "Miro Jánošík"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:74
+msgid "MiroslavR"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:22
+msgid "Mog's Axe"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:90
+msgid "Morgan Strauss"
+msgstr ""
+
+#: items/categories/crafting.txt:38 powers/categories/items.txt:144
+msgid "Mortar and Pestle"
+msgstr ""
+
+#: powers/base/ranger/haste.txt:3
+msgid "Move at an increased speed for a limited time."
+msgstr ""
+
+#: powers/base/ranger/multishot.txt:1
+msgid "Multishot"
+msgstr ""
+
+#: books/crafting_alchemy.txt:103 items/categories/crafting.txt:51
+msgid "Mushrooms"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:75 cutscenes/credits_fantasycore.txt:88
+msgid "Mykola Franchuk"
+msgstr ""
+
+#: powers/base/magician/mystic_blast.txt:1
+msgid "Mystic Blast"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:77 cutscenes/credits_fantasycore.txt:91
+msgid "Nea Retrogamer"
+msgstr ""
+
+#: items/categories/quest.txt:282
+msgid "Nerin's Bow"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:92
+msgid "Nikita Vanku"
+msgstr ""
+
+#: engine/hero_options.txt:30
+msgid "Nital"
+msgstr ""
+
+#: books/wardens_notes_2.txt:29
+msgid "No subjects asked to take the test today."
+msgstr ""
+
+#: items/qualities.txt:9 items/qualities.txt:56 items/qualities.txt:62
+msgid "Normal"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:23
+msgid "Not as sleek as an arrow, but just as effective."
+msgstr ""
+
+#: items/types.txt:9
+msgid "Off Hand"
+msgstr ""
+
+#: books/mog_1.txt:12
+msgid "On the waterlogged support beam"
+msgstr ""
+
+#: items/qualities.txt:39
+msgid "One-time Use"
+msgstr ""
+
+#: items/categories/quest.txt:107
+msgid "Owl Figurine"
+msgstr ""
+
+#: engine/titles.txt:84
+msgid "Paladin"
+msgstr ""
+
+#: items/categories/level_11.txt:254
+msgid "Paladin Crest Shield"
+msgstr ""
+
+#: items/categories/level_7.txt:254
+msgid "Paladin Iron Buckler"
+msgstr ""
+
+#: items/categories/level_15.txt:254
+msgid "Paladin Tower Shield"
+msgstr ""
+
+#: items/categories/level_3.txt:186
+msgid "Paladin Wood Buckler"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:78 cutscenes/credits_fantasycore.txt:93
+msgid "Pattaraporn Tripiyaratana"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:94
+msgid "Paul Wortmann"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:79
+msgid "Pavel Maryanov"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:95
+msgid "Pawel Puszczynski"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:80
+msgid "Pawel Puszczyński"
+msgstr ""
+
+#: engine/hero_options.txt:23
+msgid "Percival"
+msgstr ""
+
+#: items/categories/scrolls.txt:16 powers/categories/items.txt:38
+msgid "Perdition Scroll"
+msgstr ""
+
+#: powers/categories/quest.txt:4
+msgid "Performing the ritual at the Red Altar has granted you faster regeneration."
+msgstr ""
+
+#: powers/base/ranger/piercing_shot.txt:1
+msgid "Piercing Shot"
+msgstr ""
+
+#: items/categories/level_13.txt:32
+msgid "Plate Boots"
+msgstr ""
+
+#: items/categories/level_13.txt:14
+msgid "Plate Cuirass"
+msgstr ""
+
+#: items/categories/level_13.txt:41
+msgid "Plate Gauntlets"
+msgstr ""
+
+#: items/categories/level_13.txt:23
+msgid "Plate Greaves"
+msgstr ""
+
+#: items/categories/level_13.txt:5
+msgid "Plate Helmet"
+msgstr ""
+
+#: powers/effects.txt:208
+msgid "Poison"
+msgstr ""
+
+#: powers/base/ranger/poison_shot.txt:1
+msgid "Poison Shot"
+msgstr ""
+
+#: items/types.txt:59
+msgid "Potion"
+msgstr ""
+
+#: books/mog_5.txt:12
+msgid "Press the switch on the top of the middle boulder"
+msgstr ""
+
+#: powers/base/warrior/quake.txt:1
+msgid "Quake"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:96
+msgid "Quentin Stievenart"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:81
+msgid "Rafael Fontenelle"
+msgstr ""
+
+#: powers/base/magician/summon_skeleton.txt:4
+msgid "Raise an undead to battle alongside you. Each summoned skeleton reduces your maximum MP."
+msgstr ""
+
+#: engine/titles.txt:74 powers/trees/default.txt:7
+msgid "Ranger"
+msgstr ""
+
+#: items/categories/level_11.txt:125
+msgid "Ranger Chain Boots"
+msgstr ""
+
+#: items/categories/level_11.txt:17
+msgid "Ranger Chain Coif"
+msgstr ""
+
+#: items/categories/level_11.txt:53
+msgid "Ranger Chain Cuirass"
+msgstr ""
+
+#: items/categories/level_11.txt:161
+msgid "Ranger Chain Gloves"
+msgstr ""
+
+#: items/categories/level_11.txt:89
+msgid "Ranger Chain Greaves"
+msgstr ""
+
+#: items/categories/level_3.txt:104
+msgid "Ranger Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_3.txt:45
+msgid "Ranger Cloth Pants"
+msgstr ""
+
+#: items/categories/level_3.txt:75
+msgid "Ranger Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_3.txt:15
+msgid "Ranger Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_15.txt:230
+msgid "Ranger Greatbow"
+msgstr ""
+
+#: items/categories/level_7.txt:125
+msgid "Ranger Leather Boots"
+msgstr ""
+
+#: items/categories/level_7.txt:161
+msgid "Ranger Leather Gloves"
+msgstr ""
+
+#: items/categories/level_7.txt:17
+msgid "Ranger Leather Hood"
+msgstr ""
+
+#: items/categories/level_7.txt:89
+msgid "Ranger Leather Pants"
+msgstr ""
+
+#: items/categories/level_7.txt:53
+msgid "Ranger Leather Tunic"
+msgstr ""
+
+#: items/categories/level_11.txt:230
+msgid "Ranger Longbow"
+msgstr ""
+
+#: items/categories/level_15.txt:125
+msgid "Ranger Plate Boots"
+msgstr ""
+
+#: items/categories/level_15.txt:53
+msgid "Ranger Plate Cuirass"
+msgstr ""
+
+#: items/categories/level_15.txt:161
+msgid "Ranger Plate Gauntlets"
+msgstr ""
+
+#: items/categories/level_15.txt:89
+msgid "Ranger Plate Greaves"
+msgstr ""
+
+#: items/categories/level_15.txt:17
+msgid "Ranger Plate Helmet"
+msgstr ""
+
+#: items/categories/level_7.txt:230
+msgid "Ranger Shortbow"
+msgstr ""
+
+#: items/categories/level_3.txt:162
+msgid "Ranger Slingshot"
+msgstr ""
+
+#: powers/base/ranger/rapid_fire.txt:1
+msgid "Rapid Fire"
+msgstr ""
+
+#: items/qualities.txt:27
+msgid "Rare"
+msgstr ""
+
+#: engine/titles.txt:130
+msgid "Recon"
+msgstr ""
+
+#: items/categories/level_10.txt:125
+msgid "Recon Chain Boots"
+msgstr ""
+
+#: items/categories/level_10.txt:17
+msgid "Recon Chain Coif"
+msgstr ""
+
+#: items/categories/level_10.txt:53
+msgid "Recon Chain Cuirass"
+msgstr ""
+
+#: items/categories/level_10.txt:161
+msgid "Recon Chain Gloves"
+msgstr ""
+
+#: items/categories/level_10.txt:89
+msgid "Recon Chain Greaves"
+msgstr ""
+
+#: items/categories/level_2.txt:102
+msgid "Recon Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_2.txt:45
+msgid "Recon Cloth Pants"
+msgstr ""
+
+#: items/categories/level_2.txt:74
+msgid "Recon Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_2.txt:15
+msgid "Recon Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_14.txt:230
+msgid "Recon Greatbow"
+msgstr ""
+
+#: items/categories/level_6.txt:125
+msgid "Recon Leather Boots"
+msgstr ""
+
+#: items/categories/level_6.txt:161
+msgid "Recon Leather Gloves"
+msgstr ""
+
+#: items/categories/level_6.txt:17
+msgid "Recon Leather Hood"
+msgstr ""
+
+#: items/categories/level_6.txt:89
+msgid "Recon Leather Pants"
+msgstr ""
+
+#: items/categories/level_6.txt:53
+msgid "Recon Leather Tunic"
+msgstr ""
+
+#: items/categories/level_10.txt:230
+msgid "Recon Longbow"
+msgstr ""
+
+#: items/categories/level_14.txt:125
+msgid "Recon Plate Boots"
+msgstr ""
+
+#: items/categories/level_14.txt:53
+msgid "Recon Plate Cuirass"
+msgstr ""
+
+#: items/categories/level_14.txt:161
+msgid "Recon Plate Gauntlets"
+msgstr ""
+
+#: items/categories/level_14.txt:89
+msgid "Recon Plate Greaves"
+msgstr ""
+
+#: items/categories/level_14.txt:17
+msgid "Recon Plate Helmet"
+msgstr ""
+
+#: items/categories/level_6.txt:230
+msgid "Recon Shortbow"
+msgstr ""
+
+#: items/categories/level_2.txt:159
+msgid "Recon Slingshot"
+msgstr ""
+
+#: powers/effects.txt:161
+msgid "Reflect"
+msgstr ""
+
+#: items/categories/scrolls.txt:82 powers/categories/items.txt:113
+msgid "Reflection Scroll"
+msgstr ""
+
+#: powers/powers.txt:90
+msgid "Remove Invisibility"
+msgstr ""
+
+#: powers/base/warrior/warcry.txt:4
+msgid "Remove debuffs and become immune to debuffs for a limited time."
+msgstr ""
+
+#: books/crafting_alchemy.txt:26
+msgid "Reset"
+msgstr ""
+
+#: powers/effects.txt:237
+msgid "Resist Damage (Dark)"
+msgstr ""
+
+#: powers/effects.txt:216
+msgid "Resist Damage (Fire)"
+msgstr ""
+
+#: powers/effects.txt:223
+msgid "Resist Damage (Ice)"
+msgstr ""
+
+#: powers/effects.txt:230
+msgid "Resist Damage (Lightning)"
+msgstr ""
+
+#: engine/hero_options.txt:26
+msgid "Respute"
+msgstr ""
+
+#: books/crafting_alchemy.txt:252 items/categories/potions.txt:39 powers/base/items/restoration_potion.txt:3
+msgid "Restoration Potion"
+msgstr ""
+
+#: items/categories/potions.txt:43 powers/base/items/restoration_potion.txt:4
+msgid "Restore 25% of both HP and MP"
+msgstr ""
+
+#: items/categories/potions.txt:8 powers/base/items/health_potion.txt:4
+msgid "Restore 25% of maximum HP"
+msgstr ""
+
+#: items/categories/potions.txt:19 powers/base/items/mana_potion.txt:4
+msgid "Restore 25% of maximum MP"
+msgstr ""
+
+#: items/categories/potions.txt:79 powers/base/items/super_health_potion.txt:4
+msgid "Restore 50% of maximum HP"
+msgstr ""
+
+#: items/categories/potions.txt:103 powers/base/items/super_mana_potion.txt:4
+msgid "Restore 50% of maximum MP"
+msgstr ""
+
+#: items/categories/potions.txt:91 powers/base/items/ultra_health_potion.txt:4
+msgid "Restore 75% of maximum HP"
+msgstr ""
+
+#: items/categories/potions.txt:115 powers/base/items/ultra_mana_potion.txt:4
+msgid "Restore 75% of maximum MP"
+msgstr ""
+
+#: maps/iron_labyrinth/f1/start.txt:158 maps/iron_labyrinth/f1/start.txt:190 maps/iron_labyrinth/f2/start.txt:191 maps/iron_labyrinth/f3/end.txt:158 maps/iron_labyrinth/f3/start.txt:191
+msgid "Return to Town"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:82
+msgid "Riccardi Unix"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:37
+msgid "Riches fit for a queen."
+msgstr ""
+
+#: items/types.txt:37
+msgid "Ring"
+msgstr ""
+
+#: engine/hero_options.txt:29
+msgid "River"
+msgstr ""
+
+#: maps/town/coast.txt:8
+msgid "Riverside Outpost"
+msgstr ""
+
+#: maps/town/rocky.txt:8
+msgid "Rocky Hamlet"
+msgstr ""
+
+#: items/categories/level_5.txt:113
+msgid "Rod"
+msgstr ""
+
+#: engine/titles.txt:90
+msgid "Rogue"
+msgstr ""
+
+#: engine/hero_options.txt:21
+msgid "Rudyard"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:83 cutscenes/credits_fantasycore.txt:97
+msgid "Rui"
+msgstr ""
+
+#: maps/town/ruins.txt:8
+msgid "Ruins Camp"
+msgstr ""
+
+#: items/categories/level_8_unique.txt:69
+msgid "Running away doesn't mean the battle is lost."
+msgstr ""
+
+#: powers/base/warrior/rupture.txt:1
+msgid "Rupture"
+msgstr ""
+
+#: powers/categories/quest.txt:3 powers/effects.txt:136
+msgid "Sacrifice"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:86
+msgid "Sam Vo"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:85
+msgid "Sang-froid"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:19
+msgid "Sarah Benalene"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:87 cutscenes/credits_fantasycore.txt:98
+msgid "Sato Hayato"
+msgstr ""
+
+#: powers/base/ranger/scavenger.txt:1
+msgid "Scavenger"
+msgstr ""
+
+#: engine/classes.txt:18
+msgid "Scout"
+msgstr ""
+
+#: engine/classes.txt:19
+msgid "Scouts specialize in range weaponry and combat accuracy. Primary attribute: Offense"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:20
+msgid "Scrittl"
+msgstr ""
+
+#: items/types.txt:64
+msgid "Scroll"
+msgstr ""
+
+#: engine/damage_types.txt:5
+msgid "Scroll Damage"
+msgstr ""
+
+#: items/categories/level_4_unique.txt:84
+msgid "Seagate's Tri-pants"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:99
+msgid "Sergey Basalaev"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:88
+msgid "Sergiy Borodych"
+msgstr ""
+
+#: maps/town/chunks/cave/start_0.txt:109 maps/town/chunks/cave/start_1.txt:109 maps/town/chunks/citadel/start_0.txt:109 maps/town/chunks/citadel/start_1.txt:109 maps/town/chunks/coast/start_0.txt:109 maps/town/chunks/coast/start_1.txt:109 maps/town/chunks/forest/start_0.txt:109 maps/town/chunks/forest/start_1.txt:109 maps/town/chunks/meadow/start_0.txt:109 maps/town/chunks/meadow/start_1.txt:109 maps/town/chunks/rocky/start_0.txt:109 maps/town/chunks/rocky/start_1.txt:109 maps/town/chunks/ruins/start_0.txt:109 maps/town/chunks/ruins/start_1.txt:109 maps/town/chunks/snow/start_0.txt:109 maps/town/chunks/snow/start_1.txt:109 maps/town/chunks/swamp/start_0.txt:109 maps/town/chunks/swamp/start_1.txt:109 maps/town/chunks/woodland/start_0.txt:109 maps/town/chunks/woodland/start_1.txt:109
+msgid "Shared Stash"
+msgstr ""
+
+#: engine/titles.txt:161
+msgid "Shepherd"
+msgstr ""
+
+#: powers/base/magician/shield.txt:1 powers/effects.txt:5
+msgid "Shield"
+msgstr ""
+
+#: powers/base/warrior/shield_bash.txt:1
+msgid "Shield Bash"
+msgstr ""
+
+#: items/categories/scrolls.txt:27 powers/categories/items.txt:52
+msgid "Shield Scroll"
+msgstr ""
+
+#: enemies/lvl15_antlion_shivering.txt:3
+msgid "Shivering Antlion"
+msgstr ""
+
+#: powers/base/magician/shock.txt:1
+msgid "Shock"
+msgstr ""
+
+#: powers/base/ranger/shoot.txt:1
+msgid "Shoot"
+msgstr ""
+
+#: powers/base/magician/shock.txt:2
+msgid "Shoot a ball of electricity that is extra effective against movement-impaired enemies."
+msgstr ""
+
+#: powers/base/ranger/poison_shot.txt:4
+msgid "Shoot a projectile that explodes into a poisonous cloud on impact."
+msgstr ""
+
+#: powers/base/ranger/multishot.txt:2
+msgid "Shoot multiple projectiles in an arc simultaneously."
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:20
+msgid "Short-Ribs"
+msgstr ""
+
+#: items/categories/level_5.txt:104
+msgid "Shortbow"
+msgstr ""
+
+#: items/categories/level_5.txt:95
+msgid "Shortsword"
+msgstr ""
+
+#: items/categories/level_9.txt:77
+msgid "Silk Boots"
+msgstr ""
+
+#: items/categories/level_9.txt:50
+msgid "Silk Hood"
+msgstr ""
+
+#: items/categories/level_9.txt:68
+msgid "Silk Skirt"
+msgstr ""
+
+#: items/categories/level_9.txt:86
+msgid "Silk Sleeves"
+msgstr ""
+
+#: items/categories/level_9.txt:59
+msgid "Silk Vest"
+msgstr ""
+
+#: engine/hero_options.txt:10
+msgid "Silus"
+msgstr ""
+
+#: items/categories/quest.txt:336
+msgid "Silver Family Ring"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:100
+msgid "Simon Georges"
+msgstr ""
+
+#: enemies/lvl15_skeleton_guardian.txt:3
+msgid "Skeleton Guardian"
+msgstr ""
+
+#: enemies/lvl10_skeleton_minion.txt:3
+msgid "Skeleton Minion"
+msgstr ""
+
+#: engine/titles.txt:156
+msgid "Slinger"
+msgstr ""
+
+#: items/categories/level_1.txt:42
+msgid "Slingshot"
+msgstr ""
+
+#: powers/effects.txt:21 powers/effects.txt:28
+msgid "Slow"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:6
+msgid "Smooth to the touch. Upon wearing it, it tightens itself around the finger."
+msgstr ""
+
+#: engine/titles.txt:23
+msgid "Sniper"
+msgstr ""
+
+#: items/categories/level_12.txt:125
+msgid "Sniper Chain Boots"
+msgstr ""
+
+#: items/categories/level_12.txt:17
+msgid "Sniper Chain Coif"
+msgstr ""
+
+#: items/categories/level_12.txt:53
+msgid "Sniper Chain Cuirass"
+msgstr ""
+
+#: items/categories/level_12.txt:161
+msgid "Sniper Chain Gloves"
+msgstr ""
+
+#: items/categories/level_12.txt:89
+msgid "Sniper Chain Greaves"
+msgstr ""
+
+#: items/categories/level_4.txt:125
+msgid "Sniper Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_4.txt:53
+msgid "Sniper Cloth Pants"
+msgstr ""
+
+#: items/categories/level_4.txt:89
+msgid "Sniper Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_4.txt:17
+msgid "Sniper Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_16.txt:230
+msgid "Sniper Greatbow"
+msgstr ""
+
+#: items/categories/level_8.txt:125
+msgid "Sniper Leather Boots"
+msgstr ""
+
+#: items/categories/level_8.txt:161
+msgid "Sniper Leather Gloves"
+msgstr ""
+
+#: items/categories/level_8.txt:17
+msgid "Sniper Leather Hood"
+msgstr ""
+
+#: items/categories/level_8.txt:89
+msgid "Sniper Leather Pants"
+msgstr ""
+
+#: items/categories/level_8.txt:53
+msgid "Sniper Leather Tunic"
+msgstr ""
+
+#: items/categories/level_12.txt:230
+msgid "Sniper Longbow"
+msgstr ""
+
+#: items/categories/level_16.txt:125
+msgid "Sniper Plate Boots"
+msgstr ""
+
+#: items/categories/level_16.txt:53
+msgid "Sniper Plate Cuirass"
+msgstr ""
+
+#: items/categories/level_16.txt:161
+msgid "Sniper Plate Gauntlets"
+msgstr ""
+
+#: items/categories/level_16.txt:89
+msgid "Sniper Plate Greaves"
+msgstr ""
+
+#: items/categories/level_16.txt:17
+msgid "Sniper Plate Helmet"
+msgstr ""
+
+#: items/categories/level_8.txt:230
+msgid "Sniper Shortbow"
+msgstr ""
+
+#: items/categories/level_4.txt:194
+msgid "Sniper Slingshot"
+msgstr ""
+
+#: maps/town/snow.txt:8
+msgid "Snow Refuge"
+msgstr ""
+
+#: engine/hero_options.txt:42
+msgid "Sonia"
+msgstr ""
+
+#: engine/titles.txt:135
+msgid "Sorcerer"
+msgstr ""
+
+#: items/categories/level_2.txt:111
+msgid "Sorcerer Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_2.txt:55
+msgid "Sorcerer Cloth Pants"
+msgstr ""
+
+#: items/categories/level_2.txt:83
+msgid "Sorcerer Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_2.txt:25
+msgid "Sorcerer Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_14.txt:242
+msgid "Sorcerer Greatstaff"
+msgstr ""
+
+#: items/categories/level_6.txt:242
+msgid "Sorcerer Rod"
+msgstr ""
+
+#: items/categories/level_10.txt:137
+msgid "Sorcerer Silk Boots"
+msgstr ""
+
+#: items/categories/level_10.txt:29
+msgid "Sorcerer Silk Hood"
+msgstr ""
+
+#: items/categories/level_10.txt:101
+msgid "Sorcerer Silk Skirt"
+msgstr ""
+
+#: items/categories/level_10.txt:173
+msgid "Sorcerer Silk Sleeves"
+msgstr ""
+
+#: items/categories/level_10.txt:65
+msgid "Sorcerer Silk Vest"
+msgstr ""
+
+#: items/categories/level_10.txt:242
+msgid "Sorcerer Staff"
+msgstr ""
+
+#: items/categories/level_14.txt:137
+msgid "Sorcerer Velvet Boots"
+msgstr ""
+
+#: items/categories/level_14.txt:29
+msgid "Sorcerer Velvet Hood"
+msgstr ""
+
+#: items/categories/level_14.txt:101
+msgid "Sorcerer Velvet Skirt"
+msgstr ""
+
+#: items/categories/level_14.txt:173
+msgid "Sorcerer Velvet Sleeves"
+msgstr ""
+
+#: items/categories/level_14.txt:65
+msgid "Sorcerer Velvet Vest"
+msgstr ""
+
+#: items/categories/level_2.txt:171
+msgid "Sorcerer Wand"
+msgstr ""
+
+#: items/categories/level_6.txt:137
+msgid "Sorcerer Wool Boots"
+msgstr ""
+
+#: items/categories/level_6.txt:29
+msgid "Sorcerer Wool Hood"
+msgstr ""
+
+#: items/categories/level_6.txt:101
+msgid "Sorcerer Wool Skirt"
+msgstr ""
+
+#: items/categories/level_6.txt:173
+msgid "Sorcerer Wool Sleeves"
+msgstr ""
+
+#: items/categories/level_6.txt:65
+msgid "Sorcerer Wool Vest"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:21
+msgid "Soulband"
+msgstr ""
+
+#: books/wardens_notes.txt:29
+msgid "South at the next."
+msgstr ""
+
+#: engine/titles.txt:166
+msgid "Sparkblade"
+msgstr ""
+
+#: powers/base/warrior/rupture.txt:4
+msgid "Split the ground in a straight line. Enemies caught in the chasm suffer reduced avoidance, absorption, and poise."
+msgstr ""
+
+#: items/categories/quest.txt:398
+msgid "Spoils of the Red Altar ritual."
+msgstr ""
+
+#: engine/titles.txt:151
+msgid "Squire"
+msgstr ""
+
+#: items/categories/quest.txt:55
+msgid "St. Maria Catacombs Key"
+msgstr ""
+
+#: items/sets.txt:3
+msgid "St. Maria Garb"
+msgstr ""
+
+#: items/categories/quest.txt:45
+msgid "St. Maria Mausoleum Key"
+msgstr ""
+
+#: items/categories/level_9.txt:113
+msgid "Staff"
+msgstr ""
+
+#: books/crafting_alchemy.txt:239 items/categories/potions.txt:27 powers/base/items/stamina_potion.txt:3 powers/effects.txt:172
+msgid "Stamina Potion"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:21 cutscenes/credits_fantasycore.txt:101
+msgid "Stefan Beller"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:21 cutscenes/credits_empyrean.txt:89 cutscenes/credits_fantasycore.txt:102
+msgid "Stefano Peris"
+msgstr ""
+
+#: powers/base/warrior/stone_wall.txt:1
+msgid "Stone Wall"
+msgstr ""
+
+#: items/categories/quest.txt:143
+msgid "Stormrock Key"
+msgstr ""
+
+#: items/categories/quest.txt:65
+msgid "Strange Sapphire A"
+msgstr ""
+
+#: items/categories/quest.txt:75
+msgid "Strange Sapphire B"
+msgstr ""
+
+#: engine/titles.txt:100
+msgid "Striker"
+msgstr ""
+
+#: powers/effects.txt:38 powers/effects.txt:98
+msgid "Stun"
+msgstr ""
+
+#: powers/base/magician/summon_skeleton.txt:3
+msgid "Summon Skeleton"
+msgstr ""
+
+#: items/categories/scrolls.txt:5 powers/categories/items.txt:13
+msgid "Summon Zombie Scroll"
+msgstr ""
+
+#: powers/effects.txt:244
+msgid "Summoned Skeleton"
+msgstr ""
+
+#: books/crafting_alchemy.txt:304 items/categories/potions.txt:75 powers/base/items/super_health_potion.txt:3
+msgid "Super Health Potion"
+msgstr ""
+
+#: books/crafting_alchemy.txt:330 items/categories/potions.txt:99 powers/base/items/super_mana_potion.txt:3
+msgid "Super Mana Potion"
+msgstr ""
+
+#: powers/categories/warrior.txt:7
+msgid "Swing"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:102
+msgid "Swinging this mace around leaves a clouded trail of dark smoke."
+msgstr ""
+
+#: maps/iron_labyrinth/room11.txt:161 maps/iron_labyrinth/room11.txt:174 maps/iron_labyrinth/room11.txt:187 maps/iron_labyrinth/room4.txt:182 maps/iron_labyrinth/room6.txt:173 maps/iron_labyrinth/room9.txt:159
+msgid "Switch"
+msgstr ""
+
+#: soundfx/subtitles.txt:11 soundfx/subtitles.txt:42 soundfx/subtitles.txt:61
+msgid "Take a look around."
+msgstr ""
+
+#: powers/powers.txt:61
+msgid "Teleport"
+msgstr ""
+
+#: engine/titles.txt:44
+msgid "Tempest"
+msgstr ""
+
+#: engine/titles.txt:28
+msgid "Templar"
+msgstr ""
+
+#: items/categories/level_12.txt:254
+msgid "Templar Crest Shield"
+msgstr ""
+
+#: items/categories/level_8.txt:254
+msgid "Templar Iron Buckler"
+msgstr ""
+
+#: items/categories/level_16.txt:254
+msgid "Templar Tower Shield"
+msgstr ""
+
+#: items/categories/level_4.txt:218
+msgid "Templar Wood Buckler"
+msgstr ""
+
+#: items/sets.txt:14
+msgid "Temple Guard's Outfit"
+msgstr ""
+
+#: items/categories/quest.txt:153
+msgid "Temple of Mez Basement Key"
+msgstr ""
+
+#: items/categories/quest.txt:163
+msgid "Temple of Mez Main Hall Key"
+msgstr ""
+
+#: items/categories/potions.txt:31 powers/base/items/stamina_potion.txt:4
+msgid "Temporarily increase regeneration and movement speed"
+msgstr ""
+
+#: items/categories/potions.txt:55 powers/base/items/treasure_potion.txt:4
+msgid "Temporarily increases the ability to find items and gold"
+msgstr ""
+
+#: items/categories/potions.txt:67 powers/base/items/elemental_potion.txt:4
+msgid "Temporarily increases the resistance to all forms of magic by 50%"
+msgstr ""
+
+#: books/il_notes_4.txt:38
+msgid "The Chamber finally gave their response. They did send a few mages, but not nearly enough. There's a promise of a larger gold share when the excavation is complete. Somehow, I don't think Empyrean politics will allow such a thing to manifest."
+msgstr ""
+
+#: books/il_notes_7.txt:38
+msgid "The Chamber sees the situation differently. Orders came in for operations to be moved to other nearby sites. Krolan obeyed. Said he didn't want end up dead like \"those guys\". As if our guys are dead! When I find them, we're going to snag the rest of that Mastite for ourselves!"
+msgstr ""
+
+#: items/categories/level_12_unique.txt:6
+msgid "The ancient scripture contained appears to be some sort of magic."
+msgstr ""
+
+#: books/il_notes_1.txt:19
+msgid "The dig near Perdition Harbor is starting to show promise. We found ruins. Unlike anything else in the area. We'll get a good amount of gold from the relics here. A welcome change for the guys that transferred from the Empyrean's operation in the complex under Lochport."
+msgstr ""
+
+#: books/wardens_notes_2.txt:18
+msgid "The entertainment didn't last long. The subject immediately went south."
+msgstr ""
+
+#: books/il_notes_2.txt:38
+msgid "The messenger to the Chamber called the mineral \"Mastite\". It was made clear that any we find must be brought to the surface. No questions. This stuff is obviously something special. They better make it worth our while."
+msgstr ""
+
+#: books/wardens_notes_2.txt:13
+msgid "The other subjects had been very eager, so I invited a few to watch today's challenger."
+msgstr ""
+
+#: books/il_notes_3.txt:19
+msgid "There's more to this whole Mastite thing than we're being told. Yesterday, one of the crew was about to grab a chunk he had found. In the blink of an eye, some sort of energy ball flew out of it and blasted the poor guy back about 100 paces."
+msgstr ""
+
+#: items/categories/level_4_unique.txt:37
+msgid "These hands built a village."
+msgstr ""
+
+#: items/categories/level_4_unique.txt:85
+msgid "These ragged trousers are covered in scorch marks, yet are cold to the touch."
+msgstr ""
+
+#: books/il_notes_5.txt:19
+msgid "These ruins are larger than we had imagined. There must be other connections to the surface. Krolan found a portal today, but no one dared to enter."
+msgstr ""
+
+#: books/il_notes_1.txt:32
+msgid "They told me about the other expeditions, a tower in Black Oak City and a temple in the Stormrock region. Both just as fruitless."
+msgstr ""
+
+#: maps/iron_labyrinth/door_ns1.txt:156 maps/iron_labyrinth/door_ns1.txt:169 maps/iron_labyrinth/door_ns1.txt:232 maps/iron_labyrinth/door_ns1.txt:245 maps/iron_labyrinth/door_ns1.txt:308 maps/iron_labyrinth/door_ns1.txt:321 maps/iron_labyrinth/door_ns2.txt:156 maps/iron_labyrinth/door_ns2.txt:169 maps/iron_labyrinth/door_ns2.txt:232 maps/iron_labyrinth/door_ns2.txt:245 maps/iron_labyrinth/door_ns2.txt:308 maps/iron_labyrinth/door_ns2.txt:321 maps/iron_labyrinth/door_we1.txt:156 maps/iron_labyrinth/door_we1.txt:169 maps/iron_labyrinth/door_we1.txt:232 maps/iron_labyrinth/door_we1.txt:245 maps/iron_labyrinth/door_we1.txt:308 maps/iron_labyrinth/door_we1.txt:321 maps/iron_labyrinth/door_we2.txt:156 maps/iron_labyrinth/door_we2.txt:169 maps/iron_labyrinth/door_we2.txt:232 maps/iron_labyrinth/door_we2.txt:245 maps/iron_labyrinth/door_we2.txt:308 maps/iron_labyrinth/door_we2.txt:321 maps/iron_labyrinth/treasure_room.txt:157 maps/iron_labyrinth/treasure_room.txt:190
+msgid "This door needs a key to be opened."
+msgstr ""
+
+#: items/categories/quest.txt:374
+msgid "This mysterious black feather has a very sharp follicle, making it a suitable writing utensil."
+msgstr ""
+
+#: powers/base/ranger/bear_trap.txt:2
+msgid "This trap deals extra ranged weapon damage and immobilizes the target. Has a chance to inflict bleeding."
+msgstr ""
+
+#: powers/base/ranger/caltrops.txt:2
+msgid "This trap deals reduced ranged weapon damage and slows the target. Can affect multiple targets."
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:105
+msgid "Thomas Glamsch"
+msgstr ""
+
+#: powers/base/warrior/throw_axe.txt:1
+msgid "Throw Axe"
+msgstr ""
+
+#: powers/base/warrior/throw_knife.txt:1
+msgid "Throw Knife"
+msgstr ""
+
+#: powers/base/warrior/throw_knife.txt:2
+msgid "Throw a knife to deal reduced melee weapon damage. High accuracy and critical rate."
+msgstr ""
+
+#: powers/base/warrior/throw_axe.txt:2
+msgid "Throw an axe to deal extra melee weapon damage."
+msgstr ""
+
+#: powers/base/magician/thunderstrike.txt:1
+msgid "Thunderstrike"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:106
+msgid "Timo Sievänen"
+msgstr ""
+
+#: books/il_notes_2.txt:19
+msgid "Today, we found a peculiar yellow-green mineral. Almost blinding to look at. Perhaps someone from the Empyrean Chamber knows what it is..."
+msgstr ""
+
+#: items/categories/scrolls.txt:93
+msgid "Tome of Second Chances"
+msgstr ""
+
+#: items/types.txt:17
+msgid "Torso"
+msgstr ""
+
+#: engine/hero_options.txt:20
+msgid "Torwald"
+msgstr ""
+
+#: items/categories/level_13.txt:122
+msgid "Tower Shield"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:32 cutscenes/credits_fantasycore.txt:43
+msgid "Translators"
+msgstr ""
+
+#: maps/iron_labyrinth/key1.txt:162 maps/iron_labyrinth/key1.txt:176 maps/iron_labyrinth/key1.txt:190 maps/iron_labyrinth/key1.txt:204 maps/iron_labyrinth/key1.txt:218 maps/iron_labyrinth/key1.txt:232 maps/iron_labyrinth/room1.txt:161 maps/iron_labyrinth/room14.txt:484 maps/iron_labyrinth/room18.txt:168 maps/iron_labyrinth/room4.txt:208 maps/iron_labyrinth/room5.txt:161 maps/iron_labyrinth/room8.txt:161 maps/iron_labyrinth/room9.txt:173 maps/iron_labyrinth/treasure_room.txt:230 maps/iron_labyrinth/treasure_room.txt:244 maps/iron_labyrinth/treasure_room.txt:259 maps/iron_labyrinth/treasure_room.txt:274 maps/iron_labyrinth/treasure_room.txt:289
+msgid "Treasure Chest"
+msgstr ""
+
+#: items/categories/quest.txt:326
+msgid "Treasure Chest Key"
+msgstr ""
+
+#: books/crafting_alchemy.txt:265 items/categories/potions.txt:51 powers/base/items/treasure_potion.txt:3 powers/effects.txt:178
+msgid "Treasure Potion"
+msgstr ""
+
+#: powers/powers.txt:78
+msgid "Turn Invisible"
+msgstr ""
+
+#: items/categories/quest.txt:131
+msgid "Turtle Figurine"
+msgstr ""
+
+#: books/crafting_alchemy.txt:317 items/categories/potions.txt:87 powers/base/items/ultra_health_potion.txt:3
+msgid "Ultra Health Potion"
+msgstr ""
+
+#: books/crafting_alchemy.txt:343 items/categories/potions.txt:111 powers/base/items/ultra_mana_potion.txt:3
+msgid "Ultra Mana Potion"
+msgstr ""
+
+#: maps/town/cave.txt:8
+msgid "Underground Hamlet"
+msgstr ""
+
+#: items/sets.txt:36
+msgid "Underworld Armament"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:77
+msgid "Underworld Armguards"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:115
+msgid "Underworld Blade"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:64
+msgid "Underworld Boots"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:128
+msgid "Underworld Bow"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:38
+msgid "Underworld Cloak"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:90
+msgid "Underworld Greaves"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:51
+msgid "Underworld Platemail"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:141
+msgid "Underworld Sceptre"
+msgstr ""
+
+#: items/categories/quest.txt:316
+msgid "Underworld Stronghold Barracks Key"
+msgstr ""
+
+#: items/categories/quest.txt:306
+msgid "Underworld Stronghold Foyer Key"
+msgstr ""
+
+#: items/categories/level_16_unique.txt:103
+msgid "Underworld Tome"
+msgstr ""
+
+#: items/qualities.txt:33
+msgid "Unique"
+msgstr ""
+
+#: maps/iron_labyrinth/room1.txt:174 maps/iron_labyrinth/room11.txt:224 maps/iron_labyrinth/room13.txt:161 maps/iron_labyrinth/room15.txt:161 maps/iron_labyrinth/room18.txt:181 maps/iron_labyrinth/room2.txt:161 maps/iron_labyrinth/room4.txt:195 maps/iron_labyrinth/room6.txt:161 maps/iron_labyrinth/room7.txt:161 maps/iron_labyrinth/room9.txt:222
+msgid "Urn"
+msgstr ""
+
+#: items/categories/crafting.txt:39 powers/categories/items.txt:145
+msgid "Use empty bottles and various ingredients to create potions."
+msgstr ""
+
+#: items/categories/scrolls.txt:30 powers/categories/items.txt:53
+msgid "Use: Create a magical shield that absorbs damage"
+msgstr ""
+
+#: items/categories/scrolls.txt:85 powers/categories/items.txt:114
+msgid "Use: Creates a magical shield that reflects projectiles and damage for a limited time"
+msgstr ""
+
+#: items/categories/scrolls.txt:63 powers/categories/items.txt:87
+msgid "Use: Move at an increased speed for a limited time"
+msgstr ""
+
+#: items/items.txt:84
+msgid "Use: Open DEV Tome"
+msgstr ""
+
+#: items/categories/scrolls.txt:74 powers/categories/items.txt:101
+msgid "Use: Remove debuffs and become immune to debuffs for a limited time"
+msgstr ""
+
+#: items/categories/scrolls.txt:95
+msgid "Use: Resets all stat and power points"
+msgstr ""
+
+#: items/categories/scrolls.txt:41
+msgid "Use: Shoot a fireball"
+msgstr ""
+
+#: powers/categories/items.txt:67
+msgid "Use: Shoot a fireball. For a brief time, additional fireballs can be shot by performing a basic attack."
+msgstr ""
+
+#: items/categories/scrolls.txt:52
+msgid "Use: Shoot an ice bolt"
+msgstr ""
+
+#: powers/categories/items.txt:76
+msgid "Use: Shoot an ice bolt. For a brief time, additional ice bolts can be shot by performing a basic attack."
+msgstr ""
+
+#: items/categories/scrolls.txt:8 powers/categories/items.txt:14
+msgid "Use: Summon a zombie to fight for you"
+msgstr ""
+
+#: items/categories/scrolls.txt:19 powers/categories/items.txt:39
+msgid "Use: Teleport to Perdition Harbor"
+msgstr ""
+
+#: items/items.txt:66
+msgid "Use: Teleport to target position."
+msgstr ""
+
+#: items/items.txt:75
+msgid "Use: Turn Invisible"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:22
+msgid "VWolfDog"
+msgstr ""
+
+#: powers/base/warrior/vampirism.txt:1
+msgid "Vampirism"
+msgstr ""
+
+#: powers/effects.txt:202
+msgid "Vampirsim"
+msgstr ""
+
+#: items/categories/level_13.txt:77
+msgid "Velvet Boots"
+msgstr ""
+
+#: items/categories/level_13.txt:50
+msgid "Velvet Hood"
+msgstr ""
+
+#: items/categories/level_13.txt:68
+msgid "Velvet Skirt"
+msgstr ""
+
+#: items/categories/level_13.txt:86
+msgid "Velvet Sleeves"
+msgstr ""
+
+#: items/categories/level_13.txt:59
+msgid "Velvet Vest"
+msgstr ""
+
+#: engine/hero_options.txt:32
+msgid "Venka"
+msgstr ""
+
+#: items/categories/quest.txt:395
+msgid "Vial of Your Blood"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:92 cutscenes/credits_fantasycore.txt:107
+msgid "Vicente Monteiro"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:108
+msgid "Vinicius Rech"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:14 cutscenes/credits_fantasycore.txt:14
+msgid "Visual Artists"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:37
+msgid "Voice Actors"
+msgstr ""
+
+#: items/categories/level_1.txt:51
+msgid "Wand"
+msgstr ""
+
+#: engine/titles.txt:119
+msgid "Wanderer"
+msgstr ""
+
+#: items/categories/level_14.txt:315
+msgid "Wandering Affluence Ring"
+msgstr ""
+
+#: items/categories/level_14.txt:207
+msgid "Wandering Archwizard Spellbook"
+msgstr ""
+
+#: items/categories/level_10.txt:325
+msgid "Wandering Artifact Ring"
+msgstr ""
+
+#: items/categories/level_10.txt:265
+msgid "Wandering Blaze Ring"
+msgstr ""
+
+#: items/categories/level_6.txt:265
+msgid "Wandering Burn Ring"
+msgstr ""
+
+#: items/categories/level_2.txt:220
+msgid "Wandering Dark Ring"
+msgstr ""
+
+#: items/categories/level_6.txt:285
+msgid "Wandering Electric Ring"
+msgstr ""
+
+#: items/categories/level_2.txt:229
+msgid "Wandering Experience Ring"
+msgstr ""
+
+#: items/categories/level_6.txt:185
+msgid "Wandering Fighting Leather Belt"
+msgstr ""
+
+#: items/categories/level_2.txt:193
+msgid "Wandering Fire Ring"
+msgstr ""
+
+#: items/categories/level_10.txt:275
+msgid "Wandering Freeze Ring"
+msgstr ""
+
+#: items/categories/level_6.txt:275
+msgid "Wandering Frost Ring"
+msgstr ""
+
+#: items/categories/level_14.txt:275
+msgid "Wandering Glacial Ring"
+msgstr ""
+
+#: items/categories/level_10.txt:295
+msgid "Wandering Gloom Ring"
+msgstr ""
+
+#: items/categories/level_2.txt:202
+msgid "Wandering Ice Ring"
+msgstr ""
+
+#: items/categories/level_14.txt:265
+msgid "Wandering Inferno Ring"
+msgstr ""
+
+#: items/categories/level_10.txt:305
+msgid "Wandering Intellectual Ring"
+msgstr ""
+
+#: items/categories/level_6.txt:305
+msgid "Wandering Knowledge Ring"
+msgstr ""
+
+#: items/categories/level_2.txt:120
+msgid "Wandering Leather Belt"
+msgstr ""
+
+#: items/categories/level_2.txt:211
+msgid "Wandering Lightning Ring"
+msgstr ""
+
+#: items/categories/level_6.txt:325
+msgid "Wandering Loot Ring"
+msgstr ""
+
+#: items/categories/level_10.txt:315
+msgid "Wandering Lucrative Ring"
+msgstr ""
+
+#: items/categories/level_2.txt:129
+msgid "Wandering Pendant"
+msgstr ""
+
+#: items/categories/level_6.txt:315
+msgid "Wandering Prosperity Ring"
+msgstr ""
+
+#: items/categories/level_10.txt:196
+msgid "Wandering Ranger Pendant"
+msgstr ""
+
+#: items/categories/level_6.txt:196
+msgid "Wandering Recon Pendant"
+msgstr ""
+
+#: items/categories/level_14.txt:325
+msgid "Wandering Relic Ring"
+msgstr ""
+
+#: items/categories/level_14.txt:305
+msgid "Wandering Scholar Ring"
+msgstr ""
+
+#: items/categories/level_6.txt:295
+msgid "Wandering Shadow Ring"
+msgstr ""
+
+#: items/categories/level_10.txt:285
+msgid "Wandering Shock Ring"
+msgstr ""
+
+#: items/categories/level_14.txt:196
+msgid "Wandering Sniper Pendant"
+msgstr ""
+
+#: items/categories/level_6.txt:207
+msgid "Wandering Sorcerer Spellbook"
+msgstr ""
+
+#: items/categories/level_2.txt:138
+msgid "Wandering Spellbook"
+msgstr ""
+
+#: items/categories/level_2.txt:247
+msgid "Wandering Treasure Ring"
+msgstr ""
+
+#: items/categories/level_14.txt:295
+msgid "Wandering Void Ring"
+msgstr ""
+
+#: items/categories/level_14.txt:285
+msgid "Wandering Volt Ring"
+msgstr ""
+
+#: items/categories/level_14.txt:185
+msgid "Wandering Warlord Leather Belt"
+msgstr ""
+
+#: items/categories/level_10.txt:185
+msgid "Wandering Warrior Leather Belt"
+msgstr ""
+
+#: items/categories/level_2.txt:238
+msgid "Wandering Wealth Ring"
+msgstr ""
+
+#: items/categories/level_10.txt:207
+msgid "Wandering Wizard Spellbook"
+msgstr ""
+
+#: powers/base/warrior/warcry.txt:1
+msgid "Warcry"
+msgstr ""
+
+#: engine/hero_options.txt:11
+msgid "Wardell"
+msgstr ""
+
+#: engine/titles.txt:115
+msgid "Warden"
+msgstr ""
+
+#: items/categories/quest.txt:259
+msgid "Warden's Notes"
+msgstr ""
+
+#: engine/titles.txt:13
+msgid "Warlord"
+msgstr ""
+
+#: items/categories/level_12.txt:113
+msgid "Warlord Chain Boots"
+msgstr ""
+
+#: items/categories/level_12.txt:5
+msgid "Warlord Chain Coif"
+msgstr ""
+
+#: items/categories/level_12.txt:41
+msgid "Warlord Chain Cuirass"
+msgstr ""
+
+#: items/categories/level_12.txt:149
+msgid "Warlord Chain Gloves"
+msgstr ""
+
+#: items/categories/level_12.txt:77
+msgid "Warlord Chain Greaves"
+msgstr ""
+
+#: items/categories/level_4.txt:113
+msgid "Warlord Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_4.txt:41
+msgid "Warlord Cloth Pants"
+msgstr ""
+
+#: items/categories/level_4.txt:77
+msgid "Warlord Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_4.txt:5
+msgid "Warlord Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_4.txt:182
+msgid "Warlord Dagger"
+msgstr ""
+
+#: items/categories/level_16.txt:218
+msgid "Warlord Greatsword"
+msgstr ""
+
+#: items/categories/level_8.txt:113
+msgid "Warlord Leather Boots"
+msgstr ""
+
+#: items/categories/level_8.txt:149
+msgid "Warlord Leather Gloves"
+msgstr ""
+
+#: items/categories/level_8.txt:5
+msgid "Warlord Leather Hood"
+msgstr ""
+
+#: items/categories/level_8.txt:77
+msgid "Warlord Leather Pants"
+msgstr ""
+
+#: items/categories/level_8.txt:41
+msgid "Warlord Leather Tunic"
+msgstr ""
+
+#: items/categories/level_12.txt:218
+msgid "Warlord Longsword"
+msgstr ""
+
+#: items/categories/level_16.txt:113
+msgid "Warlord Plate Boots"
+msgstr ""
+
+#: items/categories/level_16.txt:41
+msgid "Warlord Plate Cuirass"
+msgstr ""
+
+#: items/categories/level_16.txt:149
+msgid "Warlord Plate Gauntlets"
+msgstr ""
+
+#: items/categories/level_16.txt:77
+msgid "Warlord Plate Greaves"
+msgstr ""
+
+#: items/categories/level_16.txt:5
+msgid "Warlord Plate Helmet"
+msgstr ""
+
+#: items/categories/level_8.txt:218
+msgid "Warlord Shortsword"
+msgstr ""
+
+#: engine/titles.txt:69 powers/trees/default.txt:3
+msgid "Warrior"
+msgstr ""
+
+#: items/categories/level_11.txt:113
+msgid "Warrior Chain Boots"
+msgstr ""
+
+#: items/categories/level_11.txt:5
+msgid "Warrior Chain Coif"
+msgstr ""
+
+#: items/categories/level_11.txt:41
+msgid "Warrior Chain Cuirass"
+msgstr ""
+
+#: items/categories/level_11.txt:149
+msgid "Warrior Chain Gloves"
+msgstr ""
+
+#: items/categories/level_11.txt:77
+msgid "Warrior Chain Greaves"
+msgstr ""
+
+#: items/categories/level_3.txt:94
+msgid "Warrior Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_3.txt:35
+msgid "Warrior Cloth Pants"
+msgstr ""
+
+#: items/categories/level_3.txt:65
+msgid "Warrior Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_3.txt:5
+msgid "Warrior Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_3.txt:150
+msgid "Warrior Dagger"
+msgstr ""
+
+#: items/categories/level_15.txt:218
+msgid "Warrior Greatsword"
+msgstr ""
+
+#: items/categories/level_7.txt:113
+msgid "Warrior Leather Boots"
+msgstr ""
+
+#: items/categories/level_7.txt:149
+msgid "Warrior Leather Gloves"
+msgstr ""
+
+#: items/categories/level_7.txt:5
+msgid "Warrior Leather Hood"
+msgstr ""
+
+#: items/categories/level_7.txt:77
+msgid "Warrior Leather Pants"
+msgstr ""
+
+#: items/categories/level_7.txt:41
+msgid "Warrior Leather Tunic"
+msgstr ""
+
+#: items/categories/level_11.txt:218
+msgid "Warrior Longsword"
+msgstr ""
+
+#: items/categories/level_15.txt:113
+msgid "Warrior Plate Boots"
+msgstr ""
+
+#: items/categories/level_15.txt:41
+msgid "Warrior Plate Cuirass"
+msgstr ""
+
+#: items/categories/level_15.txt:149
+msgid "Warrior Plate Gauntlets"
+msgstr ""
+
+#: items/categories/level_15.txt:77
+msgid "Warrior Plate Greaves"
+msgstr ""
+
+#: items/categories/level_15.txt:5
+msgid "Warrior Plate Helmet"
+msgstr ""
+
+#: items/categories/level_7.txt:218
+msgid "Warrior Shortsword"
+msgstr ""
+
+#: engine/titles.txt:171
+msgid "Watch"
+msgstr ""
+
+#: books/il_notes_5.txt:38
+msgid "We asked the mages to try analyzing it. Unfortunately, they reported not being able to see through to the other side."
+msgstr ""
+
+#: powers/effects.txt:111
+msgid "Weakness to Fire"
+msgstr ""
+
+#: powers/effects.txt:120
+msgid "Weakness to Ice"
+msgstr ""
+
+#: books/wardens_notes.txt:34
+msgid "West two times, then carry on from there."
+msgstr ""
+
+#: books/il_notes_3.txt:38
+msgid "What does the Chamber's healer do? Gives him a measly potion! Why are we waiting until the damage is done? We need defensive mages! But somehow, that's out of the question for the Empyrean..."
+msgstr ""
+
+#: books/il_notes_7.txt:19
+msgid "When we returned today, the layout of the first floor did not match our maps. Thankfully, an Empyrean mage made it back with us. I asked them to try sensing for human life on the lower levels. Zero results thus far, but I still have hope."
+msgstr ""
+
+#: items/categories/level_4_unique.txt:54
+msgid "When worn, this shirt heats the wearers veins."
+msgstr ""
+
+#: items/categories/level_8_unique.txt:85
+msgid "With its layers of reptilian skin, not much can penetrate this armor."
+msgstr ""
+
+#: powers/base/warrior/stone_wall.txt:2
+msgid "Withstand stronger attacks with more health and absorption."
+msgstr ""
+
+#: engine/titles.txt:79
+msgid "Wizard"
+msgstr ""
+
+#: items/categories/level_3.txt:114
+msgid "Wizard Cloth Gloves"
+msgstr ""
+
+#: items/categories/level_3.txt:55
+msgid "Wizard Cloth Pants"
+msgstr ""
+
+#: items/categories/level_3.txt:85
+msgid "Wizard Cloth Sandals"
+msgstr ""
+
+#: items/categories/level_3.txt:25
+msgid "Wizard Cloth Shirt"
+msgstr ""
+
+#: items/categories/level_15.txt:242
+msgid "Wizard Greatstaff"
+msgstr ""
+
+#: items/categories/level_7.txt:242
+msgid "Wizard Rod"
+msgstr ""
+
+#: items/categories/level_11.txt:137
+msgid "Wizard Silk Boots"
+msgstr ""
+
+#: items/categories/level_11.txt:29
+msgid "Wizard Silk Hood"
+msgstr ""
+
+#: items/categories/level_11.txt:101
+msgid "Wizard Silk Skirt"
+msgstr ""
+
+#: items/categories/level_11.txt:173
+msgid "Wizard Silk Sleeves"
+msgstr ""
+
+#: items/categories/level_11.txt:65
+msgid "Wizard Silk Vest"
+msgstr ""
+
+#: items/categories/level_11.txt:242
+msgid "Wizard Staff"
+msgstr ""
+
+#: items/categories/level_15.txt:137
+msgid "Wizard Velvet Boots"
+msgstr ""
+
+#: items/categories/level_15.txt:29
+msgid "Wizard Velvet Hood"
+msgstr ""
+
+#: items/categories/level_15.txt:101
+msgid "Wizard Velvet Skirt"
+msgstr ""
+
+#: items/categories/level_15.txt:173
+msgid "Wizard Velvet Sleeves"
+msgstr ""
+
+#: items/categories/level_15.txt:65
+msgid "Wizard Velvet Vest"
+msgstr ""
+
+#: items/categories/level_3.txt:174
+msgid "Wizard Wand"
+msgstr ""
+
+#: items/categories/level_7.txt:137
+msgid "Wizard Wool Boots"
+msgstr ""
+
+#: items/categories/level_7.txt:29
+msgid "Wizard Wool Hood"
+msgstr ""
+
+#: items/categories/level_7.txt:101
+msgid "Wizard Wool Skirt"
+msgstr ""
+
+#: items/categories/level_7.txt:173
+msgid "Wizard Wool Sleeves"
+msgstr ""
+
+#: items/categories/level_7.txt:65
+msgid "Wizard Wool Vest"
+msgstr ""
+
+#: items/sets.txt:25
+msgid "Wizard's Apparatus"
+msgstr ""
+
+#: items/categories/quest.txt:239
+msgid "Wizard's Tower Entrance Key"
+msgstr ""
+
+#: items/categories/quest.txt:249
+msgid "Wizard's Tower Research Hall Key"
+msgstr ""
+
+#: powers/base/ranger/wolfs_eye.txt:1
+msgid "Wolf's Eye"
+msgstr ""
+
+#: items/categories/level_1.txt:60
+msgid "Wood Buckler"
+msgstr ""
+
+#: items/categories/quest.txt:98
+msgid "Wood sculpture of a bear. A \"1\" is carved into the bottom."
+msgstr ""
+
+#: items/categories/quest.txt:122
+msgid "Wood sculpture of a cat. A \"3\" is carved into the bottom."
+msgstr ""
+
+#: items/categories/quest.txt:134
+msgid "Wood sculpture of a turtle. A \"4\" is carved into the bottom."
+msgstr ""
+
+#: items/categories/quest.txt:110
+msgid "Wood sculpture of an owl. A \"2\" is carved into the bottom."
+msgstr ""
+
+#: maps/town/woodland.txt:8
+msgid "Woodland Hamlet"
+msgstr ""
+
+#: items/categories/level_5.txt:77
+msgid "Wool Boots"
+msgstr ""
+
+#: items/categories/level_5.txt:50
+msgid "Wool Hood"
+msgstr ""
+
+#: items/categories/level_5.txt:68
+msgid "Wool Skirt"
+msgstr ""
+
+#: items/categories/level_5.txt:86
+msgid "Wool Sleeves"
+msgstr ""
+
+#: items/categories/level_5.txt:59
+msgid "Wool Vest"
+msgstr ""
+
+#: items/categories/quest.txt:184
+msgid "Worn Note #1"
+msgstr ""
+
+#: items/categories/quest.txt:195
+msgid "Worn Note #2"
+msgstr ""
+
+#: items/categories/quest.txt:206
+msgid "Worn Note #3"
+msgstr ""
+
+#: items/categories/quest.txt:217
+msgid "Worn Note #4"
+msgstr ""
+
+#: items/categories/quest.txt:228
+msgid "Worn Note #5"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:93 cutscenes/credits_fantasycore.txt:109
+msgid "Wuzzy2"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:110
+msgid "Yannis Anthymidis"
+msgstr ""
+
+#: enemies/summon_skeleton.txt:3
+msgid "Your Summoned Skeleton"
+msgstr ""
+
+#: enemies/summon_zombie.txt:3
+msgid "Your Summoned Zombie"
+msgstr ""
+
+#: engine/hero_options.txt:38
+msgid "Zeldyn"
+msgstr ""
+
+#: books/il_notes_1.txt:25 books/il_notes_1.txt:38 books/il_notes_2.txt:25 books/il_notes_2.txt:44 books/il_notes_3.txt:25 books/il_notes_3.txt:44 books/il_notes_4.txt:25 books/il_notes_4.txt:44 books/il_notes_5.txt:25 books/il_notes_5.txt:44 books/il_notes_6.txt:25 books/il_notes_6.txt:44 books/il_notes_7.txt:25 books/il_notes_7.txt:44
+msgid "[Missing page]"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:28
+msgid "adamgryu"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:46
+msgid "aitzkora"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:38 cutscenes/credits_fantasycore.txt:53
+msgid "berry"
+msgstr ""
+
+#: engine/equip_flags.txt:25
+msgid "bow"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:40 cutscenes/credits_fantasycore.txt:55
+msgid "bzt"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:16
+msgid "cron"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:61
+msgid "dumaosen"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:72
+msgid "hark34"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:63 cutscenes/credits_fantasycore.txt:78
+msgid "kang"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:68 cutscenes/credits_fantasycore.txt:83
+msgid "ks k"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:69 cutscenes/credits_fantasycore.txt:84
+msgid "leø"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:70
+msgid "litoll"
+msgstr ""
+
+#: engine/equip_flags.txt:5
+msgid "melee weapon"
+msgstr ""
+
+#: engine/equip_flags.txt:13
+msgid "mental weapon"
+msgstr ""
+
+#: engine/equip_flags.txt:9
+msgid "ranged weapon"
+msgstr ""
+
+#: cutscenes/credits_fantasycore.txt:27
+msgid "remaxim"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:19 cutscenes/credits_fantasycore.txt:34
+msgid "rubberduck"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:84
+msgid "sakura09123"
+msgstr ""
+
+#: engine/equip_flags.txt:17
+msgid "shield"
+msgstr ""
+
+#: engine/equip_flags.txt:21
+msgid "slingshot"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:90 cutscenes/credits_fantasycore.txt:103
+msgid "sujiniku"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:91 cutscenes/credits_fantasycore.txt:104
+msgid "syl_"
+msgstr ""
+
+#: engine/equip_flags.txt:31
+msgid "throwing axe"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:23
+msgid "yd"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:43 cutscenes/credits_fantasycore.txt:60
+msgid "Đoàn Mỹ"
+msgstr ""
+
+#: cutscenes/credits_empyrean.txt:94 cutscenes/credits_fantasycore.txt:111
+msgid "Źmicier Turok"
+msgstr ""
+

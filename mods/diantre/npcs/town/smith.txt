@@ -1,0 +1,7 @@
+name=Borin, Equipment
+animations=animations/npcs/knight.txt
+direction=5
+vendor=true
+talker=false
+random_stock=loot/il_loren.txt
+random_stock_count=5,8

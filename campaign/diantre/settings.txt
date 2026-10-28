@@ -1,0 +1,4 @@
+description=Diantre: a procedural hamlet and dungeon using Flare and Empyrean assets.
+game=diantre
+version=0.3.0
+engine_version_min=1.14.280

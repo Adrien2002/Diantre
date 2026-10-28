@@ -1,0 +1,5 @@
+INCLUDE tilesetdefs/tileset_grassland.txt
+INCLUDE tilesetdefs/town/snowplains.txt
+INCLUDE tilesetdefs/town/cave.txt
+INCLUDE tilesetdefs/town/ruins.txt
+INCLUDE tilesetdefs/town/dungeon.txt
