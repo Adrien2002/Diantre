@@ -1,11 +1,11 @@
 [settings]
 doors_max=0
-main_path_length_min=5
-main_path_length_max=9
+main_path_length_min=3
+main_path_length_max=4
 main_path_attempts_max=1000
-branch_length_min=2
-branch_length_max=4
-branches_per_door_level_max=2
+branch_length_min=1
+branch_length_max=2
+branches_per_door_level_max=1
 
 [chunks]
 filename=maps/town/chunks/cave/links_0.txt

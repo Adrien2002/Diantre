@@ -6,7 +6,7 @@ from map_data import connected, sections
 
 PROJECT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT / "tools"))
-from build_town import BIOMES
+from build_town import BIOMES, CHUNK_SIZE, PADDING, REGION, WORLD
 
 
 def main():
@@ -37,6 +37,7 @@ def main():
             if path.name.startswith("links"):
                 continue
             base = next(s["data"] for s in data if s.get("type") == "collision")
+            start = tuple(map(int, data[0]["hero_pos"].split(",")))
             scenery = {s["type"]: s["data"] for s in data
                        if s.get("type") == "object" or s.get("type", "").startswith("cliff_")}
             for mask in range(1, 16):
@@ -50,7 +51,20 @@ def main():
                                 collision[yy][xx] = 0
                                 for values in rendered.values():
                                     values[yy][xx] = 0
-                reach = connected(collision, (8, 10))
+                reach = connected(collision, start)
+                # Cover a 3440x1440 viewport at every legal edge placement.
+                # Native generation has no links leading outside its grid.
+                extent = 3440/384 + 1440/192
+                cells = REGION // CHUNK_SIZE
+                for cy in range(cells):
+                    for cx in range(cells):
+                        if ((cy == 0 and mask & 1) or (cy == cells-1 and mask & 2) or
+                                (cx == 0 and mask & 4) or (cx == cells-1 and mask & 8)):
+                            continue
+                        xs = [xx + cx*CHUNK_SIZE + 0.5 for xx, yy in reach]
+                        ys = [yy + cy*CHUNK_SIZE + 0.5 for xx, yy in reach]
+                        assert min(xs) >= extent and min(ys) >= extent, (path, mask, "exposed near map edge")
+                        assert max(xs)+extent < WORLD and max(ys)+extent < WORLD, (path, mask, "exposed far map edge")
                 for i, (x, y, w, h) in enumerate(strips):
                     if mask & (1 << i):
                         assert (x+w//2, y+h//2) in reach, (path, mask, "blocked connector")
@@ -101,7 +115,7 @@ def main():
                         assert all((xx, y-2) in plateau for xx in (x, x+1)), (path, mask, "unsupported cave opening")
                         assert (x+1, y) in reach, (path, mask, "blocked entrance apron")
                         assert not any(visible[yy][xx] in BIOMES[biome].decorations
-                                       for yy in range(y, 14) for xx in range(1, 12)), (path, mask, "overgrown entrance clearing")
+                                       for yy in range(y, PADDING+14) for xx in range(PADDING+1, PADDING+12)), (path, mask, "overgrown entrance clearing")
                     if s.get("intermap_id") == "dungeon_exit":
                         pos = tuple(map(int, s["location"].split(",")[:2]))
                         assert pos in reach, (path, mask, "blocked dungeon return")
@@ -109,7 +123,7 @@ def main():
                         x, y = map(int, s["location"].split(",")[:2])
                         assert visible[y][x] == 297, (path, mask, "hidden stash")
                 if path.name.startswith("start"):
-                    assert visible[5][2] != 0, (path, mask, "hidden house")
+                    assert visible[PADDING+5][PADDING+2] != 0, (path, mask, "hidden house")
                 cases += 1
     print(f"PASS: {len(BIOMES)} biomes, {cases} variant/link configurations; "
           "all tiles defined, no surface enemies, accessible links/entrances/vendors.")

@@ -11,10 +11,14 @@ import random
 
 ROOT = Path(__file__).resolve().parents[1] / "campaign/diantre"
 SIZE = 16
-REGION = 64
-WORLD = 80  # decorative margin beyond the generated, explorable region
+PADDING = 16
+CHUNK_SIZE = 40
+REGION = CHUNK_SIZE * 3
+WORLD = REGION + 24
 CLIFF_CAP_OFFSET = 5000
 CLIFF_TILE_BASE = 20000  # Earlier cached hills retain their original tile IDs.
+CLIFF_JOIN_OFFSET = 20000
+CLIFF_JOIN_FACES = (48, 49, 64, 65)
 CLIFF_HEIGHT = 192
 CLIFF_RISES = (CLIFF_HEIGHT * 2, 96, 96)
 
@@ -73,14 +77,17 @@ def ground(biome, x, y):
     return tiles[(x % 4 + (y % 4) * 4) % len(tiles)]
 
 
-def cliff_layers(terraces, base_upper):
+def cliff_layers(terraces, base_upper, expand=lambda values, kind: values):
     result = ""
     for level, (faces, tops) in enumerate(terraces):
         suffix = f"_{level + 1}" if level else ""
-        result += layer("cliff_faces" + suffix, faces)
+        result += layer("cliff_faces" + suffix, expand(faces, "terrain"))
         if not level:
-            result += layer("cliff_faces_upper", base_upper)
-        result += layer("cliff_tops" + suffix, tops)
+            join = [[tile+CLIFF_JOIN_OFFSET if tile and tile%1000 in CLIFF_JOIN_FACES else 0
+                     for tile in row] for row in base_upper]
+            result += layer("cliff_faces_join", expand(join, "terrain"))
+            result += layer("cliff_faces_upper", expand(base_upper, "terrain"))
+        result += layer("cliff_tops" + suffix, expand(tops, "terrain"))
     return result
 
 
@@ -128,9 +135,26 @@ def dungeon_entrance(biome, variant, bg, terraces, base_upper, obj, col):
     terraces[0][0][front][x:x + 2] = [0, 0]
     obj[front][x], obj[front][x + 1] = offset + 226, offset + 227
     block(col, left, back, right - left + 1, front - back + 1)
-    return (event(x, y, "activate=on_interact", "hotspot=location",
+    return (event(x+PADDING, y+PADDING, "activate=on_interact", "hotspot=location",
                   "tooltip=Dungeon Entrance", "script=scripts/town/enter_dungeon.txt", width=2) +
-            event(x, y + 1, "intermap_id=dungeon_exit"))
+            event(x+PADDING, y+PADDING+1, "intermap_id=dungeon_exit"))
+
+
+def pad_chunk(values, kind, biome, role, variant):
+    """Keep playable rooms and raised terrain away from the map canvas edge."""
+    if kind == "ground":
+        result = [[ground(biome, x, y) for x in range(CHUNK_SIZE)] for y in range(CHUNK_SIZE)]
+    else:
+        result = grid(CHUNK_SIZE, int(kind == "collision" and role != "links"))
+    if kind == "object" and role != "links":
+        rng = random.Random(f"town-surroundings:{biome}:{role}:{variant}")
+        for y in range(0, CHUNK_SIZE, 3):
+            for x in range(0, CHUNK_SIZE, 3):
+                if not (PADDING <= x < PADDING+SIZE and PADDING <= y < PADDING+SIZE):
+                    result[y][x] = rng.choice(BIOMES[biome].decorations)
+    for y, row in enumerate(values, PADDING):
+        result[y][PADDING:PADDING+SIZE] = row
+    return result
 
 
 def chunk(biome, role, variant):
@@ -157,8 +181,10 @@ def chunk(biome, role, variant):
                 block(col, x, y)
     if biome in ("swamp", "coast"):
         # A water pocket is outside the protected crossing; the routes stay dry.
-        pond = [[144, 176, 177, 146], [148, 180, 181, 150],
-                [148, 180, 181, 150], [155, 159, 160, 153]]
+        # Native shoreline corners enclose the lower water surface. Straight
+        # bank tiles in corner positions leave disconnected cliff fragments.
+        pond = [[152, 145, 145, 153], [144, 176, 177, 146],
+                [144, 180, 181, 146], [155, 147, 147, 154]]
         corners = [(2, 2), (10, 2), (2, 10), (10, 10)]
         pockets = corners if biome == "coast" else [(10, 10) if role == "start" else rng.choice(corners)]
         for px, py in pockets:
@@ -168,8 +194,11 @@ def chunk(biome, role, variant):
     if role == "links":
         # Only these strips are copied onto an actually connected chunk edge.
         obj, col = grid(SIZE, 0), grid(SIZE, 0)
-        for x, y, w, h, direction in [(6, 0, 4, 8, "north"), (6, 8, 4, 8, "south"),
-                                       (0, 6, 8, 4, "west"), (8, 6, 8, 4, "east")]:
+        cross, middle = PADDING+6, PADDING+8
+        for x, y, w, h, direction in [(cross, 0, 4, middle, "north"),
+                                       (cross, middle, 4, CHUNK_SIZE-middle, "south"),
+                                       (0, cross, middle, 4, "west"),
+                                       (middle, cross, CHUNK_SIZE-middle, 4, "east")]:
             extra += event(x, y, f"procgen_link={direction}", width=w, height=h)
     elif role == "start" or (role == "normal" and variant in (0, 4)):
         # A large ruined house from the grassland atlas, with a matching footprint.
@@ -181,24 +210,27 @@ def chunk(biome, role, variant):
         block(col, 2, 1, 4, 5)
         if role == "start":
             # Exactly one market/service hub: this chunk is generated once.
-            extra += ("\n[npc]\ntype=npc\nlocation=5,9,1,1\ndirection=5\n"
+            extra += (f"\n[npc]\ntype=npc\nlocation={PADDING+5},{PADDING+9},1,1\ndirection=5\n"
                       "filename=npcs/town/provisions.txt\n"
-                      "\n[npc]\ntype=npc\nlocation=10,8,1,1\ndirection=5\n"
+                      f"\n[npc]\ntype=npc\nlocation={PADDING+10},{PADDING+8},1,1\ndirection=5\n"
                       "filename=npcs/town/smith.txt\n")
             obj[10][5], col[10][5] = 297, 0
-            extra += event(5, 10, "activate=on_interact", "hotspot=location",
+            extra += event(PADDING+5, PADDING+10, "activate=on_interact", "hotspot=location",
                            "stash=true", "tooltip=Shared Stash", "soundfx=soundfx/wood_open.ogg")
     elif role == "end":
         extra += dungeon_entrance(biome, variant, bg, terraces, base_upper, obj, col)
-    header = (f"[header]\nwidth={SIZE}\nheight={SIZE}\ntilewidth=192\ntileheight=96\n"
-              "orientation=isometric\nhero_pos=8,10\n"
+    header = (f"[header]\nwidth={CHUNK_SIZE}\nheight={CHUNK_SIZE}\ntilewidth=192\ntileheight=96\n"
+              f"orientation=isometric\nhero_pos={PADDING+8},{PADDING+10}\n"
               f"procgen_type={role}\ntileset=tilesetdefs/town/palette.txt\n")
     # Cliff/water sprites have transparent sides. A continuous ground underlay
     # keeps those cutouts from exposing the renderer's black clear colour.
     underlay = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
-    return (header + layer("background_base", underlay) + layer("background", bg) +
-            cliff_layers(terraces, base_upper) +
-            layer("object", obj) + layer("collision", col) + extra)
+    def expand(values, kind):
+        return pad_chunk(values, kind, biome, role, variant)
+    return (header + layer("background_base", expand(underlay, "ground")) +
+            layer("background", expand(bg, "ground")) +
+            cliff_layers(terraces, base_upper, expand) +
+            layer("object", expand(obj, "object")) + layer("collision", expand(col, "collision")) + extra)
 
 
 def cliff_palette(grassland):
@@ -241,6 +273,13 @@ def cliff_palette(grassland):
                         values[-1] += CLIFF_HEIGHT
                     band = CLIFF_TILE_BASE + CLIFF_CAP_OFFSET * (level + 1)
                     lines.append("tile=" + ",".join(map(str, [band + tile, *values])))
+                    if not level and tile%1000 in CLIFF_JOIN_FACES:
+                        # Cover the lower wall's grass lip beneath the upper
+                        # wall's irregular foot with its solid rock midsection.
+                        join_values = source_values[:]
+                        join_values[1] += CLIFF_HEIGHT // 2
+                        join_values[3] = CLIFF_HEIGHT // 2
+                        lines.append("tile=" + ",".join(map(str, [band+tile+CLIFF_JOIN_OFFSET, *join_values])))
                     elevation += rise
                 found.add(tile)
     if found != wanted:
@@ -294,9 +333,9 @@ def main():
         text += event(0, 0, "activate=on_load", f"set_status=diantre_town_{biome}",
                        "unset_status=" + ",".join("diantre_town_"+b for b in BIOMES if b != biome))
         write(f"maps/town/{biome}.txt", text)
-        rules = ("[settings]\ndoors_max=0\nmain_path_length_min=5\nmain_path_length_max=9\n"
-                 "main_path_attempts_max=1000\nbranch_length_min=2\nbranch_length_max=4\n"
-                 "branches_per_door_level_max=2\n\n[chunks]\n")
+        rules = ("[settings]\ndoors_max=0\nmain_path_length_min=3\nmain_path_length_max=4\n"
+                 "main_path_attempts_max=1000\nbranch_length_min=1\nbranch_length_max=2\n"
+                 "branches_per_door_level_max=1\n\n[chunks]\n")
         for role, count in [("links", 1), ("start", 2), ("end", 3), ("normal", 8)]:
             for variant in range(count):
                 name = f"maps/town/chunks/{biome}/{role}_{variant}.txt"

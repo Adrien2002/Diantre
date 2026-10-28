@@ -48,6 +48,8 @@ used by this mod.
   smaller terraces rise behind the entrance, with a clear approach at ground
   level. The entrance cliff spans two wall sections so its terrain lip sits
   above the cave arch. Snow biomes use matching snow-covered cliffs and terraces.
+- Non-walkable terrain surrounds each town block so viewpoints near the edge
+  retain a complete backdrop behind the hillside.
 - Three generated Iron Labyrinth floors, using Empyrean's classes, equipment,
   monsters and summoning mechanics.
 - Surface exits, return portals and recall scrolls lead back to the dungeon
@@ -67,7 +69,7 @@ See [project direction](docs/DIRECTION.md).
 
 Assets come from `flareteam/flare-game`, revision
 `af6eee6d339ac98011864bfe89da837fe7769c28`. The bundled selection is approximately
-**398 MiB**. It follows game-file references, random monster categories, equipment
+**408 MiB**. It follows game-file references, random monster categories, equipment
 animations and implicit engine resources. Complete equipment and power catalogs
 are retained for their dynamic dependencies.
 
@@ -124,7 +126,8 @@ cover 1,950 chunk and connector combinations. The engine test creates two
 characters, checks distinct layouts, reloads a save, descends into the dungeon
 and returns to the same town entrance without regenerating either map. It also
 checks all ten environments, entrance access, merchants and the entrance's
-click interaction.
+click interaction. Surface captures are checked for wide black gaps, and every
+town chunk is checked at the generator's edge positions for a complete backdrop.
 
 The tests use real game scripts and generated collision data. Captures, logs and
 test saves stay in `.runtime/tests`, separate from player saves. The UI driver

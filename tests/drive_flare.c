@@ -35,6 +35,13 @@ void SDL_RenderPresent(SDL_Renderer *renderer) {
     if (frame == 240) {
         int w, h;
         SDL_GetRendererOutputSize(renderer, &w, &h);
+        int logical_w, logical_h;
+        SDL_RenderGetLogicalSize(renderer, &logical_w, &logical_h);
+        if (logical_w && (logical_w != w || logical_h != h)) {
+            fprintf(stderr, "Capture size %dx%d differs from the game's render size %dx%d\n",
+                    w, h, logical_w, logical_h);
+            exit(2);
+        }
         SDL_Surface *surface = SDL_CreateRGBSurfaceWithFormat(0, w, h, 32, SDL_PIXELFORMAT_ARGB8888);
         if (!surface || SDL_RenderReadPixels(renderer, NULL, SDL_PIXELFORMAT_ARGB8888,
                                              surface->pixels, surface->pitch) != 0 ||

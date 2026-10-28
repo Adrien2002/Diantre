@@ -7,6 +7,7 @@ import re
 import shlex
 import shutil
 import subprocess
+import struct
 import tempfile
 from map_data import sections, town_details
 import sys
@@ -21,6 +22,28 @@ BASELINE_ERRORS = {
     "ERROR: SDLSoftwareRenderDevice: Couldn't load image: "
     "'images/menus/game_over.png'. SDL_RWFromFile(): No file or no mode specified"
 }
+
+
+def check_surface_capture(path):
+    """Reject the wide black voids seen when a town reaches the map canvas edge."""
+    data = path.read_bytes()
+    assert data[:2] == b"BM", (path, "Expected the SDL driver's BMP capture")
+    offset = struct.unpack_from("<I", data, 10)[0]
+    width, height = struct.unpack_from("<ii", data, 18)
+    depth = struct.unpack_from("<H", data, 28)[0]
+    assert depth == 32 and height > 0, (path, "Unexpected BMP format")
+    stride = width * 4
+    bad_rows = 0
+    for y in range(100, height-160):
+        row = offset + (height-1-y)*stride
+        longest = run = 0
+        for x in range(24, width-300):
+            pixel = row + x*4
+            run = run+1 if data[pixel:pixel+3] == b"\0\0\0" else 0
+            longest = max(longest, run)
+        if longest > width//8:
+            bad_rows += 1
+    assert bad_rows < 6, (path, f"Surface exposes wide black gaps on {bad_rows} rows")
 
 
 def run_game(work, hook, label, reload=False, script=None, click=None, language="en"):
@@ -73,6 +96,8 @@ def run_game(work, hook, label, reload=False, script=None, click=None, language=
     save = data / "flare/saves/diantre/1"
     avatar = (save / "avatar.txt").read_text()
     spawn = re.search(r"^spawn=(.*)$", avatar, re.M)[1].split(",")
+    if spawn[0].startswith("maps/town/"):
+        check_surface_capture(work / f"{label}.bmp")
     caches = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
               for p in (save / "maps").glob("*.txt")}
     towns = [p for p in (save / "maps").glob("*.txt")
@@ -133,6 +158,8 @@ def main():
         assert result["spawn"][0] == f"maps/town/{biome}.txt"
         assert f"diantre_town_{biome}" in result["avatar"]
         assert any(town_details(p)["header"]["title"] == BIOMES[biome].title for p in result["towns"])
+        entrance = run_game(case, hook, biome+"-entrance", reload=True, script="scripts/town/return.txt")
+        assert entrance["caches"] == result["caches"], "Visiting the entrance changed the generated town"
     print(f"PASS: {len(BIOMES)} procedural biomes, accessible unique dungeon entrance and vendors, "
           "varied layouts, isolated saves, preserved town and dungeon after round trip.")
 
