@@ -12,7 +12,11 @@ Custom quests will complement exploration in the spirit of Diablo 1.
 Empyrean's campaign and storyline are outside this scope.
 
 The prototype currently generates a safe town when a character is created.
-It contains two merchants, a shared stash and one dungeon entrance. Ten settings
+It is a single open square with a clear central plaza. Two merchants each have
+their own house, and the dungeon entrance stands a little apart in a hillside.
+Buildings and scenery must not divide the surface into rooms or forest corridors.
+Their lots vary around the square, leaving broad approaches between services.
+The town also contains a shared stash. Ten settings
 use the available asset families: conifer forest, broadleaf woodland, rocky
 terrain, marsh, meadow, riverside, snow, cave, ruins and citadel. The layout and
 entrance position vary between characters and persist in their saves.

@@ -2,7 +2,7 @@
 """Author reusable surface chunks; Flare randomizes their layout in each save.
 
 No Python runs while playing. Seeded Random below only makes the collection of
-chunk variants reproducible. Flare's native procgen selects and connects them.
+chunk variants reproducible. Flare selects the lots around one open town square.
 """
 from pathlib import Path
 import argparse
@@ -10,11 +10,14 @@ from dataclasses import dataclass
 import random
 
 ROOT = Path(__file__).resolve().parents[1] / "campaign/diantre"
-SIZE = 16
-PADDING = 16
-CHUNK_SIZE = 40
-REGION = CHUNK_SIZE * 3
+SIZE = CHUNK_SIZE = 32
+REGION = CHUNK_SIZE * 2
 WORLD = REGION + 24
+TOWN_MIN = 17
+TOWN_MAX = 61  # Exclusive; the playable surface is one 44 by 44 square.
+PLAZA_MIN = 28
+PLAZA_MAX = 49  # Exclusive; no buildings or scenery occupy the central square.
+VARIANTS = 3
 CLIFF_CAP_OFFSET = 5000
 CLIFF_TILE_BASE = 20000  # Earlier cached hills retain their original tile IDs.
 CLIFF_JOIN_OFFSET = 20000
@@ -92,20 +95,13 @@ def cliff_layers(terraces, base_upper, expand=lambda values, kind: values):
 
 
 def dungeon_entrance(biome, variant, bg, terraces, base_upper, obj, col):
-    # The hillside stays outside the native connector strips and away from
-    # foreground trees in adjacent chunks. Flare randomly places the end chunk.
-    x, y = [(3, 5), (2, 6), (3, 6)][variant]
-    left, right, back, front = 0, 5, 0, y - 1
+    # The native generator places this lot in a randomly selected town corner.
+    x, y = [(20, 22), (19, 23), (20, 23)][variant]
+    left, right, back, front = 17, 22, 17, y - 1
     offset = 1000 if biome == "snow" else 0
-    # A clearing lets the player see the mouth beneath the tall forest canopy.
-    for yy in range(1, 14):
-        for xx in range(1, 12):
-            if obj[yy][xx]:
-                obj[yy][xx] = 0
-                if 2 <= xx < SIZE - 2 and 2 <= yy < SIZE - 2:
-                    col[yy][xx] = 0
-    for yy in range(back, y + 2):
-        for xx in range(left, right + 1):
+    # The entrance faces an open approach, away from foreground tree canopies.
+    for yy in range(16, 31):
+        for xx in range(16, 31):
             obj[yy][xx], col[yy][xx] = 0, 0
             bg[yy][xx] = ground(biome, xx, yy)
     # Successively narrower terraces recede behind the cave. Shorter upper
@@ -135,102 +131,93 @@ def dungeon_entrance(biome, variant, bg, terraces, base_upper, obj, col):
     terraces[0][0][front][x:x + 2] = [0, 0]
     obj[front][x], obj[front][x + 1] = offset + 226, offset + 227
     block(col, left, back, right - left + 1, front - back + 1)
-    return (event(x+PADDING, y+PADDING, "activate=on_interact", "hotspot=location",
+    return (event(x, y, "activate=on_interact", "hotspot=location",
                   "tooltip=Dungeon Entrance", "script=scripts/town/enter_dungeon.txt", width=2) +
-            event(x+PADDING, y+PADDING+1, "intermap_id=dungeon_exit"))
+            event(x, y+1, "intermap_id=dungeon_exit"))
 
 
-def pad_chunk(values, kind, biome, role, variant):
-    """Keep playable rooms and raised terrain away from the map canvas edge."""
-    if kind == "ground":
-        result = [[ground(biome, x, y) for x in range(CHUNK_SIZE)] for y in range(CHUNK_SIZE)]
-    else:
-        result = grid(CHUNK_SIZE, int(kind == "collision" and role != "links"))
-    if kind == "object" and role != "links":
-        rng = random.Random(f"town-surroundings:{biome}:{role}:{variant}")
-        for y in range(0, CHUNK_SIZE, 3):
-            for x in range(0, CHUNK_SIZE, 3):
-                if not (PADDING <= x < PADDING+SIZE and PADDING <= y < PADDING+SIZE):
-                    result[y][x] = rng.choice(BIOMES[biome].decorations)
-    for y, row in enumerate(values, PADDING):
-        result[y][PADDING:PADDING+SIZE] = row
-    return result
+def town_boundary(biome):
+    """Restore the shared perimeter after native chunks overwrite the canvas.
+
+    Flare's procgen ignores the region's X/Y offset. Keep its lots seamless and
+    enforce just the outer town boundary with native on-load map modifications.
+    These events are saved with the generated map and reapplied on every visit.
+    """
+    changes = []
+    for y in range(WORLD):
+        for x in range(WORLD):
+            if ((x in (TOWN_MIN-1, TOWN_MAX) and TOWN_MIN-1 <= y <= TOWN_MAX) or
+                    (y in (TOWN_MIN-1, TOWN_MAX) and TOWN_MIN-1 <= x <= TOWN_MAX)):
+                changes.append(f"collision,{x},{y},1")
+            if x % 3 == 0 and y % 3 == 0 and not (
+                    TOWN_MIN-2 <= x < TOWN_MAX+2 and TOWN_MIN-2 <= y < TOWN_MAX+2):
+                tile = random.Random(f"town-edge:{biome}:{x}:{y}").choice(BIOMES[biome].decorations)
+                changes.append(f"object,{x},{y},{tile}")
+    for y in range(PLAZA_MIN, PLAZA_MAX):
+        for x in range(PLAZA_MIN, PLAZA_MAX):
+            changes.extend((f"object,{x},{y},0", f"collision,{x},{y},0"))
+    return event(0, 0, "activate=on_load", "mapmod=" + ";".join(changes))
+
+
+def house(biome, variant, obj, col):
+    x, y = [(17, 22), (19, 23), (18, 24)][variant]
+    # Leave a generous yard around each building so it reads as a town lot.
+    for yy in range(16, 31):
+        for xx in range(16, 31):
+            obj[yy][xx], col[yy][xx] = 0, 0
+    obj[y][x] = BIOMES[biome].house
+    block(col, x, y-4, 4, 5)
+    return x+3, y+2
 
 
 def chunk(biome, role, variant):
-    rng = random.Random(f"diantre-town-v1:{biome}:{role}:{variant}")
+    rng = random.Random(f"diantre-open-town:{biome}:{role}:{variant}")
     bg = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
     obj, col = grid(SIZE, 0), grid(SIZE, 0)
     terraces = [(grid(SIZE, 0), grid(SIZE, 0)) for _ in CLIFF_RISES]
     base_upper = grid(SIZE, 0)
     extra = ""
-    # Closed edges are opened only for the links chosen by the native generator.
-    for y in range(SIZE):
-        for x in range(SIZE):
-            if min(x, y, SIZE-1-x, SIZE-1-y) < 2:
-                col[y][x] = 1
-                if x % 3 == 0 and y % 3 == 0:
-                    obj[y][x] = rng.choice(BIOMES[biome].decorations)
-    # Keep a broad, decoration-free cross: all four connectors are reachable.
-    for y in range(2, SIZE-2):
-        for x in range(2, SIZE-2):
-            if 6 <= x <= 9 or 6 <= y <= 9:
-                continue
-            if rng.random() < BIOMES[biome].density:
+    # Scattered props never form walls between lots. The central plaza and the
+    # outer forest belt are shared across the entire surface, not per chunk.
+    for y in range(2, SIZE-1, 4):
+        for x in range(2, SIZE-1, 4):
+            if rng.random() < BIOMES[biome].density * 2:
                 obj[y][x] = rng.choice(BIOMES[biome].decorations)
-                block(col, x, y)
-    if biome in ("swamp", "coast"):
-        # A water pocket is outside the protected crossing; the routes stay dry.
-        # Native shoreline corners enclose the lower water surface. Straight
-        # bank tiles in corner positions leave disconnected cliff fragments.
-        pond = [[152, 145, 145, 153], [144, 176, 177, 146],
-                [144, 180, 181, 146], [155, 147, 147, 154]]
-        corners = [(2, 2), (10, 2), (2, 10), (10, 10)]
-        pockets = corners if biome == "coast" else [(10, 10) if role == "start" else rng.choice(corners)]
-        for px, py in pockets:
-            for y, row in enumerate(pond, py):
-                for x, tile in enumerate(row, px):
-                    bg[y][x], obj[y][x], col[y][x] = tile, 0, 1
+                col[y][x] = 1
     if role == "links":
-        # Only these strips are copied onto an actually connected chunk edge.
         obj, col = grid(SIZE, 0), grid(SIZE, 0)
-        cross, middle = PADDING+6, PADDING+8
-        for x, y, w, h, direction in [(cross, 0, 4, middle, "north"),
-                                       (cross, middle, 4, CHUNK_SIZE-middle, "south"),
-                                       (0, cross, middle, 4, "west"),
-                                       (middle, cross, CHUNK_SIZE-middle, 4, "east")]:
-            extra += event(x, y, f"procgen_link={direction}", width=w, height=h)
-    elif role == "start" or (role == "normal" and variant in (0, 4)):
-        # A large ruined house from the grassland atlas, with a matching footprint.
-        for y in range(2, 7):
-            for x in range(2, 6):
-                obj[y][x] = 0
-        # Anchors must stay outside both the horizontal and vertical link strips.
-        obj[5][2] = BIOMES[biome].house
-        block(col, 2, 1, 4, 5)
+        # Native graph links are metadata here: the lots already share open
+        # ground on every side. A harmless one-tile overlay satisfies Flare's
+        # link copying without carving paths through the surface.
+        for direction in ("north", "south", "west", "east"):
+            extra += event(0, 0, f"procgen_link={direction}")
+    elif role in ("start", "normal"):
+        x, y = house(biome, variant, obj, col)
+        vendor = "provisions" if role == "start" else "smith"
+        extra += (f"\n[npc]\ntype=npc\nlocation={x},{y},1,1\ndirection=5\n"
+                  f"filename=npcs/town/{vendor}.txt\n")
         if role == "start":
-            # Exactly one market/service hub: this chunk is generated once.
-            extra += (f"\n[npc]\ntype=npc\nlocation={PADDING+5},{PADDING+9},1,1\ndirection=5\n"
-                      "filename=npcs/town/provisions.txt\n"
-                      f"\n[npc]\ntype=npc\nlocation={PADDING+10},{PADDING+8},1,1\ndirection=5\n"
-                      "filename=npcs/town/smith.txt\n")
-            obj[10][5], col[10][5] = 297, 0
-            extra += event(PADDING+5, PADDING+10, "activate=on_interact", "hotspot=location",
+            obj[y+1][x+1] = 297
+            extra += event(x+1, y+1, "activate=on_interact", "hotspot=location",
                            "stash=true", "tooltip=Shared Stash", "soundfx=soundfx/wood_open.ogg")
+        if biome in ("swamp", "coast"):
+            pond = [[152, 145, 145, 153], [144, 176, 177, 146],
+                    [144, 180, 181, 146], [155, 147, 147, 154]]
+            pockets = [(25, 18), (18, 27)] if biome == "coast" else [(25, 18)]
+            for px, py in pockets:
+                for yy, row in enumerate(pond, py):
+                    for xx, tile in enumerate(row, px):
+                        bg[yy][xx], obj[yy][xx], col[yy][xx] = tile, 0, 1
     elif role == "end":
         extra += dungeon_entrance(biome, variant, bg, terraces, base_upper, obj, col)
     header = (f"[header]\nwidth={CHUNK_SIZE}\nheight={CHUNK_SIZE}\ntilewidth=192\ntileheight=96\n"
-              f"orientation=isometric\nhero_pos={PADDING+8},{PADDING+10}\n"
+              "orientation=isometric\nhero_pos=24,27\n"
               f"procgen_type={role}\ntileset=tilesetdefs/town/palette.txt\n")
-    # Cliff/water sprites have transparent sides. A continuous ground underlay
-    # keeps those cutouts from exposing the renderer's black clear colour.
+    # Keep a continuous ground underlay beneath transparent water/cliff sprites.
     underlay = [[ground(biome, x, y) for x in range(SIZE)] for y in range(SIZE)]
-    def expand(values, kind):
-        return pad_chunk(values, kind, biome, role, variant)
-    return (header + layer("background_base", expand(underlay, "ground")) +
-            layer("background", expand(bg, "ground")) +
-            cliff_layers(terraces, base_upper, expand) +
-            layer("object", expand(obj, "object")) + layer("collision", expand(col, "collision")) + extra)
+    return (header + layer("background_base", underlay) + layer("background", bg) +
+            cliff_layers(terraces, base_upper) + layer("object", obj) +
+            layer("collision", col) + extra)
 
 
 def cliff_palette(grassland):
@@ -316,13 +303,16 @@ def main():
     for biome, spec in BIOMES.items():
         title, decorations = spec.title, spec.decorations
         bg = [[ground(biome, x, y) for x in range(WORLD)] for y in range(WORLD)]
-        obj, col = grid(WORLD, 0), grid(WORLD, 1)
+        obj = grid(WORLD, 0)
+        col = [[int(not (TOWN_MIN <= x < TOWN_MAX and TOWN_MIN <= y < TOWN_MAX))
+                for x in range(WORLD)] for y in range(WORLD)]
         rng = random.Random("town-border:" + biome)
         for y in range(0, WORLD, 3):
             for x in range(0, WORLD, 3):
-                obj[y][x] = rng.choice(decorations)
+                if col[y][x]:
+                    obj[y][x] = rng.choice(decorations)
         text = (f"[header]\nwidth={WORLD}\nheight={WORLD}\ntilewidth=192\ntileheight=96\n"
-                "orientation=isometric\nhero_pos=8,10\n"
+                "orientation=isometric\nhero_pos=24,27\n"
                 f"title={title}\nmusic=music/town_theme.ogg\n"
                 "tileset=tilesetdefs/town/palette.txt\n")
         text += (layer("background_base", bg) + layer("background", bg) +
@@ -330,13 +320,18 @@ def main():
                               grid(WORLD, 0)) +
                  layer("object", obj) + layer("collision", col))
         text += event(0, 0, f"procgen_filename=maps/town/rules/{biome}.txt", width=REGION, height=REGION)
+        text += town_boundary(biome)
         text += event(0, 0, "activate=on_load", f"set_status=diantre_town_{biome}",
                        "unset_status=" + ",".join("diantre_town_"+b for b in BIOMES if b != biome))
         write(f"maps/town/{biome}.txt", text)
-        rules = ("[settings]\ndoors_max=0\nmain_path_length_min=3\nmain_path_length_max=4\n"
-                 "main_path_attempts_max=1000\nbranch_length_min=1\nbranch_length_max=2\n"
-                 "branches_per_door_level_max=1\n\n[chunks]\n")
-        for role, count in [("links", 1), ("start", 2), ("end", 3), ("normal", 8)]:
+        rules = ("[settings]\ndoors_max=0\nmain_path_length_min=3\nmain_path_length_max=3\n"
+                 "main_path_attempts_max=1000\nbranch_length_min=0\nbranch_length_max=0\n"
+                 "branches_per_door_level_max=0\n\n[chunks]\n")
+        directory = ROOT / "maps/town/chunks" / biome
+        if directory.exists():
+            for path in directory.glob("*.txt"):
+                path.unlink()
+        for role, count in [("links", 1), ("start", VARIANTS), ("end", VARIANTS), ("normal", VARIANTS)]:
             for variant in range(count):
                 name = f"maps/town/chunks/{biome}/{role}_{variant}.txt"
                 write(name, chunk(biome, role, variant))

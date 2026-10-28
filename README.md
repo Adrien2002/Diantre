@@ -39,17 +39,19 @@ used by this mod.
 
 ## Current prototype
 
-- A safe procedural town with two merchants and a shared stash.
+- A safe procedural town built around one large open square, with a separate
+  house for each of its two merchants and a shared stash.
 - Ten randomly selected environments: conifer forest, broadleaf woodland, rocky
   terrain, marsh, meadow, riverside, snow, cave, ruins and citadel.
-- Random town layouts, scenery variants and a single dungeon entrance, connected
-  to the character's spawn point by a walkable path. Click the entrance to descend.
+- Random building lots and scenery, with a single dungeon entrance set apart
+  from the merchant houses. The whole town is connected by open ground, with no
+  forest corridors between its services. Click the entrance to descend.
 - The cave mouth opens into the foot of a three-tier hillside. Successively
   smaller terraces rise behind the entrance, with a clear approach at ground
   level. The entrance cliff spans two wall sections so its terrain lip sits
   above the cave arch. Snow biomes use matching snow-covered cliffs and terraces.
-- Non-walkable terrain surrounds each town block so viewpoints near the edge
-  retain a complete backdrop behind the hillside.
+- A shared belt of scenery surrounds the town. The central plaza stays clear,
+  and viewpoints near the outer boundary retain a complete backdrop.
 - Three generated Iron Labyrinth floors, using Empyrean's classes, equipment,
   monsters and summoning mechanics.
 - Surface exits, return portals and recall scrolls lead back to the dungeon
@@ -69,7 +71,7 @@ See [project direction](docs/DIRECTION.md).
 
 Assets come from `flareteam/flare-game`, revision
 `af6eee6d339ac98011864bfe89da837fe7769c28`. The bundled selection is approximately
-**408 MiB**. It follows game-file references, random monster categories, equipment
+**402 MiB**. It follows game-file references, random monster categories, equipment
 animations and implicit engine resources. Complete equipment and power catalogs
 are retained for their dynamic dependencies.
 
@@ -92,7 +94,11 @@ python3 tools/build_town.py
 ```
 
 This authors mod data; Flare performs the random selection and assembly at
-runtime. No complete playable town map has a fixed layout.
+runtime. Three building lots occupy randomly selected corners around one open
+plaza: two merchant houses and the dungeon hillside. The unused corner remains
+open. Lot edges have no walls or narrow connectors; native on-load map changes
+maintain the shared outer boundary and keep the plaza clear. No complete playable
+town map has a fixed layout.
 
 To reproduce asset extraction from local sources at the revision listed above:
 
@@ -122,12 +128,13 @@ FLARE_HOME="$HOME/Games/Flare" python3 tests/smoke.py
 ```
 
 The asset audit checks bundled files, dependencies and licenses. Terrain checks
-cover 1,950 chunk and connector combinations. The engine test creates two
+cover 2,160 complete town arrangements, including their open plaza, separate
+merchant houses and broad approaches. The engine test creates two
 characters, checks distinct layouts, reloads a save, descends into the dungeon
 and returns to the same town entrance without regenerating either map. It also
 checks all ten environments, entrance access, merchants and the entrance's
 click interaction. Surface captures are checked for wide black gaps, and every
-town chunk is checked at the generator's edge positions for a complete backdrop.
+accessible surface position is checked for a complete backdrop.
 
 The tests use real game scripts and generated collision data. Captures, logs and
 test saves stay in `.runtime/tests`, separate from player saves. The UI driver
