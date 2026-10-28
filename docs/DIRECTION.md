@@ -1,26 +1,21 @@
-# Direction de Diantre
+# Project direction
 
-La référence est l'exploration et la progression d'Angband et de Diablo 1, avec
-le moteur Flare et les assets libres d'Empyrean.
+Diantre takes its exploration and progression cues from Angband and Diablo 1,
+using Flare and Empyrean's freely licensed assets.
 
-Le programme est exclusivement en anglais pour le moment : interface, noms de
-lieux et de PNJ, infobulles, dialogues et messages du lanceur. Les échanges de
-développement et cette documentation peuvent rester en français.
+The intended world contains a small town, limited in scope like Diablo 1's,
+and a single explorable dungeon. Both the town and dungeon floors are
+procedural. Authored chunks provide building blocks for the native generator;
+their assembly defines the playable map.
 
-Le monde visé comprend une petite ville, limitée comme dans Diablo 1, et un seul
-donjon explorable. La ville doit être procédurale, tout comme les étages du
-donjon : aucune carte de jeu fixe. Des morceaux de cartes prédéfinis peuvent
-servir de matériaux au générateur natif ; leur assemblage forme la carte jouée.
+Custom quests will complement exploration in the spirit of Diablo 1.
+Empyrean's campaign and storyline are outside this scope.
 
-Des quêtes propres à Diantre viendront compléter l'exploration, dans l'esprit de
-Diablo 1. La campagne et le scénario d'Empyrean ne font pas partie de cette cible.
+The prototype currently generates a safe town when a character is created.
+It contains two merchants, a shared stash and one dungeon entrance. Ten settings
+use the available asset families: conifer forest, broadleaf woodland, rocky
+terrain, marsh, meadow, riverside, snow, cave, ruins and citadel. The layout and
+entrance position vary between characters and persist in their saves.
 
-Le prototype comprend maintenant une ville sûre générée au début de la partie,
-avec deux marchands et un coffre partagé, et une entrée unique vers le donjon.
-Dix ambiances utilisent les familles d'assets disponibles : conifères, feuillus,
-rochers, marais, prairie, rives, neige, caverne, ruines et citadelle. L'agencement
-et la position de l'entrée varient, puis restent attachés à la sauvegarde.
-
-La ville et le donjon se génèrent dans le moteur, avec des morceaux de cartes
-réutilisables. Les quêtes propres à Diantre et une progression plus longue
-restent à implémenter.
+Town and dungeon generation run in the engine using reusable chunks. Custom
+quests and a longer progression remain to be implemented.

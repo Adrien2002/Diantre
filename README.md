@@ -1,115 +1,110 @@
 # Diantre
 
-Prototype de campagne Flare inspirée d'Angband et de Diablo 1 : après la création
-du personnage, une petite ville procédurale donne accès à un unique donjon,
-le **Labyrinthe de fer**. La ville et les étages sont assemblés par le générateur
-natif de Flare. Leurs plans appartiennent à la sauvegarde et restent identiques
-quand on reprend la partie ou remonte à la surface.
+Diantre is a standalone Flare campaign inspired by Angband and Diablo 1. A small
+procedural town leads to a single explorable dungeon, the **Iron Labyrinth**.
+Flare's native generator assembles the town and dungeon floors from reusable
+chunks. Generated layouts belong to the character's save and persist when
+reloading or returning to the surface.
 
-**Le programme est exclusivement en anglais pour le moment.** La table de langues
-du mod limite les choix à `English` ; une ancienne préférence différente revient
-à l'anglais. La documentation de développement reste en français.
-Le mécanisme natif gettext est conservé : un modèle `languages/data.pot` prépare
-les traductions futures, sans activer de traduction maintenant. Voir
-[la documentation de localisation](docs/LOCALIZATION.md).
+## Installation
 
-## Installation autonome
+The mod includes its game data, artwork, animations, sounds, music and fonts.
+It requires a recent Flare engine and the engine's `default` mod.
 
-`mods/diantre` contient maintenant les données, images, animations, sons, musiques
-et polices nécessaires au prototype. **Empyrean et fantasycore ne sont plus des
-mods requis.** Seuls le moteur Flare récent et son mod système `default` sont
-nécessaires. Le moteur C++ n'est pas modifié.
-
-Avec le moteur dans `~/Games/Flare/flare` et son mod `~/Games/Flare/mods/default` :
+If Flare is installed at `~/Games/Flare/flare`, with its default mod at
+`~/Games/Flare/mods/default`, run:
 
 ```sh
 sh tools/play.sh
 ```
 
-Autre emplacement :
+For another installation directory:
 
 ```sh
-FLARE_HOME=/chemin/vers/Flare sh tools/play.sh
+FLARE_HOME=/path/to/Flare sh tools/play.sh
 ```
 
-`FLARE_BINARY` et `FLARE_DEFAULT` permettent de choisir séparément le binaire et
-le mod système du moteur. Le lanceur assemble uniquement `default` et `diantre`
-dans `.runtime/game`. Les assets de Diantre sont des fichiers dans ce dépôt,
-sans liens vers l'installation d'Empyrean.
+`FLARE_BINARY` and `FLARE_DEFAULT` select the executable and default mod separately.
+The launcher stages `default` and `diantre` in `.runtime/game`. Diantre's assets
+are bundled in this repository; installing Empyrean or fantasycore is unnecessary.
 
-Installation manuelle : copier `mods/diantre` dans le dossier `mods` du moteur,
-puis activer seulement `diantre` ; `default` est chargé automatiquement.
+For manual installation, copy `mods/diantre` into Flare's `mods` directory and
+select **Diantre** under **Configuration → Mods**. The engine loads `default`
+automatically. Start a new game to discover the town.
 
-Référence testée : moteur `flareteam/flare-engine` à la révision
-`b436611c8c6e9baf7af2c5b9f1e483c6b28b08c3` (1.15.82). Minimum déclaré : 1.14.280.
-Le paquet Debian 1.14 est trop ancien pour la génération utilisée ici.
+Tested engine: `flareteam/flare-engine` revision
+`b436611c8c6e9baf7af2c5b9f1e483c6b28b08c3` (1.15.82).
+The declared minimum is 1.14.280; Debian's 1.14 package predates the generator
+used by this mod.
 
-## Contenu de cette étape
+## Current prototype
 
-- Trois étages générés du Labyrinthe de fer, avec les classes, objets et monstres
-  d'Empyrean ; les combinaisons d'équipement et les invocations sont conservées.
-- Départ dans une petite ville sûre, avec deux marchands et un coffre partagé.
-- Dix biomes/ambiances sélectionnés aléatoirement : conifères, feuillus, rochers,
-  marais, prairie, rives, neige, caverne, ruines et citadelle. L'agencement, les
-  morceaux de décor et la position de l'entrée du donjon sont aussi tirés au sort.
-- Une seule entrée de donjon par ville, reliée à la place d'arrivée par un chemin
-  accessible. Cliquer sur son point d'interaction pour descendre au premier étage.
-- Aucune carte fixe de la campagne d'origine. La salle de boss fixe et la salle
-  qui téléportait vers les quêtes d'Empyrean sont exclues.
-- Les anciennes sorties, les portails de retour et le parchemin de rappel
-  ramènent à la bouche du donjon dans la même ville. La sortie du troisième étage
-  fait de même. Changer de biome exige une nouvelle partie, pas une simple visite.
+- A safe procedural town with two merchants and a shared stash.
+- Ten randomly selected environments: conifer forest, broadleaf woodland, rocky
+  terrain, marsh, meadow, riverside, snow, cave, ruins and citadel.
+- Random town layouts, scenery variants and a single dungeon entrance, connected
+  to the character's spawn point by a walkable path. Click the entrance to descend.
+- Three generated Iron Labyrinth floors, using Empyrean's classes, equipment,
+  monsters and summoning mechanics.
+- Surface exits, return portals and recall scrolls lead back to the dungeon
+  entrance in the same town. The third floor's exit also returns to town.
 
-Les sauvegardes sont séparées d'Empyrean dans `saves/diantre` ; aucune n'est effacée.
-Commencer une nouvelle partie avec la version 0.3 pour découvrir la ville.
-Les anciennes cartes mises en cache conservent les sorties de la version qui
-les a générées ; le mod ne les efface pas et ne les migre pas automatiquement.
-Le prototype ne propose pas encore un donjon infini ni ses propres quêtes.
-L'équilibrage nécessite des essais de jeu. Voir [la direction du projet](docs/DIRECTION.md).
+The biome is selected when creating a character and remains part of that save.
+Saves are stored separately from Empyrean under `saves/diantre`.
 
-## Origine, licences et extraction
+Start a new game when upgrading to version 0.3. Older cached maps retain the
+exits from the version that generated them; they are not migrated automatically.
+Custom quests, an endless dungeon and further balance work remain planned.
+See [project direction](docs/DIRECTION.md).
 
-Les ressources proviennent de `flareteam/flare-game`, révision
-`af6eee6d339ac98011864bfe89da837fe7769c28`. L'ensemble importé représente environ
-**398 Mio**. La sélection suit les références des fichiers de jeu, les catégories
-aléatoires de monstres, les animations d'équipement et les ressources implicites
-utilisées par le moteur. Il ne s'agit pas d'une minimisation de chaque objet ou
-pouvoir individuel.
+## Assets and licenses
 
-Les illustrations et données sont sous **CC-BY-SA-3.0** ; les polices gardent leur
-licence **SIL OFL 1.1**. Les crédits complets, licences et changements sont fournis
-avec le mod dans [licenses/flare-game](mods/diantre/licenses/flare-game/NOTICE.md).
-Ces fichiers doivent accompagner toute redistribution du mod. Le moteur reste
-sous ses propres licences. Les outils de Diantre sont sous MIT, voir `LICENSE`.
+Assets come from `flareteam/flare-game`, revision
+`af6eee6d339ac98011864bfe89da837fe7769c28`. The bundled selection is approximately
+**398 MiB**. It follows game-file references, random monster categories, equipment
+animations and implicit engine resources. Complete equipment and power catalogs
+are retained for their dynamic dependencies.
 
-`mods/diantre/ASSET_MANIFEST.json` décrit les fichiers importés, leur provenance,
-leurs modifications, leur taille et leur empreinte SHA-256. Les binaires sont
-copiés sans modification. `campaign/diantre` conserve les données propres à Diantre.
-Les palettes de ville réunissent les atlas d'origine avec des identifiants de
-tuile distincts, sans modifier les images.
+Artwork and game data use **CC-BY-SA-3.0**. Fonts retain their separate
+**SIL OFL 1.1** license. Full credits, licenses and modification notices are
+included in [licenses/flare-game](mods/diantre/licenses/flare-game/NOTICE.md) and
+must accompany redistributions. Diantre's tools use the MIT license; see
+[LICENSE](LICENSE). The separately supplied engine retains its own licenses.
 
-`python3 tools/build_town.py` reproduit les variantes de morceaux de ville. Ce
-script sert à créer les données du mod ; il n'est pas lancé pendant le jeu.
-Au démarrage d'une nouvelle partie, Flare choisit le biome et assemble les morceaux.
-Les morceaux sont prédéfinis, mais aucune carte de ville complète n'est fixe.
+`mods/diantre/ASSET_MANIFEST.json` records imported files, provenance, modifications,
+sizes and SHA-256 hashes. Binary assets are copied without modification. Town
+palettes combine the original atlases using distinct tile IDs.
 
-Pour reproduire l'extraction depuis les sources locales à la révision indiquée :
+## Development
+
+Custom data lives in `campaign/diantre`. Rebuild the reusable town chunks with:
+
+```sh
+python3 tools/build_town.py
+```
+
+This authors mod data; Flare performs the random selection and assembly at
+runtime. No complete playable town map has a fixed layout.
+
+To reproduce asset extraction from local sources at the revision listed above:
 
 ```sh
 python3 tools/import_assets.py \
-  --source /chemin/vers/flare-game \
-  --default /chemin/vers/Flare/mods/default \
-  --output .runtime/nouvelle-extraction/diantre
+  --source /path/to/flare-game \
+  --default /path/to/Flare/mods/default \
+  --output .runtime/new-extraction/diantre
 ```
 
-L'importeur refuse un dossier de sortie non vide. Comparer le résultat avant de
-remplacer le mod, afin de préserver les modifications de jeu faites depuis
-l'extraction. Les données de jeu peuvent être modifiées directement dans `mods/diantre`.
-L'audit des empreintes signale alors les fichiers modifiés depuis l'import initial.
+The importer requires an empty output directory. Compare its output before
+replacing the mod to preserve changes made since extraction. Game data can be
+edited directly in `mods/diantre`; the asset audit reports changes to imported
+file hashes.
 
-## Vérification
+Translations follow [Flare's native gettext workflow](docs/LOCALIZATION.md).
 
-Sur Linux, avec Python 3, un compilateur C et les en-têtes SDL2 :
+## Validation
+
+On Linux, with Python 3, a C compiler and SDL2 development headers:
 
 ```sh
 FLARE_HOME="$HOME/Games/Flare" python3 tests/assets.py
@@ -118,18 +113,16 @@ python3 tests/translations.py
 FLARE_HOME="$HOME/Games/Flare" python3 tests/smoke.py
 ```
 
-L'audit contrôle les fichiers embarqués, leurs références et leurs licences.
-Le contrôle de terrain parcourt 1 950 combinaisons de variantes et de passages.
-Le test du moteur crée deux personnages, vérifie des plans distincts, reprend
-une sauvegarde, descend dans le donjon puis revient à la même entrée de ville
-sans régénérer les plans. Il charge également chacun des dix biomes, contrôle
-l'unicité et l'accessibilité de l'entrée ainsi que les deux marchands.
-Les transitions utilisent les scripts de jeu, et l'accessibilité est contrôlée
-sur les collisions réellement générées. Il exige que les mods actifs
-soient indépendants de `fantasycore` et d'`empyrean_campaign`. Les captures, journaux
-et sauvegardes restent dans `.runtime/tests`, sans toucher aux parties du joueur.
+The asset audit checks bundled files, dependencies and licenses. Terrain checks
+cover 1,950 chunk and connector combinations. The engine test creates two
+characters, checks distinct layouts, reloads a save, descends into the dungeon
+and returns to the same town entrance without regenerating either map. It also
+checks all ten environments, entrance access, merchants and the entrance's
+click interaction.
 
-Le pilote utilise les menus anglais et la résolution 1674 × 960. Dans le cloud :
+The tests use real game scripts and generated collision data. Captures, logs and
+test saves stay in `.runtime/tests`, separate from player saves. The UI driver
+uses a 1674 × 960 viewport. In the prepared cloud environment:
 
 ```sh
 FLARE_HOME=/workspace/flare-tools/current \
@@ -138,14 +131,13 @@ SDL_CFLAGS='-I/workspace/flare-tools/root/usr/include/SDL2 -I/workspace/flare-to
 python3 tests/smoke.py
 ```
 
-Les tests ont aussi été exécutés avec un dossier moteur ne contenant que `flare`
-et `mods/default`. Le rendu sans affichage permet les contrôles ; jouer demande
-un affichage local.
+Validation also ran with an engine directory containing only `flare` and
+`mods/default`. Headless software rendering supports automated checks;
+interactive play requires a graphical display.
 
-Les révisions amont émettent déjà des diagnostics sur des quantités nulles pour
-certains objets et une image `images/menus/game_over.png` absente. Ces messages ont
-été reproduits avec Empyrean seul. Le marchand Loren peut produire un diagnostic
-`vendor_ratio_buy` : son chargeur de PNJ reconnaît ce champ, mais la validation de
-ses statistiques le signale comme inconnu. Le test conserve ces messages et
-rejette toute autre erreur, notamment un échec d'enregistrement du plan ou une
-apparition dans un mur. Les tests ne remplacent pas un parcours de jeu complet.
+The tested upstream revisions emit diagnostics about zero quantities for some
+items and a missing `images/menus/game_over.png`. These were also reproduced
+with unmodified Empyrean. Loren may emit a `vendor_ratio_buy` diagnostic: the
+NPC loader supports the field, but its stat validator reports it as unknown.
+Tests retain these known diagnostics and reject other errors, including failed
+map-cache writes or blocked spawn points. They do not replace a full playthrough.

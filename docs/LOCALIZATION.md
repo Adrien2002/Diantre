@@ -1,45 +1,45 @@
-# Localisation
+# Localization
 
-Le programme est en anglais uniquement pendant le développement. Les textes
-anglais restent les chaînes source dans les fichiers de jeu ; ils passent par
-le `MessageEngine` de Flare, qui utilise un sous-ensemble de gettext.
-Il n'y a pas de traduction intégrée aux images ni de verrou dans le code C++.
+Diantre uses Flare's `MessageEngine` and its supported subset of gettext.
+Source strings remain in the game data and serve as message IDs. Display names,
+dialogue, descriptions and tooltips can be translated independently of file
+names and internal biome identifiers.
 
-Le schéma natif est conservé :
+## File layout
 
-- `engine/languages.txt` déclare les langues disponibles ; actuellement `en=English`.
-- `languages/data.pot` est le modèle contenant les chaînes source du mod.
-- `languages/data.<code>.po` contiendra ultérieurement une traduction du mod.
-- `languages/engine.<code>.po`, dans le mod `default` du moteur, fournit les
-  traductions de l'interface commune de Flare.
+- `engine/languages.txt` declares available languages using `<code>=<name>` entries.
+- `languages/data.pot` contains the mod's source-message template.
+- `languages/data.<code>.po` contains a translation of the mod's messages.
+- `languages/engine.<code>.po`, supplied by the engine's `default` mod, translates
+  Flare's shared interface.
 
-Régénérer le modèle après avoir changé les textes :
+## Updating the template
+
+After changing game text, run:
 
 ```sh
 python3 tools/update_translations.py
 ```
 
-Une entrée suit exactement la convention de Flare :
+A template entry follows Flare's native convention:
 
 ```po
 msgid "Dungeon Entrance"
 msgstr ""
 ```
 
-Le traducteur copie le modèle vers `data.<code>.po`, remplit `msgstr`, conserve les
-`msgid` anglais et les paramètres de formatage, puis ajoute `<code>=<language name>`
-dans la table de langues du mod. Les fichiers `.po` sont lus directement par Flare,
-sans compilation en `.mo`. Le prototype ne fournit actuellement aucun `.po`.
+Copy the template to `data.<code>.po` and fill in `msgstr`. Keep `msgid` and any
+format placeholders unchanged, then add the language to the mod's language
+table. Flare reads `.po` files directly; compiling them to `.mo` is unnecessary.
 
-Un pack de langue séparé peut aussi dépendre de `diantre`, appartenir à la même
-famille `game=diantre`, fournir son `languages/data.<code>.po` et étendre la table
-avec un fichier `engine/languages.txt` commençant par `APPEND`. Ce mécanisme
-n'exige pas de modifier le moteur ni les fichiers de jeu anglais.
+## Separate language packs
 
-Références amont :
+A language pack can depend on `diantre`, use the same `game=diantre` family and
+provide its own `languages/data.<code>.po`. Its `engine/languages.txt` can extend
+the language table with an `APPEND` directive. This keeps translations separate
+from the engine and source game data.
 
-- [Documentation des traductions de Flare](https://github.com/flareteam/flare-engine/blob/master/docs/translations.html)
-- [Extracteur des données de Flare](https://github.com/flareteam/flare-engine/blob/master/tools/localization/xgettext.py)
+## Upstream references
 
-Les noms de fichiers et identifiants de biomes restent stables et non traduits.
-Les noms affichés, dialogues, descriptions et infobulles sont traduisibles.
+- [Flare translation documentation](https://github.com/flareteam/flare-engine/blob/master/docs/translations.html)
+- [Flare data-string extractor](https://github.com/flareteam/flare-engine/blob/master/tools/localization/xgettext.py)
