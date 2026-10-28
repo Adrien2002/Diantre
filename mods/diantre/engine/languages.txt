@@ -1,2 +1,0 @@
-# English-only prototype: intentionally restrict the engine's language table.
-en=English

@@ -1,4 +1,0 @@
-[event]
-set_status=emp_il_f1
-intermap=maps/iron_labyrinth_f1.txt
-soundfx=soundfx/environment/stairs.ogg

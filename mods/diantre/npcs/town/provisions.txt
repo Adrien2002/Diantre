@@ -1,6 +1,0 @@
-name=Lysa, Provisions
-animations=animations/npcs/peasant_woman1.txt
-direction=5
-vendor=true
-talker=false
-constant_stock=2:20,3:20,1105:5
