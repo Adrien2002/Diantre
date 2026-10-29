@@ -621,6 +621,10 @@ msgstr ""
 msgid "Blood Tunic"
 msgstr ""
 
+#: enemies/lvl3_zombie_bloodthirsty.txt:3
+msgid "Bloodthirsty Zombie"
+msgstr ""
+
 #: engine/hero_options.txt:35
 msgid "Blynn"
 msgstr ""
@@ -759,6 +763,10 @@ msgstr ""
 
 #: items/types.txt:43
 msgid "Consumable"
+msgstr ""
+
+#: enemies/lvl1_skeleton_cracked.txt:3
+msgid "Cracked Skeleton"
 msgstr ""
 
 #: books/crafting_alchemy.txt:33
@@ -1149,8 +1157,28 @@ msgstr ""
 msgid "Glowing when worn, it clears the wearer's mind and allows them to deeply focus."
 msgstr ""
 
+#: enemies/lvl2_goblin.txt:3
+msgid "Goblin"
+msgstr ""
+
 #: items/categories/level_4_unique.txt:19
 msgid "Goblin Branch"
+msgstr ""
+
+#: enemies/lvl2_goblin_charger.txt:3
+msgid "Goblin Charger"
+msgstr ""
+
+#: enemies/lvl1_goblin_runner.txt:3
+msgid "Goblin Runner"
+msgstr ""
+
+#: enemies/lvl1_goblin_scamp.txt:3
+msgid "Goblin Scamp"
+msgstr ""
+
+#: enemies/lvl2_goblin_spearman.txt:3
+msgid "Goblin Spearman"
 msgstr ""
 
 #: scripts/powers/goblin_steal.txt:107
@@ -1303,6 +1331,10 @@ msgstr ""
 
 #: engine/damage_types.txt:25
 msgid "Ice Damage"
+msgstr ""
+
+#: enemies/lvl3_zombie_iceclaw.txt:3
+msgid "Iceclaw Zombie"
 msgstr ""
 
 #: engine/hero_options.txt:19
@@ -2649,6 +2681,10 @@ msgstr ""
 msgid "Rogue"
 msgstr ""
 
+#: enemies/lvl1_zombie_rotting.txt:3
+msgid "Rotting Zombie"
+msgstr ""
+
 #: engine/hero_options.txt:21
 msgid "Rudyard"
 msgstr ""
@@ -2813,12 +2849,36 @@ msgstr ""
 msgid "Simon Georges"
 msgstr ""
 
+#: enemies/lvl2_skeleton.txt:3
+msgid "Skeleton"
+msgstr ""
+
+#: enemies/lvl2_skeleton_archer.txt:3
+msgid "Skeleton Archer"
+msgstr ""
+
+#: enemies/lvl3_skeleton_fire_mage.txt:3
+msgid "Skeleton Fire Mage"
+msgstr ""
+
 #: enemies/lvl15_skeleton_guardian.txt:3
 msgid "Skeleton Guardian"
 msgstr ""
 
+#: enemies/lvl3_skeleton_ice_mage.txt:3
+msgid "Skeleton Ice Mage"
+msgstr ""
+
+#: enemies/lvl3_skeleton_knight.txt:3
+msgid "Skeleton Knight"
+msgstr ""
+
 #: enemies/lvl10_skeleton_minion.txt:3
 msgid "Skeleton Minion"
+msgstr ""
+
+#: enemies/lvl3_skeleton_sniper.txt:3
+msgid "Skeleton Sniper"
 msgstr ""
 
 #: engine/titles.txt:156
@@ -4155,6 +4215,14 @@ msgstr ""
 
 #: engine/hero_options.txt:38
 msgid "Zeldyn"
+msgstr ""
+
+#: enemies/lvl2_zombie.txt:3
+msgid "Zombie"
+msgstr ""
+
+#: enemies/lvl3_zombie_brute.txt:3
+msgid "Zombie Brute"
 msgstr ""
 
 #: books/il_notes_1.txt:25 books/il_notes_1.txt:38 books/il_notes_2.txt:25 books/il_notes_2.txt:44 books/il_notes_3.txt:25 books/il_notes_3.txt:44 books/il_notes_4.txt:25 books/il_notes_4.txt:44 books/il_notes_5.txt:25 books/il_notes_5.txt:44 books/il_notes_6.txt:25 books/il_notes_6.txt:44 books/il_notes_7.txt:25 books/il_notes_7.txt:44

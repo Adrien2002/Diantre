@@ -3036,11 +3036,164 @@
       ],
       "changes": []
     },
+    "enemies/lvl1_goblin_runner.txt": {
+      "sha256": "b325d31e0a5fdd54ba84aa91d8b912b74ea039211fba94311c5b7ab76fb9cbaf",
+      "bytes": 557,
+      "sources": [
+        "empyrean_campaign/enemies/lvl1_goblin_runner.txt",
+        "diantre/enemies/lvl1_goblin_runner.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl1_goblin_scamp.txt": {
+      "sha256": "e195c689525ff3e5c0b8df1c2f996ab9aa69d9b5b271f5a0aa3f470fc1df8d28",
+      "bytes": 482,
+      "sources": [
+        "empyrean_campaign/enemies/lvl1_goblin_scamp.txt",
+        "diantre/enemies/lvl1_goblin_scamp.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl1_skeleton_cracked.txt": {
+      "sha256": "080f6e1c9f0e0cffe1feca1fda494431c4966e2eaee5aa9c9ac2b6666233a25a",
+      "bytes": 529,
+      "sources": [
+        "empyrean_campaign/enemies/lvl1_skeleton_cracked.txt",
+        "diantre/enemies/lvl1_skeleton_cracked.txt"
+      ],
+      "changes": []
+    },
     "enemies/lvl1_zombie_raised.txt": {
       "sha256": "88f216a1426b6408312a51d88f0400487fc4c67c79d3f7acebe9c87e8a7e2982",
       "bytes": 299,
       "sources": [
         "empyrean_campaign/enemies/lvl1_zombie_raised.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl1_zombie_rotting.txt": {
+      "sha256": "7af5b5750db9d5b8e5de295a125746d54ee74817167da3260871d685a6104663",
+      "bytes": 476,
+      "sources": [
+        "empyrean_campaign/enemies/lvl1_zombie_rotting.txt",
+        "diantre/enemies/lvl1_zombie_rotting.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl2_goblin.txt": {
+      "sha256": "455dc64873c81a64f466549d1f0bc96ab5b191854da49261204c2eda451cf274",
+      "bytes": 476,
+      "sources": [
+        "empyrean_campaign/enemies/lvl2_goblin.txt",
+        "diantre/enemies/lvl2_goblin.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl2_goblin_charger.txt": {
+      "sha256": "2c8bc59811a62d59e3a6d05b5a21177577057cb2c89204b04673b7a5a6174bdf",
+      "bytes": 559,
+      "sources": [
+        "empyrean_campaign/enemies/lvl2_goblin_charger.txt",
+        "diantre/enemies/lvl2_goblin_charger.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl2_goblin_spearman.txt": {
+      "sha256": "4c86e7fd350470338f911fd1f557035d661a4fda3ee658cfc17b37c7bea765f7",
+      "bytes": 734,
+      "sources": [
+        "empyrean_campaign/enemies/lvl2_goblin_spearman.txt",
+        "diantre/enemies/lvl2_goblin_spearman.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl2_skeleton.txt": {
+      "sha256": "abf367dcce25746ff4742beecc68080c93de9b45b8091006efeaa00407067e5a",
+      "bytes": 522,
+      "sources": [
+        "empyrean_campaign/enemies/lvl2_skeleton.txt",
+        "diantre/enemies/lvl2_skeleton.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl2_skeleton_archer.txt": {
+      "sha256": "33ef50d98999a61b6b92357a99aecd1b8db32efc27358f6c28e647721cb13612",
+      "bytes": 782,
+      "sources": [
+        "empyrean_campaign/enemies/lvl2_skeleton_archer.txt",
+        "diantre/enemies/lvl2_skeleton_archer.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl2_zombie.txt": {
+      "sha256": "6e90a0c3441f388b79a7b65ac907164fa73815490510837380f20d79f241c999",
+      "bytes": 494,
+      "sources": [
+        "empyrean_campaign/enemies/lvl2_zombie.txt",
+        "diantre/enemies/lvl2_zombie.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl3_skeleton_fire_mage.txt": {
+      "sha256": "1be8d5dacca362f794fe3eef5aad1d8320c13b8c6017afcaac26b837d240ef1a",
+      "bytes": 816,
+      "sources": [
+        "empyrean_campaign/enemies/lvl3_skeleton_fire_mage.txt",
+        "diantre/enemies/lvl3_skeleton_fire_mage.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl3_skeleton_ice_mage.txt": {
+      "sha256": "5092bc68d2be79d5dd98ce04d1586f857c8d8732ce8180d13f9fdd2088950507",
+      "bytes": 811,
+      "sources": [
+        "empyrean_campaign/enemies/lvl3_skeleton_ice_mage.txt",
+        "diantre/enemies/lvl3_skeleton_ice_mage.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl3_skeleton_knight.txt": {
+      "sha256": "d0e16bec55c732179654ee8f35c013dbfdd8cf2e2ff925ba8552bd8595cb04f0",
+      "bytes": 558,
+      "sources": [
+        "empyrean_campaign/enemies/lvl3_skeleton_knight.txt",
+        "diantre/enemies/lvl3_skeleton_knight.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl3_skeleton_sniper.txt": {
+      "sha256": "d0d1281cb463329f11b859482067e6ce0f38c915f0605ee512d965c695e1dd63",
+      "bytes": 783,
+      "sources": [
+        "empyrean_campaign/enemies/lvl3_skeleton_sniper.txt",
+        "diantre/enemies/lvl3_skeleton_sniper.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl3_zombie_bloodthirsty.txt": {
+      "sha256": "36949bde7697a33768a75ca579b0731243d3e5e007d95042ea41a0022c2f59f6",
+      "bytes": 528,
+      "sources": [
+        "empyrean_campaign/enemies/lvl3_zombie_bloodthirsty.txt",
+        "diantre/enemies/lvl3_zombie_bloodthirsty.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl3_zombie_brute.txt": {
+      "sha256": "36e28c945517cc6acee5dd616602b2e6fd1c0af67aed8277278330f57d67f26a",
+      "bytes": 501,
+      "sources": [
+        "empyrean_campaign/enemies/lvl3_zombie_brute.txt",
+        "diantre/enemies/lvl3_zombie_brute.txt"
+      ],
+      "changes": []
+    },
+    "enemies/lvl3_zombie_iceclaw.txt": {
+      "sha256": "d50a903ed0232a38c4450cce210af585419cb6fd412d2a04131d0b5a4029a136",
+      "bytes": 523,
+      "sources": [
+        "empyrean_campaign/enemies/lvl3_zombie_iceclaw.txt",
+        "diantre/enemies/lvl3_zombie_iceclaw.txt"
       ],
       "changes": []
     },
@@ -7656,8 +7809,8 @@
       "changes": []
     },
     "languages/data.pot": {
-      "sha256": "0f625408470fdb35ad6540eb24692d74b7bd16fd4606eb6612dd7a50271d9bed",
-      "bytes": 105107,
+      "sha256": "2ea536d02834e2b0592dba5c9c55624c36c98bb4e212309c869551691dd9626c",
+      "bytes": 106296,
       "sources": [
         "diantre/localization template"
       ],
@@ -8130,144 +8283,144 @@
       ]
     },
     "maps/iron_labyrinth/generated/f1/alcoves_0.txt": {
-      "sha256": "5e0636f02416935aee8267d9c9212bb06adf107312d97361f460fc52f088a675",
-      "bytes": 23011,
+      "sha256": "ed159e524acbc67707767288ebdfab31c4e6ecf2a26d1fd03b22fcb84b1a0fb4",
+      "bytes": 23012,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/alcoves_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/alcoves_1.txt": {
-      "sha256": "fda792db9629a8359862e9be0f22a310fe09e2b08f8b1f817d207ae477efb46f",
-      "bytes": 22926,
+      "sha256": "a816605f905b39d4e5e9b02b2b3cc06cfb4cefcf94e6369e99ec886bd7a27fdd",
+      "bytes": 22927,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/alcoves_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/alcoves_2.txt": {
-      "sha256": "f25604b24e5600e4e345bb41ca35327beb78155bf133b02a1b48e92d86e08344",
-      "bytes": 22831,
+      "sha256": "3b8b15ad8bcaba5af01161b98d456964a0d2115dd4fff52a954a8398830a132a",
+      "bytes": 22832,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/alcoves_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/basilica_0.txt": {
-      "sha256": "c5eb309ed407cb6259eb4a14ec5660b0e13d8ed51c693c9e2024c314e81a9020",
-      "bytes": 23082,
+      "sha256": "6c3296f53a29793384acd338a17b7d33dcb4da0e3ce8ee5a6d315a318fa37fda",
+      "bytes": 23083,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/basilica_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/basilica_1.txt": {
-      "sha256": "70de95942b33a7bf7ca0ae9700dd9e0c1e3d03e8b01e43ac2d826de8b49e744e",
-      "bytes": 23038,
+      "sha256": "a35a48510552480b644b491fd79f20663cd4ad539baa6ad426ba5208e1276512",
+      "bytes": 23039,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/basilica_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/basilica_2.txt": {
-      "sha256": "eb3132ee4ce9a0cba0c597c4a2096a1939459551da88adf457088cac7271da25",
-      "bytes": 22973,
+      "sha256": "b7fdff874dec8a5e49de5b6fc61d303bc6047f5bd24b39d7e12c105b7a1b0d86",
+      "bytes": 22974,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/basilica_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/cavern_0.txt": {
-      "sha256": "4734fe694ea0fc5ab92e6e50279aa74a8cabf0fc08150f72da0758763e11b89f",
-      "bytes": 23020,
+      "sha256": "53ecdf3af044352e9ba52a566c296b700c9564f75fec4441f969c89095163731",
+      "bytes": 23021,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/cavern_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/cavern_1.txt": {
-      "sha256": "5d282b51718375f8514d8b4080c5f542710e3ebda586c2d3f32f860da0b46fb2",
-      "bytes": 22937,
+      "sha256": "d29c12448828e84b0dd5fbdd3f824d3fa5869cd095a82d24a587fd5fe015b75d",
+      "bytes": 22938,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/cavern_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/cavern_2.txt": {
-      "sha256": "bdd31136b9af8a7e6e5fbf4c2186a88c3ec288673c0090cac8d41baa82de6049",
-      "bytes": 22849,
+      "sha256": "84fdf0865d12a175e9ae5e8e0c246d7db80989e75c1b2611862d0c8b17d469ae",
+      "bytes": 22850,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/cavern_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/courtyard_0.txt": {
-      "sha256": "f4e966eac34d0de179baab940f91380c6c2208c393a0f3ab106352f3eca208b7",
-      "bytes": 23069,
+      "sha256": "7ca33e89001d0aecafb2e0fe7158357d29d63d338a33bb4a8ae8b1ba01bfbfa2",
+      "bytes": 23070,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/courtyard_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/courtyard_1.txt": {
-      "sha256": "beebb6ea114892608d793cd410dac92c2e8b21cb1337291e7fdf24a93a23e426",
-      "bytes": 23039,
+      "sha256": "cf35db66553e5312656e181ab854da517391ad202b38890ea7c9de3d8e7404aa",
+      "bytes": 23040,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/courtyard_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/courtyard_2.txt": {
-      "sha256": "421f8f70b1db59d1bca65e890e8d6c035ca34d184eb8d56c8fa13bf11d697787",
-      "bytes": 22967,
+      "sha256": "8b660b5ddf2e0f4e105b6bd95c83d7310d4824ec576a165365daa5600fc836bf",
+      "bytes": 22968,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/courtyard_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/crossing_0.txt": {
-      "sha256": "0b5d01e395218ffc41098a607c62f1e1ee9356f1f6c4b8357c6f4f839524b961",
-      "bytes": 23170,
+      "sha256": "73a66c336fc908ef0ca3699c775d4485f17b52dd5c27fdf6f4075bfb80423db2",
+      "bytes": 23171,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crossing_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/crossing_1.txt": {
-      "sha256": "b4c5c8d860249a078c07be5000d6ed72b5697e8067709015ed112bc993d890e7",
-      "bytes": 23068,
+      "sha256": "afa4e9485ea98b2485948454d8488bb2fb8bade0a73b28ffb26c638953d0fa56",
+      "bytes": 23069,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crossing_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/crossing_2.txt": {
-      "sha256": "2ce078e2e6080a069ca38c5af501575cab93b6063c6110c25fb8bb4117b1a345",
-      "bytes": 22964,
+      "sha256": "ccbae91bf9c84404d435eb44ac10c9e055e92523f7bdd76116b79a347a020577",
+      "bytes": 22965,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crossing_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/crypts_0.txt": {
-      "sha256": "5973ef2962483a18071de8de832beb75de3dfb6edec589b2718eca70e14c6736",
-      "bytes": 23304,
+      "sha256": "87c6f7dd9b321eedc451d843ce0ec9affd3634f74f7b8094dcd2e75e9003bb1e",
+      "bytes": 23305,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crypts_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/crypts_1.txt": {
-      "sha256": "0f1fe624d21bd8d01f5c1a3e42e480c37e2fc4e3b6fa195ec9dd00d55a00db7d",
-      "bytes": 23178,
+      "sha256": "8011c28eba72112802fbb018e51b29bff5d39b66c25f0e039f47113100f9492f",
+      "bytes": 23179,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crypts_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/crypts_2.txt": {
-      "sha256": "d69ed23433328eee1dc3cedea3a079ade3d898351b1ac7488043f9cacc79543d",
-      "bytes": 23068,
+      "sha256": "7b7beaeb18acc3e2b20f1a2315dd7af0c61dff01469dfbda66d54357fda97bb9",
+      "bytes": 23069,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crypts_2.txt"
       ],
@@ -8306,80 +8459,80 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/end.txt": {
-      "sha256": "645185099d5cd0e9095fe79101aec7bd61674f1aac1303f0668bd8ea9ba10e8b",
-      "bytes": 23383,
+      "sha256": "f584344ba16f6e101b400cbb71f59e4e8cb64608747f7f515e1a9459096570af",
+      "bytes": 23385,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/end.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/galleries_0.txt": {
-      "sha256": "8fbb612fdbc9e0af9683222b536795a4e099516b8de1dd06df603adca0e8a08d",
-      "bytes": 23201,
+      "sha256": "08db3b911c3a50bc0f02acd1c76e523b3d05937bd0ad720c87f089f2224875c4",
+      "bytes": 23202,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/galleries_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/galleries_1.txt": {
-      "sha256": "09ca469430d7bfeceb7b371645b657c10c8e4953c91bbcd2041d4311b1bd74b6",
-      "bytes": 23068,
+      "sha256": "2827c0b0536b6e6bb274922f8e7ca7d8338a261a92cd436e61d33521ec6c4592",
+      "bytes": 23069,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/galleries_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/galleries_2.txt": {
-      "sha256": "3ae97bfb1b39399099e5536fa8838c5b79802312a90c022abb3398c68153dfa8",
-      "bytes": 22925,
+      "sha256": "d2b447de4707482e34feb9c5403c420a06eee546ed9e4e602c0d588762f6d3b8",
+      "bytes": 22926,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/galleries_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/great_hall_0.txt": {
-      "sha256": "d0e429efab07bccb8962d3f68c391adafe4e4ee849e3f6bdc89d7f26bb1a74fd",
-      "bytes": 22944,
+      "sha256": "54417a1f67f63c84885bcbf5481427f6b9c4bd41d0b8f9c26c9bafbf1f646a87",
+      "bytes": 22945,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/great_hall_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/great_hall_1.txt": {
-      "sha256": "011d20744bc0c655b531f46fbf3d89d19c4731022d9caf78288a2fb9ad39c4a9",
-      "bytes": 22936,
+      "sha256": "12bcec03dbee7c7bd82720e43fd413650f20093675f07690d3d63f1642f55740",
+      "bytes": 22937,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/great_hall_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/great_hall_2.txt": {
-      "sha256": "3187ad55619d1f57b383bb56193b7fa970a2861c20a0ae56061c33a9befb8f55",
-      "bytes": 22888,
+      "sha256": "b718062a4d934d03f0afe2644a79688081ca3a46dff0fb50897ba5d954d0e62f",
+      "bytes": 22889,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/great_hall_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/key_0.txt": {
-      "sha256": "9341c5750e9657d39f6e3fd94b17f82e1e484fe83f6c6a7efa23fc8d699dd9f3",
-      "bytes": 24195,
+      "sha256": "fe1f767e0ff280ca0015e0ca5dbde9d53c4d52134761e6e53cc26462456f1460",
+      "bytes": 24196,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/key_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/key_1.txt": {
-      "sha256": "2cef8f6c52c26af73be4eb0c22ef7023063edf05ad7f893fffaf8e8a0a8f81c9",
-      "bytes": 24152,
+      "sha256": "d7db7090a93dec99720821bbd3ed06e6afba436fd81ce7cb97f4f8046d240821",
+      "bytes": 24153,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/key_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/key_2.txt": {
-      "sha256": "e2ce518085ed133dfc904f3f21b945682ad47a19f4d9dadbfc2648a78d6090b3",
-      "bytes": 24091,
+      "sha256": "cc4d17b65a2b4bf309ceacb15e3b9d06975ba32ff0d7e800d815f556ced0236e",
+      "bytes": 24092,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/key_2.txt"
       ],
@@ -8410,48 +8563,48 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/rotunda_0.txt": {
-      "sha256": "bb9fe23960b488bcbde4821dd30531b279570fc54df41463cff4e3668f5ac97e",
-      "bytes": 23153,
+      "sha256": "df8fbeeeb77cd1d4126784778b25e81e1063ddeac9917ac50cad985ba3bce19a",
+      "bytes": 23154,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/rotunda_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/rotunda_1.txt": {
-      "sha256": "c16efd29c73adb7a68128c45df66626f8363c0b8013a57b74f3a687b5b07f158",
-      "bytes": 23076,
+      "sha256": "2c60025e0cabf3bf59afc347dcb064c48affe92bc56c640624eb771e53a6d091",
+      "bytes": 23077,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/rotunda_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/rotunda_2.txt": {
-      "sha256": "90df9eec9fac65ae0a6673a0fe7db92235d84f62f26be04dcb2e4df6ccee70f7",
-      "bytes": 23065,
+      "sha256": "10e830a082ca78bd29c6d6c4e8aa49cbb7e718388967ffcf58a2a3f2fd021173",
+      "bytes": 23066,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/rotunda_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/split_hall_0.txt": {
-      "sha256": "9d466ba81a5f97dd47d5ecabbdf23355d4919c121cea92f2e86935ff90676295",
-      "bytes": 23300,
+      "sha256": "180ecd66e00495d57fcfc953c69b51ebf0e0196211dc7be4ceb2ab999f595d42",
+      "bytes": 23301,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/split_hall_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/split_hall_1.txt": {
-      "sha256": "8a4663d8889813b8fc74c2ce465d180ea3c46edfed6e2b9a4dcdf7d32a5e38de",
-      "bytes": 23244,
+      "sha256": "4e00310ddda249282a72d4cea23f5303fe4ba0d1011e3711c7e0a31ed6d286a4",
+      "bytes": 23245,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/split_hall_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/split_hall_2.txt": {
-      "sha256": "c061cb0c3b7fa7a0324003574589b74411995349b6987d6ab186d7bd8cfffa0b",
-      "bytes": 23184,
+      "sha256": "0826af07a4ff6d943226551820308b8ff8f3b2c6712ab5808d6c9cf922bb6f45",
+      "bytes": 23185,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/split_hall_2.txt"
       ],
@@ -8466,192 +8619,192 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/winding_0.txt": {
-      "sha256": "9fff0aee043b464283a33d0045be369c470d4d61ba8c9ce3c16ba903c216eb63",
-      "bytes": 23288,
+      "sha256": "c457264774d2e78c055061e35d97b7864a8f352a6e799c7727100f027121d09b",
+      "bytes": 23289,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/winding_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/winding_1.txt": {
-      "sha256": "bb1a60e0529d0135f40a18a658aae5706c5c29f6ef24103d722f82db1d7e9fff",
-      "bytes": 23160,
+      "sha256": "0e65d29ec2b750ce3412ea88e8c56dbdc40fc684128b40524d6e9df0ea62eeb0",
+      "bytes": 23161,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/winding_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/winding_2.txt": {
-      "sha256": "909c62688a168522a5cfd60e98f7957b4b374c9b1aef71233273a60879c2d53d",
-      "bytes": 23009,
+      "sha256": "940b11b9f0f9be5f0daecf2a42cfea315ae1f1ad348d9ee89dd191001e55e4fc",
+      "bytes": 23010,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/winding_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/wings_0.txt": {
-      "sha256": "77af83cef3ca0d73a1291a5c3a2a2e6041edde478e45d0a1a470670a3caa0721",
-      "bytes": 23145,
+      "sha256": "c9b68e8822f80b1e5bf6bffaac7e14c18205fba92ac6d4f8e6faa4ed4be473ea",
+      "bytes": 23146,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/wings_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/wings_1.txt": {
-      "sha256": "dcedddb5cb14914b47fed4527cd525e89c7d852879827f8e23658ccdea5e74ec",
-      "bytes": 23059,
+      "sha256": "89f015b622e298035c7c15f29a795c477bff00be8f795db38cdf112196124399",
+      "bytes": 23060,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/wings_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f1/wings_2.txt": {
-      "sha256": "51651b16cb71cb9bc5b5b2244c35b2d5e854adf1af1a8880f4090b8f3ccb34f8",
-      "bytes": 22964,
+      "sha256": "f5c86bbf274ac71aa176e58d5451aaf81dea6d60dd61ddaf11a3a22840973fe2",
+      "bytes": 22965,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/wings_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/alcoves_0.txt": {
-      "sha256": "a05eab2b2e815d9c1030e6667da54e09cbe21fb156e3cc362243fe3bcb506b03",
-      "bytes": 23011,
+      "sha256": "40a74d4ab4ae95618cd22ad37d59c9f010174b89733f879e8a4e593da0e2be51",
+      "bytes": 23012,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/alcoves_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/alcoves_1.txt": {
-      "sha256": "eb689130ffe5f6b89fe57164f544bab49f5deb294bcbb1884a05855828d7cf91",
-      "bytes": 22926,
+      "sha256": "d183320bd917856e8e4b07d249adf7f3b0a219ef916482fdbace2413b5731ea5",
+      "bytes": 22927,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/alcoves_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/alcoves_2.txt": {
-      "sha256": "36571212be5376dc4cd3a65dd895e4d2865d83cd28c1bc52444a8e72ce63b584",
-      "bytes": 22831,
+      "sha256": "92989da1e7530d0064bdc57463d5e0f79178ef9c27d53837df60fa1ffad33729",
+      "bytes": 22832,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/alcoves_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/basilica_0.txt": {
-      "sha256": "2956b593b649a53dbdd12b0a3c1a8294b4b793f88659441dcc7eb873b996b245",
-      "bytes": 23082,
+      "sha256": "a715be22f1030d8adf6ebb3eccae66271423cb194da203da32ee822f2d41a3b0",
+      "bytes": 23083,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/basilica_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/basilica_1.txt": {
-      "sha256": "8ed9827c88b40f9dff4194ade5f0d55d8f2742c6fa379c534f726eeca94c8324",
-      "bytes": 23038,
+      "sha256": "8f19c56c851ad2ba7f00bc41a99e84bed5629b3c9cfbfc2425eca025668ae63c",
+      "bytes": 23039,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/basilica_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/basilica_2.txt": {
-      "sha256": "31e9f8e4832245bf48a5ddf40d26b5756bf3e1945b70901b7a8eed3bb673c0e4",
-      "bytes": 22973,
+      "sha256": "a2bc22a595a06854ea63dcd2a44246341430f5270da9848095cc8298e9eaa7c0",
+      "bytes": 22974,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/basilica_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/cavern_0.txt": {
-      "sha256": "5a4d260bd56b163a06221e80ee41e1621866dd04b513f5594fc78b350272eec0",
-      "bytes": 23020,
+      "sha256": "09c73ce00ea49a538a451bfd0f137c931280bf4f6e0eeb5da71675010f47228f",
+      "bytes": 23021,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/cavern_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/cavern_1.txt": {
-      "sha256": "581d1e837db4c3bc56f9572f4e4d2fa898a26b16b3e51e10ff7c12647c9c4c99",
-      "bytes": 22937,
+      "sha256": "d7ff969a1d8dd66bd1e168d45267f530e192728a5c62c9ab7c9e750a03b51521",
+      "bytes": 22938,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/cavern_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/cavern_2.txt": {
-      "sha256": "e8a423d01091448b57a3ae39cab553468185375c23d5cfd520af9fdc9103c496",
-      "bytes": 22849,
+      "sha256": "15e0a3c83108b3c760bd89b86dcef631cb9da91ddb570668f6883ebdaf783139",
+      "bytes": 22850,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/cavern_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/courtyard_0.txt": {
-      "sha256": "3e4368491b63ca5420b00a2e9512c6e2b02dfb4d986c0d35d33c69011057b884",
-      "bytes": 23069,
+      "sha256": "0599ea0109d2971008c3d97892073a6088dcfec04024c9971a36875ebbb34f5a",
+      "bytes": 23070,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/courtyard_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/courtyard_1.txt": {
-      "sha256": "d1ab130e0f9b128cedbd4e4d3caf3c7ae3009ce687eb3a848d7f02b058fa6c95",
-      "bytes": 23039,
+      "sha256": "cd8fdede0a50d37bf72dc8d6e392f20ff26c0ce2775447d45738eb987a4651b6",
+      "bytes": 23040,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/courtyard_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/courtyard_2.txt": {
-      "sha256": "b492269b7a6561aad4e533d8f57f9dde14128bc27dbe6c63258fb3a30dfa35b7",
-      "bytes": 22967,
+      "sha256": "53bad36a100286222716308af2ff220721275038a17328ae935b5739dee763d9",
+      "bytes": 22968,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/courtyard_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/crossing_0.txt": {
-      "sha256": "09ba90a0091c0fbfbe0f82c11be6153cf3206db600f42dc5321a10383486119d",
-      "bytes": 23170,
+      "sha256": "41007edc9859181564aa0d4f620a97fc044f152db978be6aff30de59d56847cd",
+      "bytes": 23171,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crossing_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/crossing_1.txt": {
-      "sha256": "84af1abb431096e9844c7dd614a462664b10b59b37a2bf210b336de8d5a68bd8",
-      "bytes": 23068,
+      "sha256": "27130269df28e09466e00aa18f6e5f45b8de661db74f9b930c2ae8f4abc36be3",
+      "bytes": 23069,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crossing_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/crossing_2.txt": {
-      "sha256": "83ac02a0f46685093c03aa8768c3f6d07527193bc244cd7c295b0a0c4e1ca101",
-      "bytes": 22964,
+      "sha256": "768b02c7998052682d6b913bfc6848494f590f2faa4d3150c5682599f5be6127",
+      "bytes": 22965,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crossing_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/crypts_0.txt": {
-      "sha256": "f23cb3fc2495d31ca78cd3d1919c8530ceadcf44e2c1ab6e410868d7544660fd",
-      "bytes": 23276,
+      "sha256": "b29a579a2d12f0f3e449a44e7824c456ea3928b18cbf715f537cfe83a2da75e4",
+      "bytes": 23277,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crypts_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/crypts_1.txt": {
-      "sha256": "c115d7285b2c3951801fe4e6b929c3393fdb3d242374072b9fcbd3f579ee49af",
-      "bytes": 23203,
+      "sha256": "21e79e9078b76de19fa8c1000595c1a9db0c733a22f97135a4632fb179f48259",
+      "bytes": 23204,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crypts_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/crypts_2.txt": {
-      "sha256": "7d4c34a2951d9a497250ff364b7a29f6ee7ce634f66ac23af8403e9635584a25",
-      "bytes": 23064,
+      "sha256": "c3e653072a50a57f1129d00efc9f204160b98f6ab8ae4d95e9cbcc82bae71cff",
+      "bytes": 23065,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crypts_2.txt"
       ],
@@ -8690,80 +8843,80 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/end.txt": {
-      "sha256": "7ca96c61d8798ccf2fb824767764f08ba6988347cc37dd28a1271feaac371f73",
-      "bytes": 23383,
+      "sha256": "c704520d7e5f921a6834e636a0ab57c56b1727379a122bc8eaeeb51c9f0c27ae",
+      "bytes": 23385,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/end.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/galleries_0.txt": {
-      "sha256": "ea609ac8612049f597311ea873f21820fe20155d3ade9f3b2e97d06e24a8ce62",
-      "bytes": 23201,
+      "sha256": "a807ac2f12872cacb4c021815bfb5f3309db69bf072a92ff04d320ec0aac2fab",
+      "bytes": 23202,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/galleries_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/galleries_1.txt": {
-      "sha256": "eb0ef8815dfb3d7a8f7add19a6a17e951afa89ecaa81b76b0e805c0de2690c8b",
-      "bytes": 23068,
+      "sha256": "2086bee3a156be2b014c56a3fb469b4983a95df2df1b7534b5ffaa77b99dc430",
+      "bytes": 23069,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/galleries_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/galleries_2.txt": {
-      "sha256": "4df693906949c91e726697a8c5ddcd53d9625a621c6c41c81d8535114edf766b",
-      "bytes": 22925,
+      "sha256": "e71cb01a8dee577a5c9f95c36df0efe0ab3edc359c1ab1f8223a6d84eb4ab85a",
+      "bytes": 22926,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/galleries_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/great_hall_0.txt": {
-      "sha256": "8ae59dd0d7ca0a2fa5115970d354d5e8ec98f5aab8cc7247e936dcf79a065ee9",
-      "bytes": 22944,
+      "sha256": "e4c49088b0a24a0c47a7765247e58d52c7ad7fce69aa7718b646f5ab6aeda4c4",
+      "bytes": 22945,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/great_hall_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/great_hall_1.txt": {
-      "sha256": "85f092ef0040d7a1347445115dc6dd2615b95e500bc3ac691daabeef2e686430",
-      "bytes": 22936,
+      "sha256": "d04c813d8506afa3c68adf256300e0b52b9618463903d639341bc2486964634e",
+      "bytes": 22937,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/great_hall_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/great_hall_2.txt": {
-      "sha256": "efd4313379a7cf1589e29324f9e35ba84890f0898b21cdbbf8c6f90f0a612263",
-      "bytes": 22888,
+      "sha256": "be11d7e4ec39d62c409fcf0ef28b9bdd815f45695f75d385a4cd150f13a15fd6",
+      "bytes": 22889,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/great_hall_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/key_0.txt": {
-      "sha256": "0db16a76b9d404f39fc08e7c9296713cb586cb771370711613a9946668285b96",
-      "bytes": 24195,
+      "sha256": "652657d09ed3dc48e791d12c3b69e1d7bb3754e5e518ab2c3adfad8e0c650397",
+      "bytes": 24196,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/key_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/key_1.txt": {
-      "sha256": "0e27e75f7be09e971f49d74ac5e91f9e11ca7464ed01fd63a4201dd4b19ccc52",
-      "bytes": 24152,
+      "sha256": "0fb5beb5bf7b6223746aea801589d2508026caf450c4270ba80d727f040a08e0",
+      "bytes": 24153,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/key_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/key_2.txt": {
-      "sha256": "0be5377d5bd63986494830f02cd1afef3e18bf886ba66efc376a976ce892c3b7",
-      "bytes": 24091,
+      "sha256": "4d5f706bec4b4d99c774feefed68530f102df4696226bfc9dc2c42e9b0019d09",
+      "bytes": 24092,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/key_2.txt"
       ],
@@ -8794,48 +8947,48 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/rotunda_0.txt": {
-      "sha256": "abae49335a8dc3aa51ee07a722ae6abdc90f042aa44a1da4a4b5cb4612e94f36",
-      "bytes": 23153,
+      "sha256": "dab9c7bc568a5c13766bb41ecf9379d3123bdbb2e25c855c3349c342474e18af",
+      "bytes": 23154,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/rotunda_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/rotunda_1.txt": {
-      "sha256": "0c7689819347f1f44b8c5d51e54a0ff8344c6aedbca6db220b8e7a3c1bff2c35",
-      "bytes": 23076,
+      "sha256": "fbec67cd92ce88acf88419feea499f30c9c8b2eba466bb215a6d11671d51bd84",
+      "bytes": 23077,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/rotunda_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/rotunda_2.txt": {
-      "sha256": "9e0f3136fdeb3ba7d53fcdfe9cc8c1898a211e65936f35e97782920329a1c3e2",
-      "bytes": 23065,
+      "sha256": "6da353b16f408087780814b18b12ca0b2170cee89f62668a921d84776f3830ba",
+      "bytes": 23066,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/rotunda_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/split_hall_0.txt": {
-      "sha256": "36606a8f04e59adf41a4907fbf94c0627c01d9111000e71809a394776d82dad1",
-      "bytes": 23300,
+      "sha256": "44082939bb9d4bc21336d8e2cda7063531e2eb7da3275e03e2ae618e711136b6",
+      "bytes": 23301,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/split_hall_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/split_hall_1.txt": {
-      "sha256": "b25763b04dd9b613bbba52715649700ae43ef3aa3f305aa1571627e0bba772fd",
-      "bytes": 23244,
+      "sha256": "f7c9a5154b56016f999d2fdb0e3a3666a2ec6fe3f8c80a71ae3d9e0fed032c65",
+      "bytes": 23245,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/split_hall_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/split_hall_2.txt": {
-      "sha256": "baca7588c12eaa069ad1a2a1ce75e96b96871acf3270769f9a4068217bf13fa1",
-      "bytes": 23184,
+      "sha256": "e8f28626eff82b068ac0114713e39b56679b469c5b39a88c864b7fa95edf02a8",
+      "bytes": 23185,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/split_hall_2.txt"
       ],
@@ -8850,192 +9003,192 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/winding_0.txt": {
-      "sha256": "8b4b35331b02118f101e6d691c4eb47ede9223d8ac18a11035f4a4013ea91dff",
-      "bytes": 23288,
+      "sha256": "ec858cb58b415d998493e7d6d089b416b9c5aba7b98330653cece276a43b7af5",
+      "bytes": 23289,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/winding_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/winding_1.txt": {
-      "sha256": "84d15caf75bf8127c8161dbaeb4a56e5bac4877846961315fded330de168b214",
-      "bytes": 23160,
+      "sha256": "99123791fb0e32b08321ace0743a650907f33b3a3039acbbdd79642db2b16ecb",
+      "bytes": 23161,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/winding_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/winding_2.txt": {
-      "sha256": "14414246ee9c9b844de4ecf3cdff5e63009ce9b6408840c809105a099fa68771",
-      "bytes": 23009,
+      "sha256": "4eade12f5b12ba2aa5fc9c3cbcedfae5341811ac0611ffa5f6c15a6f1e98802f",
+      "bytes": 23010,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/winding_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/wings_0.txt": {
-      "sha256": "1ccb50c41f5604a5a1519d0b0c58d171511de7b5e3607a3324c6c645507b8323",
-      "bytes": 23145,
+      "sha256": "e2ca6da264951e90c77f30e2dbbb58826760760a7ab3e7176642af17836d3a3b",
+      "bytes": 23146,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/wings_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/wings_1.txt": {
-      "sha256": "b2d52abdecc0c5650abc6d0778ed5f47fcad613c278db5c67f82c7b392a4e2f2",
-      "bytes": 23059,
+      "sha256": "18f13bbba3edf163d6044917a3e75c6c2059f1ec8d0b1d0c011037a0117a353c",
+      "bytes": 23060,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/wings_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f2/wings_2.txt": {
-      "sha256": "98b656fd625158b95ffa7e54bc95615b7895098db2d51927850f062aa363caf9",
-      "bytes": 22964,
+      "sha256": "bccaff12af37a41980f22baa068fc7a572e44571d4f12af5db8d664524deed47",
+      "bytes": 22965,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/wings_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/alcoves_0.txt": {
-      "sha256": "5fefcf6b45b84884bf28e2d2976287ed62a0e7bf6050d7f5c8dfb562eec936e6",
-      "bytes": 23011,
+      "sha256": "08d62d4b1913e19f2616e2ef2dbeb5967d9763252d843aadc50088e716d0b280",
+      "bytes": 23012,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/alcoves_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/alcoves_1.txt": {
-      "sha256": "c23d66a539b2f45664b40962f7dcb7a7d83e52160a746424c1454f519edcf263",
-      "bytes": 22926,
+      "sha256": "404c011a382821fe2deaa0d4d9f87530c8cf533d30636cd1965edfd9905a8034",
+      "bytes": 22927,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/alcoves_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/alcoves_2.txt": {
-      "sha256": "e1ec595d1607b309698f3b3f535e23aeefa111592cc1bf21b59bec901dc6fc91",
-      "bytes": 22831,
+      "sha256": "fff819885528e3c6ddc7c862880c1a1c96b12cbdddd10a272ef1eae312ec1874",
+      "bytes": 22832,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/alcoves_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/basilica_0.txt": {
-      "sha256": "8a0874976fc8b37fa5b83fa229804740cda8c8a6edf8f0e9b6d13f7033309f40",
-      "bytes": 23082,
+      "sha256": "97db33fcb7865be7c40dbc430934f5d09fce15a3cc9decbd8e715867f72346e2",
+      "bytes": 23083,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/basilica_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/basilica_1.txt": {
-      "sha256": "372667f69368c7d480f1b71db74b2bb0126bce41fb0322d966b2477438a05022",
-      "bytes": 23038,
+      "sha256": "ef051f72ecc8baa4fff5e9d0af1842a7d772cc06bb7513dad13d11559928e2b2",
+      "bytes": 23039,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/basilica_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/basilica_2.txt": {
-      "sha256": "d1a1e49b410f78ce786bce1c141a3d0c266e319bd776edbd0f8664616467ccd9",
-      "bytes": 22973,
+      "sha256": "a90acfa61c653fcb7cb972fba06688342d6ce91213a1cedaac94d0609a55f120",
+      "bytes": 22974,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/basilica_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/cavern_0.txt": {
-      "sha256": "9def6bd91331e16bd2edb8cafdc3418d1b132daa06f1a480bbdedbc96f4bc299",
-      "bytes": 23020,
+      "sha256": "4b33ccc4b2420863e1768397a2ff2e434254d9b42008eb28a038e56c9b8da939",
+      "bytes": 23021,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/cavern_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/cavern_1.txt": {
-      "sha256": "e68c2147d1ec084203a0bb0870b7322f4bc8a0104866083a0efd6a1c55783c75",
-      "bytes": 22937,
+      "sha256": "bc6506ed51382cf29b8bf4045e503271247ece6e518c43ff453a9995523cf457",
+      "bytes": 22938,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/cavern_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/cavern_2.txt": {
-      "sha256": "fac0ba72e4a04dcfaead8a5a0eabc2d30e638bbf5d43ffeaa40e56e6bc81cc73",
-      "bytes": 22849,
+      "sha256": "1a1a3a12194a7b6b5bbe40c9e193b5f1563bb862cce9b7f40bca1a791a833718",
+      "bytes": 22850,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/cavern_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/courtyard_0.txt": {
-      "sha256": "2f0dd482090a0a9cf2565d0df88cadbe42af94b20bdf1dd5a7cca5ff6711ef78",
-      "bytes": 23069,
+      "sha256": "15ed0efc9fc4ed1918ab1697af1fd503fd4f0d089aad9e3ad2fbbf27647eef8c",
+      "bytes": 23070,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/courtyard_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/courtyard_1.txt": {
-      "sha256": "f4b3b1638f4f2d3c2a5f330ce519c821ddfc677f75c1a1e66e1c3ae4db18da77",
-      "bytes": 23039,
+      "sha256": "eaf5e1184623e7ae0e78d1c39031024a4ea2a1261f8050fa02cf349ff1b2bf27",
+      "bytes": 23040,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/courtyard_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/courtyard_2.txt": {
-      "sha256": "c39aed34b012e2cbf2f5eb665f8f41f9dfd87f62b3a6f87b7adb6f3ca9ce3b6f",
-      "bytes": 22967,
+      "sha256": "dde72bc5985e6b0825a12fcf44c8905f0c50e60ffefa6d1672a5167fd60ccbb7",
+      "bytes": 22968,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/courtyard_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/crossing_0.txt": {
-      "sha256": "caf5af6adbbe27b6151e320920a11501576555255ce77bd8183f84644a0e53e0",
-      "bytes": 23170,
+      "sha256": "db1607ab99ebe0f3dd7c49d1f0281d62e3036513af75bb6814f28309c5e705ff",
+      "bytes": 23171,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crossing_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/crossing_1.txt": {
-      "sha256": "25916381fb57e4b900a5376c9d75eef72e8c220732beb947fba34e5658b1d0fd",
-      "bytes": 23068,
+      "sha256": "5985cf0d056522ec60a61e5d83e136d7405a787946e6f57ea6676f881fc38411",
+      "bytes": 23069,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crossing_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/crossing_2.txt": {
-      "sha256": "1f5c035de8bbe04fdda65a3cc85e06b7cc15defc1ff5b8aae3c2e49a670c34ea",
-      "bytes": 22964,
+      "sha256": "540fd053c0b42af87680e7a6e5dea4b06964a0efad88d47ef8e5ed97f93bc78b",
+      "bytes": 22965,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crossing_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/crypts_0.txt": {
-      "sha256": "109af4ab4e4400f6445becce16e835b2353955fe85b56a09f21d51f0a827ea85",
-      "bytes": 23312,
+      "sha256": "e4d2a5552882209f62974ce07ca2476c5d4480592358658ea17750b89c976b7c",
+      "bytes": 23313,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crypts_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/crypts_1.txt": {
-      "sha256": "6497091a104ee1e9ddcacda920706f88902955026cb7d1b972dafc8085340089",
-      "bytes": 23195,
+      "sha256": "9e7675e91e0d7fab1c8f47311ae670f8635d32222e194597766d68c454a9e276",
+      "bytes": 23196,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crypts_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/crypts_2.txt": {
-      "sha256": "d2353759084d19b65d633f80a3755c2620fb5aff9f3755b0cddcdb73e93a8d49",
-      "bytes": 23058,
+      "sha256": "0eb8a7cdf208cb0a576be4365ba4f235ab2ec658a34bf782039b7d1af81c2f64",
+      "bytes": 23059,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crypts_2.txt"
       ],
@@ -9074,80 +9227,80 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/end.txt": {
-      "sha256": "1c1734e05b51ed6539c1df59364e1fb85713e2cb771be14edd2a1e04d94c38aa",
-      "bytes": 23365,
+      "sha256": "0fda3d66ae599c744d20b18c7cfcebc0832a6d8587dfe98b434babfe523aaebb",
+      "bytes": 23367,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/end.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/galleries_0.txt": {
-      "sha256": "a96141a5d81cadad08dce2757a85df4b4cc9c2033c61f9cc114f34a9114a4b42",
-      "bytes": 23201,
+      "sha256": "de15177b192eec5758a3990f8ae99f79e1d274dfb25c0d13898e9ae2f2c0e1fc",
+      "bytes": 23202,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/galleries_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/galleries_1.txt": {
-      "sha256": "6c07b806e927a3c65fdc188bec058475b739aec24e651b75f949c98c7e63630a",
-      "bytes": 23068,
+      "sha256": "b15d8dd4a2b4c796ef72194d658f2b0958ed556271d408fe7f8cd9a23606a10e",
+      "bytes": 23069,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/galleries_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/galleries_2.txt": {
-      "sha256": "29750596631ed847392742bff35b5fe739ebbad44e9bc4a9e21e425dcd4a376d",
-      "bytes": 22925,
+      "sha256": "bb0b21d5e096eff3d3afea2604508553523c94b54cf6d5190e23f29d9eafce3f",
+      "bytes": 22926,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/galleries_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/great_hall_0.txt": {
-      "sha256": "bfca65b76fcc34dad7e4bee1d584f05dd50e80300aaf89c74d7bc72691603223",
-      "bytes": 22944,
+      "sha256": "613d9ebbacc6b1bc1ff3aef1fab55ffcb6935c6b7476b1e37847f9a5c846ec96",
+      "bytes": 22945,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/great_hall_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/great_hall_1.txt": {
-      "sha256": "1e4da55b7d0edf4d27aea67ee724aa0d4793baa8f93a63e323177aa43f080aa8",
-      "bytes": 22936,
+      "sha256": "a1652cff1c5ba67dee0c42aa439700c925e8ac3e74ec68e296cb07bb8097f292",
+      "bytes": 22937,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/great_hall_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/great_hall_2.txt": {
-      "sha256": "30bab3a8ff36e2101a1cf4f927bb66aabc67c3d19b07648b5f8dbbef67681e7a",
-      "bytes": 22888,
+      "sha256": "e929bac84d77cc6bb3d80d3c1e1d5a21bae957e9ead1d56fdda159794ae36c9c",
+      "bytes": 22889,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/great_hall_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/key_0.txt": {
-      "sha256": "c1748fa027c3bfda807112de38bff19f1bc37851fd12922b38ae8f39ef5319a2",
-      "bytes": 24195,
+      "sha256": "1bf7f115b1728d696c5f5aa3dd947f62d8ddb7ebc1c2961e16d1d205a994d540",
+      "bytes": 24196,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/key_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/key_1.txt": {
-      "sha256": "648523f6977b5ad6ccf39f3967e6a9ebca860a73f0940296d0766c233f1c8f46",
-      "bytes": 24152,
+      "sha256": "904bbafd1c124609e9c957560f34d739cf9df343d501bb990b61af720c2279ee",
+      "bytes": 24153,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/key_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/key_2.txt": {
-      "sha256": "c253b46b7c7a94f549c58c59943055858922a6a69910a1687707eaf1f971a41a",
-      "bytes": 24091,
+      "sha256": "00d55368f58d2453ad5063bcc806d6a892e562a22b9b31df5c8476503d1b2635",
+      "bytes": 24092,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/key_2.txt"
       ],
@@ -9178,48 +9331,48 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/rotunda_0.txt": {
-      "sha256": "9c187e03a847647a8e29421041c707a282585a7cccb20fda7792470f4708fc86",
-      "bytes": 23153,
+      "sha256": "14952fa1010400bbbfd53d91a4f1f082165ca63b65c16f415f47fd0b113d6655",
+      "bytes": 23154,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/rotunda_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/rotunda_1.txt": {
-      "sha256": "c95ad8b63203bc899b507ee9252bdec9c36dc9c77a31602e9c11523e2c452e30",
-      "bytes": 23076,
+      "sha256": "1c072325398e4642cf5cd1fb466b905c0916b3ffe3d4b4089be0a37b3e37e989",
+      "bytes": 23077,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/rotunda_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/rotunda_2.txt": {
-      "sha256": "18af15f0fcb833053a455ac9b89b1356219b6c0bcd0eb3e236ec4528ccdc611a",
-      "bytes": 23065,
+      "sha256": "0204a5ed576bd9a4c01b155fe300f1cecb4dd257a4cbbafa0065757e36f76d98",
+      "bytes": 23066,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/rotunda_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/split_hall_0.txt": {
-      "sha256": "ff7009a65c0b1dbf1ec6362f323f485b5784b24c090460331c1ff7e6ce261639",
-      "bytes": 23300,
+      "sha256": "275f7fba9bcd418f158c933bfe5c506503aa3135944918ced4fe68b5e4851773",
+      "bytes": 23301,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/split_hall_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/split_hall_1.txt": {
-      "sha256": "93ebf9f1b109cb42dfeb880f48dfa02db8f70d432adcd0cda68c1c2ba15ec1de",
-      "bytes": 23244,
+      "sha256": "628d946d40b49df0a00aebb49c17b1995e1cc780fea7f873402916a60da5e473",
+      "bytes": 23245,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/split_hall_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/split_hall_2.txt": {
-      "sha256": "7b02c0c8690c8099ff208a1c121a7f683a244564746e2a19ba0b5d1acedab8ea",
-      "bytes": 23184,
+      "sha256": "79e7c96707f5df6ab6d24ff5f1a2a30f1a790747cc9713e2f7745a757c560ffd",
+      "bytes": 23185,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/split_hall_2.txt"
       ],
@@ -9234,48 +9387,48 @@
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/winding_0.txt": {
-      "sha256": "a72384f7fbcbc51cd799bc59d9d0adf1b84d7cd506db6d195cd280b5435248c7",
-      "bytes": 23288,
+      "sha256": "c409c428499611bcc407197212c09999961c264e37665e899cb5fe65d3a427df",
+      "bytes": 23289,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/winding_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/winding_1.txt": {
-      "sha256": "af07fad446b831078c7a185a8c65905fbc770a33cf48dbb1a121f9f9e515e2ef",
-      "bytes": 23160,
+      "sha256": "3dbd9e0894f929ae7f32e827c5e67987836a0b982fd730becb5c2c3ed803b3b2",
+      "bytes": 23161,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/winding_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/winding_2.txt": {
-      "sha256": "ba00fa1a8d10a3bd04a052418d3056748d77f748509103a5d55f49fa24f847ad",
-      "bytes": 23009,
+      "sha256": "0f3f52f4a39ef4cd4f0e1e5de42efafb41ff0b982eec93ac4f8d6ceafd8c71f3",
+      "bytes": 23010,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/winding_2.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/wings_0.txt": {
-      "sha256": "9decf1c74faf4ddde907bd17fb35678009250a49570e51a6d04a0d8f449eeee2",
-      "bytes": 23145,
+      "sha256": "3ebe720420b30b178484788d60deea2ce3917556ffcd0d05d31f6d5e93709760",
+      "bytes": 23146,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/wings_0.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/wings_1.txt": {
-      "sha256": "b76e8efda9ef6aacc71895932f7e6bbd3bc74e831f08c920ab00edd7b3a79f66",
-      "bytes": 23059,
+      "sha256": "b20fc581b9fd8c7b5a2e44d7dc77fc2721aca9f2ced2fd7f6e65f401e5e363d6",
+      "bytes": 23060,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/wings_1.txt"
       ],
       "changes": []
     },
     "maps/iron_labyrinth/generated/f3/wings_2.txt": {
-      "sha256": "9c8027bd5a3871669e2a752730a8460f5bca6fe5187f42da5ca87ef5efac942e",
-      "bytes": 22964,
+      "sha256": "841c7c3dcdda8653eda6fa6d8c075d5862d44378104834d43cfa35879f55376a",
+      "bytes": 22965,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/wings_2.txt"
       ],
@@ -12118,7 +12271,7 @@
       "changes": []
     },
     "settings.txt": {
-      "sha256": "73073485e5d6fe376dc33225baeeed0571230cf6134e87a04ece764ceb218d34",
+      "sha256": "c4de359ae37a264b41e692b08ca691878572379a86103e4ef2536516f8190341",
       "bytes": 141,
       "sources": [
         "diantre/settings.txt"

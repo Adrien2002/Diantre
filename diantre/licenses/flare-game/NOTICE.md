@@ -34,6 +34,9 @@ Dungeon generation now uses new 48-tile architectural sectors with twelve room
 families, varied corridors, native key gates and lever-operated treasure vaults.
 The ruins atlas and stair/gate sprites remain unchanged. Original dungeon chunks
 and their dependencies are retained for compatibility with previously saved maps.
+The new floor encounter pools add categories to seventeen fixed Empyrean enemy
+profiles. Their combat stats, powers, XP and native level-specific loot remain
+unchanged; new floors no longer use hero-scaled Labyrinth enemy groups.
 
 `../../ASSET_MANIFEST.json` records the selected files, source mod(s), changes,
 sizes and SHA-256 hashes. Binary art/audio/font files are copied without changes.

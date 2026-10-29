@@ -256,6 +256,6 @@ soundfx=soundfx/environment/open_fire_loop.ogg
 [enemy]
 type=enemy
 location=9,9,30,30
-category=il_common
+category=diantre_depth_3
 number=5,9
-spawn_level=hero_level,1
+spawn_level=default

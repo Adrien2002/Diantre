@@ -284,6 +284,6 @@ mapmod=object,20,31,267
 [enemy]
 type=enemy
 location=10,20,18,18
-category=il_common
+category=diantre_depth_3
 number=4,7
-spawn_level=hero_level,1
+spawn_level=default
