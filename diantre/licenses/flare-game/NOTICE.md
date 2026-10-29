@@ -30,6 +30,10 @@ The seven town merchant profiles adapt Empyrean's names, appearances and shop
 stock. Campaign dialogue, quest requirements and quest-gated stock are removed;
 Loren uses the Iron Labyrinth stock with the default shop pricing. Each merchant
 has a separate house and is placed exactly once in a newly generated town.
+Dungeon generation now uses new 48-tile architectural sectors with twelve room
+families, varied corridors, native key gates and lever-operated treasure vaults.
+The ruins atlas and stair/gate sprites remain unchanged. Original dungeon chunks
+and their dependencies are retained for compatibility with previously saved maps.
 
 `../../ASSET_MANIFEST.json` records the selected files, source mod(s), changes,
 sizes and SHA-256 hashes. Binary art/audio/font files are copied without changes.

@@ -861,6 +861,10 @@ msgstr ""
 msgid "Diego J. Romero López"
 msgstr ""
 
+#: maps/iron_labyrinth/generated/f1/split_hall_0.txt:227 maps/iron_labyrinth/generated/f1/split_hall_1.txt:227 maps/iron_labyrinth/generated/f1/split_hall_2.txt:227 maps/iron_labyrinth/generated/f2/split_hall_0.txt:227 maps/iron_labyrinth/generated/f2/split_hall_1.txt:227 maps/iron_labyrinth/generated/f2/split_hall_2.txt:227 maps/iron_labyrinth/generated/f3/split_hall_0.txt:227 maps/iron_labyrinth/generated/f3/split_hall_1.txt:227 maps/iron_labyrinth/generated/f3/split_hall_2.txt:227
+msgid "Door"
+msgstr ""
+
 #: powers/base/ranger/charged_shot.txt:2
 msgid "Draw a shot for an extended period, increasing its impact."
 msgstr ""
@@ -1349,15 +1353,15 @@ msgstr ""
 msgid "Iron Labyrinth Key"
 msgstr ""
 
-#: maps/iron_labyrinth/f2/start.txt:159 maps/iron_labyrinth_f1.txt:13
+#: maps/iron_labyrinth/f2/start.txt:159 maps/iron_labyrinth_f1.txt:11
 msgid "Iron Labyrinth: Level 1"
 msgstr ""
 
-#: maps/iron_labyrinth/f1/end.txt:159 maps/iron_labyrinth/f3/start.txt:159 maps/iron_labyrinth_f2.txt:13
+#: maps/iron_labyrinth/f1/end.txt:159 maps/iron_labyrinth/f3/start.txt:159 maps/iron_labyrinth_f2.txt:11
 msgid "Iron Labyrinth: Level 2"
 msgstr ""
 
-#: maps/iron_labyrinth/f2/end.txt:159 maps/iron_labyrinth_f3.txt:13
+#: maps/iron_labyrinth/f2/end.txt:159 maps/iron_labyrinth_f3.txt:11
 msgid "Iron Labyrinth: Level 3"
 msgstr ""
 
@@ -1455,6 +1459,10 @@ msgstr ""
 
 #: items/types.txt:51
 msgid "Key"
+msgstr ""
+
+#: maps/iron_labyrinth/generated/f1/key_0.txt:269 maps/iron_labyrinth/generated/f1/key_1.txt:269 maps/iron_labyrinth/generated/f1/key_2.txt:269 maps/iron_labyrinth/generated/f2/key_0.txt:269 maps/iron_labyrinth/generated/f2/key_1.txt:269 maps/iron_labyrinth/generated/f2/key_2.txt:269 maps/iron_labyrinth/generated/f3/key_0.txt:269 maps/iron_labyrinth/generated/f3/key_1.txt:269 maps/iron_labyrinth/generated/f3/key_2.txt:269
+msgid "Key Chest"
 msgstr ""
 
 #: cutscenes/credits_empyrean.txt:65 cutscenes/credits_fantasycore.txt:80
@@ -1637,7 +1645,7 @@ msgstr ""
 msgid "Lochport's finest."
 msgstr ""
 
-#: maps/iron_labyrinth/door_ns1.txt:161 maps/iron_labyrinth/door_ns1.txt:174 maps/iron_labyrinth/door_ns1.txt:190 maps/iron_labyrinth/door_ns1.txt:206 maps/iron_labyrinth/door_ns1.txt:237 maps/iron_labyrinth/door_ns1.txt:250 maps/iron_labyrinth/door_ns1.txt:266 maps/iron_labyrinth/door_ns1.txt:282 maps/iron_labyrinth/door_ns1.txt:313 maps/iron_labyrinth/door_ns1.txt:326 maps/iron_labyrinth/door_ns1.txt:342 maps/iron_labyrinth/door_ns1.txt:358 maps/iron_labyrinth/door_ns2.txt:161 maps/iron_labyrinth/door_ns2.txt:174 maps/iron_labyrinth/door_ns2.txt:190 maps/iron_labyrinth/door_ns2.txt:206 maps/iron_labyrinth/door_ns2.txt:237 maps/iron_labyrinth/door_ns2.txt:250 maps/iron_labyrinth/door_ns2.txt:266 maps/iron_labyrinth/door_ns2.txt:282 maps/iron_labyrinth/door_ns2.txt:313 maps/iron_labyrinth/door_ns2.txt:326 maps/iron_labyrinth/door_ns2.txt:342 maps/iron_labyrinth/door_ns2.txt:358 maps/iron_labyrinth/door_we1.txt:161 maps/iron_labyrinth/door_we1.txt:174 maps/iron_labyrinth/door_we1.txt:190 maps/iron_labyrinth/door_we1.txt:206 maps/iron_labyrinth/door_we1.txt:237 maps/iron_labyrinth/door_we1.txt:250 maps/iron_labyrinth/door_we1.txt:266 maps/iron_labyrinth/door_we1.txt:282 maps/iron_labyrinth/door_we1.txt:313 maps/iron_labyrinth/door_we1.txt:326 maps/iron_labyrinth/door_we1.txt:342 maps/iron_labyrinth/door_we1.txt:358 maps/iron_labyrinth/door_we2.txt:161 maps/iron_labyrinth/door_we2.txt:174 maps/iron_labyrinth/door_we2.txt:190 maps/iron_labyrinth/door_we2.txt:206 maps/iron_labyrinth/door_we2.txt:237 maps/iron_labyrinth/door_we2.txt:250 maps/iron_labyrinth/door_we2.txt:266 maps/iron_labyrinth/door_we2.txt:282 maps/iron_labyrinth/door_we2.txt:313 maps/iron_labyrinth/door_we2.txt:326 maps/iron_labyrinth/door_we2.txt:342 maps/iron_labyrinth/door_we2.txt:358 maps/iron_labyrinth/treasure_room.txt:160 maps/iron_labyrinth/treasure_room.txt:174 maps/iron_labyrinth/treasure_room.txt:193 maps/iron_labyrinth/treasure_room.txt:207
+#: maps/iron_labyrinth/door_ns1.txt:161 maps/iron_labyrinth/door_ns1.txt:174 maps/iron_labyrinth/door_ns1.txt:190 maps/iron_labyrinth/door_ns1.txt:206 maps/iron_labyrinth/door_ns1.txt:237 maps/iron_labyrinth/door_ns1.txt:250 maps/iron_labyrinth/door_ns1.txt:266 maps/iron_labyrinth/door_ns1.txt:282 maps/iron_labyrinth/door_ns1.txt:313 maps/iron_labyrinth/door_ns1.txt:326 maps/iron_labyrinth/door_ns1.txt:342 maps/iron_labyrinth/door_ns1.txt:358 maps/iron_labyrinth/door_ns2.txt:161 maps/iron_labyrinth/door_ns2.txt:174 maps/iron_labyrinth/door_ns2.txt:190 maps/iron_labyrinth/door_ns2.txt:206 maps/iron_labyrinth/door_ns2.txt:237 maps/iron_labyrinth/door_ns2.txt:250 maps/iron_labyrinth/door_ns2.txt:266 maps/iron_labyrinth/door_ns2.txt:282 maps/iron_labyrinth/door_ns2.txt:313 maps/iron_labyrinth/door_ns2.txt:326 maps/iron_labyrinth/door_ns2.txt:342 maps/iron_labyrinth/door_ns2.txt:358 maps/iron_labyrinth/door_we1.txt:161 maps/iron_labyrinth/door_we1.txt:174 maps/iron_labyrinth/door_we1.txt:190 maps/iron_labyrinth/door_we1.txt:206 maps/iron_labyrinth/door_we1.txt:237 maps/iron_labyrinth/door_we1.txt:250 maps/iron_labyrinth/door_we1.txt:266 maps/iron_labyrinth/door_we1.txt:282 maps/iron_labyrinth/door_we1.txt:313 maps/iron_labyrinth/door_we1.txt:326 maps/iron_labyrinth/door_we1.txt:342 maps/iron_labyrinth/door_we1.txt:358 maps/iron_labyrinth/door_we2.txt:161 maps/iron_labyrinth/door_we2.txt:174 maps/iron_labyrinth/door_we2.txt:190 maps/iron_labyrinth/door_we2.txt:206 maps/iron_labyrinth/door_we2.txt:237 maps/iron_labyrinth/door_we2.txt:250 maps/iron_labyrinth/door_we2.txt:266 maps/iron_labyrinth/door_we2.txt:282 maps/iron_labyrinth/door_we2.txt:313 maps/iron_labyrinth/door_we2.txt:326 maps/iron_labyrinth/door_we2.txt:342 maps/iron_labyrinth/door_we2.txt:358 maps/iron_labyrinth/generated/f1/door_ns_0.txt:226 maps/iron_labyrinth/generated/f1/door_ns_0.txt:237 maps/iron_labyrinth/generated/f1/door_ns_0.txt:260 maps/iron_labyrinth/generated/f1/door_ns_0.txt:271 maps/iron_labyrinth/generated/f1/door_ns_1.txt:226 maps/iron_labyrinth/generated/f1/door_ns_1.txt:237 maps/iron_labyrinth/generated/f1/door_ns_1.txt:260 maps/iron_labyrinth/generated/f1/door_ns_1.txt:271 maps/iron_labyrinth/generated/f1/door_we_0.txt:226 maps/iron_labyrinth/generated/f1/door_we_0.txt:237 maps/iron_labyrinth/generated/f1/door_we_0.txt:260 maps/iron_labyrinth/generated/f1/door_we_0.txt:271 maps/iron_labyrinth/generated/f1/door_we_1.txt:226 maps/iron_labyrinth/generated/f1/door_we_1.txt:237 maps/iron_labyrinth/generated/f1/door_we_1.txt:260 maps/iron_labyrinth/generated/f1/door_we_1.txt:271 maps/iron_labyrinth/generated/f2/door_ns_0.txt:226 maps/iron_labyrinth/generated/f2/door_ns_0.txt:237 maps/iron_labyrinth/generated/f2/door_ns_0.txt:260 maps/iron_labyrinth/generated/f2/door_ns_0.txt:271 maps/iron_labyrinth/generated/f2/door_ns_1.txt:226 maps/iron_labyrinth/generated/f2/door_ns_1.txt:237 maps/iron_labyrinth/generated/f2/door_ns_1.txt:260 maps/iron_labyrinth/generated/f2/door_ns_1.txt:271 maps/iron_labyrinth/generated/f2/door_we_0.txt:226 maps/iron_labyrinth/generated/f2/door_we_0.txt:237 maps/iron_labyrinth/generated/f2/door_we_0.txt:260 maps/iron_labyrinth/generated/f2/door_we_0.txt:271 maps/iron_labyrinth/generated/f2/door_we_1.txt:226 maps/iron_labyrinth/generated/f2/door_we_1.txt:237 maps/iron_labyrinth/generated/f2/door_we_1.txt:260 maps/iron_labyrinth/generated/f2/door_we_1.txt:271 maps/iron_labyrinth/generated/f3/door_ns_0.txt:226 maps/iron_labyrinth/generated/f3/door_ns_0.txt:237 maps/iron_labyrinth/generated/f3/door_ns_0.txt:260 maps/iron_labyrinth/generated/f3/door_ns_0.txt:271 maps/iron_labyrinth/generated/f3/door_ns_1.txt:226 maps/iron_labyrinth/generated/f3/door_ns_1.txt:237 maps/iron_labyrinth/generated/f3/door_ns_1.txt:260 maps/iron_labyrinth/generated/f3/door_ns_1.txt:271 maps/iron_labyrinth/generated/f3/door_we_0.txt:226 maps/iron_labyrinth/generated/f3/door_we_0.txt:237 maps/iron_labyrinth/generated/f3/door_we_0.txt:260 maps/iron_labyrinth/generated/f3/door_we_0.txt:271 maps/iron_labyrinth/generated/f3/door_we_1.txt:226 maps/iron_labyrinth/generated/f3/door_we_1.txt:237 maps/iron_labyrinth/generated/f3/door_we_1.txt:260 maps/iron_labyrinth/generated/f3/door_we_1.txt:271 maps/iron_labyrinth/treasure_room.txt:160 maps/iron_labyrinth/treasure_room.txt:174 maps/iron_labyrinth/treasure_room.txt:193 maps/iron_labyrinth/treasure_room.txt:207
 msgid "Locked Door"
 msgstr ""
 
@@ -2605,7 +2613,7 @@ msgstr ""
 msgid "Restore 75% of maximum MP"
 msgstr ""
 
-#: maps/iron_labyrinth/f1/start.txt:158 maps/iron_labyrinth/f1/start.txt:190 maps/iron_labyrinth/f2/start.txt:191 maps/iron_labyrinth/f3/end.txt:158 maps/iron_labyrinth/f3/start.txt:191
+#: maps/iron_labyrinth/f1/start.txt:158 maps/iron_labyrinth/f1/start.txt:190 maps/iron_labyrinth/f2/start.txt:191 maps/iron_labyrinth/f3/end.txt:158 maps/iron_labyrinth/f3/start.txt:191 maps/iron_labyrinth/generated/f3/end.txt:226
 msgid "Return to Town"
 msgstr ""
 
@@ -3069,6 +3077,14 @@ msgstr ""
 msgid "Staff"
 msgstr ""
 
+#: maps/iron_labyrinth/generated/f1/end.txt:226 maps/iron_labyrinth/generated/f2/end.txt:226
+msgid "Stairs Down"
+msgstr ""
+
+#: maps/iron_labyrinth/generated/f1/start.txt:226 maps/iron_labyrinth/generated/f2/start.txt:226 maps/iron_labyrinth/generated/f3/start.txt:226
+msgid "Stairs Up"
+msgstr ""
+
 #: books/crafting_alchemy.txt:239 items/categories/potions.txt:27 powers/base/items/stamina_potion.txt:3 powers/effects.txt:172
 msgid "Stamina Potion"
 msgstr ""
@@ -3245,6 +3261,10 @@ msgstr ""
 msgid "This door needs a key to be opened."
 msgstr ""
 
+#: maps/iron_labyrinth/generated/f1/door_ns_0.txt:230 maps/iron_labyrinth/generated/f1/door_ns_0.txt:264 maps/iron_labyrinth/generated/f1/door_ns_1.txt:230 maps/iron_labyrinth/generated/f1/door_ns_1.txt:264 maps/iron_labyrinth/generated/f1/door_we_0.txt:230 maps/iron_labyrinth/generated/f1/door_we_0.txt:264 maps/iron_labyrinth/generated/f1/door_we_1.txt:230 maps/iron_labyrinth/generated/f1/door_we_1.txt:264 maps/iron_labyrinth/generated/f2/door_ns_0.txt:230 maps/iron_labyrinth/generated/f2/door_ns_0.txt:264 maps/iron_labyrinth/generated/f2/door_ns_1.txt:230 maps/iron_labyrinth/generated/f2/door_ns_1.txt:264 maps/iron_labyrinth/generated/f2/door_we_0.txt:230 maps/iron_labyrinth/generated/f2/door_we_0.txt:264 maps/iron_labyrinth/generated/f2/door_we_1.txt:230 maps/iron_labyrinth/generated/f2/door_we_1.txt:264 maps/iron_labyrinth/generated/f3/door_ns_0.txt:230 maps/iron_labyrinth/generated/f3/door_ns_0.txt:264 maps/iron_labyrinth/generated/f3/door_ns_1.txt:230 maps/iron_labyrinth/generated/f3/door_ns_1.txt:264 maps/iron_labyrinth/generated/f3/door_we_0.txt:230 maps/iron_labyrinth/generated/f3/door_we_0.txt:264 maps/iron_labyrinth/generated/f3/door_we_1.txt:230 maps/iron_labyrinth/generated/f3/door_we_1.txt:264
+msgid "This door needs an Iron Labyrinth Key."
+msgstr ""
+
 #: items/categories/quest.txt:374
 msgid "This mysterious black feather has a very sharp follicle, making it a suitable writing utensil."
 msgstr ""
@@ -3309,7 +3329,7 @@ msgstr ""
 msgid "Translators"
 msgstr ""
 
-#: maps/iron_labyrinth/key1.txt:162 maps/iron_labyrinth/key1.txt:176 maps/iron_labyrinth/key1.txt:190 maps/iron_labyrinth/key1.txt:204 maps/iron_labyrinth/key1.txt:218 maps/iron_labyrinth/key1.txt:232 maps/iron_labyrinth/room1.txt:161 maps/iron_labyrinth/room14.txt:484 maps/iron_labyrinth/room18.txt:168 maps/iron_labyrinth/room4.txt:208 maps/iron_labyrinth/room5.txt:161 maps/iron_labyrinth/room8.txt:161 maps/iron_labyrinth/room9.txt:173 maps/iron_labyrinth/treasure_room.txt:230 maps/iron_labyrinth/treasure_room.txt:244 maps/iron_labyrinth/treasure_room.txt:259 maps/iron_labyrinth/treasure_room.txt:274 maps/iron_labyrinth/treasure_room.txt:289
+#: maps/iron_labyrinth/generated/f1/alcoves_0.txt:227 maps/iron_labyrinth/generated/f1/alcoves_1.txt:227 maps/iron_labyrinth/generated/f1/alcoves_2.txt:227 maps/iron_labyrinth/generated/f1/basilica_0.txt:227 maps/iron_labyrinth/generated/f1/basilica_1.txt:227 maps/iron_labyrinth/generated/f1/basilica_2.txt:227 maps/iron_labyrinth/generated/f1/cavern_0.txt:227 maps/iron_labyrinth/generated/f1/cavern_1.txt:227 maps/iron_labyrinth/generated/f1/cavern_2.txt:227 maps/iron_labyrinth/generated/f1/courtyard_0.txt:227 maps/iron_labyrinth/generated/f1/courtyard_1.txt:227 maps/iron_labyrinth/generated/f1/courtyard_2.txt:227 maps/iron_labyrinth/generated/f1/crossing_0.txt:227 maps/iron_labyrinth/generated/f1/crossing_1.txt:227 maps/iron_labyrinth/generated/f1/crossing_2.txt:227 maps/iron_labyrinth/generated/f1/crypts_0.txt:227 maps/iron_labyrinth/generated/f1/crypts_1.txt:227 maps/iron_labyrinth/generated/f1/crypts_2.txt:227 maps/iron_labyrinth/generated/f1/galleries_0.txt:227 maps/iron_labyrinth/generated/f1/galleries_1.txt:227 maps/iron_labyrinth/generated/f1/galleries_2.txt:227 maps/iron_labyrinth/generated/f1/great_hall_0.txt:227 maps/iron_labyrinth/generated/f1/great_hall_1.txt:227 maps/iron_labyrinth/generated/f1/great_hall_2.txt:227 maps/iron_labyrinth/generated/f1/key_0.txt:247 maps/iron_labyrinth/generated/f1/key_1.txt:247 maps/iron_labyrinth/generated/f1/key_2.txt:247 maps/iron_labyrinth/generated/f1/rotunda_0.txt:227 maps/iron_labyrinth/generated/f1/rotunda_1.txt:227 maps/iron_labyrinth/generated/f1/rotunda_2.txt:227 maps/iron_labyrinth/generated/f1/split_hall_0.txt:237 maps/iron_labyrinth/generated/f1/split_hall_1.txt:237 maps/iron_labyrinth/generated/f1/split_hall_2.txt:237 maps/iron_labyrinth/generated/f1/winding_0.txt:227 maps/iron_labyrinth/generated/f1/winding_1.txt:227 maps/iron_labyrinth/generated/f1/winding_2.txt:227 maps/iron_labyrinth/generated/f1/wings_0.txt:227 maps/iron_labyrinth/generated/f1/wings_1.txt:227 maps/iron_labyrinth/generated/f1/wings_2.txt:227 maps/iron_labyrinth/generated/f2/alcoves_0.txt:227 maps/iron_labyrinth/generated/f2/alcoves_1.txt:227 maps/iron_labyrinth/generated/f2/alcoves_2.txt:227 maps/iron_labyrinth/generated/f2/basilica_0.txt:227 maps/iron_labyrinth/generated/f2/basilica_1.txt:227 maps/iron_labyrinth/generated/f2/basilica_2.txt:227 maps/iron_labyrinth/generated/f2/cavern_0.txt:227 maps/iron_labyrinth/generated/f2/cavern_1.txt:227 maps/iron_labyrinth/generated/f2/cavern_2.txt:227 maps/iron_labyrinth/generated/f2/courtyard_0.txt:227 maps/iron_labyrinth/generated/f2/courtyard_1.txt:227 maps/iron_labyrinth/generated/f2/courtyard_2.txt:227 maps/iron_labyrinth/generated/f2/crossing_0.txt:227 maps/iron_labyrinth/generated/f2/crossing_1.txt:227 maps/iron_labyrinth/generated/f2/crossing_2.txt:227 maps/iron_labyrinth/generated/f2/crypts_0.txt:227 maps/iron_labyrinth/generated/f2/crypts_1.txt:227 maps/iron_labyrinth/generated/f2/crypts_2.txt:227 maps/iron_labyrinth/generated/f2/galleries_0.txt:227 maps/iron_labyrinth/generated/f2/galleries_1.txt:227 maps/iron_labyrinth/generated/f2/galleries_2.txt:227 maps/iron_labyrinth/generated/f2/great_hall_0.txt:227 maps/iron_labyrinth/generated/f2/great_hall_1.txt:227 maps/iron_labyrinth/generated/f2/great_hall_2.txt:227 maps/iron_labyrinth/generated/f2/key_0.txt:247 maps/iron_labyrinth/generated/f2/key_1.txt:247 maps/iron_labyrinth/generated/f2/key_2.txt:247 maps/iron_labyrinth/generated/f2/rotunda_0.txt:227 maps/iron_labyrinth/generated/f2/rotunda_1.txt:227 maps/iron_labyrinth/generated/f2/rotunda_2.txt:227 maps/iron_labyrinth/generated/f2/split_hall_0.txt:237 maps/iron_labyrinth/generated/f2/split_hall_1.txt:237 maps/iron_labyrinth/generated/f2/split_hall_2.txt:237 maps/iron_labyrinth/generated/f2/winding_0.txt:227 maps/iron_labyrinth/generated/f2/winding_1.txt:227 maps/iron_labyrinth/generated/f2/winding_2.txt:227 maps/iron_labyrinth/generated/f2/wings_0.txt:227 maps/iron_labyrinth/generated/f2/wings_1.txt:227 maps/iron_labyrinth/generated/f2/wings_2.txt:227 maps/iron_labyrinth/generated/f3/alcoves_0.txt:227 maps/iron_labyrinth/generated/f3/alcoves_1.txt:227 maps/iron_labyrinth/generated/f3/alcoves_2.txt:227 maps/iron_labyrinth/generated/f3/basilica_0.txt:227 maps/iron_labyrinth/generated/f3/basilica_1.txt:227 maps/iron_labyrinth/generated/f3/basilica_2.txt:227 maps/iron_labyrinth/generated/f3/cavern_0.txt:227 maps/iron_labyrinth/generated/f3/cavern_1.txt:227 maps/iron_labyrinth/generated/f3/cavern_2.txt:227 maps/iron_labyrinth/generated/f3/courtyard_0.txt:227 maps/iron_labyrinth/generated/f3/courtyard_1.txt:227 maps/iron_labyrinth/generated/f3/courtyard_2.txt:227 maps/iron_labyrinth/generated/f3/crossing_0.txt:227 maps/iron_labyrinth/generated/f3/crossing_1.txt:227 maps/iron_labyrinth/generated/f3/crossing_2.txt:227 maps/iron_labyrinth/generated/f3/crypts_0.txt:227 maps/iron_labyrinth/generated/f3/crypts_1.txt:227 maps/iron_labyrinth/generated/f3/crypts_2.txt:227 maps/iron_labyrinth/generated/f3/galleries_0.txt:227 maps/iron_labyrinth/generated/f3/galleries_1.txt:227 maps/iron_labyrinth/generated/f3/galleries_2.txt:227 maps/iron_labyrinth/generated/f3/great_hall_0.txt:227 maps/iron_labyrinth/generated/f3/great_hall_1.txt:227 maps/iron_labyrinth/generated/f3/great_hall_2.txt:227 maps/iron_labyrinth/generated/f3/key_0.txt:247 maps/iron_labyrinth/generated/f3/key_1.txt:247 maps/iron_labyrinth/generated/f3/key_2.txt:247 maps/iron_labyrinth/generated/f3/rotunda_0.txt:227 maps/iron_labyrinth/generated/f3/rotunda_1.txt:227 maps/iron_labyrinth/generated/f3/rotunda_2.txt:227 maps/iron_labyrinth/generated/f3/split_hall_0.txt:237 maps/iron_labyrinth/generated/f3/split_hall_1.txt:237 maps/iron_labyrinth/generated/f3/split_hall_2.txt:237 maps/iron_labyrinth/generated/f3/winding_0.txt:227 maps/iron_labyrinth/generated/f3/winding_1.txt:227 maps/iron_labyrinth/generated/f3/winding_2.txt:227 maps/iron_labyrinth/generated/f3/wings_0.txt:227 maps/iron_labyrinth/generated/f3/wings_1.txt:227 maps/iron_labyrinth/generated/f3/wings_2.txt:227 maps/iron_labyrinth/key1.txt:162 maps/iron_labyrinth/key1.txt:176 maps/iron_labyrinth/key1.txt:190 maps/iron_labyrinth/key1.txt:204 maps/iron_labyrinth/key1.txt:218 maps/iron_labyrinth/key1.txt:232 maps/iron_labyrinth/room1.txt:161 maps/iron_labyrinth/room14.txt:484 maps/iron_labyrinth/room18.txt:168 maps/iron_labyrinth/room4.txt:208 maps/iron_labyrinth/room5.txt:161 maps/iron_labyrinth/room8.txt:161 maps/iron_labyrinth/room9.txt:173 maps/iron_labyrinth/treasure_room.txt:230 maps/iron_labyrinth/treasure_room.txt:244 maps/iron_labyrinth/treasure_room.txt:259 maps/iron_labyrinth/treasure_room.txt:274 maps/iron_labyrinth/treasure_room.txt:289
 msgid "Treasure Chest"
 msgstr ""
 
@@ -3471,6 +3491,10 @@ msgstr ""
 
 #: powers/effects.txt:202
 msgid "Vampirsim"
+msgstr ""
+
+#: maps/iron_labyrinth/generated/f1/key_0.txt:227 maps/iron_labyrinth/generated/f1/key_1.txt:227 maps/iron_labyrinth/generated/f1/key_2.txt:227 maps/iron_labyrinth/generated/f2/key_0.txt:227 maps/iron_labyrinth/generated/f2/key_1.txt:227 maps/iron_labyrinth/generated/f2/key_2.txt:227 maps/iron_labyrinth/generated/f3/key_0.txt:227 maps/iron_labyrinth/generated/f3/key_1.txt:227 maps/iron_labyrinth/generated/f3/key_2.txt:227
+msgid "Vault Lever"
 msgstr ""
 
 #: items/categories/level_13.txt:77
