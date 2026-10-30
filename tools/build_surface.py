@@ -10,11 +10,12 @@ import json
 import random
 
 ROOT = Path(__file__).resolve().parents[1] / "diantre"
-LAYERS = ("background_base", "background", "object", "mountain_top", "collision")
+CLIFF_LEVELS = 16
+LAYERS = ("background_base", "background", *(f"cliff_{i:02}" for i in range(CLIFF_LEVELS)), "object", "collision")
 WIDTH, HEIGHT = 44, 44
-CHUNK_W, CHUNK_H = 18, 18
-ENTRANCE = (18, 8)
-STREET_Y = 16
+CHUNK_W, CHUNK_H = 12, 12
+ENTRANCE = (12, 2)
+STREET_Y = 10
 GROUPS = {
     "start": ("florin", "udana"),
     "normal_a": ("yora", "abasi"),
@@ -107,12 +108,7 @@ def build_chunks():
             m = Map(CHUNK_W, CHUNK_H, 3100 + variant)
             m.path((0, STREET_Y), (CHUNK_W - 1, STREET_Y))
             m.path((0, STREET_Y + 1), (CHUNK_W - 1, STREET_Y + 1))
-            m.path((9, 0), (9, CHUNK_H - 1))
-            positions = [(5 + variant % 2, 12), (13 + variant % 2, 13)]
-            # Groves occupy spare lots rather than leaving a blank central field.
-            for tx, ty in ((4, 3), (13, 3), (3, 6), (14, 6)):
-                m.set("object", tx, ty, m.rng.choice((248, 249, 252, 253)))
-                m.set("collision", tx, ty, 1)
+            positions = [(4 + variant % 2, 8), (9 + variant % 2, 8 + variant % 2)]
             order = list(merchants)
             if variant >= 2:
                 order.reverse()
@@ -120,20 +116,20 @@ def build_chunks():
                 m.cabin(merchant, x, y, 3 + (variant + i) % 2)
             unique = f"\nprocgen_unique_status=diantre_compact_{kind}" if kind.startswith("normal") else ""
             m.write(f"maps/town/compact/{kind}_{variant}.txt",
-                    f"hero_pos=9,{STREET_Y}\nprocgen_type={kind.split('_')[0]}{unique}")
+                    f"hero_pos=6,{STREET_Y}\nprocgen_type={kind.split('_')[0]}{unique}")
 
     links = Map(CHUNK_W, CHUNK_H, 0)
     # Only a blocked corner is copied by links: the actual streets already join.
     for side in ("north", "south", "west", "east"):
         links.objects.append(f"[event]\ntype=event\nlocation=0,0,1,1\nprocgen_link={side}\n")
-    links.write("maps/town/compact/links.txt", "hero_pos=9,16\nprocgen_type=links")
+    links.write("maps/town/compact/links.txt", "hero_pos=6,10\nprocgen_type=links")
 
 
 def clearing(x, y):
     # Broad enough for every lot variant; rounded, irregular woodland perimeter.
-    left = 3 + (1 if y < 13 or y > 34 else 0)
-    right = 34 - (1 if y < 12 or y > 34 else 0)
-    return left <= x <= right and 9 <= y <= 36
+    left = 2 + (1 if y > 27 else 0)
+    right = 29 - (1 if y > 27 else 0)
+    return left <= x <= right and 3 <= y <= 30
 
 
 def build_town():
@@ -149,11 +145,10 @@ def build_town():
             if clearing(x, y):
                 continue
             overlay("collision", x, y, 1)
-            if y < 9 and 2 <= x <= 35:
-                # One coherent rock plateau, inaccessible behind its north face.
-                if y <= 8:
-                    overlay("mountain_top", x, y, 27032 + m.rng.randrange(16))
-                    overlay("object", x, y, 0)
+            if y <= ENTRANCE[1]:
+                # No exposed horizontal cap. Overlapping native cliff faces rise
+                # beyond the viewport, and all of them render behind vegetation.
+                overlay("object", x, y, 0)
                 continue
             # A deep visible woodland belt extends beyond the playable clearing.
             inner_edge = clearing(x + 1, y) or clearing(x - 1, y) or clearing(x, y - 1)
@@ -161,22 +156,22 @@ def build_town():
                 tree = m.rng.choice((248, 249, 250, 251, 252, 253, 254, 255))
                 overlay("object", x, y, tree)
 
-    # Rock facade runs into the woodland on both sides; no passage behind it.
-    for x in range(2, 36):
-        overlay("object", x, 8, 49 if x % 2 else 53)
+    for level in range(CLIFF_LEVELS):
+        for x in range(WIDTH):
+            overlay(f"cliff_{level:02}", x, ENTRANCE[1], 28000 + level * 2 + x % 2)
     # Native mine opening, set into that same single rock face.
     overlay("object", ENTRANCE[0], ENTRANCE[1], 228)
-    for y in range(9, 36):
-        for x in range(17, 20):
+    for y in range(3, 27):
+        for x in range(11, 14):
             overlay("background", x, y, 40 + (x + y) % 8)
-    for y in (17, 18):
-        for x in range(4, 34):
+    for y in (11, 12):
+        for x in range(3, 28):
             overlay("background", x, y, 40 + (x + y) % 8)
-    overlay("object", 20, 20, 76)
-    overlay("collision", 20, 20, 1)
+    overlay("object", 14, 14, 76)
+    overlay("collision", 14, 14, 1)
 
     m.objects.append(
-        "[event]\ntype=event\nlocation=0,0,36,36\n"
+        "[event]\ntype=event\nlocation=0,0,24,24\n"
         "procgen_filename=maps/town/compact/rules.txt\n"
     )
     # Flare copies chunks from (0,0), then applies on_load events. Reapply only
@@ -191,20 +186,29 @@ def build_town():
         "diantre_town_cave,diantre_town_ruins,diantre_town_citadel\n"
     )
     m.objects.extend((
-        "[event]\ntype=event\nlocation=18,9,1,1\nhotspot=location\n"
+        "[event]\ntype=event\nlocation=12,3,1,1\nhotspot=location\n"
         "tooltip=Dungeon Entrance\nscript=scripts/town/enter_dungeon.txt\n",
-        "[event]\ntype=event\nlocation=18,10,1,1\nactivate=on_trigger\nintermap_id=dungeon_exit\n",
-        "[event]\ntype=event\nlocation=20,20,1,1\nhotspot=location\n"
+        "[event]\ntype=event\nlocation=12,4,1,1\nactivate=on_trigger\nintermap_id=dungeon_exit\n",
+        "[event]\ntype=event\nlocation=14,14,1,1\nhotspot=location\n"
         "stash=true\ntooltip=Shared Stash\nsoundfx=soundfx/wood_open.ogg\n",
     ))
     m.write("maps/town/hamlet_forest.txt",
-            "hero_pos=18,10\ntitle=Woodland Hamlet\nmusic=music/town_theme.ogg\nfogofwar=0")
+            "hero_pos=12,4\ntitle=Woodland Hamlet\nmusic=music/town_theme.ogg\nfogofwar=0")
 
 
 def build_palette():
-    lines = ["# Native Empyrean graphics, with a single raised, inaccessible rock cap.",
+    lines = ["# Native Empyrean cliff sprites, repeated upward without an exposed cap.",
              "INCLUDE tilesetdefs/tileset_grassland.txt", "", "[tileset]",
-             "img=images/tilesets/tileset_cave.png"]
+             "img=images/tilesets/tileset_grassland.png"]
+    for line in (ROOT / "tilesetdefs/tileset_grassland.txt").read_text().splitlines():
+        if line.startswith("tile="):
+            tid, x, y, w, h, ox, oy = map(int, line[5:].split(","))
+            if tid in (49, 53):
+                for level in range(CLIFF_LEVELS):
+                    new_id = 28000 + level * 2 + (tid == 53)
+                    lines.append(f"tile={new_id},{x},{y},{w},{h},{ox},{oy + level * 180}")
+    # Cached 0.5.0 towns retain their original cap IDs until a new game.
+    lines.extend(("", "[tileset]", "img=images/tilesets/tileset_cave.png"))
     for line in (ROOT / "tilesetdefs/tileset_cave.txt").read_text().splitlines():
         if line.startswith("tile="):
             tid, x, y, w, h, ox, oy = map(int, line[5:].split(","))
@@ -236,7 +240,7 @@ def update_manifest():
              ROOT / "scripts/town/return.txt", ROOT / "settings.txt",
              ROOT / "tilesetdefs/town/compact_palette.txt",
              *sorted((ROOT / "maps/town/compact").glob("*.txt"))]
-    note = "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+    note = "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
     for file in paths:
         key = file.relative_to(ROOT).as_posix()
         record = manifest["files"].get(key, {"sources": [], "changes": []})

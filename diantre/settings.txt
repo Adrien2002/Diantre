@@ -1,4 +1,4 @@
 description=Diantre: a compact procedural woodland hamlet and dungeon using Flare and Empyrean assets.
 game=diantre
-version=0.5.0
+version=0.5.1
 engine_version_min=1.14.280

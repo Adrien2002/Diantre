@@ -1,59 +1,74 @@
-# Diantre 0.5.0 — hameau forestier compact
+# Diantre 0.5.1 — hameau compact et salles rapprochées
 
-La surface des nouvelles parties reprend les principes de la ville d’Angband :
-une entrée au nord, un massif infranchissable, des commerces disposés sur des
-parcelles et des rues qui restent accessibles. Les sept marchands occupent de
-véritables cabanes en bois. Une lisière épaisse délimite la clairière ; les
-caisses et les tables ne servent plus de bordure.
+Le hameau forestier est assemblé par Flare à chaque nouvelle partie. Quatre
+quartiers carrés de 12 × 12 cases sont choisis et disposés parmi leurs variantes.
+Chaque partie conserve exactement les sept marchands. L’entrée reste au nord ;
+les maisons, leur longueur et les affectations des marchands varient.
 
-Cette première déclinaison est forestière. Les autres biomes naturels seront
-définis avec la même organisation, après examen de ce premier résultat.
+Les quartiers étaient de 18 × 18 dans la version précédente. Leur réduction
+rapproche les deux rangées de commerces. La lisière garde une marge devant les
+marchands, et les toits sont séparés de la paroi rocheuse. La falaise monte hors
+champ, sans plateau horizontal dessiné au-dessus des arbres.
 
 ## Jouer
 
 Placer le dossier `diantre` dans le dossier `mods` de Flare, puis activer Diantre.
-Le moteur doit fournir son mod `default`, comme pour toute installation Flare.
-Les ressources nécessaires d’Empyrean sont déjà incluses.
+Le moteur doit fournir son mod `default`. Les ressources nécessaires d’Empyrean
+sont incluses. Version minimale du moteur : 1.14.280 ; essais sous 1.15.86.
 
-Créer une nouvelle partie pour obtenir le nouveau hameau. Les anciennes cartes
-de surface restent présentes pour que les sauvegardes existantes retrouvent
-leur ancienne ville. Le retour du donjon conserve le hameau de la partie.
+Créer une nouvelle partie pour obtenir les nouveaux placements et les nouvelles
+salles. Les cartes déjà générées sont conservées dans les sauvegardes : une
+mise à jour ne les redessine pas. Les anciennes palettes de ville restent
+lisibles ; le retour utilise l’entrée propre à la ville de la partie.
 
-## Génération
+## Donjons
 
-Flare assemble à l’exécution quatre modules carrés de 18 × 18 cases, choisis
-parmi des variantes. Deux familles de marchés ne peuvent être choisies qu’une
-fois : chaque partie conserve exactement les sept marchands.
+Les trois étages actuels conservent leurs salles circulaires, basilicales,
+cryptes, galeries, grandes salles et chambres à levier. Leurs modules passent
+de 48 × 48 à 36 × 36 cases en retirant une marge rocheuse de six cases de chaque
+côté. Les grandes pièces voisines peuvent ainsi se rejoindre par une ouverture
+courte. Les pièces plus petites conservent des couloirs.
 
-Le terrain complet mesure 44 × 44 cases, contre 88 × 88 auparavant. Le massif,
-son entrée et les accès principaux sont fixes ; les parcelles, les cabanes et
-la répartition des marchands changent. Les bosquets occupent les parcelles
-secondaires, et les enseignes indiquent les commerces au survol.
+Les sorties non choisies par le générateur restent fermées. Les portes à clé,
+les portes ordinaires, les leviers et leurs états sauvegardés sont conservés.
+Les faces noires des murs générés sont remplacées par des blocs natifs dont
+les deux faces visibles sont texturées. Les images d’origine ne sont pas
+retouchées.
 
-Les fichiers `.txt` sont directement utilisables par Flare. Python est seulement
-un outil de développement :
+Il s’agit toujours d’un assemblage de modules Flare. Une génération de salles
+et de passages aussi libre que celle d’Angband demanderait un autre générateur ;
+ce changement rapproche les salles existantes sans prétendre le reproduire.
+
+## Développement et validation
+
+Les fichiers `.txt` sont directement utilisables par Flare. Python sert
+uniquement aux outils de développement :
 
 ```sh
 python3 tools/build_surface.py
+python3 tools/refine_dungeons.py
 python3 tools/check_surface.py
+python3 tools/check_dungeons.py
 ```
 
-Le contrôle parcourt les 4 096 combinaisons possibles de modules et vérifie les
-accès aux marchands, au coffre et à l’entrée, ainsi que les empreintes des
-cabanes, l’impossibilité de passer derrière le massif et la fermeture du
-périmètre. Il ne remplace pas l’examen visuel en jeu.
+Le premier contrôle examine 4 096 combinaisons de quartiers et de marchands :
+accès, empreintes des maisons, retrait des toits, fermeture du périmètre et
+emprise des arbres devant les marchands. Le second examine les 135 modules de
+salle et leurs raccords, les interactions, les coordonnées et l’impossibilité
+de contourner une porte verrouillée. Les comptes et essais en jeu figurent
+dans `docs/VALIDATION-surface.md`.
 
-## Références
+Les stocks et l’équilibrage des combats ne sont pas modifiés. Les autres biomes
+naturels restent à définir ensemble. Le travail se poursuit directement sur
+`main`, sans branche de développement supplémentaire.
 
-Le code d’Angband consulté est `src/gen-cave.c`, fonctions `town_gen_layout`,
-`get_lot_bounds` et `build_store`, au commit
+## Références et ressources
+
+L’organisation de la surface s’inspire de `town_gen_layout`, `get_lot_bounds`
+et `build_store` dans le code d’Angband, au commit
 `e473720ed88a0f0c7ca66815cef3000eb4a38bc3` :
 https://github.com/angband/angband/blob/e473720ed88a0f0c7ca66815cef3000eb4a38bc3/src/gen-cave.c
 
-Les principes d’organisation sont adaptés ; le code C n’a pas été copié.
-L’assemblage des cabanes suit les tuiles natives employées dans Black Oak City
-par Empyrean. Les graphismes ne sont pas modifiés ; leurs licences et
-attributions sont conservées dans `diantre/licenses` et `ASSET_MANIFEST.json`.
-
-Les stocks des marchands et les cartes des donjons ne sont pas modifiés dans
-cette refonte de surface. Les faces noires des murs du donjon restent à revoir.
+Les principes sont adaptés ; le code C n’est pas copié. Les cabanes utilisent
+l’assemblage natif de Black Oak City. Les licences et attributions des ressources
+Flare/Empyrean restent dans `diantre/licenses` et `ASSET_MANIFEST.json`.

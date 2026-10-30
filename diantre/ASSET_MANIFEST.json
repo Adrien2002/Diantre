@@ -8283,1156 +8283,1444 @@
       ]
     },
     "maps/iron_labyrinth/generated/f1/alcoves_0.txt": {
-      "sha256": "ed159e524acbc67707767288ebdfab31c4e6ecf2a26d1fd03b22fcb84b1a0fb4",
-      "bytes": 23012,
+      "sha256": "96f36df82f6e5da048800ef305e83a0b7ff23fe0fab15e3fc5e4c75139f0f2fe",
+      "bytes": 12933,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/alcoves_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/alcoves_1.txt": {
-      "sha256": "a816605f905b39d4e5e9b02b2b3cc06cfb4cefcf94e6369e99ec886bd7a27fdd",
-      "bytes": 22927,
+      "sha256": "570cef9510e83736c22d99cfd079e6d79927bc48f8319ff54bad5779c63ca78c",
+      "bytes": 12871,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/alcoves_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/alcoves_2.txt": {
-      "sha256": "3b8b15ad8bcaba5af01161b98d456964a0d2115dd4fff52a954a8398830a132a",
-      "bytes": 22832,
+      "sha256": "90395a69948befb349867e5ca6ed5a8a50ae86ebcd5ef428c0008c07eabb927b",
+      "bytes": 12832,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/alcoves_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/basilica_0.txt": {
-      "sha256": "6c3296f53a29793384acd338a17b7d33dcb4da0e3ce8ee5a6d315a318fa37fda",
-      "bytes": 23083,
+      "sha256": "d9da1ed9c959d0a377a84a92f0cf0daab7e3d098e709b2aa3401eed03039e898",
+      "bytes": 13006,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/basilica_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/basilica_1.txt": {
-      "sha256": "a35a48510552480b644b491fd79f20663cd4ad539baa6ad426ba5208e1276512",
-      "bytes": 23039,
+      "sha256": "e8bc8a64a2a17e7fabffddb1fe0049ea477b08642a280e52a6d4cc6a86681f44",
+      "bytes": 12984,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/basilica_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/basilica_2.txt": {
-      "sha256": "b7fdff874dec8a5e49de5b6fc61d303bc6047f5bd24b39d7e12c105b7a1b0d86",
-      "bytes": 22974,
+      "sha256": "dca9a5cb4c947f01e89a05db7be8e7d5e5d90b24d69e6a1fd536be3f69f6a977",
+      "bytes": 12975,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/basilica_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/cavern_0.txt": {
-      "sha256": "53ecdf3af044352e9ba52a566c296b700c9564f75fec4441f969c89095163731",
-      "bytes": 23021,
+      "sha256": "9f9f7d88d6d41a7affc8001dab95a9f8e5cbdc54ae4a0b8991f9f045a2a2b0b1",
+      "bytes": 12942,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/cavern_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/cavern_1.txt": {
-      "sha256": "d29c12448828e84b0dd5fbdd3f824d3fa5869cd095a82d24a587fd5fe015b75d",
-      "bytes": 22938,
+      "sha256": "5bec9551f76258c321ba08a1bcbeaaad4e9657ee53ec6deb7b7a66aa54478655",
+      "bytes": 12886,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/cavern_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/cavern_2.txt": {
-      "sha256": "84fdf0865d12a175e9ae5e8e0c246d7db80989e75c1b2611862d0c8b17d469ae",
-      "bytes": 22850,
+      "sha256": "550014b7b3170fe23d387d339d85b5c006d70d69bf8859cbd983e4ccc8453fa1",
+      "bytes": 12875,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/cavern_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/courtyard_0.txt": {
-      "sha256": "7ca33e89001d0aecafb2e0fe7158357d29d63d338a33bb4a8ae8b1ba01bfbfa2",
-      "bytes": 23070,
+      "sha256": "d33c45449f5001784b20cbb39aa84285314487e6a5d89e41061c0578f8fd6b8f",
+      "bytes": 12990,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/courtyard_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/courtyard_1.txt": {
-      "sha256": "cf35db66553e5312656e181ab854da517391ad202b38890ea7c9de3d8e7404aa",
-      "bytes": 23040,
+      "sha256": "685e5c421af6821341b9f4286cd69329118f55bdb9488422ee4de9839478537d",
+      "bytes": 12984,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/courtyard_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/courtyard_2.txt": {
-      "sha256": "8b660b5ddf2e0f4e105b6bd95c83d7310d4824ec576a165365daa5600fc836bf",
-      "bytes": 22968,
+      "sha256": "2699255b8064c828cd23db7a99592cabbc853cad796f18233000df51b4804455",
+      "bytes": 12967,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/courtyard_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/crossing_0.txt": {
-      "sha256": "73a66c336fc908ef0ca3699c775d4485f17b52dd5c27fdf6f4075bfb80423db2",
-      "bytes": 23171,
+      "sha256": "fc6fdd1218b8f3b565210b125d72ff612b75f261d24107065d95e7e1fc665875",
+      "bytes": 13092,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crossing_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/crossing_1.txt": {
-      "sha256": "afa4e9485ea98b2485948454d8488bb2fb8bade0a73b28ffb26c638953d0fa56",
-      "bytes": 23069,
+      "sha256": "11277951b69c6141cd36cfb631684ce057a57294c681a8a32efae0aea8364909",
+      "bytes": 13014,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crossing_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/crossing_2.txt": {
-      "sha256": "ccbae91bf9c84404d435eb44ac10c9e055e92523f7bdd76116b79a347a020577",
-      "bytes": 22965,
+      "sha256": "03934493a080d05fae5a53637cf051e4d15484f3ae8bcd2e82a4b29328965ea5",
+      "bytes": 12966,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crossing_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/crypts_0.txt": {
-      "sha256": "87c6f7dd9b321eedc451d843ce0ec9affd3634f74f7b8094dcd2e75e9003bb1e",
-      "bytes": 23305,
+      "sha256": "a5c2981b84c44390635e8732deac65165b5ea6c9bd0725457849eae1fbb1e14b",
+      "bytes": 13226,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crypts_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/crypts_1.txt": {
-      "sha256": "8011c28eba72112802fbb018e51b29bff5d39b66c25f0e039f47113100f9492f",
-      "bytes": 23179,
+      "sha256": "1fe10a6f5e98a715a4282cd284fe3a99205e71f10fdc922d21fc8824809dc77a",
+      "bytes": 13122,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crypts_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/crypts_2.txt": {
-      "sha256": "7b7beaeb18acc3e2b20f1a2315dd7af0c61dff01469dfbda66d54357fda97bb9",
-      "bytes": 23069,
+      "sha256": "f661b694bc942da49f642a69e5ce21be2f428a1d01e628a6a49aa3169c09d5af",
+      "bytes": 13105,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/crypts_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/door_ns_0.txt": {
-      "sha256": "6d3bb99b96cab1c9fd9cb8d4b7e368bb83578ed08b8e10cf0969be0ac36dec96",
-      "bytes": 24543,
+      "sha256": "8d077ffc6b18db2fd19d91965aa49b09baba436d59d34132d8f647eacc6e231c",
+      "bytes": 14464,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/door_ns_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/door_ns_1.txt": {
-      "sha256": "6a8eddbef2b2b10f9425cbc07e4f472df581836d7ee9d7b52b2637c767802e1f",
-      "bytes": 24499,
+      "sha256": "c61e85830747b5d3980c099a712ab59e6e6422b918884223ea209973be1abd54",
+      "bytes": 14420,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/door_ns_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/door_we_0.txt": {
-      "sha256": "929c5c10627c36b0cc1d6c56a7a656172c46a4c75808d014661cb6cca29cc434",
-      "bytes": 24541,
+      "sha256": "10e85e9861db5274a553f84a97619cabfd3e836839335a8376df48c39baa7e5e",
+      "bytes": 14462,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/door_we_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/door_we_1.txt": {
-      "sha256": "0bfc73af59069257b2d68d6f80409f2297fbbf55838d6cc0c45a2284ed750832",
-      "bytes": 24497,
+      "sha256": "c44ed1376c81075ffe0e1fa00d68f770df0ec3f23a99c774476a44fe3a0f4b64",
+      "bytes": 14418,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/door_we_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/end.txt": {
-      "sha256": "f584344ba16f6e101b400cbb71f59e4e8cb64608747f7f515e1a9459096570af",
-      "bytes": 23385,
+      "sha256": "1466227061db7fd8d49cf683f725a0990ae5d9a7b90c22018f04fbf2cbc6edc7",
+      "bytes": 13306,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/end.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/galleries_0.txt": {
-      "sha256": "08db3b911c3a50bc0f02acd1c76e523b3d05937bd0ad720c87f089f2224875c4",
-      "bytes": 23202,
+      "sha256": "6bf4f5fa65a03da0907aa8478ffcb56ef78b2cf402c15b84d61bacd668087e49",
+      "bytes": 13123,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/galleries_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/galleries_1.txt": {
-      "sha256": "2827c0b0536b6e6bb274922f8e7ca7d8338a261a92cd436e61d33521ec6c4592",
-      "bytes": 23069,
+      "sha256": "565dba94e9eaf126b529faab65cccd601d4f3808c4fc0cb0d69ef40d78cc1bde",
+      "bytes": 13014,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/galleries_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/galleries_2.txt": {
-      "sha256": "d2b447de4707482e34feb9c5403c420a06eee546ed9e4e602c0d588762f6d3b8",
-      "bytes": 22926,
+      "sha256": "ac6e8b6bdb31a5eec68e198629a90625a16e7f39520d1386a7ace6fc45f26158",
+      "bytes": 12926,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/galleries_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/great_hall_0.txt": {
-      "sha256": "54417a1f67f63c84885bcbf5481427f6b9c4bd41d0b8f9c26c9bafbf1f646a87",
-      "bytes": 22945,
+      "sha256": "0787af95085bedd83d3674ed16daf0be0004c49039e0b860909dbdbdb30062df",
+      "bytes": 12866,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/great_hall_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/great_hall_1.txt": {
-      "sha256": "12bcec03dbee7c7bd82720e43fd413650f20093675f07690d3d63f1642f55740",
-      "bytes": 22937,
+      "sha256": "0f271663761ab5b5c13e3565e689216ba39b67338477657ed51b3c32015161fe",
+      "bytes": 12882,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/great_hall_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/great_hall_2.txt": {
-      "sha256": "b718062a4d934d03f0afe2644a79688081ca3a46dff0fb50897ba5d954d0e62f",
-      "bytes": 22889,
+      "sha256": "bf8e7ce449e3bcb0f90940e2c5e852f255497fc8ed1e1010bd2bbf96f69d7a5e",
+      "bytes": 12890,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/great_hall_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/key_0.txt": {
-      "sha256": "fe1f767e0ff280ca0015e0ca5dbde9d53c4d52134761e6e53cc26462456f1460",
-      "bytes": 24196,
+      "sha256": "2d6142a50aec5c86146060dd3c7c655699fac4bea05ac1de47b00b12c01f1f9f",
+      "bytes": 14098,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/key_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/key_1.txt": {
-      "sha256": "d7db7090a93dec99720821bbd3ed06e6afba436fd81ce7cb97f4f8046d240821",
-      "bytes": 24153,
+      "sha256": "9a9d6967b81ef092bfafe576b917948bc54ba14b7ad9fa6ee12390adbb2dd518",
+      "bytes": 14079,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/key_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/key_2.txt": {
-      "sha256": "cc4d17b65a2b4bf309ceacb15e3b9d06975ba32ff0d7e800d815f556ced0236e",
-      "bytes": 24092,
+      "sha256": "eb3654b400757c588cbd11c4cad0667f053bff6b4d3f6948fbde6a319e9df017",
+      "bytes": 14074,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/key_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/links_0.txt": {
-      "sha256": "b3eeb2c1410ceeda179d4b2e1048f60ebdbea3f74bc4df23070fd80d4561fa72",
-      "bytes": 23208,
+      "sha256": "7798a0a0cf7dbf24168d952ef5d96d19a078ef9a7f8838e78ebb7557b781c2b7",
+      "bytes": 13221,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/links_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/links_1.txt": {
-      "sha256": "2b15e8773b630afdbbeea5c926ec265937be1b07cd536b65ed659b8e0e2960a3",
-      "bytes": 23036,
+      "sha256": "4ef955bdfcfe89fa5f1c01104a9eb3725bb5614c048568681c4d0a6ff3e8506b",
+      "bytes": 13097,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/links_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/links_2.txt": {
-      "sha256": "616fcea133f90d0de16d8678468b4e14d4a1e821d7d7b1b22fb255246167b765",
-      "bytes": 22872,
+      "sha256": "a576341ba08f8efa0be0d2beffa1a81e04c988e5f01ae5fb8077b092228d1abf",
+      "bytes": 12981,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/links_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/rotunda_0.txt": {
-      "sha256": "df8fbeeeb77cd1d4126784778b25e81e1063ddeac9917ac50cad985ba3bce19a",
-      "bytes": 23154,
+      "sha256": "23453256578b7260cd57419654e72c60ee7691df43ad57e5d128a853510ed7de",
+      "bytes": 13076,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/rotunda_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/rotunda_1.txt": {
-      "sha256": "2c60025e0cabf3bf59afc347dcb064c48affe92bc56c640624eb771e53a6d091",
-      "bytes": 23077,
+      "sha256": "609893845d0451118fc7ef693759445a5ab08094152f8515c3fc668427158676",
+      "bytes": 13020,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/rotunda_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/rotunda_2.txt": {
-      "sha256": "10e830a082ca78bd29c6d6c4e8aa49cbb7e718388967ffcf58a2a3f2fd021173",
-      "bytes": 23066,
+      "sha256": "50fd2b60dff4d25a87d0ed2acd8bc2d9ba5931c70fa76446466910e7a837f208",
+      "bytes": 13070,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/rotunda_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/split_hall_0.txt": {
-      "sha256": "180ecd66e00495d57fcfc953c69b51ebf0e0196211dc7be4ceb2ab999f595d42",
-      "bytes": 23301,
+      "sha256": "54da0c2e74cc766033ef9aaf8fbc86e492db1db6688635c32d5b10c31e818d40",
+      "bytes": 13212,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/split_hall_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/split_hall_1.txt": {
-      "sha256": "4e00310ddda249282a72d4cea23f5303fe4ba0d1011e3711c7e0a31ed6d286a4",
-      "bytes": 23245,
+      "sha256": "7833dc5f90b0060e3b97016753844ae16e470b004709b2e29cd11ad21fe390b0",
+      "bytes": 13182,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/split_hall_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/split_hall_2.txt": {
-      "sha256": "0826af07a4ff6d943226551820308b8ff8f3b2c6712ab5808d6c9cf922bb6f45",
-      "bytes": 23185,
+      "sha256": "4ed6d3cf38aeeb10a31d2ecfe9d003c02dec4b9987ca051469c73ab0f468ac3c",
+      "bytes": 13178,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/split_hall_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/start.txt": {
-      "sha256": "24638e7b90b438accc2e083786fca088763cee741406a03e673507a114d0d1d9",
-      "bytes": 23220,
+      "sha256": "fbf694bbdb290e5f98af56993e4b75590e8186d0cc6f82097ed2efd774ae8c59",
+      "bytes": 13141,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/start.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/winding_0.txt": {
-      "sha256": "c457264774d2e78c055061e35d97b7864a8f352a6e799c7727100f027121d09b",
-      "bytes": 23289,
+      "sha256": "17b9e164f96f2fe25cb831729e46c54cf5907ff2d9449e7b1308e1020b59a344",
+      "bytes": 13210,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/winding_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/winding_1.txt": {
-      "sha256": "0e65d29ec2b750ce3412ea88e8c56dbdc40fc684128b40524d6e9df0ea62eeb0",
-      "bytes": 23161,
+      "sha256": "1716eb75665d007387f0ebe77f123be17a087791aa669725d422421da8f90f42",
+      "bytes": 13106,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/winding_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/winding_2.txt": {
-      "sha256": "940b11b9f0f9be5f0daecf2a42cfea315ae1f1ad348d9ee89dd191001e55e4fc",
-      "bytes": 23010,
+      "sha256": "c198e5041ed55e2e8bb0b1990fb5ab7c0512f1e17070e8fe2ce07078c7575017",
+      "bytes": 13008,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/winding_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/wings_0.txt": {
-      "sha256": "c9b68e8822f80b1e5bf6bffaac7e14c18205fba92ac6d4f8e6faa4ed4be473ea",
-      "bytes": 23146,
+      "sha256": "5c32a74712ab049dfc02de014bb039b619db45ef9aa7c5628ae03425b4d2debb",
+      "bytes": 13066,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/wings_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/wings_1.txt": {
-      "sha256": "89f015b622e298035c7c15f29a795c477bff00be8f795db38cdf112196124399",
-      "bytes": 23060,
+      "sha256": "7c9a6ec2bbea3934c40746ba20457ee2de4689689c4cdd95edb9992a1993a185",
+      "bytes": 13004,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/wings_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f1/wings_2.txt": {
-      "sha256": "f5c86bbf274ac71aa176e58d5451aaf81dea6d60dd61ddaf11a3a22840973fe2",
-      "bytes": 22965,
+      "sha256": "bf3a90d3baebfb40366b88fcddd89c050ec2a037510f4a4e1c0e11b088716d28",
+      "bytes": 12966,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f1/wings_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/alcoves_0.txt": {
-      "sha256": "40a74d4ab4ae95618cd22ad37d59c9f010174b89733f879e8a4e593da0e2be51",
-      "bytes": 23012,
+      "sha256": "7d31a3e8ad4e037f369714f0655cc79822d4f5afabef454b813a10a779eb2af3",
+      "bytes": 12933,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/alcoves_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/alcoves_1.txt": {
-      "sha256": "d183320bd917856e8e4b07d249adf7f3b0a219ef916482fdbace2413b5731ea5",
-      "bytes": 22927,
+      "sha256": "9eb19a5d182974d2fb57c78f574261e16aa3cf8ca11fca521909124889439e8b",
+      "bytes": 12870,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/alcoves_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/alcoves_2.txt": {
-      "sha256": "92989da1e7530d0064bdc57463d5e0f79178ef9c27d53837df60fa1ffad33729",
-      "bytes": 22832,
+      "sha256": "fd12595093ab17b55293b42391f6cd0be47d1ad04058ca40a36fa520a164a875",
+      "bytes": 12833,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/alcoves_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/basilica_0.txt": {
-      "sha256": "a715be22f1030d8adf6ebb3eccae66271423cb194da203da32ee822f2d41a3b0",
-      "bytes": 23083,
+      "sha256": "3dfd29235d4d501ab937dffa440f352ad3a6a6fec3bf262cd3c75368fe66331b",
+      "bytes": 13004,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/basilica_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/basilica_1.txt": {
-      "sha256": "8f19c56c851ad2ba7f00bc41a99e84bed5629b3c9cfbfc2425eca025668ae63c",
-      "bytes": 23039,
+      "sha256": "237177e1413932b97443fb6c5ed3484aeea205a9d59780362729b43dca0f693c",
+      "bytes": 12984,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/basilica_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/basilica_2.txt": {
-      "sha256": "a2bc22a595a06854ea63dcd2a44246341430f5270da9848095cc8298e9eaa7c0",
-      "bytes": 22974,
+      "sha256": "2764d7fee604834c06bea941b6960475737f4d94114202a40a929a437a6b8700",
+      "bytes": 12973,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/basilica_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/cavern_0.txt": {
-      "sha256": "09c73ce00ea49a538a451bfd0f137c931280bf4f6e0eeb5da71675010f47228f",
-      "bytes": 23021,
+      "sha256": "0ec4bc99c5aa60e14ab221d7c75296cd126f162e378c4da09deb567ea617d866",
+      "bytes": 12942,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/cavern_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/cavern_1.txt": {
-      "sha256": "d7ff969a1d8dd66bd1e168d45267f530e192728a5c62c9ab7c9e750a03b51521",
-      "bytes": 22938,
+      "sha256": "f6bff3c640c613715b69b278fe273a7741df0a273dd61694b3e273f2160c2531",
+      "bytes": 12885,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/cavern_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/cavern_2.txt": {
-      "sha256": "15e0a3c83108b3c760bd89b86dcef631cb9da91ddb570668f6883ebdaf783139",
-      "bytes": 22850,
+      "sha256": "5afa293a575e8c7a089c3e736c16e47557eaa1c04452f02d2a4b7be64a99319e",
+      "bytes": 12877,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/cavern_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/courtyard_0.txt": {
-      "sha256": "0599ea0109d2971008c3d97892073a6088dcfec04024c9971a36875ebbb34f5a",
-      "bytes": 23070,
+      "sha256": "b175d227bc6214ea2002ec33edc8fccfdf3a5c8f9cc02e4004b649246a3cbeb5",
+      "bytes": 12988,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/courtyard_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/courtyard_1.txt": {
-      "sha256": "cd8fdede0a50d37bf72dc8d6e392f20ff26c0ce2775447d45738eb987a4651b6",
-      "bytes": 23040,
+      "sha256": "90ccade638dc31f82057be904b3cab43b0c80dc15ad7307eb5cf3f3d9af70089",
+      "bytes": 12983,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/courtyard_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/courtyard_2.txt": {
-      "sha256": "53bad36a100286222716308af2ff220721275038a17328ae935b5739dee763d9",
-      "bytes": 22968,
+      "sha256": "1bfbc2c8b69337c4580845a6a27aa391c8a6011100d4cb11772509fcad36a68e",
+      "bytes": 12966,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/courtyard_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/crossing_0.txt": {
-      "sha256": "41007edc9859181564aa0d4f620a97fc044f152db978be6aff30de59d56847cd",
-      "bytes": 23171,
+      "sha256": "999742d4e190f74f9ea16108cfc14ff70f9ad6950159c89671da02b0962840b6",
+      "bytes": 13091,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crossing_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/crossing_1.txt": {
-      "sha256": "27130269df28e09466e00aa18f6e5f45b8de661db74f9b930c2ae8f4abc36be3",
-      "bytes": 23069,
+      "sha256": "4964b9d07d64ab50fa0a115d1f30f76432a28f77a9d2b70d9e7dd7a685578686",
+      "bytes": 13014,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crossing_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/crossing_2.txt": {
-      "sha256": "768b02c7998052682d6b913bfc6848494f590f2faa4d3150c5682599f5be6127",
-      "bytes": 22965,
+      "sha256": "d4979a7a670252f998828c8d8146c822d488f6c5c36e18a7098d8b169cf9cb21",
+      "bytes": 12966,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crossing_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/crypts_0.txt": {
-      "sha256": "b29a579a2d12f0f3e449a44e7824c456ea3928b18cbf715f537cfe83a2da75e4",
-      "bytes": 23277,
+      "sha256": "8f8b1cbfd60782f3f1683b42e22e907b5eef7649c5ce1c18adfb7a0d0229fb82",
+      "bytes": 13198,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crypts_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/crypts_1.txt": {
-      "sha256": "21e79e9078b76de19fa8c1000595c1a9db0c733a22f97135a4632fb179f48259",
-      "bytes": 23204,
+      "sha256": "996108035eee0b78476063e1c279770abe9cacda4f95fe5cfb80769791dfb299",
+      "bytes": 13149,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crypts_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/crypts_2.txt": {
-      "sha256": "c3e653072a50a57f1129d00efc9f204160b98f6ab8ae4d95e9cbcc82bae71cff",
-      "bytes": 23065,
+      "sha256": "fa2d7756bc4ab8f70e5b74bf83e5848edacd55058fc591d72ac1d8fbde29fd05",
+      "bytes": 13098,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/crypts_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/door_ns_0.txt": {
-      "sha256": "62d5b06578a12683535c6559dbd09819074647044aa43a8774b41a3a181d5f45",
-      "bytes": 24543,
+      "sha256": "40c61ac86f9a5dae8e29366a0f18a5ff2d89f96de5fb6c5f9f244d65762852ce",
+      "bytes": 14464,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/door_ns_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/door_ns_1.txt": {
-      "sha256": "d0afd5c6dfc2786011900379bc3e1cc3f4fa3c9d31262fce85c59008883f6514",
-      "bytes": 24499,
+      "sha256": "6a56d89f6e2ee91e9275980ecfb387f2d1b16dd990d7cc278c5b9d11e71bce9d",
+      "bytes": 14420,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/door_ns_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/door_we_0.txt": {
-      "sha256": "2b15411b06511bbae4a53e6b274f644f9cab81e5afe8f12298cbcf1de6aee39d",
-      "bytes": 24541,
+      "sha256": "f3b3a6978228d3d65365dc7aa3a347902ac437115199f85ee174be1ad411a64f",
+      "bytes": 14462,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/door_we_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/door_we_1.txt": {
-      "sha256": "13dc60ad9e0aabbaf55017152bce6bf2b4d298c1aba5b8b40d80cf974b7527fd",
-      "bytes": 24497,
+      "sha256": "355874524a5c4795bb46477fdfd3f09050755f3653bc0bd4644e0f9d8831d35d",
+      "bytes": 14418,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/door_we_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/end.txt": {
-      "sha256": "c704520d7e5f921a6834e636a0ab57c56b1727379a122bc8eaeeb51c9f0c27ae",
-      "bytes": 23385,
+      "sha256": "ee289b688f65cbfb2103c0941d07c017bba6d786fecff50f1af6813f03c99044",
+      "bytes": 13306,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/end.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/galleries_0.txt": {
-      "sha256": "a807ac2f12872cacb4c021815bfb5f3309db69bf072a92ff04d320ec0aac2fab",
-      "bytes": 23202,
+      "sha256": "8f026fd7ef7b57490e3ab26928b884d6a372cb089539fd456452bea6ca0087e9",
+      "bytes": 13123,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/galleries_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/galleries_1.txt": {
-      "sha256": "2086bee3a156be2b014c56a3fb469b4983a95df2df1b7534b5ffaa77b99dc430",
-      "bytes": 23069,
+      "sha256": "0171d5f685cf8ba40e214ee5e45a05f3f239e452a24610595dcf82f49d5551f8",
+      "bytes": 13013,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/galleries_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/galleries_2.txt": {
-      "sha256": "e71cb01a8dee577a5c9f95c36df0efe0ab3edc359c1ab1f8223a6d84eb4ab85a",
-      "bytes": 22926,
+      "sha256": "7249b4e0e8115d1ec910199210f459b973bced52bfbc4a9424381a652d7b6711",
+      "bytes": 12927,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/galleries_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/great_hall_0.txt": {
-      "sha256": "e4c49088b0a24a0c47a7765247e58d52c7ad7fce69aa7718b646f5ab6aeda4c4",
-      "bytes": 22945,
+      "sha256": "9da9c03ef07c6ac69904d6a4feeaa4029d5602aef6bb640019bbeb7db7aac4e4",
+      "bytes": 12864,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/great_hall_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/great_hall_1.txt": {
-      "sha256": "d04c813d8506afa3c68adf256300e0b52b9618463903d639341bc2486964634e",
-      "bytes": 22937,
+      "sha256": "3b816e9041a2edb68abd11bcfd64c413a1c9d385e8824d8967d54d2dd94e193d",
+      "bytes": 12881,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/great_hall_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/great_hall_2.txt": {
-      "sha256": "be11d7e4ec39d62c409fcf0ef28b9bdd815f45695f75d385a4cd150f13a15fd6",
-      "bytes": 22889,
+      "sha256": "e6a9cfa3cae231813895969a1b2e5c0b23c44b043b400fd7f51325964be55d0e",
+      "bytes": 12888,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/great_hall_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/key_0.txt": {
-      "sha256": "652657d09ed3dc48e791d12c3b69e1d7bb3754e5e518ab2c3adfad8e0c650397",
-      "bytes": 24196,
+      "sha256": "38c43c71c7251368646eff786c89498f8df80c47c9d0f560a40bcc9b648796b3",
+      "bytes": 14098,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/key_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/key_1.txt": {
-      "sha256": "0fb5beb5bf7b6223746aea801589d2508026caf450c4270ba80d727f040a08e0",
-      "bytes": 24153,
+      "sha256": "6cb506cd72fca827a18f7045b845e446ffae24dba8ea369f804decbf0d62a70a",
+      "bytes": 14079,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/key_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/key_2.txt": {
-      "sha256": "4d5f706bec4b4d99c774feefed68530f102df4696226bfc9dc2c42e9b0019d09",
-      "bytes": 24092,
+      "sha256": "7905721ab598b23216d976fdd153535fa785fdca1b86270757a9c16f6004a50b",
+      "bytes": 14074,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/key_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/links_0.txt": {
-      "sha256": "b3eeb2c1410ceeda179d4b2e1048f60ebdbea3f74bc4df23070fd80d4561fa72",
-      "bytes": 23208,
+      "sha256": "7798a0a0cf7dbf24168d952ef5d96d19a078ef9a7f8838e78ebb7557b781c2b7",
+      "bytes": 13221,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/links_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/links_1.txt": {
-      "sha256": "2b15e8773b630afdbbeea5c926ec265937be1b07cd536b65ed659b8e0e2960a3",
-      "bytes": 23036,
+      "sha256": "4ef955bdfcfe89fa5f1c01104a9eb3725bb5614c048568681c4d0a6ff3e8506b",
+      "bytes": 13097,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/links_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/links_2.txt": {
-      "sha256": "616fcea133f90d0de16d8678468b4e14d4a1e821d7d7b1b22fb255246167b765",
-      "bytes": 22872,
+      "sha256": "a576341ba08f8efa0be0d2beffa1a81e04c988e5f01ae5fb8077b092228d1abf",
+      "bytes": 12981,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/links_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/rotunda_0.txt": {
-      "sha256": "dab9c7bc568a5c13766bb41ecf9379d3123bdbb2e25c855c3349c342474e18af",
-      "bytes": 23154,
+      "sha256": "68123f25d8c7f5470a1497ed279d65806a6d9dccfd7fb1107226ab23f212b19c",
+      "bytes": 13077,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/rotunda_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/rotunda_1.txt": {
-      "sha256": "fbec67cd92ce88acf88419feea499f30c9c8b2eba466bb215a6d11671d51bd84",
-      "bytes": 23077,
+      "sha256": "0ff9d076e57a6db01c9560438c1be516ca74bacd1eb8d03e045eeddac04423f8",
+      "bytes": 13021,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/rotunda_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/rotunda_2.txt": {
-      "sha256": "6da353b16f408087780814b18b12ca0b2170cee89f62668a921d84776f3830ba",
-      "bytes": 23066,
+      "sha256": "6407365d6bdd29d6eca469250f783834cbfae6263d43a68d12ffc443c98edcdc",
+      "bytes": 13069,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/rotunda_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/split_hall_0.txt": {
-      "sha256": "44082939bb9d4bc21336d8e2cda7063531e2eb7da3275e03e2ae618e711136b6",
-      "bytes": 23301,
+      "sha256": "392390935a56e2d114ec16c35af09b2a05a48f5db029e208f4a9c5726a17907f",
+      "bytes": 13213,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/split_hall_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/split_hall_1.txt": {
-      "sha256": "f7c9a5154b56016f999d2fdb0e3a3666a2ec6fe3f8c80a71ae3d9e0fed032c65",
-      "bytes": 23245,
+      "sha256": "c6d0f3291bef97f464bb6ec356f24d955f8be55df6492f2ed74b0f07ddc667cc",
+      "bytes": 13181,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/split_hall_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/split_hall_2.txt": {
-      "sha256": "e8f28626eff82b068ac0114713e39b56679b469c5b39a88c864b7fa95edf02a8",
-      "bytes": 23185,
+      "sha256": "fdfb03c1414c971641084a7570ee08197d1db64101f4a8b3a13cc848dd003b32",
+      "bytes": 13176,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/split_hall_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/start.txt": {
-      "sha256": "9d4f06f777a7c34afe87f595a044f65b41573d20d5f3b7eca9c8cb1d085b865d",
-      "bytes": 23243,
+      "sha256": "30675d4b18d746f8aa9911d5684a3fb5f882018d5c2cd8101e89bb33511718e1",
+      "bytes": 13164,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/start.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/winding_0.txt": {
-      "sha256": "ec858cb58b415d998493e7d6d089b416b9c5aba7b98330653cece276a43b7af5",
-      "bytes": 23289,
+      "sha256": "825374c8b6e7b2a3dce6e3193ab1cae86f9510fe7978c9fd2a3ad4a838d3a82a",
+      "bytes": 13210,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/winding_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/winding_1.txt": {
-      "sha256": "99123791fb0e32b08321ace0743a650907f33b3a3039acbbdd79642db2b16ecb",
-      "bytes": 23161,
+      "sha256": "b9176427094d21b9732d00b3ea607954eb241e729d80a5accab4a28a2e72e997",
+      "bytes": 13105,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/winding_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/winding_2.txt": {
-      "sha256": "4eade12f5b12ba2aa5fc9c3cbcedfae5341811ac0611ffa5f6c15a6f1e98802f",
-      "bytes": 23010,
+      "sha256": "6c30452a75081a94b9e711a58d20938d834bdb37e13d066cff2b8aba689824e7",
+      "bytes": 13009,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/winding_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/wings_0.txt": {
-      "sha256": "e2ca6da264951e90c77f30e2dbbb58826760760a7ab3e7176642af17836d3a3b",
-      "bytes": 23146,
+      "sha256": "12e9e773ee3e99e7f2faca74d6fd96a21540c48ea8470788b163ac55450d2651",
+      "bytes": 13067,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/wings_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/wings_1.txt": {
-      "sha256": "18f13bbba3edf163d6044917a3e75c6c2059f1ec8d0b1d0c011037a0117a353c",
-      "bytes": 23060,
+      "sha256": "74b0fbc04dc0cc856281adfe8c061c90a2b523f43ba1b88d95b6303329a28a3f",
+      "bytes": 13005,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/wings_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f2/wings_2.txt": {
-      "sha256": "bccaff12af37a41980f22baa068fc7a572e44571d4f12af5db8d664524deed47",
-      "bytes": 22965,
+      "sha256": "4344e2ae1a64709c7f8af7a544b51e27b4d9638291737bf29c6f3e0f9a232a7d",
+      "bytes": 12965,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f2/wings_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/alcoves_0.txt": {
-      "sha256": "08d62d4b1913e19f2616e2ef2dbeb5967d9763252d843aadc50088e716d0b280",
-      "bytes": 23012,
+      "sha256": "e60088419a1142c23c50aa0010c62dbf2ddaca17f813378d0d7e78528c0388b2",
+      "bytes": 12933,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/alcoves_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/alcoves_1.txt": {
-      "sha256": "404c011a382821fe2deaa0d4d9f87530c8cf533d30636cd1965edfd9905a8034",
-      "bytes": 22927,
+      "sha256": "17c8ccde7caaa642d7ead326c9484d322db0c7eec7f4783d75e340e140d03491",
+      "bytes": 12872,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/alcoves_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/alcoves_2.txt": {
-      "sha256": "fff819885528e3c6ddc7c862880c1a1c96b12cbdddd10a272ef1eae312ec1874",
-      "bytes": 22832,
+      "sha256": "338d8098209a14a65bc16daf7a7ed112b10aa2805de2a0f5fe9b41c73507e1e8",
+      "bytes": 12833,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/alcoves_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/basilica_0.txt": {
-      "sha256": "97db33fcb7865be7c40dbc430934f5d09fce15a3cc9decbd8e715867f72346e2",
-      "bytes": 23083,
+      "sha256": "09d51b6407b8febd6c6315492eb41987fbbb3bcf716571ec894653b4e12419a7",
+      "bytes": 13006,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/basilica_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/basilica_1.txt": {
-      "sha256": "ef051f72ecc8baa4fff5e9d0af1842a7d772cc06bb7513dad13d11559928e2b2",
-      "bytes": 23039,
+      "sha256": "3bb224ad774e6678c399febee8baf3480ffaff1fc196ad776dcd8d97d09dac02",
+      "bytes": 12983,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/basilica_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/basilica_2.txt": {
-      "sha256": "a90acfa61c653fcb7cb972fba06688342d6ce91213a1cedaac94d0609a55f120",
-      "bytes": 22974,
+      "sha256": "a2ab0871da91e014290dba18cf5275b987d2907953f19c936276116e9ae1b135",
+      "bytes": 12973,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/basilica_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/cavern_0.txt": {
-      "sha256": "4b33ccc4b2420863e1768397a2ff2e434254d9b42008eb28a038e56c9b8da939",
-      "bytes": 23021,
+      "sha256": "0353c5e8035f9cb2bf462c2b35362d48cb2ca3a9f3381283e9f88e1bb9aede22",
+      "bytes": 12941,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/cavern_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/cavern_1.txt": {
-      "sha256": "bc6506ed51382cf29b8bf4045e503271247ece6e518c43ff453a9995523cf457",
-      "bytes": 22938,
+      "sha256": "9b30d7fcee648a77a01f92de4ce1293b820e5702180d1ad72332b8fe2f438158",
+      "bytes": 12887,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/cavern_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/cavern_2.txt": {
-      "sha256": "1a1a3a12194a7b6b5bbe40c9e193b5f1563bb862cce9b7f40bca1a791a833718",
-      "bytes": 22850,
+      "sha256": "7f4f6837cac37919916a619088a5e7158e92915a4a12c955a0f900b08873b89e",
+      "bytes": 12877,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/cavern_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/courtyard_0.txt": {
-      "sha256": "15ed0efc9fc4ed1918ab1697af1fd503fd4f0d089aad9e3ad2fbbf27647eef8c",
-      "bytes": 23070,
+      "sha256": "5aeb8d450747ab6c46435c357485646f4a3e96dc651e2878bc9614876a437f02",
+      "bytes": 12990,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/courtyard_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/courtyard_1.txt": {
-      "sha256": "eaf5e1184623e7ae0e78d1c39031024a4ea2a1261f8050fa02cf349ff1b2bf27",
-      "bytes": 23040,
+      "sha256": "63f60d6a03a6dd81c25f44474a5777c58ccdfef41def7cd3ac426ae269d14567",
+      "bytes": 12981,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/courtyard_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/courtyard_2.txt": {
-      "sha256": "dde72bc5985e6b0825a12fcf44c8905f0c50e60ffefa6d1672a5167fd60ccbb7",
-      "bytes": 22968,
+      "sha256": "e38fd8d999d33d9b0bb1b07ca780f0ee33496d20b9755a4136d7182d82820326",
+      "bytes": 12968,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/courtyard_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/crossing_0.txt": {
-      "sha256": "db1607ab99ebe0f3dd7c49d1f0281d62e3036513af75bb6814f28309c5e705ff",
-      "bytes": 23171,
+      "sha256": "9151ae31d7560c803e4db672d86c229a7d05f0ef34d3f4f20b35555454decf8c",
+      "bytes": 13090,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crossing_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/crossing_1.txt": {
-      "sha256": "5985cf0d056522ec60a61e5d83e136d7405a787946e6f57ea6676f881fc38411",
-      "bytes": 23069,
+      "sha256": "151f7a218da6eec75788a50fb37f8e72939424103a0b1a483f4aecef4ecdab20",
+      "bytes": 13014,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crossing_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/crossing_2.txt": {
-      "sha256": "540fd053c0b42af87680e7a6e5dea4b06964a0efad88d47ef8e5ed97f93bc78b",
-      "bytes": 22965,
+      "sha256": "22aa60145dc7a8d54c584160dde11dde86c18774fa316e9d35f93befa233469c",
+      "bytes": 12966,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crossing_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/crypts_0.txt": {
-      "sha256": "e4d2a5552882209f62974ce07ca2476c5d4480592358658ea17750b89c976b7c",
-      "bytes": 23313,
+      "sha256": "c0db40096c9ac54108656fd5886b05716c844a7af5123e157cc73e1ae26684ce",
+      "bytes": 13233,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crypts_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/crypts_1.txt": {
-      "sha256": "9e7675e91e0d7fab1c8f47311ae670f8635d32222e194597766d68c454a9e276",
-      "bytes": 23196,
+      "sha256": "3c3721269d31eb982182019a86dd8df25bd96748fd5f5daabe4b35bbcee77725",
+      "bytes": 13139,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crypts_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/crypts_2.txt": {
-      "sha256": "0eb8a7cdf208cb0a576be4365ba4f235ab2ec658a34bf782039b7d1af81c2f64",
-      "bytes": 23059,
+      "sha256": "6da0227c5ef4f21884f4b3c17a8747427f84b777ae0f893c6fa85dc461cd3f3d",
+      "bytes": 13092,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/crypts_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/door_ns_0.txt": {
-      "sha256": "d560b9be0b5b505d357797a1866452387a355fa9e65f24e991f5cc56ba652d91",
-      "bytes": 24543,
+      "sha256": "b9c5e6f1a95822e7acff5f15c9871a4ef281286bb33eac4514272eefacaaea6e",
+      "bytes": 14464,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/door_ns_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/door_ns_1.txt": {
-      "sha256": "bf5fb968cafb084d0821b21ab6ba64d1fd14026813007d12f90f287fe7f07d36",
-      "bytes": 24499,
+      "sha256": "57bbe7253e1ccdd4207b42834d9b1432ca8f16b9b2d245e4a85e689501556f1c",
+      "bytes": 14420,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/door_ns_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/door_we_0.txt": {
-      "sha256": "10a7f5083ebfd12fc30be53ba6315567ab7c513f7fbc8d2f50193ea07b2bf8d0",
-      "bytes": 24541,
+      "sha256": "4dcf3f77cc0d2a85bdabf796c5245adda536744f9650c4a13644cf62cea71194",
+      "bytes": 14462,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/door_we_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/door_we_1.txt": {
-      "sha256": "cb84e446802598c9dbb9a3084cb7a820c6a02b0414a0d642fe73595af7409259",
-      "bytes": 24497,
+      "sha256": "d856deb0e235fdb564d954741d59ef6ec535dc81dc7cded236996a40268b7251",
+      "bytes": 14418,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/door_we_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/end.txt": {
-      "sha256": "0fda3d66ae599c744d20b18c7cfcebc0832a6d8587dfe98b434babfe523aaebb",
-      "bytes": 23367,
+      "sha256": "4caff8eaa7aefc33ea713fd997bedeb3b9684f565abd6ea02f862465c3d4cd41",
+      "bytes": 13288,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/end.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/galleries_0.txt": {
-      "sha256": "de15177b192eec5758a3990f8ae99f79e1d274dfb25c0d13898e9ae2f2c0e1fc",
-      "bytes": 23202,
+      "sha256": "aee5cd30d29c3c17d30098ddcd5c1877c863cacd3015c71b42a1e6d236c267e0",
+      "bytes": 13123,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/galleries_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/galleries_1.txt": {
-      "sha256": "b15d8dd4a2b4c796ef72194d658f2b0958ed556271d408fe7f8cd9a23606a10e",
-      "bytes": 23069,
+      "sha256": "5ee19d8a4033e95101360f59c20d43fdb348111bfbed3d0447610fe383f9cbee",
+      "bytes": 13014,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/galleries_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/galleries_2.txt": {
-      "sha256": "bb0b21d5e096eff3d3afea2604508553523c94b54cf6d5190e23f29d9eafce3f",
-      "bytes": 22926,
+      "sha256": "5ffd670112322c41ba1eece9269295eec8a7b6a0b1139266f9c20270008af87c",
+      "bytes": 12925,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/galleries_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/great_hall_0.txt": {
-      "sha256": "613d9ebbacc6b1bc1ff3aef1fab55ffcb6935c6b7476b1e37847f9a5c846ec96",
-      "bytes": 22945,
+      "sha256": "40cca38cbbeba70efca8b229c1630cfa7e646b2bd69dcda39ee9299d4971ee05",
+      "bytes": 12866,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/great_hall_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/great_hall_1.txt": {
-      "sha256": "a1652cff1c5ba67dee0c42aa439700c925e8ac3e74ec68e296cb07bb8097f292",
-      "bytes": 22937,
+      "sha256": "cda4da6ca68d84066b5c072379df7d89580e74123972b7c634ec6ab8c927db35",
+      "bytes": 12881,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/great_hall_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/great_hall_2.txt": {
-      "sha256": "e929bac84d77cc6bb3d80d3c1e1d5a21bae957e9ead1d56fdda159794ae36c9c",
-      "bytes": 22889,
+      "sha256": "1cc73c050c5db7d1a80d1710f932497a3ef4d2b7a7eec7bc6864a9284d3647a5",
+      "bytes": 12889,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/great_hall_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/key_0.txt": {
-      "sha256": "1bf7f115b1728d696c5f5aa3dd947f62d8ddb7ebc1c2961e16d1d205a994d540",
-      "bytes": 24196,
+      "sha256": "a07ed228da67e7941fc57eccf53f21b11d110c2205be26343a12d76d9245c5ab",
+      "bytes": 14098,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/key_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/key_1.txt": {
-      "sha256": "904bbafd1c124609e9c957560f34d739cf9df343d501bb990b61af720c2279ee",
-      "bytes": 24153,
+      "sha256": "2f45f46ab1aa3c13c85c6736119c5561860d5c234ebe7ded21d0b684e4218678",
+      "bytes": 14079,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/key_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/key_2.txt": {
-      "sha256": "00d55368f58d2453ad5063bcc806d6a892e562a22b9b31df5c8476503d1b2635",
-      "bytes": 24092,
+      "sha256": "5077ba326a5b46881a4c3d2273e0ed45fe9f402311937065072b92c18ca5c1c8",
+      "bytes": 14074,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/key_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/links_0.txt": {
-      "sha256": "b3eeb2c1410ceeda179d4b2e1048f60ebdbea3f74bc4df23070fd80d4561fa72",
-      "bytes": 23208,
+      "sha256": "7798a0a0cf7dbf24168d952ef5d96d19a078ef9a7f8838e78ebb7557b781c2b7",
+      "bytes": 13221,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/links_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/links_1.txt": {
-      "sha256": "2b15e8773b630afdbbeea5c926ec265937be1b07cd536b65ed659b8e0e2960a3",
-      "bytes": 23036,
+      "sha256": "4ef955bdfcfe89fa5f1c01104a9eb3725bb5614c048568681c4d0a6ff3e8506b",
+      "bytes": 13097,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/links_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/links_2.txt": {
-      "sha256": "616fcea133f90d0de16d8678468b4e14d4a1e821d7d7b1b22fb255246167b765",
-      "bytes": 22872,
+      "sha256": "a576341ba08f8efa0be0d2beffa1a81e04c988e5f01ae5fb8077b092228d1abf",
+      "bytes": 12981,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/links_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/rotunda_0.txt": {
-      "sha256": "14952fa1010400bbbfd53d91a4f1f082165ca63b65c16f415f47fd0b113d6655",
-      "bytes": 23154,
+      "sha256": "7897894c2f295e1e527e06ddefd75aaac4649cfeaa438e877219099a071b0351",
+      "bytes": 13076,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/rotunda_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/rotunda_1.txt": {
-      "sha256": "1c072325398e4642cf5cd1fb466b905c0916b3ffe3d4b4089be0a37b3e37e989",
-      "bytes": 23077,
+      "sha256": "36645fad79e87d14f36c4f592e7607aade7996f6d017317294a43a2edbb999bb",
+      "bytes": 13020,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/rotunda_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/rotunda_2.txt": {
-      "sha256": "0204a5ed576bd9a4c01b155fe300f1cecb4dd257a4cbbafa0065757e36f76d98",
-      "bytes": 23066,
+      "sha256": "a3ca1a707955ac429921a415f8dac7e49273557240afbe9af7e6cb257f772758",
+      "bytes": 13070,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/rotunda_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/split_hall_0.txt": {
-      "sha256": "275f7fba9bcd418f158c933bfe5c506503aa3135944918ced4fe68b5e4851773",
-      "bytes": 23301,
+      "sha256": "5591d696edafa1dc282d7d5b0a6a557e9766b16854c3439c48a24a31d5437ec4",
+      "bytes": 13213,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/split_hall_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/split_hall_1.txt": {
-      "sha256": "628d946d40b49df0a00aebb49c17b1995e1cc780fea7f873402916a60da5e473",
-      "bytes": 23245,
+      "sha256": "022187674ed8329c893d8c1ac9719504cb6bfa928082afcc4a64e5fca9026a90",
+      "bytes": 13182,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/split_hall_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/split_hall_2.txt": {
-      "sha256": "79e7c96707f5df6ab6d24ff5f1a2a30f1a790747cc9713e2f7745a757c560ffd",
-      "bytes": 23185,
+      "sha256": "be3072083875ced9fb244a2ac04a666ecdf247f4bd5372bc6baa2817ac76e683",
+      "bytes": 13177,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/split_hall_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/start.txt": {
-      "sha256": "119f7aab8a8ef7b85799954ee257932babedb57486aaac2849b15fb94b85f39f",
-      "bytes": 23243,
+      "sha256": "baab1201e2faed607af57c4413c383bb88869fa5965ef98e6915d1dc9f8e3073",
+      "bytes": 13164,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/start.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/winding_0.txt": {
-      "sha256": "c409c428499611bcc407197212c09999961c264e37665e899cb5fe65d3a427df",
-      "bytes": 23289,
+      "sha256": "03b5e061671fda75aff0857b0b004e344571683cb1934430d9358496709998ea",
+      "bytes": 13210,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/winding_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/winding_1.txt": {
-      "sha256": "3dbd9e0894f929ae7f32e827c5e67987836a0b982fd730becb5c2c3ed803b3b2",
-      "bytes": 23161,
+      "sha256": "732f66f0f415702c10917696597e6ae30ee11dd934b8eacdf5c953d586662821",
+      "bytes": 13106,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/winding_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/winding_2.txt": {
-      "sha256": "0f3f52f4a39ef4cd4f0e1e5de42efafb41ff0b982eec93ac4f8d6ceafd8c71f3",
-      "bytes": 23010,
+      "sha256": "4675f279489192da99cd18b0f44856b693d1596cc32ae6048c7175b5b4db8e94",
+      "bytes": 13011,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/winding_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/wings_0.txt": {
-      "sha256": "3ebe720420b30b178484788d60deea2ce3917556ffcd0d05d31f6d5e93709760",
-      "bytes": 23146,
+      "sha256": "05b39942c76cdb6ac9dde0536c595329aa0a9eb8b18d0ace54d961735e824b31",
+      "bytes": 13066,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/wings_0.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/wings_1.txt": {
-      "sha256": "b20fc581b9fd8c7b5a2e44d7dc77fc2721aca9f2ced2fd7f6e65f401e5e363d6",
-      "bytes": 23060,
+      "sha256": "69b63402eec3194e55dd47866d8caa5d20d3aefa5da4e1befd5b14f041da5cdb",
+      "bytes": 13004,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/wings_1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/generated/f3/wings_2.txt": {
-      "sha256": "841c7c3dcdda8653eda6fa6d8c075d5862d44378104834d43cfa35879f55376a",
-      "bytes": 22965,
+      "sha256": "f173222e812323e2214e23f325fa2a1691290b440d05904ca94ef7e0007b5a07",
+      "bytes": 12966,
       "sources": [
         "diantre/maps/iron_labyrinth/generated/f3/wings_2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth/key1.txt": {
       "sha256": "17bc0b5b81beab59ba6ae7d395876254b7aa53c50977ab822684b171e4e5d99b",
@@ -9635,28 +9923,34 @@
       "changes": []
     },
     "maps/iron_labyrinth_f1.txt": {
-      "sha256": "586d47fb9791366a9153b77a8bfee6189f09d5952997a88f9ca3631b441ce322",
-      "bytes": 433194,
+      "sha256": "6c8a5eda1ea9e734194097c2328fcd79041cf8d0c8073674ed7e429140f3bb6a",
+      "bytes": 205354,
       "sources": [
         "diantre/maps/iron_labyrinth_f1.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth_f2.txt": {
-      "sha256": "c125b979200dc79945b84a2e8a425c238a3b092102e8a114e76d393dfbda2c6c",
-      "bytes": 433194,
+      "sha256": "4b13f4892d90aa00bbb223024703b60c047c888a194de489f145fb0ba117ef03",
+      "bytes": 205354,
       "sources": [
         "diantre/maps/iron_labyrinth_f2.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/iron_labyrinth_f3.txt": {
-      "sha256": "c88e0958a0f2bfb01f5e0d514c6406bf5d2affd1008d8057d7c4bd663cc35883",
-      "bytes": 433194,
+      "sha256": "14572d9e80fea0136c11df66eab91246deaea79204bc2870e1efbb6390a54e8b",
+      "bytes": 205354,
       "sources": [
         "diantre/maps/iron_labyrinth_f3.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "maps/procgen_rules/iron_labyrinth_f1.txt": {
       "sha256": "4ba42ea81eebbb57079bb6e89e42e3f013aed667c2276b06aaba8c3a74cd61d3",
@@ -9703,7 +9997,8 @@
         "diantre/maps/town/biomes.txt"
       ],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ]
     },
     "maps/town/cave.txt": {
@@ -12271,17 +12566,19 @@
         "diantre/scripts/town/return.txt"
       ],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ]
     },
     "settings.txt": {
-      "sha256": "6e94cee13bedf85badce9f76a64fab26b7c6a68b42c9c1c5fae88ad1addbd479",
+      "sha256": "b82aa9c307733c7e3dadcfb3f27227097f8f5d3d40b9a4189cc75419a56f863f",
       "bytes": 158,
       "sources": [
         "diantre/settings.txt"
       ],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ]
     },
     "soundfx/door_open.ogg": {
@@ -13253,12 +13550,14 @@
       "changes": []
     },
     "tilesetdefs/tileset_ruins.txt": {
-      "sha256": "eefb395d02a306bd761654eefa6885c0a91dea366564cede4a28aa895ca1dfcb",
-      "bytes": 9758,
+      "sha256": "f9d0713b493cfde42f654385b06d077dafd4a76b92ef5739837aefdbe319b8fc",
+      "bytes": 9828,
       "sources": [
         "empyrean_campaign/tilesetdefs/tileset_ruins.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged."
+      ]
     },
     "tilesetdefs/tileset_snowplains.txt": {
       "sha256": "4784188c6334d009aa1bade973728f17130205a46574f34261d7d49f4e43c3ca",
@@ -13327,127 +13626,143 @@
     "maps/town/hamlet_forest.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "ecc5c2b66e943c5a912f9c323be2bff28732117726689ae65992890e3079633a",
-      "bytes": 76306
+      "sha256": "2611fb7efb8b15f4976d6ca6fdffd6327eadc125e3ae94a219cd4c55005e979f",
+      "bytes": 145474
     },
     "tilesetdefs/town/compact_palette.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "842b32c70e4106b74a2782dc29e2e28a988ea4503bf9db45bbbee5ba84ccfaf1",
-      "bytes": 708
+      "sha256": "b865491c8bd6acaf85d097f735c46a1c26ee47c7e909d2352f81419221315094",
+      "bytes": 1935
     },
     "maps/town/compact/end_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "d850c1ffaba010e90cc0283c591c44b3e6ec8a902304e21acf5f81577d1b130e",
-      "bytes": 4166
+      "sha256": "95bed27ad7c626d0a2e7d70c42a1cd307594726b84e7d4c7ab6382b76fabfbdd",
+      "bytes": 6898
     },
     "maps/town/compact/end_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "2e3da40cffb34b6ccbcbee5e1682f6dca836d1a3c4def72ec24757561efb7c48",
-      "bytes": 4168
+      "sha256": "5b45b2b9c6c38fa4d0693587cf9928d37f1c86096edd846005da9567b799989a",
+      "bytes": 6900
     },
     "maps/town/compact/end_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "ae85b3ddd7e1b1ca80200d16dbbd49d8834aa86a3ed92287227e86a01a6bd9f7",
-      "bytes": 4166
+      "sha256": "46b1e2857039429959a2a03268d60c7be05dc8c5cd00c4756856c929c185cba5",
+      "bytes": 6898
     },
     "maps/town/compact/end_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "0d23c1f3a8f7dadf8d3a70afdd62fbb97112d0913f655be17ee96b668c831575",
-      "bytes": 4168
+      "sha256": "703de09f86ebe2f1c0d2a38f300aa2b605e2a45cbd7baa16cf756f74c1663883",
+      "bytes": 6900
     },
     "maps/town/compact/links.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "c4434480694b5b9cf7c025e8e97d0e5b88e58a779d5cdc846c8bc4c10da4cf12",
-      "bytes": 4161
+      "sha256": "b7b166e883d5a7494979a83c6e1032a69f0ae1d2ff2bcef27e5ecfdfc97949fe",
+      "bytes": 6932
     },
     "maps/town/compact/normal_a_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "0f5e69c1d3573560342d0760522046efecdd1e282887aff22e6bad750f03ec5b",
-      "bytes": 4391
+      "sha256": "d87bcc7ca8c189d54f788a19fc2e1cd15a8cf84edfa063c13c50cebf080af735",
+      "bytes": 7120
     },
     "maps/town/compact/normal_a_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "6ea2d3fead178ab4c6103cb444969701efb2e0c6dc3e7ceabf69b5e963af8d54",
-      "bytes": 4391
+      "sha256": "750962003c9a08bd78645a6e75949efb8286161fb4f64ea8d2596a7892223302",
+      "bytes": 7122
     },
     "maps/town/compact/normal_a_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "95d21fca246df4b9ca37ead0398b0d5253f4a452d9e408f20b4760eb9fff525e",
-      "bytes": 4391
+      "sha256": "314969f7742a9c05b817420513842d9b5b08fb3b73543cde0325e9fc25afd9bd",
+      "bytes": 7120
     },
     "maps/town/compact/normal_a_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "ebc27bb63faacded0459063a48c693a512fa7f17d84a1da8974e139bdae1b69e",
-      "bytes": 4391
+      "sha256": "d28dae3022b6fe48f156105c7a9a78f2a52eeb68cf19fce9752ec7aa950fb5ff",
+      "bytes": 7122
     },
     "maps/town/compact/normal_b_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "94d456950a3fe11fce8f7eded7e75b8a76318e03735ea161968fe771a936d9b1",
-      "bytes": 4384
+      "sha256": "7e019294a44287caced3fb2be94da2e5e854356cbf2ca3dc21720e0229b59a9b",
+      "bytes": 7113
     },
     "maps/town/compact/normal_b_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "e89c8297e607771556eb80389e1b0531e5ecb9bff6567fdad54bd4c6498dbed3",
-      "bytes": 4384
+      "sha256": "bcb7b36683cf5640fed80de5f2b82acb4ae96171da651bfee4058383cf3a1d1b",
+      "bytes": 7115
     },
     "maps/town/compact/normal_b_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "08d5070e1606f69b784cf53a659eee3b91f416027d12ec264adcd71a9513397d",
-      "bytes": 4384
+      "sha256": "6507de05d62ccd1e9cecce1c68e4d1a77d9040515541bb3d2d7f0cef033fae96",
+      "bytes": 7113
     },
     "maps/town/compact/normal_b_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "28c240133864c1998c4420bdcb129cacb00fcff257624b02d5b7677bd7cb1d25",
-      "bytes": 4384
+      "sha256": "3504038a600ccfd4b6c990b902db0523b1458cfcc6bf855afe8c30dedbce8323",
+      "bytes": 7115
     },
     "maps/town/compact/rules.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
       "sha256": "77ed63b35f7271aea2bd6489748af8edd46728ef5fc3115d7099929de4b3edf9",
       "bytes": 854
@@ -13455,34 +13770,38 @@
     "maps/town/compact/start_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "7007fd42f859d6a3b677371ab7149ca2f7e158aaa213f421195734da1531c2b5",
-      "bytes": 4341
+      "sha256": "4bff1d1a7815444e8c48f7a755fb69dc92cbac20cad7bb1a91d12c3df41e268d",
+      "bytes": 7070
     },
     "maps/town/compact/start_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "f24d83a3511cee15d537533933792514b02034e7e29fd28239a50e2e43f721f0",
-      "bytes": 4341
+      "sha256": "57172d7a9f518781f3b3e9fae3925941682a3161f337de2b6a2e1edd2d2d6beb",
+      "bytes": 7072
     },
     "maps/town/compact/start_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "6138ee61e9c9c107927e1c2a708de7db810090251c9b336f1ef27aa853821ed9",
-      "bytes": 4341
+      "sha256": "d5a8d910fc276a7ef7b3e9774dfd84e8b0d16a655d95d8c8c87db7e6a05b01b9",
+      "bytes": 7070
     },
     "maps/town/compact/start_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
       ],
-      "sha256": "ba828c506dbd8fc7ef2412ff5bfc7aaf860f8a5c6892dfde969339a06e38c099",
-      "bytes": 4341
+      "sha256": "47d086e7ea7a77264381c6e02c8a8a1d83e329e098992b5046902249dcbd4c6f",
+      "bytes": 7072
     }
   }
 }

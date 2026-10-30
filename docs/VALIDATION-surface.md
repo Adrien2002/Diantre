@@ -1,63 +1,85 @@
-# Validation du hameau forestier — 30 octobre 2026
+# Validation de Diantre 0.5.1 — 30 octobre 2026
+
+## Défauts visés
+
+Les captures de test montraient des marchands masqués par la lisière, des
+rangées de maisons trop éloignées, des toits contre la montagne, un sommet
+rocheux dessiné au-dessus des arbres et des faces arrière noires dans le donjon.
+Les anciens contrôles d’accessibilité ne vérifiaient pas ces défauts visuels.
 
 ## Contrôles des données
 
-Commande : `python3 tools/check_surface.py`.
+`python3 tools/check_surface.py` :
 
-- 4 096 combinaisons de modules et d’affectations des marchands vérifiées.
-- 256 géométries distinctes parmi ces combinaisons.
-- Exactement sept marchands uniques dans chaque combinaison.
-- Accès à chaque marchand, au coffre et à l’entrée par des cases praticables.
-- Empreintes des cabanes bloquées sur toute leur profondeur.
-- Aucun passage derrière le massif nord ; périmètre fermé.
-- Modules carrés, dimensions de couches cohérentes et identifiants de tuiles définis.
-- Sommet rocheux dessiné après les objets pour recouvrir les faces arrière noires.
+- 4 096 combinaisons de quartiers et d’affectations des marchands ; 64 géométries.
+- Sept marchands uniques, tous accessibles depuis le point de départ.
+- Accès au coffre, à l’entrée et au point de retour.
+- Empreintes des maisons bloquées, toits en retrait du pied de la falaise.
+- Contrôle de l’emprise projetée des sprites d’arbres devant le torse et la tête
+  des marchands, en tenant compte de leur ordre de dessin.
+- Périmètre fermé et aucune case praticable derrière la paroi nord.
+- Seize couches de falaise dessinées avant les objets, sans plateau horizontal.
 
-Le manifeste de ressources contient 1 678 fichiers ; toutes les empreintes
-SHA-256 correspondent aux fichiers présents.
+`python3 tools/check_dungeons.py` :
 
-## Essais dans le moteur
+- 135 modules de salle, auxquels s’ajoutent neuf variantes de raccord.
+- 5 571 combinaisons de sorties et de raccords vérifiées.
+- 36 contrôles de portes à clé fermées, sans passage de contournement.
+- Sorties inutilisées fermées ; sorties sélectionnées reliées après ouverture
+  des portes locales ; coffres et leviers accessibles.
+- Toutes les coordonnées d’interaction et de modification restent dans les
+  limites après le passage de 48 × 48 à 36 × 36 cases.
+- États distincts des salles à clé pour éviter des coffres partageant un état.
 
-Flare 1.15.86, Linux x86-64, rendu SDL logiciel, affichage virtuel 1280 × 720.
-Audio désactivé. Les sauvegardes utilisées sont exclusivement celles du banc
-de test ; elles sont effacées entre les séries de génération.
+Un examen des pixels des blocs de mur employés pour les limites générées
+(identifiants 136 à 151) confirme l’absence de pixels noirs opaques. Les images
+natives sont inchangées ; seule leur sélection dans la définition des tuiles
+change. Cela ne signifie pas que le noir du brouillard ou des zones hors carte
+est supprimé.
 
-Deux nouvelles parties sur la version finale ont produit deux répartitions
-différentes avec les sept marchands. Les caches générés ont été examinés pour
-distinguer un placement nouveau d’un simple rechargement de l’ancienne ville.
+## Essais dans Flare
 
-Sur la première partie :
+Moteur 1.15.86, Linux x86-64, rendu SDL logiciel, 1280 × 720, audio désactivé.
+Banc de test isolé des sauvegardes du joueur. Les déplacements par console
+servent à atteindre précisément les zones à vérifier ; les interactions sont
+ensuite déclenchées à la souris.
 
-1. Examen des cabanes, chemins, lisière et de l’entrée au nord.
-2. Placement du personnage près de l’entrée avec la console de développement,
-   puis interaction à la souris avec le portail : arrivée au premier étage.
-3. Interaction à la souris avec l’escalier montant : retour au nouveau hameau.
-4. Arrêt et relance du jeu avec la sauvegarde 1 : même hameau conservé.
+Première partie vierge :
 
-La vérification exhaustive des trajets repose sur les données de collision et
-un parcours de graphe. Les 4 096 combinaisons n’ont pas été jouées une à une.
-Les positions des marchands sont vérifiées dans les cartes produites par le
-moteur ; les stocks, inchangés par cette modification, n’ont pas fait l’objet
-d’un nouvel audit commercial.
+- Examen des deux rangées de maisons, des marchands, de la lisière et de la
+  paroi au nord ; aucune surface horizontale ne recouvre les arbres.
+- Entrée dans l’étage 1 depuis le portail de la ville.
+- Examen de l’entrée, d’une salle circulaire et de limites de salle auparavant
+  dessinées avec des faces noires.
+- Actionnement d’un levier de chambre forte, puis arrêt et reprise de la
+  sauvegarde : le levier reste actionné.
+- Ouverture d’un coffre à clé ; test d’une porte verrouillée avec une clé
+  fournie par console. La clé est consommée et l’état de la porte sauvegardé.
+  Ce test ne constitue pas un parcours complet de récupération du butin.
+- Passages vers les étages 2 et 3 par interaction avec les escaliers, après
+  placement sur une case praticable proche de chaque escalier.
+- Retour depuis l’étage 3 par le script de rappel : arrivée dans la même ville.
 
-## Constats issus des essais et corrections
+Deuxième partie vierge, après suppression de la première sauvegarde : sept
+marchands présents avec une répartition différente. Les observations utiles
+sont enregistrées avant suppression des sauvegardes du banc de test.
 
-- Les premiers modules rectangulaires n’étaient copiés que partiellement par
-  Flare. Ils ont été remplacés par quatre modules carrés.
-- Le sommet rocheux était initialement dessiné avant les faces des falaises,
-  exposant une bande noire. L’ordre des couches a été corrigé et contrôlé en jeu.
-- Le massif utilise un sol rocheux naturel, et les commerces les cabanes en
-  bois natives de Black Oak City. Les anciens empilements de terrasses et les
-  bordures de tables/caisses ne sont pas utilisés par les nouvelles parties.
+Les trajets complets sont aussi examinés dans les cartes effectivement produites
+par le moteur, en simulant la collecte des clés et l’ouverture des portes.
+Cela complète les contrôles de raccords ; les milliers de combinaisons n’ont
+pas été jouées une à une.
 
-## Limites et suites
+## Portée
 
-Cette version est une première déclinaison forestière à examiner visuellement.
-Les autres biomes naturels seront choisis et déclinés ensuite. La disposition
-reste fondée sur des modules Flare ; elle adapte les principes d’Angband sans
-être une traduction exacte de son générateur.
+La structure des étages reste un assemblage de modules Flare. La suppression
+d’une partie de leur marge rapproche les grandes pièces ; elle ne remplace pas
+le générateur par celui d’Angband. Les salles circulaires, portes, clés, leviers,
+rencontres et stocks d’origine sont conservés. Les autres biomes et des énigmes
+plus élaborées restent à concevoir.
 
-Les murs noirs des donjons, les stocks et l’équilibrage restent des travaux
-distincts. Les messages préexistants du moteur sur les objets de quantité nulle
-et l’image `images/menus/game_over.png` manquante subsistent. Aucun nouveau
-fichier graphique n’a été ajouté ou modifié.
+Les cartes déjà générées restent celles de leur sauvegarde. Une nouvelle partie
+est nécessaire pour examiner les nouvelles dispositions. Les anciens
+identifiants du plateau de la ville restent définis pour lire les caches 0.5.0.
+
+Les avertissements préexistants sur les quantités nulles de certains objets et
+sur `images/menus/game_over.png` manquante restent hors de cette modification.
