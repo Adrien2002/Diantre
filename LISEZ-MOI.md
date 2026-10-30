@@ -1,74 +1,75 @@
-# Diantre 0.5.1 — hameau compact et salles rapprochées
+# Diantre 0.6.0 — donjons à parcours variables
 
-Le hameau forestier est assemblé par Flare à chaque nouvelle partie. Quatre
-quartiers carrés de 12 × 12 cases sont choisis et disposés parmi leurs variantes.
-Chaque partie conserve exactement les sept marchands. L’entrée reste au nord ;
-les maisons, leur longueur et les affectations des marchands varient.
+Le cœur du mod est la qualité de la génération : varier les espaces, les
+parcours et les découvertes entre les parties. Les formes de salles restent
+libres de changer au fil du développement.
 
-Les quartiers étaient de 18 × 18 dans la version précédente. Leur réduction
-rapproche les deux rangées de commerces. La lisière garde une marge devant les
-marchands, et les toits sont séparés de la paroi rocheuse. La falaise monte hors
-champ, sans plateau horizontal dessiné au-dessus des arbres.
+## Génération des donjons
 
-## Jouer
+À chaque nouvelle carte, Flare assemble des ensembles de pièces et construit
+la progression vers la sortie. Le générateur repère ensuite les sorties
+inutilisées de secteurs voisins appartenant au même palier de progression.
+Il choisit au hasard au moins une liaison supplémentaire lorsqu’un raccord
+sûr existe, puis peut en ajouter d’autres. Ces boucles offrent des itinéraires
+alternatifs tout en gardant les portes à clé obligatoires.
+
+Les nouveaux secteurs comprennent des chambres jointives, des galeries, des
+embranchements, des passages décalés et des circuits autour d’une cour ou d’un
+massif. Des grandes salles ponctuelles apportent un contraste avec ces espaces
+plus divisés. Les trois étages actuels disposent de 96 variantes générées,
+réparties entre huit familles d’ensembles de pièces.
+
+Une chambre forte facultative demande d’actionner deux mécanismes situés dans
+des pièces différentes. Les mécanismes restent accessibles avant l’ouverture,
+et la récompense est séparée des sorties et des clés de progression. Le coffre,
+les portes et les mécanismes ont leurs propres états.
+
+Les nouvelles liaisons sont tirées au sort par Flare une seule fois pour la
+carte. Les décisions sont sauvegardées et les mêmes passages sont rétablis lors
+d’un retour ou d’une reprise de partie. Python n’est pas nécessaire pour jouer.
+Le moteur Flare standard suffit ; aucun moteur particulier n’est livré avec
+le mod.
+
+## Installer et tester
 
 Placer le dossier `diantre` dans le dossier `mods` de Flare, puis activer Diantre.
 Le moteur doit fournir son mod `default`. Les ressources nécessaires d’Empyrean
-sont incluses. Version minimale du moteur : 1.14.280 ; essais sous 1.15.86.
+sont incluses. Flare 1.15 ou ultérieur est requis.
 
-Créer une nouvelle partie pour obtenir les nouveaux placements et les nouvelles
-salles. Les cartes déjà générées sont conservées dans les sauvegardes : une
-mise à jour ne les redessine pas. Les anciennes palettes de ville restent
-lisibles ; le retour utilise l’entrée propre à la ville de la partie.
+Créer une nouvelle partie pour examiner la nouvelle génération. Flare conserve
+les cartes déjà générées dans les sauvegardes. Le hameau forestier, les sept
+marchands et le retour vers la ville restent disponibles.
 
-## Donjons
+## Développement
 
-Les trois étages actuels conservent leurs salles circulaires, basilicales,
-cryptes, galeries, grandes salles et chambres à levier. Leurs modules passent
-de 48 × 48 à 36 × 36 cases en retirant une marge rocheuse de six cases de chaque
-côté. Les grandes pièces voisines peuvent ainsi se rejoindre par une ouverture
-courte. Les pièces plus petites conservent des couloirs.
-
-Les sorties non choisies par le générateur restent fermées. Les portes à clé,
-les portes ordinaires, les leviers et leurs états sauvegardés sont conservés.
-Les faces noires des murs générés sont remplacées par des blocs natifs dont
-les deux faces visibles sont texturées. Les images d’origine ne sont pas
-retouchées.
-
-Il s’agit toujours d’un assemblage de modules Flare. Une génération de salles
-et de passages aussi libre que celle d’Angband demanderait un autre générateur ;
-ce changement rapproche les salles existantes sans prétendre le reproduire.
-
-## Développement et validation
-
-Les fichiers `.txt` sont directement utilisables par Flare. Python sert
-uniquement aux outils de développement :
+Les données de jeu sont des fichiers natifs Flare. Les outils Python génèrent
+les variantes et les scripts, puis vérifient les raccords, les interactions et
+les règles de progression :
 
 ```sh
-python3 tools/build_surface.py
-python3 tools/refine_dungeons.py
-python3 tools/check_surface.py
-python3 tools/check_dungeons.py
+python3 tools/build_exploration.py
+python3 tools/check_exploration.py
 ```
 
-Le premier contrôle examine 4 096 combinaisons de quartiers et de marchands :
-accès, empreintes des maisons, retrait des toits, fermeture du périmètre et
-emprise des arbres devant les marchands. Le second examine les 135 modules de
-salle et leurs raccords, les interactions, les coordonnées et l’impossibilité
-de contourner une porte verrouillée. Les comptes et essais en jeu figurent
-dans `docs/VALIDATION-surface.md`.
+`tools/check_exploration.py --help` décrit aussi le contrôle d’un export d’état
+du moteur, associé à son cache de carte et à la sauvegarde de test. Le contrôle
+porte sur le terrain et distingue les occupants temporaires des obstacles.
 
-Les stocks et l’équilibrage des combats ne sont pas modifiés. Les autres biomes
-naturels restent à définir ensemble. Le travail se poursuit directement sur
-`main`, sans branche de développement supplémentaire.
+Les anciens outils de surface et de validation des modules d’origine restent
+disponibles. Les résultats des essais sont consignés dans
+`docs/VALIDATION-generation.md`. Le travail se poursuit directement sur `main`.
 
-## Références et ressources
+## Architecture et ressources
 
-L’organisation de la surface s’inspire de `town_gen_layout`, `get_lot_bounds`
-et `build_store` dans le code d’Angband, au commit
-`e473720ed88a0f0c7ca66815cef3000eb4a38bc3` :
+La génération utilise encore la grille de secteurs native de Flare. Chaque
+secteur peut contenir plusieurs pièces ; les variantes sont construites par
+les outils du mod, puis combinées dans le jeu. Les connexions supplémentaires
+sont choisies pendant la partie par les événements natifs du moteur.
+
+L’organisation du hameau s’inspire des principes de la ville d’Angband étudiés
+dans `src/gen-cave.c`, au commit `e473720ed88a0f0c7ca66815cef3000eb4a38bc3` :
 https://github.com/angband/angband/blob/e473720ed88a0f0c7ca66815cef3000eb4a38bc3/src/gen-cave.c
 
-Les principes sont adaptés ; le code C n’est pas copié. Les cabanes utilisent
-l’assemblage natif de Black Oak City. Les licences et attributions des ressources
-Flare/Empyrean restent dans `diantre/licenses` et `ASSET_MANIFEST.json`.
+Le code C d’Angband n’est pas repris. Les graphismes natifs Flare/Empyrean ne sont
+pas retouchés. Les licences, attributions et empreintes des fichiers restent
+dans `diantre/licenses` et `diantre/ASSET_MANIFEST.json`.

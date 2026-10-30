@@ -1,0 +1,9 @@
+# Invisible topology markers use an existing fully transparent atlas pixel.
+INCLUDE tilesetdefs/tileset_ruins.txt
+
+[tileset]
+img=images/tilesets/tileset_ruins.png
+tile=4096,0,0,1,1,0,0
+tile=4097,0,0,1,1,0,0
+tile=4098,0,0,1,1,0,0
+tile=4100,0,0,1,1,0,0

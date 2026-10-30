@@ -1,0 +1,11 @@
+[event]
+requires_not_status=dx_d5254a977e811422_diantre_f1_topology_ready
+script=scripts/generation/f1/roll.txt
+
+[event]
+script=scripts/generation/f1/apply.txt
+
+[event]
+requires_not_status=dx_d5254a977e811422_diantre_f1_topology_ready
+set_status=dx_d5254a977e811422_diantre_f1_topology_ready
+save_game=true

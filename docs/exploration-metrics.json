@@ -1,0 +1,678 @@
+{
+  "complexes": [
+    {
+      "floor": 1,
+      "family": "cloister",
+      "variant": 0,
+      "floor_cells": 603,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "cloister",
+      "variant": 1,
+      "floor_cells": 604,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "cloister",
+      "variant": 2,
+      "floor_cells": 614,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "cloister",
+      "variant": 3,
+      "floor_cells": 614,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "chambers",
+      "variant": 0,
+      "floor_cells": 640,
+      "rooms": 5
+    },
+    {
+      "floor": 1,
+      "family": "chambers",
+      "variant": 1,
+      "floor_cells": 629,
+      "rooms": 5
+    },
+    {
+      "floor": 1,
+      "family": "chambers",
+      "variant": 2,
+      "floor_cells": 631,
+      "rooms": 5
+    },
+    {
+      "floor": 1,
+      "family": "chambers",
+      "variant": 3,
+      "floor_cells": 658,
+      "rooms": 5
+    },
+    {
+      "floor": 1,
+      "family": "grotto",
+      "variant": 0,
+      "floor_cells": 441,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "grotto",
+      "variant": 1,
+      "floor_cells": 416,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "grotto",
+      "variant": 2,
+      "floor_cells": 430,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "grotto",
+      "variant": 3,
+      "floor_cells": 438,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "ring",
+      "variant": 0,
+      "floor_cells": 639,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "ring",
+      "variant": 1,
+      "floor_cells": 656,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "ring",
+      "variant": 2,
+      "floor_cells": 621,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "ring",
+      "variant": 3,
+      "floor_cells": 621,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "barracks",
+      "variant": 0,
+      "floor_cells": 638,
+      "rooms": 5
+    },
+    {
+      "floor": 1,
+      "family": "barracks",
+      "variant": 1,
+      "floor_cells": 637,
+      "rooms": 5
+    },
+    {
+      "floor": 1,
+      "family": "barracks",
+      "variant": 2,
+      "floor_cells": 644,
+      "rooms": 5
+    },
+    {
+      "floor": 1,
+      "family": "barracks",
+      "variant": 3,
+      "floor_cells": 631,
+      "rooms": 5
+    },
+    {
+      "floor": 1,
+      "family": "forks",
+      "variant": 0,
+      "floor_cells": 513,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "forks",
+      "variant": 1,
+      "floor_cells": 493,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "forks",
+      "variant": 2,
+      "floor_cells": 513,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "forks",
+      "variant": 3,
+      "floor_cells": 533,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "vault",
+      "variant": 0,
+      "floor_cells": 591,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "vault",
+      "variant": 1,
+      "floor_cells": 581,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "vault",
+      "variant": 2,
+      "floor_cells": 598,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "vault",
+      "variant": 3,
+      "floor_cells": 607,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "gallery",
+      "variant": 0,
+      "floor_cells": 707,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "gallery",
+      "variant": 1,
+      "floor_cells": 707,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "gallery",
+      "variant": 2,
+      "floor_cells": 725,
+      "rooms": 4
+    },
+    {
+      "floor": 1,
+      "family": "gallery",
+      "variant": 3,
+      "floor_cells": 686,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "cloister",
+      "variant": 0,
+      "floor_cells": 614,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "cloister",
+      "variant": 1,
+      "floor_cells": 592,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "cloister",
+      "variant": 2,
+      "floor_cells": 604,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "cloister",
+      "variant": 3,
+      "floor_cells": 603,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "chambers",
+      "variant": 0,
+      "floor_cells": 663,
+      "rooms": 5
+    },
+    {
+      "floor": 2,
+      "family": "chambers",
+      "variant": 1,
+      "floor_cells": 617,
+      "rooms": 5
+    },
+    {
+      "floor": 2,
+      "family": "chambers",
+      "variant": 2,
+      "floor_cells": 602,
+      "rooms": 5
+    },
+    {
+      "floor": 2,
+      "family": "chambers",
+      "variant": 3,
+      "floor_cells": 645,
+      "rooms": 5
+    },
+    {
+      "floor": 2,
+      "family": "grotto",
+      "variant": 0,
+      "floor_cells": 422,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "grotto",
+      "variant": 1,
+      "floor_cells": 410,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "grotto",
+      "variant": 2,
+      "floor_cells": 432,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "grotto",
+      "variant": 3,
+      "floor_cells": 453,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "ring",
+      "variant": 0,
+      "floor_cells": 584,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "ring",
+      "variant": 1,
+      "floor_cells": 656,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "ring",
+      "variant": 2,
+      "floor_cells": 638,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "ring",
+      "variant": 3,
+      "floor_cells": 631,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "barracks",
+      "variant": 0,
+      "floor_cells": 638,
+      "rooms": 5
+    },
+    {
+      "floor": 2,
+      "family": "barracks",
+      "variant": 1,
+      "floor_cells": 637,
+      "rooms": 5
+    },
+    {
+      "floor": 2,
+      "family": "barracks",
+      "variant": 2,
+      "floor_cells": 656,
+      "rooms": 5
+    },
+    {
+      "floor": 2,
+      "family": "barracks",
+      "variant": 3,
+      "floor_cells": 637,
+      "rooms": 5
+    },
+    {
+      "floor": 2,
+      "family": "forks",
+      "variant": 0,
+      "floor_cells": 531,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "forks",
+      "variant": 1,
+      "floor_cells": 514,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "forks",
+      "variant": 2,
+      "floor_cells": 435,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "forks",
+      "variant": 3,
+      "floor_cells": 498,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "vault",
+      "variant": 0,
+      "floor_cells": 598,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "vault",
+      "variant": 1,
+      "floor_cells": 598,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "vault",
+      "variant": 2,
+      "floor_cells": 591,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "vault",
+      "variant": 3,
+      "floor_cells": 607,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "gallery",
+      "variant": 0,
+      "floor_cells": 686,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "gallery",
+      "variant": 1,
+      "floor_cells": 686,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "gallery",
+      "variant": 2,
+      "floor_cells": 707,
+      "rooms": 4
+    },
+    {
+      "floor": 2,
+      "family": "gallery",
+      "variant": 3,
+      "floor_cells": 726,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "cloister",
+      "variant": 0,
+      "floor_cells": 592,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "cloister",
+      "variant": 1,
+      "floor_cells": 624,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "cloister",
+      "variant": 2,
+      "floor_cells": 592,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "cloister",
+      "variant": 3,
+      "floor_cells": 603,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "chambers",
+      "variant": 0,
+      "floor_cells": 654,
+      "rooms": 5
+    },
+    {
+      "floor": 3,
+      "family": "chambers",
+      "variant": 1,
+      "floor_cells": 616,
+      "rooms": 5
+    },
+    {
+      "floor": 3,
+      "family": "chambers",
+      "variant": 2,
+      "floor_cells": 627,
+      "rooms": 5
+    },
+    {
+      "floor": 3,
+      "family": "chambers",
+      "variant": 3,
+      "floor_cells": 630,
+      "rooms": 5
+    },
+    {
+      "floor": 3,
+      "family": "grotto",
+      "variant": 0,
+      "floor_cells": 441,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "grotto",
+      "variant": 1,
+      "floor_cells": 461,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "grotto",
+      "variant": 2,
+      "floor_cells": 398,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "grotto",
+      "variant": 3,
+      "floor_cells": 404,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "ring",
+      "variant": 0,
+      "floor_cells": 575,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "ring",
+      "variant": 1,
+      "floor_cells": 598,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "ring",
+      "variant": 2,
+      "floor_cells": 617,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "ring",
+      "variant": 3,
+      "floor_cells": 630,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "barracks",
+      "variant": 0,
+      "floor_cells": 637,
+      "rooms": 5
+    },
+    {
+      "floor": 3,
+      "family": "barracks",
+      "variant": 1,
+      "floor_cells": 637,
+      "rooms": 5
+    },
+    {
+      "floor": 3,
+      "family": "barracks",
+      "variant": 2,
+      "floor_cells": 638,
+      "rooms": 5
+    },
+    {
+      "floor": 3,
+      "family": "barracks",
+      "variant": 3,
+      "floor_cells": 644,
+      "rooms": 5
+    },
+    {
+      "floor": 3,
+      "family": "forks",
+      "variant": 0,
+      "floor_cells": 490,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "forks",
+      "variant": 1,
+      "floor_cells": 541,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "forks",
+      "variant": 2,
+      "floor_cells": 594,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "forks",
+      "variant": 3,
+      "floor_cells": 510,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "vault",
+      "variant": 0,
+      "floor_cells": 588,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "vault",
+      "variant": 1,
+      "floor_cells": 588,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "vault",
+      "variant": 2,
+      "floor_cells": 598,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "vault",
+      "variant": 3,
+      "floor_cells": 597,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "gallery",
+      "variant": 0,
+      "floor_cells": 710,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "gallery",
+      "variant": 1,
+      "floor_cells": 686,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "gallery",
+      "variant": 2,
+      "floor_cells": 686,
+      "rooms": 4
+    },
+    {
+      "floor": 3,
+      "family": "gallery",
+      "variant": 3,
+      "floor_cells": 725,
+      "rooms": 4
+    }
+  ],
+  "extra_loop_chance_percent": 40,
+  "loop_rule": "one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"
+}
