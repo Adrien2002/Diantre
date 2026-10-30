@@ -1,0 +1,42 @@
+{
+  "fresh_floors": 12,
+  "distinct_structures": 12,
+  "mandatory_gate_checks": 12,
+  "loops_per_floor": [
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "two_seal_orders_checked": [
+    "A then B",
+    "B then A"
+  ],
+  "two_seal_reload": "passed",
+  "loop_reload": "passed",
+  "stock_engine_smoke": {
+    "engine": "1.15.86",
+    "engine_source_unmodified": true,
+    "new_character": true,
+    "town_merchants": 7,
+    "town_portal_to_floor_1": true,
+    "runtime_initialization": true,
+    "recall_to_same_town": true
+  },
+  "static_checks": {
+    "complex_configurations": 4320,
+    "families": 8,
+    "status_names_checked": 514,
+    "distinct_complex_collisions": 86,
+    "two_seal_puzzles": 12,
+    "stage_safe_candidate_edges": 72
+  }
+}
