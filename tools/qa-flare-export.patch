@@ -1,0 +1,40 @@
+diff --git a/src/MenuDevConsole.cpp b/src/MenuDevConsole.cpp
+index e6e6268..1b16dd4 100644
+--- a/src/MenuDevConsole.cpp
++++ b/src/MenuDevConsole.cpp
+@@ -50,6 +50,7 @@ FLARE.  If not, see http://www.gnu.org/licenses/
+ #include "WidgetScrollBox.h"
+ 
+ #include <limits>
++#include <fstream>
+ #include <math.h>
+ #include <sstream>
+ 
+@@ -473,6 +474,27 @@ void MenuDevConsole::execute() {
+ 		return;
+ 	}
+ 
++	if (args[0] == "qa_dump" && args.size() == 2) {
++		// Read-only test observer. Not part of the distributed mod or engine.
++		std::ofstream out(args[1].c_str());
++		const size_t w = mapr->collider.colmap.size();
++		const size_t h = w ? mapr->collider.colmap[0].size() : 0;
++		out << "[header]\nwidth=" << w << "\nheight=" << h << "\n";
++		for (size_t l = 0; l < mapr->layers.size(); ++l) {
++			if (mapr->layernames[l] == "fow") continue;
++			out << "\n[layer]\ntype=" << mapr->layernames[l] << "\ndata=\n";
++			for (size_t y = 0; y < h; ++y) {
++				for (size_t x = 0; x < w; ++x) out << (x ? "," : "") << mapr->layers[l][x][y];
++				out << "\n";
++			}
++		}
++		out << "\n[layer]\ntype=collision\ndata=\n";
++		for (size_t y = 0; y < h; ++y) {
++			for (size_t x = 0; x < w; ++x) out << (x ? "," : "") << mapr->collider.colmap[x][y];
++			out << "\n";
++		}
++		return;
++	}
+ 	if (args[0] == "help") {
+ 		log_history->add("procgen_map - " + msg->get("For procedural maps, prints a color-coded map."), WidgetLog::MSG_UNIQUE);
+ 		log_history->add("add_power - " + msg->get("adds a power to the action bar"), WidgetLog::MSG_UNIQUE);

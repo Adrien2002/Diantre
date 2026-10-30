@@ -18,3 +18,21 @@ identifiants déterministes.
 Les essais natifs de reprise, de progression et de sauvegarde sont en cours
 de reconstruction après la réinitialisation du banc de test. Les données de
 jeu de ce commit constituent une sauvegarde intermédiaire.
+
+## Première série native après restauration
+
+Six étages issus de deux sauvegardes vierges ont été exportés du moteur
+Flare 1.15.86 (`f9a17a266293a897a1d7eae2d54408b0de39af27`). Les six structures
+sont distinctes ; les nombres de liaisons ajoutées sont 0, 1, 1, 1, 2 et 0.
+Chaque sortie est accessible après collecte des clés. Chaque porte obligatoire,
+refermée indépendamment, empêche à nouveau l’accès à la sortie : aucun des six
+contrôles ne trouve de contournement.
+
+Les exports utilisent uniquement la commande d’observation en lecture seule de
+`tools/qa-flare-export.patch`, appliquée au banc de test. Elle ne change ni le
+terrain, ni la génération, ni les événements. Ce correctif de diagnostic ne fait
+pas partie du moteur nécessaire pour jouer.
+
+Les empreintes du terrain et les résultats détaillés sont conservés dans
+`docs/native-generation-samples.json`. Les essais de rechargement et des deux
+mécanismes sont encore en cours.
