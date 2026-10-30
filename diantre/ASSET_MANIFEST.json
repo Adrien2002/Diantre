@@ -9697,12 +9697,14 @@
       "changes": []
     },
     "maps/town/biomes.txt": {
-      "sha256": "54db6d27ab83c8a5debe04c5b4f998793ee4a6ae626e84c237c0d460614b75c3",
-      "bytes": 245,
+      "sha256": "1d32a1ed4738fa0c3c46b02424b9e823ff1c5bd612b669d3e4ba51b0cd1fd366",
+      "bytes": 112,
       "sources": [
         "diantre/maps/town/biomes.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ]
     },
     "maps/town/cave.txt": {
       "sha256": "5dab76e60d82317b4acb0104b063ee4c9664bfdf90bdf07151b8ed5d5b45eadb",
@@ -12263,20 +12265,24 @@
       "changes": []
     },
     "scripts/town/return.txt": {
-      "sha256": "4c90a244b8ba800c23c4016fc8778c187a2bee9b4ce3d9533b53939b0d4d6ae0",
-      "bytes": 1190,
+      "sha256": "c4f235aee7d0a26ab2b9b3324041d7b4d7711cd12f4053451cacc2981c142396",
+      "bytes": 1325,
       "sources": [
         "diantre/scripts/town/return.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ]
     },
     "settings.txt": {
-      "sha256": "c4de359ae37a264b41e692b08ca691878572379a86103e4ef2536516f8190341",
-      "bytes": 141,
+      "sha256": "6e94cee13bedf85badce9f76a64fab26b7c6a68b42c9c1c5fae88ad1addbd479",
+      "bytes": 158,
       "sources": [
         "diantre/settings.txt"
       ],
-      "changes": []
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ]
     },
     "soundfx/door_open.ogg": {
       "sha256": "37733579ea63d9086188b018223e4de074a01f5a2f9144ce2e93defa1a6dd426",
@@ -13317,6 +13323,166 @@
         "diantre/tilesetdefs/town/snowplains.txt"
       ],
       "changes": []
+    },
+    "maps/town/hamlet_forest.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "ecc5c2b66e943c5a912f9c323be2bff28732117726689ae65992890e3079633a",
+      "bytes": 76306
+    },
+    "tilesetdefs/town/compact_palette.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "842b32c70e4106b74a2782dc29e2e28a988ea4503bf9db45bbbee5ba84ccfaf1",
+      "bytes": 708
+    },
+    "maps/town/compact/end_0.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "d850c1ffaba010e90cc0283c591c44b3e6ec8a902304e21acf5f81577d1b130e",
+      "bytes": 4166
+    },
+    "maps/town/compact/end_1.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "2e3da40cffb34b6ccbcbee5e1682f6dca836d1a3c4def72ec24757561efb7c48",
+      "bytes": 4168
+    },
+    "maps/town/compact/end_2.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "ae85b3ddd7e1b1ca80200d16dbbd49d8834aa86a3ed92287227e86a01a6bd9f7",
+      "bytes": 4166
+    },
+    "maps/town/compact/end_3.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "0d23c1f3a8f7dadf8d3a70afdd62fbb97112d0913f655be17ee96b668c831575",
+      "bytes": 4168
+    },
+    "maps/town/compact/links.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "c4434480694b5b9cf7c025e8e97d0e5b88e58a779d5cdc846c8bc4c10da4cf12",
+      "bytes": 4161
+    },
+    "maps/town/compact/normal_a_0.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "0f5e69c1d3573560342d0760522046efecdd1e282887aff22e6bad750f03ec5b",
+      "bytes": 4391
+    },
+    "maps/town/compact/normal_a_1.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "6ea2d3fead178ab4c6103cb444969701efb2e0c6dc3e7ceabf69b5e963af8d54",
+      "bytes": 4391
+    },
+    "maps/town/compact/normal_a_2.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "95d21fca246df4b9ca37ead0398b0d5253f4a452d9e408f20b4760eb9fff525e",
+      "bytes": 4391
+    },
+    "maps/town/compact/normal_a_3.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "ebc27bb63faacded0459063a48c693a512fa7f17d84a1da8974e139bdae1b69e",
+      "bytes": 4391
+    },
+    "maps/town/compact/normal_b_0.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "94d456950a3fe11fce8f7eded7e75b8a76318e03735ea161968fe771a936d9b1",
+      "bytes": 4384
+    },
+    "maps/town/compact/normal_b_1.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "e89c8297e607771556eb80389e1b0531e5ecb9bff6567fdad54bd4c6498dbed3",
+      "bytes": 4384
+    },
+    "maps/town/compact/normal_b_2.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "08d5070e1606f69b784cf53a659eee3b91f416027d12ec264adcd71a9513397d",
+      "bytes": 4384
+    },
+    "maps/town/compact/normal_b_3.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "28c240133864c1998c4420bdcb129cacb00fcff257624b02d5b7677bd7cb1d25",
+      "bytes": 4384
+    },
+    "maps/town/compact/rules.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "77ed63b35f7271aea2bd6489748af8edd46728ef5fc3115d7099929de4b3edf9",
+      "bytes": 854
+    },
+    "maps/town/compact/start_0.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "7007fd42f859d6a3b677371ab7149ca2f7e158aaa213f421195734da1531c2b5",
+      "bytes": 4341
+    },
+    "maps/town/compact/start_1.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "f24d83a3511cee15d537533933792514b02034e7e29fd28239a50e2e43f721f0",
+      "bytes": 4341
+    },
+    "maps/town/compact/start_2.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "6138ee61e9c9c107927e1c2a708de7db810090251c9b336f1ef27aa853821ed9",
+      "bytes": 4341
+    },
+    "maps/town/compact/start_3.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data."
+      ],
+      "sha256": "ba828c506dbd8fc7ef2412ff5bfc7aaf860f8a5c6892dfde969339a06e38c099",
+      "bytes": 4341
     }
   }
 }

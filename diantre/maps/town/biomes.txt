@@ -1,10 +1,2 @@
-map=maps/town/forest.txt
-map=maps/town/woodland.txt
-map=maps/town/rocky.txt
-map=maps/town/swamp.txt
-map=maps/town/meadow.txt
-map=maps/town/coast.txt
-map=maps/town/snow.txt
-map=maps/town/cave.txt
-map=maps/town/ruins.txt
-map=maps/town/citadel.txt
+# First compact outdoor layout. Additional natural biomes share this structure.
+map=maps/town/hamlet_forest.txt

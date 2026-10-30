@@ -1,4 +1,8 @@
 [event]
+requires_status=diantre_town_hamlet_forest
+intermap=maps/town/hamlet_forest.txt,-1,-1,dungeon_exit
+
+[event]
 requires_status=diantre_town_forest
 intermap=maps/town/forest.txt,-1,-1,dungeon_exit
 
@@ -39,5 +43,5 @@ requires_status=diantre_town_citadel
 intermap=maps/town/citadel.txt,-1,-1,dungeon_exit
 
 [event]
-requires_not_status=diantre_town_forest,diantre_town_woodland,diantre_town_rocky,diantre_town_swamp,diantre_town_meadow,diantre_town_coast,diantre_town_snow,diantre_town_cave,diantre_town_ruins,diantre_town_citadel
+requires_not_status=diantre_town_hamlet_forest,diantre_town_forest,diantre_town_woodland,diantre_town_rocky,diantre_town_swamp,diantre_town_meadow,diantre_town_coast,diantre_town_snow,diantre_town_cave,diantre_town_ruins,diantre_town_citadel
 intermap_random=maps/town/biomes.txt
