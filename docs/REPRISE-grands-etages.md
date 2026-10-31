@@ -89,9 +89,15 @@ de combat jouées manuellement.
 
 ## Validation en cours et suite à terminer
 
-Une nouvelle campagne de dix sauvegardes fraîches, trois étages chacune, est
-lancée sur les données corrigées. Ne pas annoncer ces trente cartes comme
-validées avant la fin et l’inspection du rapport.
+La campagne de dix sauvegardes fraîches, trois étages chacune, est terminée sur
+les données corrigées : trente géométries distinctes, 51 portes obligatoires
+non contournables, 157 à 218 ennemis effectivement apparus par étage. Les dix
+séries disposent de l’XP de base nécessaire aux niveaux 2, 3 puis 4 après
+nettoyage. La chapelle et la chambre à deux sceaux passent leurs essais de clic
+et rechargement. Aucun chemin trop court ni ennemi inaccessible ne subsiste
+dans cet échantillon. La compatibilité finale avec le moteur sans observateur
+reste à vérifier. Résultats détaillés : `large-floors-native-results.json` et
+`large-floors-native-checks.json`.
 
 ```sh
 python3 -B tools/qa_themes_native.py --lab ../diantre-expanse-lab --engine-repo ../flare-engine --runs 10
@@ -108,17 +114,18 @@ conservées. Le journal de la campagne courante est
 
 Ensuite :
 
-1. Examiner les trente populations, tailles, XP, niveaux projetés et chemins.
-   Corriger les défauts détectés et ne relancer que ce que ces corrections
-   rendent nécessaire. Tester les ouvertures/sauvegardes déjà automatisées.
+1. Les trente populations, tailles, XP, niveaux projetés, chemins et deux
+   interactions ciblées ont été vérifiés. Ne pas les refaire sans modification
+   ou nouveau problème justifiant une nouvelle série.
 2. Retirer l’observateur de `src/MenuDevConsole.cpp`, arrêter le jeu avant toute
    recompilation et reconstruire le moteur. Ne jamais relier un binaire en cours
    d’exécution. Vérifier que le checkout du moteur est redevenu propre.
 3. Lancer `tools/qa_themes_stock.py` avec les mêmes `--lab` et `--engine-repo` :
    création native, entrée du hameau par clic, trois étages, retour au hameau.
-4. Produire un plan d’étage entier depuis l’export réel, avec les positions
-   réelles des ennemis ; le précédent comparatif ne montrait que des modules.
-   Enregistrer le livrable durablement et l’inspecter avant de le présenter.
+4. Le plan complet `Diantre-0.8.0-etage-entier.png` est déjà créé et enregistré
+   durablement (identifiant `libfile_335e676273688191916d2e5e39c503a9`). Il montre
+   le premier étage réel : 31 secteurs, 188 ennemis, 376 XP. Le comparer aux
+   données de la première observation si une modification le rend obsolète.
 5. Ajouter le bilan final, remplacer la mention d’essais en cours du LISEZ-MOI,
    commit/push sur `main`, puis vérifier l’identité des arbres local et distant.
 

@@ -1,0 +1,163 @@
+{
+  "tested_game_data_commit": "6f67ee5d969e64184c009c167dc4120765638414",
+  "fresh_floors": 30,
+  "distinct_structures": 30,
+  "mandatory_gate_checks": 51,
+  "maximum_native_attempts": 39283,
+  "floors": [
+    {
+      "floor": 1,
+      "hostiles_min": 157,
+      "hostiles_max": 208,
+      "base_xp_min": 314,
+      "base_xp_max": 416,
+      "sectors_min": 26,
+      "sectors_max": 33
+    },
+    {
+      "floor": 2,
+      "hostiles_min": 168,
+      "hostiles_max": 218,
+      "base_xp_min": 672,
+      "base_xp_max": 872,
+      "sectors_min": 29,
+      "sectors_max": 35
+    },
+    {
+      "floor": 3,
+      "hostiles_min": 174,
+      "hostiles_max": 212,
+      "base_xp_min": 1392,
+      "base_xp_max": 1696,
+      "sectors_min": 27,
+      "sectors_max": 35
+    }
+  ],
+  "validation_state": "Native population, progression, interactions and reload checks complete; final unmodified-engine smoke test pending",
+  "inner_chapel_click_and_reload": true,
+  "cavern_two_seals_and_reload": true,
+  "projected_levels_after_clearing": [
+    {
+      "run": 1,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2576
+    },
+    {
+      "run": 2,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2864
+    },
+    {
+      "run": 3,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2894
+    },
+    {
+      "run": 4,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2942
+    },
+    {
+      "run": 5,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2682
+    },
+    {
+      "run": 6,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2800
+    },
+    {
+      "run": 7,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2650
+    },
+    {
+      "run": 8,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2804
+    },
+    {
+      "run": 9,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2648
+    },
+    {
+      "run": 10,
+      "levels": [
+        2,
+        3,
+        4
+      ],
+      "base_xp": 2814
+    }
+  ],
+  "runtime_loops": [
+    3,
+    2,
+    3,
+    1,
+    7,
+    3,
+    2,
+    5,
+    4,
+    1,
+    2,
+    3,
+    1,
+    3,
+    1,
+    3,
+    2,
+    2,
+    2,
+    2,
+    4,
+    1,
+    1,
+    1,
+    2,
+    2,
+    4,
+    6,
+    3,
+    3
+  ]
+}
