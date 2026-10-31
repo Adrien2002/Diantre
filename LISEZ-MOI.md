@@ -1,33 +1,30 @@
-# Diantre 0.8.4 — étages plus compacts et descente visible
+# Diantre 0.8.5 — portails permanents et menu de destinations
 
-Le cœur du mod reste la qualité de la génération : les lieux doivent être
-variés, agréables à explorer, et le générateur doit se faire oublier.
+Le moteur Flare standard reste le seul moteur requis pour jouer. La génération
+actuelle conserve trois étages, la grille de **5 × 5 secteurs**, les rencontres
+diffuses, les escaliers restaurés et les corrections du hameau.
 
-Les trois étages actuels utilisent désormais **5 × 5 secteurs de 36 cases**
-(180 × 180 cases de génération, dans une carte technique de 196 × 196),
-contre 6 × 6 auparavant. Le parcours principal est paramétré sur **18 à 21
-secteurs** au lieu de 26 à 30. Les ramifications et les boucles sûres sont
-conservées, ainsi que les mécanismes obligatoires et la progression par clés.
+La **0.8.5** ajoute le premier **point de passage permanent** : un obélisque
+animé natif est présent dans le village et un autre est garanti près de
+l'arrivée à l'**étage 2**. En marchant sur la zone du portail, le joueur ouvre
+le menu de dialogue de Flare en surimpression. L'étage 1 est disponible dès
+le début ; l'étage 2 apparaît seulement après l'activation de son portail.
+Le déverrouillage est sauvegardé définitivement pour ce personnage.
 
-Les rencontres ordinaires restent diffuses, avec **11 à 19 ennemis par
-secteur ordinaire**, répartis en solitaires et petits groupes. La puissance
-et les XP restent fixes selon la profondeur, sans adaptation au personnage.
+Le portail de l'étage 2 propose aussi un retour au village. Les retours
+utilisent des points d'arrivée dédiés sans contourner les clés de progression.
+Les futurs étages pairs (4, 6, 8, etc.) reprendront le même fonctionnement
+quand ils auront été intégrés. Ce menu utilise **l'interface native de
+Flare** plutôt qu'une reproduction graphique exacte de celle de Diablo II.
 
-La **0.8.4** corrige aussi l'absence des dessins d'escaliers dans les
-modules de sortie : le passage interactif existait, mais les **cinq tuiles
-de descente natives** étaient perdues dans la conversion des anciennes cartes.
-Ces tuiles sont restaurées pour chaque étage ; la zone immédiate est dégagée
-des blocs qui masquaient le passage. Aucune image native n'est modifiée.
+**Statut :** génération et tests statiques réussis sur GitHub Actions :
+23 040 configurations de raccords et 4 096 assemblages du hameau.
+Les animations et interactions n'ont pas encore été vérifiées dans une
+nouvelle partie native 0.8.5. **Créer un nouveau personnage pour tester.**
 
-**Statut :** génération et contrôles statiques réussis sur GitHub Actions.
-Le rendu des escaliers et le bon compromis de durée d'exploration devront
-être jugés en jeu sur **une nouvelle partie**. Une validation statique ne
-remplace pas une série de donjons générés dans Flare ni une partie jouée.
-
-Voir le [bilan 0.8.4](docs/VALIDATION-compacite-escaliers-0.8.4.md),
-ainsi que les bilans du [hameau 0.8.3](docs/VALIDATION-hameau-0.8.3.md),
-de [l'architecture 0.8.2](docs/VALIDATION-architecture-0.8.2.md)
-et de [la population 0.8.1](docs/VALIDATION-densite-0.8.1.md).
+Consulter le [bilan des portails 0.8.5](docs/VALIDATION-portails-0.8.5.md),
+la [validation des étages compacts 0.8.4](docs/VALIDATION-compacite-escaliers-0.8.4.md)
+et le [bilan du hameau 0.8.3](docs/VALIDATION-hameau-0.8.3.md).
 
 ## Trois environnements actuels
 
