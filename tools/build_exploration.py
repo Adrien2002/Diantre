@@ -12,7 +12,8 @@ import json
 import random
 import re
 
-from check_surface import parse, layers
+from check_surface import parse, layers, reachable
+from dungeon_themes import THEMES, write_palette, dress_layers, add_details
 
 ROOT = Path(__file__).resolve().parents[1] / "diantre"
 SIZE = 36
@@ -20,9 +21,7 @@ GRID = 4
 LEVEL_TILE = 4096
 PORT_TILE = 4100
 LAYERS = ("background", "background_fringe", "object", "topology", "collision")
-PALETTE = "tilesetdefs/diantre_dungeon.txt"
 FAMILIES = ("cloister", "chambers", "grotto", "ring", "barracks", "forks", "vault", "gallery")
-LANDMARKS = {"great_hall_0", "basilica_0", "courtyard_0", "cavern_0"}
 PORTS = ((18,7), (18,28), (7,18), (28,18))
 
 
@@ -53,6 +52,8 @@ class Complex:
         self.rooms = []
         self.reserved = set()
         self.prefix = f"diantre_f{floor}_complex_{family}_{variant}"
+        self.theme = THEMES[floor]
+        self.doors = []
 
     def carve(self, x, y):
         if 1 <= x < SIZE-1 and 1 <= y < SIZE-1 and (x,y) not in self.reserved:
@@ -63,7 +64,11 @@ class Complex:
         rx, ry = (x2-x1)/2+.5, (y2-y1)/2+.5
         for y in range(y1,y2+1):
             for x in range(x1,x2+1):
-                if shape=="rect" or ((x-cx)/rx)**2+((y-cy)/ry)**2 <= 1:
+                distance=((x-cx)/rx)**2+((y-cy)/ry)**2
+                limit=1
+                if shape!='rect' and self.theme['id']=='caverns' and .7<distance<1.3:
+                    limit+=self.rng.uniform(-.15,.15)
+                if shape=="rect" or distance <= limit:
                     self.carve(x,y)
         self.rooms.append((cx,cy))
         return cx,cy
@@ -88,10 +93,15 @@ class Complex:
         r = self.rng
         if self.family=="vault":
             self.reserved = {(x,y) for y in range(25,34) for x in range(25,34)}
-            self.room(4,4,14,14)
-            self.room(22,4,31,14)
-            self.room(4,22,15,31)
+            shape='ellipse' if self.theme['id']=='caverns' else 'rect'
+            self.room(4,4,14,14,shape)
+            self.room(22,4,31,14,shape)
+            self.room(4,22,15,31,shape)
             self.room(16,16,23,24)
+        elif self.theme['id']=='caverns':
+            self.cavern_rooms()
+        elif self.theme['id']=='crypts':
+            self.crypt_rooms()
         elif self.family=="cloister":
             self.room(5,5,30,30)
             ix,iy=11+r.randrange(3),11+r.randrange(3)
@@ -131,10 +141,13 @@ class Complex:
             a,b=min(((a,b) for a in connected for b in remaining),
                     key=lambda p:abs(p[0][0]-p[1][0])+abs(p[0][1]-p[1][1])+r.random()*5)
             edges.append((a,b));connected.append(b);remaining.remove(b)
-        if self.family in ("grotto","gallery","chambers","forks"):
+        if self.family in ("grotto","gallery","chambers","forks") or self.theme['id']=='caverns':
             edges.append((self.rooms[-1],self.rooms[0]))
-        if self.family not in ("ring","cloister"):
+        if self.family not in ("ring","cloister") or self.theme['id']!='ruins':
             for a,b in edges:
+                if self.theme['id']=='caverns':
+                    self.tunnel(a,b)
+                    continue
                 elbow = (a[0],b[1]) if r.randrange(2) else (b[0],a[1])
                 self.corridor(a,elbow,self.family in ("grotto","forks"))
                 self.corridor(elbow,b,self.family in ("grotto","forks"))
@@ -142,7 +155,14 @@ class Complex:
         # sealed by rock; Flare's normal links or a validated loop can open them.
         for port in PORTS:
             nearest=min(self.rooms,key=lambda p:abs(p[0]-port[0])+abs(p[1]-port[1]))
-            self.corridor(port,nearest,self.family=="grotto")
+            if self.theme['id']=='caverns':self.tunnel(port,nearest)
+            else:self.corridor(port,nearest,self.family=="grotto")
+        if self.theme['id']=='caverns':
+            # Discard any one-cell islands caused by ragged ellipse outlines.
+            collision=[[0 if (x,y) in self.walk else 1 for x in range(SIZE)] for y in range(SIZE)]
+            self.walk=reachable(collision,self.rooms[0])
+        elif self.theme['id']=='crypts' and self.family in ('cloister','chambers','ring'):
+            self.inner_chapel()
         for cx,cy in self.rooms[1::2]:
             p=cx-2,cy-2
             if all((p[0]+dx,p[1]+dy) in self.walk for dx in range(-2,3) for dy in range(-2,3)):
@@ -160,6 +180,57 @@ class Complex:
                 mapmod=f"object,{p[0]},{p[1]},267",soundfx="soundfx/wood_open.ogg"))
             self.events.append(event(type="event",location=f"{p[0]},{p[1]},1,1",
                 activate="on_load",requires_status=claimed,mapmod=f"object,{p[0]},{p[1]},267"))
+
+    def cavern_rooms(self):
+        r=self.rng
+        if self.family in ('gallery','barracks'):
+            self.room(3,15,32,20)
+            for x,y in ((8,7),(26,7),(9,28),(27,28)):
+                rx,ry=r.randint(4,6),r.randint(4,6)
+                self.room(max(2,x-rx),max(2,y-ry),min(33,x+rx),min(33,y+ry),'ellipse')
+        else:
+            centers=[(9,9),(26,9),(9,26),(26,26)]
+            if self.family in ('ring','cloister'):centers=[(18,8),(28,18),(18,28),(8,18)]
+            if self.family in ('chambers','forks'):centers.append((18,18))
+            for x,y in centers:
+                x+=r.randint(-2,2);y+=r.randint(-2,2)
+                rx,ry=r.randint(4,8),r.randint(4,8)
+                self.room(max(2,x-rx),max(2,y-ry),min(33,x+rx),min(33,y+ry),'ellipse')
+
+    def tunnel(self,start,end):
+        x,y=start
+        for _ in range(120):
+            self.corridor((x,y),(x,y),width=1)
+            if (x,y)==end:return
+            if self.rng.random()<.2:
+                dx,dy=self.rng.choice(((1,0),(-1,0),(0,1),(0,-1)))
+            elif x!=end[0] and (y==end[1] or self.rng.random()<.5):dx,dy=(1 if end[0]>x else -1),0
+            else:dx,dy=0,(1 if end[1]>y else -1)
+            x=max(2,min(33,x+dx));y=max(2,min(33,y+dy))
+        self.corridor((x,y),end,diagonal=True)
+
+    def crypt_rooms(self):
+        r=self.rng
+        if self.family in ('cloister','chambers','ring'):
+            self.room(3,3,32,32,'ellipse' if self.family=='ring' else 'rect')
+            self.rooms=[(7,7),(28,7),(7,28),(28,28),(18,18)]
+        else:
+            self.room(13,3,22,32)
+            for x,y in ((3,4),(24,4),(3,21),(24,21)):
+                self.room(x,y,x+8,y+9+r.randrange(2),
+                          'ellipse' if self.family=='grotto' else 'rect')
+            if self.family=='forks':self.room(9,11,26,23)
+
+    def inner_chapel(self):
+        # An actual room enclosed within the larger hall. Its only entrance is
+        # an ordinary persistent door, separate from progression keys.
+        x1,x2=11+self.rng.randrange(2),24+self.rng.randrange(2)
+        y1,y2=11+self.rng.randrange(2),24+self.rng.randrange(2)
+        for y in range(y1,y2+1):
+            for x in range(x1,x2+1):
+                if x in (x1,x2) or y in (y1,y2):self.walk.discard((x,y))
+        points=[(x,y1) for x in range(17,20)]
+        self.walk.update(points);self.doors.append(points)
 
     def puzzle(self):
         # The optional vault never carries an exit, a progression key or stairs.
@@ -210,11 +281,12 @@ class Complex:
                     adjacent=any((x+dx,y+dy) in self.walk for dx,dy in ((1,0),(-1,0),(0,1),(0,-1)))
                     data["object"][y][x]=144 if adjacent else 153+self.rng.randrange(8)
                     data["collision"][y][x]=1 if adjacent else 3
+        dress_layers(self.floor,data)
         for (x,y),tile in self.props.items():
             data["object"][y][x]=tile
             data["collision"][y][x]=1 if tile in (378,379) else 2
             if tile in (378,379):data["background"][y][x]=24
-        if self.family in ("barracks","gallery","chambers"):
+        if self.family in ("barracks","gallery","chambers") and not self.doors:
             candidates=[]
             for y in range(8,28):
                 for x in range(8,28):
@@ -224,19 +296,25 @@ class Complex:
                             candidates.append((x,y))
             if candidates:
                 x,y=self.rng.choice(candidates)
-                points=[(xx,y) for xx in range(x-1,x+2)]
-                for xx,yy in points:data["collision"][yy][xx]=1
-                data["object"][y][x-1]=376;data["object"][y][x+1]=377
-                change=";".join(f"collision,{xx},{yy},0;object,{xx},{yy},0" for xx,yy in points)
-                status=stable_status(self.prefix+"_door")
-                self.events.append(event(type="event",location=f"{x-1},{y},3,1",activate="on_interact",
-                    hotspot="location",tooltip="Door",requires_not_status=status,mapmod=change,
-                    set_status=status,repeat="false",soundfx="soundfx/door_open.ogg"))
-                self.events.append(event(type="event",location=f"{x-1},{y},3,1",activate="on_load",
-                    requires_status=status,mapmod=change))
+                self.doors.append([(xx,y) for xx in range(x-1,x+2)])
+        for index,points in enumerate(self.doors):
+            x,y=points[0]
+            for xx,yy in points:
+                data['background'][yy][xx]=24
+                data['collision'][yy][xx]=1
+                data['object'][yy][xx]=0
+            data['object'][y][x]=376;data['object'][y][x+2]=377
+            change=';'.join(f'collision,{xx},{yy},0;object,{xx},{yy},0' for xx,yy in points)
+            status=stable_status(self.prefix+f'_door_{index}')
+            self.events.append(event(type='event',location=f'{x},{y},3,1',activate='on_interact',
+                hotspot='location',tooltip='Door',requires_not_status=status,mapmod=change,
+                set_status=status,repeat='false',soundfx='soundfx/door_open.ogg'))
+            self.events.append(event(type='event',location=f'{x},{y},3,1',activate='on_load',
+                requires_status=status,mapmod=change))
+        self.details=add_details(self,data)
         unique=stable_status(f"diantre_f{self.floor}_complex_{self.family}"+(f"_{self.variant}" if self.family!="vault" else ""))
         header=(f"[header]\nwidth={SIZE}\nheight={SIZE}\ntilewidth=192\ntileheight=96\n"
-                f"orientation=isometric\ntileset={PALETTE}\nhero_pos=18,18\n"
+                f"orientation=isometric\ntileset={self.theme['palette']}\nhero_pos=18,18\n"
                 f"procgen_type=normal\nprocgen_unique_status={unique}\n")
         self.events.append(marker_events())
         enemy=(f"[enemy]\ntype=enemy\nlocation=3,3,30,30\ncategory=diantre_depth_{self.floor}\n"
@@ -251,8 +329,9 @@ def serialize(header,data,events):
     return "\n".join(parts+events).rstrip()+"\n"
 
 
-def install_copy(source,destination):
-    text=source.read_text().replace("tileset=tilesetdefs/tileset_ruins.txt",f"tileset={PALETTE}")
+def install_copy(source,destination,floor):
+    palette=THEMES[floor]['palette']
+    text=source.read_text().replace("tileset=tilesetdefs/tileset_ruins.txt",f"tileset={palette}")
     sections=parse(source)
     blank="[layer]\ntype=topology\ndata=\n"+"\n".join([",".join(["0"]*SIZE)]*SIZE)+"\n\n"
     text=text.replace("[layer]\ntype=collision",blank+"[layer]\ntype=collision")
@@ -264,7 +343,13 @@ def install_copy(source,destination):
         old="[layer]\ntype=topology\ndata=\n"+"\n".join([",".join(["0"]*SIZE)]*SIZE)
         new="[layer]\ntype=topology\ndata=\n"+"\n".join(",".join(map(str,r)) for r in topo)
         text=text.replace(old,new)
+    # Use the shared serializer after adding metadata; preserve every original
+    # event, enemy and link rectangle verbatim.
     destination.write_text(text.rstrip()+"\n")
+    sections=parse(destination);data=layers(sections);dress_layers(floor,data)
+    header=text.split('[layer]',1)[0].strip()
+    other=[b for b in re.split(r'\n(?=\[)',text) if b.startswith(('[event]','[enemy]','[npc]'))]
+    destination.write_text(serialize(header,data,other))
 
 
 def loop_scripts(floor,link):
@@ -305,28 +390,26 @@ def loop_scripts(floor,link):
 
 
 def main():
-    palette=ROOT/PALETTE
-    palette.write_text("# Invisible topology markers use an existing fully transparent atlas pixel.\n"
-        "INCLUDE tilesetdefs/tileset_ruins.txt\n\n[tileset]\nimg=images/tilesets/tileset_ruins.png\n"+
-        "".join(f"tile={t},0,0,1,1,0,0\n" for t in (*range(LEVEL_TILE,LEVEL_TILE+3),PORT_TILE)))
-    metrics=[];changed=[palette,ROOT/'settings.txt'];removed=[]
+    metrics=[];changed=[ROOT/'settings.txt'];removed=[]
     for floor in range(1,4):
+        theme=THEMES[floor];changed.append(write_palette(floor))
         source=ROOT/f"maps/iron_labyrinth/generated/f{floor}"
         dest=ROOT/f"maps/iron_labyrinth/exploration/f{floor}";dest.mkdir(parents=True,exist_ok=True)
         selected=[]
         for p in sorted(source.glob('*.txt')):
             kind=next(s for s in parse(p) if s['section']=='header')['procgen_type']
-            if kind=='normal' and p.stem not in LANDMARKS:continue
+            if kind=='normal' and p.stem not in theme['landmarks']:continue
             selected.append(p.name)
-            target=dest/p.name;install_copy(p,target);changed.append(target)
+            target=dest/p.name;install_copy(p,target,floor);changed.append(target)
         for family in FAMILIES:
             for variant in range(4):
                 builder=Complex(floor,family,variant)
                 text,data=builder.build()
                 path=dest/f"complex_{family}_{variant}.txt";path.write_text(text);changed.append(path)
                 selected.append(path.name)
-                metrics.append({"floor":floor,"family":family,"variant":variant,
-                                "floor_cells":len(builder.walk),"rooms":len(builder.rooms)})
+                metrics.append({"floor":floor,"theme":theme['id'],"family":family,"variant":variant,
+                                "floor_cells":len(builder.walk),"rooms":len(builder.rooms),
+                                "details":len(builder.details),"inner_chapel":bool(builder.doors) and floor==3 and family in ('cloister','chambers','ring')})
         for stale in dest.glob('*.txt'):
             if stale.name not in selected:
                 removed.append(stale.relative_to(ROOT).as_posix());stale.unlink()
@@ -336,7 +419,8 @@ def main():
         sections=parse(root);data=layers(sections)
         data['topology']=[[0]*len(data['collision'][0]) for _ in data['collision']]
         header=next(s for s in sections if s['section']=='header')
-        h="[header]\n"+"\n".join(f"{k}={PALETTE if k=='tileset' else v}" for k,v in header.items() if k not in ('section','mapmods'))+"\n"
+        header['tileset']=theme['palette'];header['title']=f"{theme['title']}: Level {floor}"
+        h="[header]\n"+"\n".join(f"{k}={v}" for k,v in header.items() if k not in ('section','mapmods'))+"\n"
         raw_events=[b for b in re.split(r"\n(?=\[)",root.read_text()) if b.startswith('[event]') and 'type=diantre_exploration_init' not in b]
         raw_events.append(event(type="diantre_exploration_init",location="0,0,1,1",activate="on_load",script=f"scripts/generation/f{floor}/init.txt"))
         root.write_text(serialize(h,data,raw_events));changed.append(root)
@@ -348,7 +432,7 @@ def main():
                                  "loop_rule":"one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"},indent=2)+"\n")
     manifest_path=ROOT/'ASSET_MANIFEST.json';manifest=json.loads(manifest_path.read_text())
     for key in removed:manifest['files'].pop(key,None)
-    note="Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+    note="Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
     for p in changed:
         key=p.relative_to(ROOT).as_posix();record=manifest['files'].get(key,{"sources":[],"changes":[]})
         raw=p.read_bytes();record.update(sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw))
