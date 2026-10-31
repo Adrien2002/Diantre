@@ -59,7 +59,7 @@ def neighbours(section,seen):
 
 
 def check_assets():
-    combinations=0;geometries=set();puzzles=0;families=set()
+    combinations=0;geometries=set();puzzles=0;families=set();sealed_checks=0
     for floor in range(1,4):
         folder=ROOT/f'maps/iron_labyrinth/exploration/f{floor}'
         link=parse(folder/'links_0.txt');ld=layers(link)
@@ -84,10 +84,15 @@ def check_assets():
                     if on:
                         for name in d:
                             for yy in range(y,y+h):d[name][yy][x:x+w]=ld[name][yy][x:x+w]
-                for s in ss:apply_mods(s,d)
                 ports=[p for on,p in zip(mask,PORTS) if on]
+                if '_vault_' in p.name or (floor==3 and any(p.name.startswith('complex_'+name+'_') for name in ('cloister','chambers','ring'))):
+                    chest=next(s for s in ss if s.get('tooltip')=='Treasure Chest')
+                    assert not neighbours(chest,reachable(d['collision'],ports[0])),(p,'raccord bypasses closed reward room')
+                    sealed_checks+=1
+                for s in ss:apply_mods(s,d)
                 seen=reachable(d['collision'],ports[0])
                 assert all(p in seen for p in ports),(p,'disconnected selected exit')
+                assert all(t!=0 or (x,y) in seen for y,row in enumerate(d['collision']) for x,t in enumerate(row)),(p,'isolated walkable pocket')
                 assert all(neighbours(s,seen) for s in ss if s.get('tooltip') in ('Treasure Chest','Vault Seal','Door')),(p,'unreachable interaction')
                 combinations+=1
             if '_vault_' in p.name:
@@ -136,7 +141,7 @@ def check_assets():
             assert len(sectors)==2,'Both ends must open atomically'
     return {'complex_configurations':combinations,'families':len(families),'status_names_checked':check_status_hashes(),
             'distinct_complex_collisions':len(geometries),'two_seal_puzzles':puzzles,
-            'stage_safe_candidate_edges':72}
+            'stage_safe_candidate_edges':72,'sealed_room_link_checks':sealed_checks}
 
 
 def check_observed(observed,cache,avatar):

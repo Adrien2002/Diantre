@@ -10,7 +10,6 @@ branches_per_door_level_max=2
 
 [chunks]
 filename=maps/iron_labyrinth/exploration/f3/basilica_0.txt
-filename=maps/iron_labyrinth/exploration/f3/cavern_0.txt
 filename=maps/iron_labyrinth/exploration/f3/complex_barracks_0.txt
 filename=maps/iron_labyrinth/exploration/f3/complex_barracks_1.txt
 filename=maps/iron_labyrinth/exploration/f3/complex_barracks_2.txt
@@ -43,7 +42,6 @@ filename=maps/iron_labyrinth/exploration/f3/complex_vault_0.txt
 filename=maps/iron_labyrinth/exploration/f3/complex_vault_1.txt
 filename=maps/iron_labyrinth/exploration/f3/complex_vault_2.txt
 filename=maps/iron_labyrinth/exploration/f3/complex_vault_3.txt
-filename=maps/iron_labyrinth/exploration/f3/courtyard_0.txt
 filename=maps/iron_labyrinth/exploration/f3/door_ns_0.txt
 filename=maps/iron_labyrinth/exploration/f3/door_ns_1.txt
 filename=maps/iron_labyrinth/exploration/f3/door_we_0.txt

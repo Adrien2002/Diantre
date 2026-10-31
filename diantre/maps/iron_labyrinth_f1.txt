@@ -9,7 +9,7 @@ orientation=isometric
 background_color=0,0,0,255
 hero_pos=18,18
 tileset=tilesetdefs/diantre_dungeon.txt
-title=Iron Labyrinth: Level 1
+title=Ancient Ruins: Level 1
 music=music/dungeon_theme.ogg
 
 [layer]

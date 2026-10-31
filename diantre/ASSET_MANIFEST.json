@@ -9923,36 +9923,39 @@
       "changes": []
     },
     "maps/iron_labyrinth_f1.txt": {
-      "sha256": "aec5c30998acf6b7fb997fa77aa93b8321f331e277bdf2669cd15ea7b1671387",
-      "bytes": 256759,
+      "sha256": "2f5c25ad583ed962f79a9b0a0acd3edcbe0540a290f1eeafdbe680ece239768b",
+      "bytes": 256758,
       "sources": [
         "diantre/maps/iron_labyrinth_f1.txt"
       ],
       "changes": [
         "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged.",
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ]
     },
     "maps/iron_labyrinth_f2.txt": {
-      "sha256": "a5e7a5b3f0d76970eb1477994136857e97f6e533cf65a4bdd192f515b7df0b3d",
+      "sha256": "0cd4ad8f55a30de9de85f6c1d5ae616ee04aa255bde123ad784cb22e4849f73a",
       "bytes": 256759,
       "sources": [
         "diantre/maps/iron_labyrinth_f2.txt"
       ],
       "changes": [
         "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged.",
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ]
     },
     "maps/iron_labyrinth_f3.txt": {
-      "sha256": "af975e058e5ee80401067616c5000583eac031dc627afc5aa17a78dd8ea4f1b2",
-      "bytes": 256759,
+      "sha256": "49b6bd59a6e05d141f9da854fb64e9ebbf73da08a6ec4123f2283963b49dde9f",
+      "bytes": 256756,
       "sources": [
         "diantre/maps/iron_labyrinth_f3.txt"
       ],
       "changes": [
         "Diantre 0.5.1: compact adjoining room modules and fully textured wall blocks; native atlas unchanged.",
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f1.txt": {
@@ -9963,29 +9966,32 @@
       ],
       "changes": [
         "removed room that teleports into Empyrean quest maps",
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f2.txt": {
-      "sha256": "3a1ee0a774009c7b3143518dd231c68ace070920eb87ffffcc16370d347be166",
-      "bytes": 3195,
+      "sha256": "1b2bd556f3fa95faae4d70dc673c01b91966083ec82edd2ee1df5276f8b62fbb",
+      "bytes": 3015,
       "sources": [
         "diantre/maps/procgen_rules/iron_labyrinth_f2.txt"
       ],
       "changes": [
         "removed room that teleports into Empyrean quest maps",
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f3.txt": {
-      "sha256": "41753fe7eab9337f2c226cbcde78810cb3daf3d76ddba19a9774a9e9a5f84f95",
-      "bytes": 3195,
+      "sha256": "6dac16ed9376216d77acb1f34fd59a31b3a2f9abb915364660d7d2eba7c8b7aa",
+      "bytes": 3078,
       "sources": [
         "diantre/maps/procgen_rules/iron_labyrinth_f3.txt"
       ],
       "changes": [
         "removed room that teleports into Empyrean quest maps",
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ]
     },
     "maps/spawn.txt": {
@@ -12577,15 +12583,16 @@
       ]
     },
     "settings.txt": {
-      "sha256": "4afcd2d79dd99de9e85fa0e8192ea5682199eb0425930c56038b02a44d4ba152",
-      "bytes": 178,
+      "sha256": "07c8be9713239ec684cb36cf896b40ca37802763ca6f65c75c64d9f5f918e74a",
+      "bytes": 171,
       "sources": [
         "diantre/settings.txt"
       ],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ]
     },
     "soundfx/door_open.ogg": {
@@ -13813,407 +13820,458 @@
     "tilesetdefs/diantre_dungeon.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "242026662eedb9d2c522bc80f53b61e3a69f4049022952f524d7529f63a5dcee",
-      "bytes": 251
+      "sha256": "197b6f9ea46c74df4b520ad3ef6ba118b322b109eb1b6bf18e774dad013fd920",
+      "bytes": 10487
     },
     "maps/iron_labyrinth/exploration/f1/basilica_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "d722978f18f3746b5b9565aa4e53d0b54c7f60f6671a8b88288060ea5e3484ce",
-      "bytes": 15977
+      "sha256": "f0ba3729860e92e7857e00828b27e04f2001367518eec887b34eaf10c69553f2",
+      "bytes": 16498
     },
     "maps/iron_labyrinth/exploration/f1/cavern_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "b12f05559ed89258d659f38d02fbc6fd0f8c12267efa9ccd363a862ecbb1b058",
-      "bytes": 15913
+      "sha256": "8d5f392a99a40492c84dc0979795dfff97ea5f8c5bb16d3e59380281376082f7",
+      "bytes": 16374
     },
     "maps/iron_labyrinth/exploration/f1/courtyard_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "15ac9d1d64d81560b0b443c8a2849f599aba931fe3f178f32ae211c99c55e311",
-      "bytes": 15961
+      "sha256": "b6f35a40dfaf4d0f83428a85daf995e3ca549f26d546e1b512f1976bd32f64b6",
+      "bytes": 16468
     },
     "maps/iron_labyrinth/exploration/f1/door_ns_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "1a187f504e5c626b48c6960fef1560862508a6fe111eaa09858604e763db779a",
-      "bytes": 17087
+      "sha256": "49244217c92920096d3c2f7ac90e31069cbab9f3b57c4f062a468e5ef12332c2",
+      "bytes": 17862
     },
     "maps/iron_labyrinth/exploration/f1/door_ns_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "46fc63212a786fa16425632dd7965106c09fc1aa8156b51cba792e7150382f00",
-      "bytes": 17043
+      "sha256": "daceb0a6e772d6194d53034d8e717c2ee3614f6f1a3cad7c8c37619cc05a4594",
+      "bytes": 17774
     },
     "maps/iron_labyrinth/exploration/f1/door_we_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "8b1787cca8c28b74fa41d4dcb0690a22d8448c8e724e5c51a8745276eb25f8f4",
-      "bytes": 17085
+      "sha256": "d2ea3245d224b9c3499383fe3c1f625a3e4f6617467fc7d84269dcae57448c15",
+      "bytes": 17860
     },
     "maps/iron_labyrinth/exploration/f1/door_we_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "77dd0c3d367cd952d8ebaf38ab5f077efc8235fa9fdc26d17f36ce3190cd5da5",
-      "bytes": 17041
+      "sha256": "d8aa6c89edede93bc53e382e9c2bc46f7424465e844f9022fdd68cbacf519679",
+      "bytes": 17772
     },
     "maps/iron_labyrinth/exploration/f1/end.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ed231458a179683ae89ea3f6ed67c595becd8bfbc9d235f0fad6987373b14630",
-      "bytes": 16277
+      "sha256": "e30eafe435224224aff1124fe5b958574cddb91f65b9c2bd570619610c8b201d",
+      "bytes": 17223
     },
     "maps/iron_labyrinth/exploration/f1/great_hall_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "6ce6deba6cadf5e7b8359ca812a799161abc22b9c38f2ee131ad6da9384e20c5",
-      "bytes": 15837
+      "sha256": "a9ceb688b64cd72a6c369fb8d04fb651c1d49e67d9b5845040f4d68801af94b3",
+      "bytes": 16218
     },
     "maps/iron_labyrinth/exploration/f1/key_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "49ff374d737e87e354a87c917f641245026f0e7a10093eb982c5b89767acb4e8",
-      "bytes": 16721
+      "sha256": "0793fc01d5703b177137cac6631fa60e133ae0da1e13a626549d82426afb2f9b",
+      "bytes": 17306
     },
     "maps/iron_labyrinth/exploration/f1/key_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "8d321414c0970afe03308230f49449f2cdbe53eb172ea5cc5399152774125d56",
-      "bytes": 16702
+      "sha256": "069917ec1b9fe0225cf64b183c6876446bf349fd73d4274eed5947d980f37486",
+      "bytes": 17244
     },
     "maps/iron_labyrinth/exploration/f1/key_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "cb9923160ebd9064b9cf3550af176d5ecd42cebe063b3b7bcd13c5bf18ac479e",
-      "bytes": 16697
+      "sha256": "da116cd5986baa0d7d0f29463d586990fe9ac5bd9e780c11a26864acd8249110",
+      "bytes": 17194
     },
     "maps/iron_labyrinth/exploration/f1/links_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "40c5f3c4bffca37a7fdc561716d68d0fd41f1c452be66594a4616f3f26df8684",
-      "bytes": 15856
+      "sha256": "9595eee242aa46012404c382e00842e0adf5d51feffac77c8e6475d74da72461",
+      "bytes": 16941
     },
     "maps/iron_labyrinth/exploration/f1/links_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "75759e0082678ba250bc426fbe731a65756ed869e9f0f8aa14b1db2ee784e0fe",
-      "bytes": 15732
+      "sha256": "dbbf630d0e47c23aca1253da5329e58fb6a66dddabf3e662dd178fbacd8a031a",
+      "bytes": 16693
     },
     "maps/iron_labyrinth/exploration/f1/links_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "aec44d3d788944061a7056c9c8a24df6dfc66395948cc62403541c149f821b49",
-      "bytes": 15616
+      "sha256": "756c16c72554e477670a71a3ff52c802a503a387a548edc7524c657bf7073bf2",
+      "bytes": 16461
     },
     "maps/iron_labyrinth/exploration/f1/start.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "37593f9e442ba8e4807b6b1a559bae6778f5502de1922d3e238a8522144b2192",
-      "bytes": 16112
+      "sha256": "2ada0b8dadd757c9238149f764542cc8de78b22b292d0639f16404dca071876b",
+      "bytes": 17055
     },
     "maps/iron_labyrinth/exploration/f1/complex_cloister_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ab3a5954bd80a1034eb10892884104d243b3fbb5a81ca5058e33e18ac32ee946",
-      "bytes": 16356
+      "sha256": "e2c0817240c06516b45ccb9888733bce1a0cd69ffa727ba0b39289cb081157df",
+      "bytes": 17057
     },
     "maps/iron_labyrinth/exploration/f1/complex_cloister_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "7e7ad29922ee98ddaf2b6738168ea3e31e4b3301e75fdc715a3b78dffa13c5f4",
-      "bytes": 16355
+      "sha256": "109d4e0ccb8f7c877a4a861ac068c833307c6d764ccf3ab54a298c486cae8f7d",
+      "bytes": 17055
     },
     "maps/iron_labyrinth/exploration/f1/complex_cloister_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "5d66d64304af9ce3c3bb2889a1d46a90bbbd7fff8ee80ca954f385a0600de58d",
-      "bytes": 16345
+      "sha256": "9d086d9993440b2b89d24bfd61885079ba69b0c8a8c57c283ccb05c6eed1ff23",
+      "bytes": 17035
     },
     "maps/iron_labyrinth/exploration/f1/complex_cloister_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "bc73c99da8dbc002ef4ea38d3cbc994ebf05b6c42a695f626cecfd1c1f6ada6d",
-      "bytes": 16345
+      "sha256": "fc0c3befb4575ca60af8409fb49a0c93a755cecdc64d740b7f2306fc59258638",
+      "bytes": 17035
     },
     "maps/iron_labyrinth/exploration/f1/complex_chambers_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "738c3f148ae1e29268018aadb123fbd51692e7e45898021d6898bb2aaa6fda8f",
-      "bytes": 16924
+      "sha256": "b9fbc49fc29d986246f3db71e03a00d8dbc125935a12849fe0b7e41f15a096cd",
+      "bytes": 17594
     },
     "maps/iron_labyrinth/exploration/f1/complex_chambers_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "b9853420dc16125e094b80f00124063ef33206c152f7c591bdda57fd7f203496",
-      "bytes": 16933
+      "sha256": "22e7f02dd7ba780a4f6ae535d0f7668ad4959363ce9c5bb42e7ed343b8825978",
+      "bytes": 17614
     },
     "maps/iron_labyrinth/exploration/f1/complex_chambers_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "fb4c96ba0799b4a773175554fa2f479c3dfa9c9eebe8a17977f7616e56dc362f",
-      "bytes": 16945
+      "sha256": "9b7adb6ea3f0579238f5954e5b2828d643e87186974f7eae2e023e4c72671ce6",
+      "bytes": 17624
     },
     "maps/iron_labyrinth/exploration/f1/complex_chambers_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "b6221d75b29f56da064bc0840cab5b666f9a136f5418949a75c5e669dba20bdc",
-      "bytes": 16906
+      "sha256": "be7ec542347557610eccc0c9514c868c08addef60e16b3a89c41ee1ba3e5f26d",
+      "bytes": 17558
     },
     "maps/iron_labyrinth/exploration/f1/complex_grotto_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ad5867ae4720dc988615cc6db0ad2164c21aade7dc5690f1e67f492552cc7077",
-      "bytes": 16508
+      "sha256": "ee39c5223ece6f3f8b891c43291af033dc78425c1cf876f5e7c1c5b414839a4b",
+      "bytes": 17367
     },
     "maps/iron_labyrinth/exploration/f1/complex_grotto_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ba5d77d8d367e8a11c605cf10c592a484e06b7a40cdf67bd0ad6a0599050f023",
-      "bytes": 16533
+      "sha256": "5219e76005b55c058bd27b2ef6c2acd3bd3e9b2181a978ba1a55fb42eef72492",
+      "bytes": 17417
     },
     "maps/iron_labyrinth/exploration/f1/complex_grotto_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "63046a055428d1c0437170599df6d1c491632f08c938f13c4d9fd196afc0b03b",
-      "bytes": 16519
+      "sha256": "8dada67ee66e0593256346f5452bb58353c54205b5f2220be8119a5cee14cd5c",
+      "bytes": 17391
     },
     "maps/iron_labyrinth/exploration/f1/complex_grotto_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "cce339a4fa0f242c76981b200aa3cbb84a0114658f0dab67dfb4d4cae0223a18",
-      "bytes": 16511
+      "sha256": "60738160d318853d95d9f8a87aee2c779730fd5fa4141e1778592ac0b1729c4c",
+      "bytes": 17375
     },
     "maps/iron_labyrinth/exploration/f1/complex_ring_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "fbdca543775d05d05bf0fc107787841eee560f4469f240eb890cbea25c535f15",
-      "bytes": 16302
+      "sha256": "c8855eb6fea5130d0968178d2dab0a4ffe2dee4a8e8e50f26da6fd1fa763c5ae",
+      "bytes": 16967
     },
     "maps/iron_labyrinth/exploration/f1/complex_ring_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "dc6488a089bcea2ae4a3ca245de4b73b853042f9ba615b6d2b54ce592a72b0f9",
-      "bytes": 16285
+      "sha256": "1c90095e65c831cfb5f76f85c4d990eb4ffb0738be882d4e26c83450b11baee1",
+      "bytes": 16933
     },
     "maps/iron_labyrinth/exploration/f1/complex_ring_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "070221d850acd42370780a2072aa0c01cfc2668fd9374f926a086927398b95ff",
-      "bytes": 16320
+      "sha256": "a2b0fb702cfc4b9b1c6495fe377f70f5b5bf987e439081cb5f05b8e8b72e7f24",
+      "bytes": 17003
     },
     "maps/iron_labyrinth/exploration/f1/complex_ring_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "49e4f5cad2a84cc22bcf3cc63845d665d8136be4dffb7667194f2f07b584ad04",
-      "bytes": 16320
+      "sha256": "095ae9464321c7253afaf6564e6a646b5de9c8c44fd89a28f279a6a3bf99cbbe",
+      "bytes": 17003
     },
     "maps/iron_labyrinth/exploration/f1/complex_barracks_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "560db482c1106553240141094f25bbb0f86b3e345c90965cc428a8ea53d2ed3d",
-      "bytes": 16319
+      "sha256": "ec21c25d5df36c69182f0bb814bebd89491156dacadd79433446c0ceef5e89d7",
+      "bytes": 16985
     },
     "maps/iron_labyrinth/exploration/f1/complex_barracks_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "4fc3c02459f31bd640fd35c169d700caad0a6aec74d574aad31fc02e3f369c11",
-      "bytes": 16320
+      "sha256": "ce2a2e13f1bc971622c33220444da57c99f6bbc65ace5f9be3dee45e66aca723",
+      "bytes": 16987
     },
     "maps/iron_labyrinth/exploration/f1/complex_barracks_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "5bf3cb6c6cd4f79e722423fab6cd1ce133357fc548fac05f3791526f674cea44",
-      "bytes": 16313
+      "sha256": "bc7b989cd4fbc2d100e07bd3131b9d7558d79f5399eb266108765627b067932a",
+      "bytes": 16973
     },
     "maps/iron_labyrinth/exploration/f1/complex_barracks_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "286b9b21e1c9217355af7ce0d327c593d46b68ddb7d005af85e21d30fe262d8d",
-      "bytes": 16326
+      "sha256": "223c15626c0205cca6f42a2603310639bf63742600a48d0b57ad015b630d77f8",
+      "bytes": 16999
     },
     "maps/iron_labyrinth/exploration/f1/complex_forks_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "c522bbfa38f5a005bb56fb1a87f7f51b76588b8dfe7024b97a3a12a6ca52acf2",
-      "bytes": 16436
+      "sha256": "dc0aa4a1321e165b277c8d3a80f8d0eee13bf4cd5e1145a866c8fec69d1d113e",
+      "bytes": 17227
     },
     "maps/iron_labyrinth/exploration/f1/complex_forks_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "e441c45a4d2199b890b20f54da3e6d7cee299b4a30694efa5af01689caa6b430",
-      "bytes": 16454
+      "sha256": "0a62f4c200fb18969a598bb9e06467267a28c88a7b94411c3e5f5cd920bb538a",
+      "bytes": 17265
     },
     "maps/iron_labyrinth/exploration/f1/complex_forks_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "1b106cb4cf9784effe58276c509980f6c0628ab4080dadcccf1ea64344216291",
-      "bytes": 16434
+      "sha256": "123b83557b975aede2d3b292b420764541e3861367f109696501e1cbb178a42e",
+      "bytes": 17225
     },
     "maps/iron_labyrinth/exploration/f1/complex_forks_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "b0e018842bef1247cefabeb31db288073dfc8df7c8eae139ef7cc1740485fcb0",
-      "bytes": 16416
+      "sha256": "71141d7a109af0bf91c2e8adacbb5df0d715da604648b1cf7166fba7b3644c24",
+      "bytes": 17187
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "7c1010e54acb76f8ed8425ccf24cfe5fa5e0dc58758c9aa7198be515106c1a54",
-      "bytes": 18020
+      "sha256": "340b1e1cfcd536aae3eb64050fefbe232e4e9aeaa87a0a00d58f44e16a8bc787",
+      "bytes": 18731
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "e003b99bbd36eb55f1e42e656f953d016a532ed8cdfafeb7e39f3238c714714c",
-      "bytes": 18030
+      "sha256": "647c9dbcf68056c67842ab73770c97a2667a16a21a5c6b47a4ddec7ec3e0e61f",
+      "bytes": 18751
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "2f199680a9f28e2a22871305f41819dbd15604962e3635a414a9e1302d5ffc85",
-      "bytes": 18013
+      "sha256": "d86bce0103cc14de0b95410ab73f93516642b72f07df99f95626a29819db693e",
+      "bytes": 18717
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "e2f7cb0337cdcb72cca08f8a7af0adf8029e8df36c7bc8eedc3571de1225723f",
-      "bytes": 18004
+      "sha256": "13bc6ab64a9ead5f35514f554c604a38075bb49e3415fd2dba5733330fb4b914",
+      "bytes": 18699
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ab4dc043ac460ce93854f14303f3aa3b7605edef7beeb63a2c22ad2cfead80f6",
-      "bytes": 16858
+      "sha256": "72d6f2bf1ae8c6f299dcad4c3c45ba51e4fa523d0bc7a77beb2533050f588f9a",
+      "bytes": 17461
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "f1b7ad43a16162cd8e374812d01b9aab28e1562866ddb31a031ef12a41fe5df2",
-      "bytes": 16858
+      "sha256": "f21c45e484cfa76adfc05a9ce1dfd6a4a674a2a25ca25187b6936f915dcc634f",
+      "bytes": 17461
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "77eb978fe702580a8cf0d6f4e42d2bd03083b8be2f2e6b9b2cffa59b81f7de81",
-      "bytes": 16840
+      "sha256": "d519e96f2d96bb4e236e447cc4615fb7201cfb08361d07a7bd3c12cc52986e8f",
+      "bytes": 17425
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "41f95e9422e2674f6cf26a754bf823014d71dee6a35d67b4232fc1b06ea012ed",
-      "bytes": 16265
+      "sha256": "0ff025ddcec03f3c4bd5c0bf60bbe0711b801bd3ddb4fd9bbbacf63b07e81e36",
+      "bytes": 16883
     },
     "scripts/generation/f1/apply.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ad899f87bb97d26a13cd086fd27d69f096a31c876aacab4da858272ad78b4e70",
-      "bytes": 269235
+      "sha256": "1b0387aabd9653090141e05a20ae6e7f757ec340a5a344ea0fa844cf51e59e39",
+      "bytes": 270579
     },
     "scripts/generation/f1/init.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
       "sha256": "fd32ff557ed4917e27c06f7c91d4707b19568ae9b656a87fc752d9531e77c1d7",
       "bytes": 307
@@ -14221,407 +14279,431 @@
     "scripts/generation/f1/roll.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
       "sha256": "4b45c06cd93b0cb033c7b80d37b947cbeee24fed594c119d2685b3851d858409",
       "bytes": 21772
     },
-    "maps/iron_labyrinth/exploration/f2/basilica_0.txt": {
-      "sources": [],
-      "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
-      ],
-      "sha256": "562514016e6a103bbc56f3d2b4f5dfd2e2f3633bc557d1335a8adbf2e931baca",
-      "bytes": 15975
-    },
     "maps/iron_labyrinth/exploration/f2/cavern_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "820e535a9c0c3faf6076a9c791acb657a58dfac27a7f469d3b643985cd2f3de9",
-      "bytes": 15913
-    },
-    "maps/iron_labyrinth/exploration/f2/courtyard_0.txt": {
-      "sources": [],
-      "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
-      ],
-      "sha256": "ccb21a8b1dbbd88426fcea6fe6dc8f5d893a47fb41b1739acf9c2da134432767",
-      "bytes": 15959
+      "sha256": "931ec6a76b5b1ab898b7a0fec118dde6db39df369ecf42c1ba3dbe1bb3846bec",
+      "bytes": 16374
     },
     "maps/iron_labyrinth/exploration/f2/door_ns_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "dcbcfebaa44578de6a133712445b689377342882c1608a3d4b8389b1a41bf792",
-      "bytes": 17087
+      "sha256": "f9dab99f7607f2e7c42798c1ad45f609b048440b5f03b80d16a030520ad0abcb",
+      "bytes": 17862
     },
     "maps/iron_labyrinth/exploration/f2/door_ns_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "9c6634047124c95160e3f47cf475937bc06385e22596d96409b8a1c974939b49",
-      "bytes": 17043
+      "sha256": "27651bad1b99df1a7cd7fd4b552ed535effe3e2d995c5538dcd0eb9e34179662",
+      "bytes": 17774
     },
     "maps/iron_labyrinth/exploration/f2/door_we_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "6438c4337cf8c8c19ca8204c052f008a9d33748c00c0964912f21efbc9c6ac02",
-      "bytes": 17085
+      "sha256": "7bf01e3f7056a1ed1768b756f186df00181415ccf0c5524fbf26038464b53ccc",
+      "bytes": 17860
     },
     "maps/iron_labyrinth/exploration/f2/door_we_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "626c9ffe2cffbc7329c758485cbbccd5b4930d2bb3c2b124a50f7203915b51d1",
-      "bytes": 17041
+      "sha256": "4a66b1c40cc7e53df8ae41781ea9cf1134d8d8dfc56d0aed69da25a17d87aa96",
+      "bytes": 17772
     },
     "maps/iron_labyrinth/exploration/f2/end.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "deaef7a59fba3a159d1ede9d6a8d1d0ea1c03df7cc745beda68939b03f5da91a",
-      "bytes": 16277
-    },
-    "maps/iron_labyrinth/exploration/f2/great_hall_0.txt": {
-      "sources": [],
-      "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
-      ],
-      "sha256": "8ad0e940455130cf8db38a8282c394ec3edebe4c490fdb2e2198eb2c762af592",
-      "bytes": 15835
+      "sha256": "369a44cffa80d16eb58a0c34db937aa1d3584b94b1c23207c8440942997d1470",
+      "bytes": 17223
     },
     "maps/iron_labyrinth/exploration/f2/key_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "f74001c862c4bc955675c3ef7e9c560073238711cb1af839b99de5290118418f",
-      "bytes": 16721
+      "sha256": "9e7ab3b42e6c99959f5a30d7a9d20ab44e4242a2a8ef334c5e89c93821446262",
+      "bytes": 17306
     },
     "maps/iron_labyrinth/exploration/f2/key_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "73be27d6c0e3e3365609897a24b320d61d56cba4695868c0b6a0ada67888cd3e",
-      "bytes": 16702
+      "sha256": "1a0a89a7b74e5672a6fd32322477f322b9e757a93c8c34e52c4e3a4e59b3dbe7",
+      "bytes": 17244
     },
     "maps/iron_labyrinth/exploration/f2/key_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "9a5a267a0e99c29b08557936a846abe4277d90b940de94430c3073ae3e8fefff",
-      "bytes": 16697
+      "sha256": "13fc12df0438f24ed16dd1ceb7ae5dd4cc241b11db6985ab42f078acbcb7fb44",
+      "bytes": 17194
     },
     "maps/iron_labyrinth/exploration/f2/links_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "40c5f3c4bffca37a7fdc561716d68d0fd41f1c452be66594a4616f3f26df8684",
-      "bytes": 15856
+      "sha256": "1f248cbe1d95a0bf7f9a2440edc7354f1d57bf8b10db889b29f78fe5a35ac072",
+      "bytes": 16941
     },
     "maps/iron_labyrinth/exploration/f2/links_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "75759e0082678ba250bc426fbe731a65756ed869e9f0f8aa14b1db2ee784e0fe",
-      "bytes": 15732
+      "sha256": "93b80370b80a32cfd3f98d2f45104defb9a83235f06391b9b65e92eb6e5523e4",
+      "bytes": 16693
     },
     "maps/iron_labyrinth/exploration/f2/links_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "aec44d3d788944061a7056c9c8a24df6dfc66395948cc62403541c149f821b49",
-      "bytes": 15616
+      "sha256": "85f9d8b38d5b0f8caf81a9ddb43d452421abf11117d1a350608fffc638c94083",
+      "bytes": 16461
     },
     "maps/iron_labyrinth/exploration/f2/start.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "3faebf01f64aee3ced702e160eea483107d58ff1debe46d97fdb9c2c36471b97",
-      "bytes": 16135
+      "sha256": "469e6d5a3df6b3e491c6956a7546b4e6085b86ffc6d1bb484e39f3a0e35ee815",
+      "bytes": 17078
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ca6bf4bef600324698db1649b2e93293d86b06d557ee0b831abba1ab67c18f34",
-      "bytes": 16345
+      "sha256": "7e28701aeea53f311a4c8f3bcfc9e4184cf97a28d7d6a108f1d84d1600386649",
+      "bytes": 17345
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "48b7cddb20c0783e52bd92f65dd1a5b44d5c691a83457568950f45ef59afdaad",
-      "bytes": 16367
+      "sha256": "c85b4fc6333748598df7c9620994565344aa4af4d0caa7069414bcc8e4407818",
+      "bytes": 17209
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "404b617ef26e152080d05e11da0b46c1ad34ba6ba51b3cd16ab82c0f3d47384c",
-      "bytes": 16355
+      "sha256": "fa4c1f5bf79cfa2791d1f707f6de4cd2327bda616bd789df6a462593998bb730",
+      "bytes": 17357
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ffa45a8ca71adbe434cf935fce91d29e2df627d5c032be59b17bd9b7c292b2da",
-      "bytes": 16356
+      "sha256": "b056b7a4a6323be2da1751a7de103a497f93476178f8d7ee4596abb7c2eb97a1",
+      "bytes": 17331
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "6af0e4412738dc5d8775bc29c4aa712017e5ad1fbdb75418da819705399b8c0e",
-      "bytes": 16899
+      "sha256": "4e5160e814b9c373fdcde2f261fb7aa13750822b0355b6ca0be9afa772297724",
+      "bytes": 16955
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "b8bc1f3bcd1a326798b51f67df8012c795f2a7628ec4a7803952b1b0e54a57a1",
-      "bytes": 16961
+      "sha256": "e9761eacff14e5ece9d21fd9dacafe756124267025b74bf4a897542a5d50a998",
+      "bytes": 17660
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "b0c94bc235621d82ede096cdf9401d89e39c45300abdbc544e50014816e3abd3",
-      "bytes": 16976
+      "sha256": "30d47d9eb337f49b470f96dbf9b139ef95d9a6f0b6b4830d99893f15835bd249",
+      "bytes": 17638
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "2d7eb9fb4933955a2f78cbbde57f32528b486c7eb0a58fc0a6d6c65bb54624f8",
-      "bytes": 16923
+      "sha256": "dcbc082a0053ca8cfb103bf8ca2d80b258995b69af593716864c36d41fef0517",
+      "bytes": 16933
     },
     "maps/iron_labyrinth/exploration/f2/complex_grotto_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "1c95190021c3411636cc21ebed27792caf36eb26fadab1cbbbf1069d40accc05",
-      "bytes": 16527
+      "sha256": "be33b1e4343f71f8992efb07851c8d5396336e44d78aad014655cef02cfe8571",
+      "bytes": 17001
     },
     "maps/iron_labyrinth/exploration/f2/complex_grotto_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ca08a62aaaa0f8868fe1126c1c153ef0697a39b69a43ff5453deb1b1a0e6bc07",
-      "bytes": 16539
+      "sha256": "46028b626b094c8869b46e80daf19449dbf189d5a52d4064da5376ec697de968",
+      "bytes": 17051
     },
     "maps/iron_labyrinth/exploration/f2/complex_grotto_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "97cfc5fa6ef90661983a3b85022231fb3628b77cac5032482dd6eae772d6f424",
-      "bytes": 16517
+      "sha256": "206bbb11a0df95366252f11e0a4f4e7b4ab6af7ab15e1dd6842c1cc3c0a49c6d",
+      "bytes": 16829
     },
     "maps/iron_labyrinth/exploration/f2/complex_grotto_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "d2eeb3190090153b7cef85d6f0c6ea79667a9792eedc8d8d38a43b1489eb2f99",
-      "bytes": 16496
+      "sha256": "53b4993804332750a0fa6cfe8d1d5f475d677933b2ab539c586ac19f503f7ad7",
+      "bytes": 16869
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "475d4d88d778822d22b8fe56a93b4e3b9d8eeb6688d9418c2d4af3f3ef0d3296",
-      "bytes": 16355
+      "sha256": "a66f1f2e218e3bc42f92359eadd27fdefbf1e2ee8f702193b4791f04b9b37463",
+      "bytes": 17185
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "169041076ff64a4177ae1c47d28e48435e23ce326aceaba11cbca2d6916fe45c",
-      "bytes": 16285
+      "sha256": "80ffbe4ab8d3d7a34f13bb3b0412354722058a0a16689faad2452d6c776f8975",
+      "bytes": 17297
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "948216f7743efef0ab006aa6844873dd874d85deed2d1919c165286d76839e8a",
-      "bytes": 16303
+      "sha256": "ebd693e816c0e2bf3e0151c43977e007494430abcde974a3f1e58ca1a5fbbbb9",
+      "bytes": 17183
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "a4ff648ce769fd3e61d99d50f9fe99249ea8ae66a67709d07e1f941d5932e6f6",
-      "bytes": 16310
+      "sha256": "c59515234e8ae7f9eabad3834eb8471fee7a42a04291a9fdd18d4e7af0c3c74f",
+      "bytes": 17301
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "031d7c286fbdda2f9c417bc621ceded4ca7d42837086bc48ba64fb31e979f8fe",
-      "bytes": 16319
+      "sha256": "91d116aa3d87f365a181b61ee7acd1a6b33c952d486a3addb0e82e653c4f0b56",
+      "bytes": 17684
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "d0f3ec71027a1775aa50fdff400f6fb381f00cb5fcc1d4342aabf56e9dc6674a",
-      "bytes": 16320
+      "sha256": "c89fe4ad33ce2d46ee17470cc063c46c6ba902fdf6de1d991165232b31e4ad1e",
+      "bytes": 16999
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "a5de74cbd0415b1b71b62d6310936b9d2d5729febdfde2709632ba9b42cb444c",
-      "bytes": 16301
+      "sha256": "15bba14bb440ab8d58cc561b05733eccbb488b5face9a8c960bf05d8a6653051",
+      "bytes": 16997
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "3c77741622fd05cfaf01a03f5b955417ec05fd5b7753779edb8cea6872bb88da",
-      "bytes": 16320
+      "sha256": "8ff43743dd31ef207237a1d59b354fa360d5dc092c96fa21d2c60058c5364379",
+      "bytes": 17055
     },
     "maps/iron_labyrinth/exploration/f2/complex_forks_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "c1ed32bd02696a080207bd1cc567e78b4c9a6c12f231507bb6164caf4f8146be",
-      "bytes": 16418
+      "sha256": "78290d9004684b2891882ae8ead05787c5b2c46ca1f45595f3f3441f6a1be2db",
+      "bytes": 17071
     },
     "maps/iron_labyrinth/exploration/f2/complex_forks_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "f98e50e6b05a1f61928de5c80610b2926847b8735142266a0ab34bb520aead26",
-      "bytes": 16435
+      "sha256": "e7812346c66992e9dfdf2a0d4a9522a12665b6f9f3c02357d74dfc698613cb8e",
+      "bytes": 16971
     },
     "maps/iron_labyrinth/exploration/f2/complex_forks_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "488c1062b352d4932ab5e0dfa4373654bab5a5a1ec606e396ce4a72ebb5dae41",
-      "bytes": 16512
+      "sha256": "3d1483e5353f20a8ec72d33cfc5a5f7245b7c372e816886142c0997f8a71b78e",
+      "bytes": 17083
     },
     "maps/iron_labyrinth/exploration/f2/complex_forks_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "4a26b313af32bbd11a852f5cdd9aa5c3958c532eae2d3caa8e238967993232d0",
-      "bytes": 16449
+      "sha256": "6ddcc1b8915426e822aeb93c09160261f441ffe0f9317cbffb956c2faef1fb33",
+      "bytes": 16821
     },
     "maps/iron_labyrinth/exploration/f2/complex_vault_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "389dd33070122e1511fcf0df402ac883dff9231b0d0785de7aa880eed206e99b",
-      "bytes": 18013
+      "sha256": "ed211bf8470929618a0f08f5c28c6ffe81110abdd9a1da5d4444fa8d0b3df885",
+      "bytes": 18767
     },
     "maps/iron_labyrinth/exploration/f2/complex_vault_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "7284986af99266f1bb08e5c199db8d2284f1f9f0ee2bb419102087edc9d2f29c",
-      "bytes": 18013
+      "sha256": "4b7c17b26e950fa48cb4582f52c7f56ba9be9b48a73038883d0aa14aa6ba8ebe",
+      "bytes": 18847
     },
     "maps/iron_labyrinth/exploration/f2/complex_vault_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "4e166ae0067136894ba0044d4dcb156dd50d5cf4e5c9c1e1e51b7d0312175044",
-      "bytes": 18020
+      "sha256": "74634fa2edb8d31442e4efa1422f7447695208c5cf31d3f2a818218cce493434",
+      "bytes": 18801
     },
     "maps/iron_labyrinth/exploration/f2/complex_vault_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "6bcd6b2c7b06ccda83646d2be8b8e01a2fe6d5b9b80ce3d5612c4a8f76fc794e",
-      "bytes": 18004
+      "sha256": "fcaf34cfefde21cd13ad6d9c615fc8c385ce681976a82f0982cb96462a68a4b1",
+      "bytes": 18805
     },
     "maps/iron_labyrinth/exploration/f2/complex_gallery_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "a9708c2fc50f4e1245ee4d14dc15bef1711d2d9ded28455487b08d719af5699e",
-      "bytes": 16265
+      "sha256": "f7cd581baf5f4eee7751919011d690d0a002df54877388d7ca6100128daf1079",
+      "bytes": 17615
     },
     "maps/iron_labyrinth/exploration/f2/complex_gallery_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "9ebe2426219c1f724fffc3d0c681e5fd242778e8caa34602b5d928b8f834447b",
-      "bytes": 16265
+      "sha256": "672015e038cf706b9d8fa413bf7d8534841d3fa8c8377d77a071cff304d80f53",
+      "bytes": 16885
     },
     "maps/iron_labyrinth/exploration/f2/complex_gallery_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "804b87f866a6fbe594bb881c1e5d4d58f575490e00228b9c1c4d59b62dc14db9",
-      "bytes": 16858
+      "sha256": "99622ba0a0936f45d63d7fda38926bd759abd29ea03fdd5b3abab11b170d848f",
+      "bytes": 17541
     },
     "maps/iron_labyrinth/exploration/f2/complex_gallery_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "14df3df75e6d4450e2263bf2818ac03eb6f191ba563c3f160f756cbc0427f690",
-      "bytes": 16839
+      "sha256": "e17ad8d5cd1ec6f1f3741a2000f9d88ddfb69de66405ac77a10232cf9c65526d",
+      "bytes": 17003
     },
     "scripts/generation/f2/apply.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "26575aef766b9cad2823d4f7e5451bd421012a5b0e3d2eb52f2020141d49e1f3",
-      "bytes": 269235
+      "sha256": "ab60fb92debbec237b6f7a9221a3bd62fa7c93332817296e1b4d922f7c303d3d",
+      "bytes": 270579
     },
     "scripts/generation/f2/init.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
       "sha256": "ef0bd0d11c674eda5873cf27788c032035c92469d539782e0cba22bc8c629121",
       "bytes": 307
@@ -14629,7 +14711,8 @@
     "scripts/generation/f2/roll.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
       "sha256": "deb91b46872ad833910e54c2a51a44c96b6efbc9586d3e904d776dd202e4cb50",
       "bytes": 21772
@@ -14637,399 +14720,431 @@
     "maps/iron_labyrinth/exploration/f3/basilica_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "5cb733416d604e93b8e2760ef9c076993d40d4397a228bb9192dd11a36537dee",
-      "bytes": 15977
-    },
-    "maps/iron_labyrinth/exploration/f3/cavern_0.txt": {
-      "sources": [],
-      "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
-      ],
-      "sha256": "cada7a75b813f82187c0815c9ad08a9493e072bbcec7ee4670e2be022b4a5219",
-      "bytes": 15912
-    },
-    "maps/iron_labyrinth/exploration/f3/courtyard_0.txt": {
-      "sources": [],
-      "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
-      ],
-      "sha256": "2225bfa32fc8b4933d4738b6a335e909913a9f819a2e86ec175d0efbb89af427",
-      "bytes": 15961
+      "sha256": "219ca34ee5a4c2f241252e9be1bdf751ff55ae9680f5bbdf314e6d84ba0453cc",
+      "bytes": 16497
     },
     "maps/iron_labyrinth/exploration/f3/door_ns_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ab0cc7ddd8939ffbffa2de00af014440bb5e1ea0173e316c4762fd27c0e1107d",
-      "bytes": 17087
+      "sha256": "cea3992d74041a0ae4d0a087c382028d2a9e9b6f53f60c4af78d4544db9caae3",
+      "bytes": 17861
     },
     "maps/iron_labyrinth/exploration/f3/door_ns_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "1d1620f8dd5aa2002cd986e9d292239a6ff51868cc9916ccbce80843679060b9",
-      "bytes": 17043
+      "sha256": "7053f3a290ac0d6dbfc838c8ac5ca147b6ba16aa5123cfc5c15409ae886a7f03",
+      "bytes": 17773
     },
     "maps/iron_labyrinth/exploration/f3/door_we_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "067aa6c1dcd579a7a4a933260eeee6ed0f50fba0b225c82e5bfbb8640446c996",
-      "bytes": 17085
+      "sha256": "1d543de3eaf72e91fca9d8e12fe426f522fc106cc55ccc2c37f3ac6bda8576cd",
+      "bytes": 17859
     },
     "maps/iron_labyrinth/exploration/f3/door_we_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "3f549c2d2c75a9495dd46c013b65d71daa9bcf2a1fc01f995700e6ef41336bc4",
-      "bytes": 17041
+      "sha256": "73b81dd4ad5fb39bef965356a87024281f571b8c633da0ad7e419e774b51f58c",
+      "bytes": 17771
     },
     "maps/iron_labyrinth/exploration/f3/end.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "972d1a6bb00ae8cff010b11b8b70c93dad75700ce386d798965754480dc07ed6",
-      "bytes": 16259
+      "sha256": "6e86c6f3bc4b6d5c94f7bf6066c5900e1ecf360d112227f99a8172fecb8862d9",
+      "bytes": 17204
     },
     "maps/iron_labyrinth/exploration/f3/great_hall_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "b5eb62acde9a574b567a2012fee3de3dcb468b1e510a8273850c2890284c1874",
-      "bytes": 15837
+      "sha256": "71c769c94336bbcf0f10083bb8d95b18aedea0dceb48eafed019042aada7378b",
+      "bytes": 16217
     },
     "maps/iron_labyrinth/exploration/f3/key_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "242b30ea7368ccec755f58c4e7eed41231515f620a33ef357780a07826fbccf4",
-      "bytes": 16721
+      "sha256": "389de8e5c78264955a53bb4ee543c4bdc53a9b9b297454c9a1393ba930d90331",
+      "bytes": 17305
     },
     "maps/iron_labyrinth/exploration/f3/key_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "79854c769e11ca56931935704c684a421f115afff4cf958f5b0ad2e9f802e657",
-      "bytes": 16702
+      "sha256": "56a2216323ce9c4a64159c789a018422043775fc8574c20a0fbdbeb2ed878148",
+      "bytes": 17243
     },
     "maps/iron_labyrinth/exploration/f3/key_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "014df09e38ec21f03c8d7057d2ce924864bcff105b875f3e071f94137a818337",
-      "bytes": 16697
+      "sha256": "8b4d731c015be1ad6399445f504737323483ad8705dc4b73c8d50a36b4bfeb6f",
+      "bytes": 17193
     },
     "maps/iron_labyrinth/exploration/f3/links_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "40c5f3c4bffca37a7fdc561716d68d0fd41f1c452be66594a4616f3f26df8684",
-      "bytes": 15856
+      "sha256": "a5f0beb31fcdd6e9fb1dabcb3b0640ca1dada4f5b74c4779807ae00c0846dffe",
+      "bytes": 16940
     },
     "maps/iron_labyrinth/exploration/f3/links_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "75759e0082678ba250bc426fbe731a65756ed869e9f0f8aa14b1db2ee784e0fe",
-      "bytes": 15732
+      "sha256": "fcbc039e43dd902a49db7b8334a44486939de56dd2517cab2d761b4f321168fc",
+      "bytes": 16692
     },
     "maps/iron_labyrinth/exploration/f3/links_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "aec44d3d788944061a7056c9c8a24df6dfc66395948cc62403541c149f821b49",
-      "bytes": 15616
+      "sha256": "8caf420a0a9043bc744798d7bd09f2ddd437e7a47084f6e66314448a9a3b6fb0",
+      "bytes": 16460
     },
     "maps/iron_labyrinth/exploration/f3/start.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "03e5c7c7186e2e5a36a5a2a77b75b0385356e9b349207fa08da51ab4c350adb0",
-      "bytes": 16135
+      "sha256": "5d94ebb030744d38d6e77d823d0b9dbe7f1018e0553c3e56e9d8a8aae8cecf1c",
+      "bytes": 17077
     },
     "maps/iron_labyrinth/exploration/f3/complex_cloister_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "43d608cad9711a68293fb28e5615c54c5ca070509b8c1c1f62011ec4dda93e8c",
-      "bytes": 16367
+      "sha256": "7c81241082cfa8a50a4923f247c683ad2d782437ac20574d1066708574c4c02b",
+      "bytes": 17233
     },
     "maps/iron_labyrinth/exploration/f3/complex_cloister_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "4e5e37d64eb87db644ffb201078820f1ea86771723f14137e114ba42dcec1a6f",
-      "bytes": 16335
+      "sha256": "6902636665674d471e757c8733b8f9ee78af359b810054526c85833e013a98ba",
+      "bytes": 17233
     },
     "maps/iron_labyrinth/exploration/f3/complex_cloister_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "a4c4a43a72065848becd0b663b137150868e5f3c35309c109f2f81d421715fe3",
-      "bytes": 16367
+      "sha256": "8e1c657d348d58e9b3c012315bdfccb9bd3fcd39f729e64c9303d9fc31ecf89a",
+      "bytes": 17233
     },
     "maps/iron_labyrinth/exploration/f3/complex_cloister_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "421ff9de06c206fb92923fc3c580ead83b9ce5f946878cb81b78316cdd204d44",
-      "bytes": 16356
+      "sha256": "fb29bc4bee6fb5c77c8ec89ab1f8e675bbbcb7daf2513d7bbb99e5a3ed138982",
+      "bytes": 17237
     },
     "maps/iron_labyrinth/exploration/f3/complex_chambers_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "716092ce6ecc4d58ee1b89ca26319d6473d1d1fbfcedab93ee5578cd99d568fc",
-      "bytes": 16908
+      "sha256": "44455443b7edaad6535d51110a6a4d055c46f68270dca76b030e98f8bd28e47f",
+      "bytes": 17233
     },
     "maps/iron_labyrinth/exploration/f3/complex_chambers_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "c4b27c8b67cc94a943621c8f76b495a13466c9668da5c30af0bc7293730e6cad",
-      "bytes": 16962
+      "sha256": "be4b0cdc748e3a570b629136f4d947b6e6e7d4c91ca3e3fbf70b32f1882cc940",
+      "bytes": 17233
     },
     "maps/iron_labyrinth/exploration/f3/complex_chambers_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "dd5f564e8221339b358c10d189e115dd8414524005ffde35eeb1cfef2741f045",
-      "bytes": 16941
+      "sha256": "685219c88fef29bf5689c8b63aae652884d0c06e0b12cbe35926ec90785b5017",
+      "bytes": 17225
     },
     "maps/iron_labyrinth/exploration/f3/complex_chambers_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "ecc4773a58d2d6207d4c656b2db5095a259a700ef7ac8eba0834c30bb42e9413",
-      "bytes": 16934
+      "sha256": "396f22965ee639a54b91c05ba730cf627d3bb92f6cb2cec006491769a4252f51",
+      "bytes": 17237
     },
     "maps/iron_labyrinth/exploration/f3/complex_grotto_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "6ca9840d00e053ee1e311fc768d22774841351e5a40fbe88c212b0535e806c9d",
-      "bytes": 16508
+      "sha256": "74947eec13cc31ffa55fc0e76c22925d5d61d91cc220a39a0a9dd88fe35e36d3",
+      "bytes": 16990
     },
     "maps/iron_labyrinth/exploration/f3/complex_grotto_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "6df054381b0844906bbe9e125b2c53b2d81cbc255a243b94c04032421a11b602",
-      "bytes": 16488
+      "sha256": "3b30a9ac3f11493468415723d439a04edb2bd6dc995df994be4922a083aade03",
+      "bytes": 16986
     },
     "maps/iron_labyrinth/exploration/f3/complex_grotto_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "de38f3abbf774b41e75df67469808568de8d5e64d7839f117b32e7b2f5897749",
-      "bytes": 16551
+      "sha256": "60f3cc12a6ddb979d35f5e9b58aca07e3792864014f5feaf0a50ac9ccc9c5179",
+      "bytes": 16976
     },
     "maps/iron_labyrinth/exploration/f3/complex_grotto_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "70e013d4e7fa2a222eb6a4a37c01838b8c04a43f728740d17e6615a38e5c8eff",
-      "bytes": 16545
+      "sha256": "31bbad8d9ce2a7bc29d30007c4779916f12b7af082d2b32e4502d0ede0d314ce",
+      "bytes": 16974
     },
     "maps/iron_labyrinth/exploration/f3/complex_ring_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "f0eb2ac25929653d614d8f8c675119615e147a268309af5380019aed2d6884b2",
-      "bytes": 16364
+      "sha256": "1f167764c883dbd0026eddf03edf9e434e390b4e842881805d92d7db9f7f05eb",
+      "bytes": 17563
     },
     "maps/iron_labyrinth/exploration/f3/complex_ring_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "791037d21252e70c26e12c8c24d53e3782677ac2c59c72277c4795d5ac6d37d5",
-      "bytes": 16343
+      "sha256": "58566978a69efba8748a4e44356cc900fba72ffe0178237e8d397bb10d218785",
+      "bytes": 17563
     },
     "maps/iron_labyrinth/exploration/f3/complex_ring_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "34275bfa4c2419f7c95fe7f4e7fe73b102917af078f20ad8d3f2685ac38e7207",
-      "bytes": 16324
+      "sha256": "2d9639ba9724c6a8adc760880e86fe699d4f4fe082f5ebf05c49323177a70971",
+      "bytes": 17567
     },
     "maps/iron_labyrinth/exploration/f3/complex_ring_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "47df7eacc1a12da5a5bb59d88073a732efb9751f7c8b625fef71c2f095a9a599",
-      "bytes": 16311
+      "sha256": "1e45b356dc18bde1380d39178b59103c6dd09dfad6b42b72716681dc32d61056",
+      "bytes": 17567
     },
     "maps/iron_labyrinth/exploration/f3/complex_barracks_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "004ba6774844ca51ca76b5b498140258124a6216db9aee4d7f2bd22e156d261b",
-      "bytes": 16320
+      "sha256": "47520b28236c4aa19d757101375bd06fa28353f25aa70e5351821801e6f7036e",
+      "bytes": 16838
     },
     "maps/iron_labyrinth/exploration/f3/complex_barracks_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "5c5180896e5dd111cbfac79f323ba03b41480ec6280172e456429a975446c041",
-      "bytes": 16320
+      "sha256": "535eb2494fe277be7e89ccf8e488b618a4f786549f340d332f9f89c02ae79257",
+      "bytes": 16844
     },
     "maps/iron_labyrinth/exploration/f3/complex_barracks_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "7d0806aa34e367d71d6681982adb7c9dbae9f375e276c6042649ccc97ff6d001",
-      "bytes": 16319
+      "sha256": "dc0e938306dddb3d8dd9e9eb88ed1a2f9b8833f35b8d5c33019bec58bf88b1d2",
+      "bytes": 16880
     },
     "maps/iron_labyrinth/exploration/f3/complex_barracks_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "d33c55ca43319b05f94d4892b2949a78fc908b67737a75f3f8cec0da68946830",
-      "bytes": 16313
+      "sha256": "b40582c5dc7c26c139cbf123722822f03cba636d1757ed5ef3e9f60e4a479f0c",
+      "bytes": 16868
     },
     "maps/iron_labyrinth/exploration/f3/complex_forks_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "183a33bf9a398b37b2d3c172ab7957fe82588c527a87d8f70b022d293dd7b6a7",
-      "bytes": 16457
+      "sha256": "d892fa9fa397ed9b9a62ac578c1666b28ba36dd66962b7d2e8f67ae7fcd7cf3f",
+      "bytes": 16740
     },
     "maps/iron_labyrinth/exploration/f3/complex_forks_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "aab7bcffe9a1f1e9f1328eeadc4c381d71fc6c2c491b7a4eee1f6ec02b1ff36e",
-      "bytes": 16408
+      "sha256": "633cacf0867ca26c0ae757c7754307531552d3ca74ee9eb694da835e5c6be5bf",
+      "bytes": 16726
     },
     "maps/iron_labyrinth/exploration/f3/complex_forks_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "123a256004012cb6788255df37c2f08c106ea055170df3a63fb1a5883e7fc8e2",
-      "bytes": 16355
+      "sha256": "bad8bce8dba7049af0247d66ac461b96bf5eaa00de38dc9601216079856a8e76",
+      "bytes": 16716
     },
     "maps/iron_labyrinth/exploration/f3/complex_forks_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "54a337a716137d72167073cc73975eb9cda8834510d5f51e3512fd3e6e02b7a4",
-      "bytes": 16437
+      "sha256": "f9df631b497fb355038881fc94b93cc4d8fc1ce8996aa7c14c9d7848dff06113",
+      "bytes": 16752
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "b703002c3a8b0625a054ebdb16c7c7b25c81d40947467bd4adee45d9972205fd",
-      "bytes": 18023
+      "sha256": "c58f0b9150e2268180d34d4aea7c5c1ac349b96ae6176df22b235c2dc6d8c741",
+      "bytes": 18774
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "435c8955e8fa7c495aa019d01bdce48563e7ea2666d3f6fb06519376b8a318ab",
-      "bytes": 18023
+      "sha256": "46a6a5c150b3af153008d6f39296060045757c5d22d7a2e4851a556734da742a",
+      "bytes": 18772
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "a319df1eaea94f7fe0fb7fd0d163bb5f69163024f8cfbe49ad668e8cabaa7b85",
-      "bytes": 18013
+      "sha256": "696707290d5a09f490303653e0c4b7cf44579742750392cae791ea445306c9e3",
+      "bytes": 18754
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "d67b8958e239975b9c098991f3407d14560f5884543d619cad6749c4e2bfbc9e",
-      "bytes": 18014
+      "sha256": "cb6ca28c5b79d1bcf6eb8148876775f881687e0ce7865264d6d1b45a07f33bfd",
+      "bytes": 18766
     },
     "maps/iron_labyrinth/exploration/f3/complex_gallery_0.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "fc7dd18ca0175df713eb14f7580aa2e734a28e957c206e91de32b78966e1795e",
-      "bytes": 16855
+      "sha256": "d7af6c8bc1b0f15647d1f04508a7721051fa41ea58c6a659bce3d85ac998dae6",
+      "bytes": 16846
     },
     "maps/iron_labyrinth/exploration/f3/complex_gallery_1.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "01759b03f440278e2e5345fb6868a241e2004465c3bba789c669d23212df3fe5",
-      "bytes": 16265
+      "sha256": "6b1cfe7e2505fe8061fc5fe6f1e5f17029a80e28f1c159db4b57ed1a371453f9",
+      "bytes": 16796
     },
     "maps/iron_labyrinth/exploration/f3/complex_gallery_2.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "99bbfebe975955d4460ecd5feac135028e9f776187ad9d6920189145b80562b8",
-      "bytes": 16265
+      "sha256": "6e947f43cd4296a25cc8f03b233ebb3784860246ac89426dc3836471b1d52067",
+      "bytes": 16846
     },
     "maps/iron_labyrinth/exploration/f3/complex_gallery_3.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "8d055dc8dc631569fc8edf89b0a9c9446fdb22972db493e8c6669dcbe6f1f78c",
-      "bytes": 16840
+      "sha256": "867e6241c5c76a6acdb3c636f6462dc0ecf80490ecb8aed329b80419bb02f814",
+      "bytes": 16846
     },
     "scripts/generation/f3/apply.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
-      "sha256": "c5c80b36e2baebc708693ec090d9a874565e71ffcada4e74dde60fbbeb0751bc",
-      "bytes": 269235
+      "sha256": "4c3b147bf3fddae1066be4acb04b4c0d6121690519a101ed992f9c37ea11baf1",
+      "bytes": 270579
     },
     "scripts/generation/f3/init.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
       "sha256": "05765ed3d9c74d4b32ed378fc3664e0f16f2b9d76e007a0fba0256f07510556d",
       "bytes": 307
@@ -15037,10 +15152,27 @@
     "scripts/generation/f3/roll.txt": {
       "sources": [],
       "changes": [
-        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data."
+        "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
       ],
       "sha256": "59203884b526048c6988bdb5115ae69a1259c3c7192d959058fa6b327b63bc9c",
       "bytes": 21772
+    },
+    "tilesetdefs/diantre_caverns.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
+      ],
+      "sha256": "4c470bcf6fed908c501bf11757357e29ffe3339bc087e3584d8f1441aa38711d",
+      "bytes": 10339
+    },
+    "tilesetdefs/diantre_crypts.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
+      ],
+      "sha256": "1489fccfd81174c827290492842f4a0d39f133a4ff6fb0bb47c4e6c484bc4b8a",
+      "bytes": 10550
     }
   }
 }

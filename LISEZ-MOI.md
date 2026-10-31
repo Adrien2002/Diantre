@@ -1,8 +1,26 @@
-# Diantre 0.6.0 — donjons à parcours variables
+# Diantre 0.7.0 — ruines, cavernes et cryptes
 
 Le cœur du mod est la qualité de la génération : varier les espaces, les
 parcours et les découvertes entre les parties. Les formes de salles restent
 libres de changer au fil du développement.
+
+## Trois environnements actuels
+
+| Étage | Environnement | Architecture et détails |
+| --- | --- | --- |
+| 1 | Ruines anciennes | Dalles fissurées, cours, grandes salles et colonnes |
+| 2 | Cavernes enfouies | Sol de terre, rochers, lobes irréguliers, tunnels sinueux et galeries portant des rails |
+| 3 | Cryptes de pierre | Dallages sombres, nefs, chapelles fermées dans de grandes salles, statues, monuments et braseros |
+
+Ces ambiances utilisent les images natives de Flare sans les modifier.
+Les cryptes conservent les blocs de maçonnerie complets des ruines pour leurs
+limites ; leurs sols et leur mobilier proviennent du donjon natif. Les pièces
+de mur ayant des faces arrière noires sont écartées des limites isolées.
+
+Les formes intérieures des cavernes et des cryptes sont produites par des
+règles différentes. La génération conserve la grille de secteurs de Flare et
+la collection de variantes calculées avant le jeu ; elle ne crée pas encore
+librement toute la géométrie de l’étage pendant la partie.
 
 ## Génération des donjons
 
@@ -55,6 +73,8 @@ les règles de progression :
 ```sh
 python3 tools/build_exploration.py
 python3 tools/check_exploration.py
+python3 tools/check_themes.py
+python3 tools/check_encounters.py
 ```
 
 `tools/check_exploration.py --help` décrit aussi le contrôle d’un export d’état
@@ -63,7 +83,10 @@ porte sur le terrain et distingue les occupants temporaires des obstacles.
 
 Les anciens outils de surface et de validation des modules d’origine restent
 disponibles. Les résultats des essais sont consignés dans
-`docs/VALIDATION-generation.md`. Le travail se poursuit directement sur `main`.
+`docs/VALIDATION-ambiances.md` ; les essais de la 0.6.0 restent dans
+`docs/VALIDATION-generation.md`. Le contrôle des pixels de palettes utilise
+Pillow uniquement pour le développement. Le travail se poursuit directement
+sur `main`.
 
 ## Architecture et ressources
 
