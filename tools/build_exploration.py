@@ -17,11 +17,11 @@ from dungeon_themes import THEMES, write_palette, dress_layers, add_details
 
 ROOT = Path(__file__).resolve().parents[1] / "diantre"
 SIZE = 36
-GRID = 6
+GRID = 5
 REGION_SIZE = GRID * SIZE
 MAP_SIZE = REGION_SIZE + 16
 PATH_RULES = dict(doors_max=2, door_spacing_min=5,
-                  main_path_length_min=26, main_path_length_max=30,
+                  main_path_length_min=18, main_path_length_max=21,
                   main_path_attempts_max=200000, branch_length_min=4,
                   branch_length_max=6, branches_per_door_level_max=3)
 LEVEL_TILE = 4096
@@ -422,6 +422,8 @@ def install_copy(source,destination,floor):
         for x,collision in enumerate(row):
             if collision==3 and 153<=data['object'][y][x]<=160:
                 data['object'][y][x]=144
+    if kind=='end':
+        restore_native_stairs(floor,data,sections)
     header=text.split('[layer]',1)[0].strip()
     other=[b for b in re.split(r'\n(?=\[)',text) if b.startswith(('[event]','[enemy]','[npc]'))]
     if kind=='normal':
@@ -430,6 +432,43 @@ def install_copy(source,destination,floor):
         seed=int(hashlib.sha256((str(floor)+source.stem).encode()).hexdigest()[:12],16)
         other.extend(encounter_groups(floor,data,random.Random(seed),protected))
     destination.write_text(serialize(header,data,other))
+
+
+def restore_native_stairs(floor,data,sections):
+    """Restore Flare's real stairwell artwork in the end sector.
+
+    Old generated end sectors retained a 3x3 interaction but had lost the
+    five descending-stair background tiles (344-348 or 349-353). The hero
+    saw an unmarked masonry pile. Use the original level end's five tiles
+    as a source of truth and clear just the five-by-five approach.
+    """
+    goal=next((s for s in sections if s.get("tooltip") in ("Stairs Down","Return to Town")),None)
+    assert goal and goal.get("activate")=="on_interact",("Missing exit interaction",floor)
+    ex,ey,w,h=map(int,goal["location"].split(","))
+    assert (w,h)==(3,3),("Unexpected exit footprint",floor,(w,h))
+    original=layers(parse(ROOT/f"maps/iron_labyrinth/f{floor}/end.txt"))
+    stairs=[(x,y,t) for y,row in enumerate(original["background"])
+            for x,t in enumerate(row) if 344<=t<=353]
+    expected={344,345,346,347,348} if floor==2 else {349,350,351,352,353}
+    assert {t for x,y,t in stairs}==expected and len(stairs)==5,("Incomplete native stair art",floor,stairs)
+    sx,sy=min(x for x,y,t in stairs),min(y for x,y,t in stairs)
+    assert max(x for x,y,t in stairs)-sx==2 and max(y for x,y,t in stairs)-sy==2
+    for y in range(ey-1,ey+4):
+        for x in range(ex-1,ex+4):
+            assert 0<=x<SIZE and 0<=y<SIZE
+            # Only the stairwell's immediate, formerly pillar-filled zone.
+            # This sector is a terminal room; no key or boss gate is here.
+            data["object"][y][x]=0
+            data["collision"][y][x]=0
+            data["background_fringe"][y][x]=0
+    for y in range(ey,ey+3):
+        for x in range(ex,ex+3):
+            data["collision"][y][x]=1
+            data["background"][y][x]=24+(x*3+y*5)%8
+    for x,y,tile in stairs:
+        data["background"][ey+y-sy][ex+x-sx]=tile
+    # Leave the descending staircase solid and interactable from all sides,
+    # while preserving the existing intermap event and safe stairs_down spawn.
 
 
 def loop_scripts(floor,link):
@@ -520,7 +559,7 @@ def main():
                                  "loop_rule":"one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"},indent=2)+"\n")
     manifest_path=ROOT/'ASSET_MANIFEST.json';manifest=json.loads(manifest_path.read_text())
     for key in removed:manifest['files'].pop(key,None)
-    note="Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
+    note="Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
     for p in changed:
         key=p.relative_to(ROOT).as_posix();record=manifest['files'].get(key,{"sources":[],"changes":[]})
         raw=p.read_bytes();record.update(sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw))

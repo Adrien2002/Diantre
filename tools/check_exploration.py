@@ -72,6 +72,18 @@ def check_assets():
             assert all(len(v)==36 and all(len(row)==36 for row in v) for v in data.values())
             markers=[s for s in ss if any(m.startswith('topology,18,18,409') for m in s['mapmods'])]
             assert len(markers)==(3 if h['procgen_type'] in ('normal','start','end') else 0),(p,'incorrect stage advertising')
+            if h['procgen_type']=='end':
+                goal=next(s for s in ss if s.get('tooltip') in ('Stairs Down','Return to Town'))
+                ex,ey,w,hg=map(int,goal['location'].split(','))
+                assert (w,hg)==(3,3),(p,'Exit size changed unexpectedly')
+                expected={344,345,346,347,348} if floor==2 else {349,350,351,352,353}
+                found={data['background'][y][x] for y in range(ey,ey+3) for x in range(ex,ex+3)} & expected
+                assert found==expected,(p,'Descending staircase graphics missing',found)
+                for y in range(ey-1,ey+4):
+                    for x in range(ex-1,ex+4):
+                        assert data['object'][y][x]==0,(p,'Exit art occluded',x,y)
+                        assert data['collision'][y][x]==(1 if ex<=x<ex+3 and ey<=y<ey+3 else 0),(p,'Stair apron collision',x,y)
+                assert any(s.get('intermap_id')=='stairs_down' for s in ss),(p,'Missing return spawn')
             if not p.name.startswith('complex_'):continue
             families.add(p.stem.rsplit('_',1)[0])
             geometries.add(tuple(tuple(row) for row in data['collision']))

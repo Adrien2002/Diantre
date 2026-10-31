@@ -108,7 +108,8 @@ def check_observed(observed,cache):
     groups=[s for s in sections if s['section']=='enemy'];lo=sum(limits(s)[0] for s in groups);hi=sum(limits(s)[1] for s in groups)
     enemies=[s for s in live if s['section']=='qa_enemy'];assert enemies,'Observer did not export actual entities'
     assert lo<=len(enemies)<=hi,('Native population differs from group budget',lo,len(enemies),hi)
-    assert len(enemies)>=210,('Floor is unexpectedly underpopulated',len(enemies))
+    # The 5x5 floor has a shorter path than the former 6x6 level.
+    assert len(enemies)>=PATH_RULES['main_path_length_min']*8,('Floor is unexpectedly underpopulated',len(enemies))
     floor=next(i for i in range(1,4) if any(s.get('category')==f'diantre_depth_{i}' for s in groups))
     data=layers(live);data['collision']=[[0 if t in (7,8) else t for t in row] for row in data['collision']]
     for s in sections:
