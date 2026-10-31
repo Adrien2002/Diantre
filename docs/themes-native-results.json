@@ -1,0 +1,163 @@
+[
+  {
+    "floor": 1,
+    "runtime_loops": 2,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_3d1c800d6bdcb73e_diantre_f1_complex_gallery_1",
+      "dx_3e3d87b7ae8f4836_diantre_f1_complex_chambers_3",
+      "dx_617130658f86e5c8_diantre_f1_complex_barracks_2",
+      "dx_63ccabc0f4225d49_diantre_f1_complex_vault",
+      "dx_821286ab43beebef_diantre_f1_complex_ring_2",
+      "dx_b6d2ce415cde9c41_diantre_f1_complex_gallery_2",
+      "dx_b83b2b0e9802dbf9_diantre_f1_complex_cloister_1",
+      "dx_f9ebe2c47bb677ef_diantre_f1_complex_grotto_0"
+    ],
+    "collision_sha256": "67431c5703eb09bc0490e6f2d09601d94f136ee7babd8bbfdb86cd5ae128fc4e",
+    "reachable_after_keys": 9661,
+    "run": 1
+  },
+  {
+    "floor": 2,
+    "runtime_loops": 2,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_325f0e6f606534e6_diantre_f2_complex_cloister_0",
+      "dx_396de9a334c0f5a1_diantre_f2_complex_barracks_2",
+      "dx_46c0e7ac529800b6_diantre_f2_complex_ring_2",
+      "dx_9701c84e984740ab_diantre_f2_complex_chambers_3",
+      "dx_98df1e36aa9159ba_diantre_f2_complex_forks_0",
+      "dx_af98d70282f4849e_diantre_f2_complex_grotto_0",
+      "dx_c4489489a6125ce5_diantre_f2_complex_gallery_1",
+      "dx_fd1c7d985a92b922_diantre_f2_complex_grotto_2"
+    ],
+    "collision_sha256": "2cd1f4c5240dba8cc2d03a30e821b0f7d370baaa6170a15152897f9d837b2fe3",
+    "reachable_after_keys": 7574,
+    "run": 1
+  },
+  {
+    "floor": 3,
+    "runtime_loops": 1,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_0ca981f7671b4f80_diantre_f3_complex_cloister_3",
+      "dx_25b07854da90e2cc_diantre_f3_complex_forks_0",
+      "dx_26ccd7ee215c8c13_diantre_f3_complex_chambers_3",
+      "dx_3cf9994398f6a8df_diantre_f3_complex_barracks_1",
+      "dx_5e894524f1fe3aae_diantre_f3_complex_vault",
+      "dx_75b535eb563ac1ec_diantre_f3_complex_gallery_3",
+      "dx_974e15125668645e_diantre_f3_complex_grotto_2"
+    ],
+    "collision_sha256": "381dd0dc14aab7f1505e241e012945af1e1a7219b70aca0e537e1d11d4801bda",
+    "reachable_after_keys": 7606,
+    "run": 1
+  },
+  {
+    "floor": 1,
+    "runtime_loops": 1,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_05982cb551154d38_diantre_f1_complex_gallery_3",
+      "dx_5399b5b1aa6771a8_diantre_f1_complex_chambers_2",
+      "dx_617130658f86e5c8_diantre_f1_complex_barracks_2",
+      "dx_63ccabc0f4225d49_diantre_f1_complex_vault",
+      "dx_6e7f66bde7489e3a_diantre_f1_complex_chambers_0",
+      "dx_a8718905f3993ba4_diantre_f1_complex_forks_2",
+      "dx_af557ea592fd5b1e_diantre_f1_complex_grotto_2",
+      "dx_b6d2ce415cde9c41_diantre_f1_complex_gallery_2",
+      "dx_ce62a463e77eb6e1_diantre_f1_complex_grotto_3",
+      "dx_ebcd40caf8c3f5ae_diantre_f1_complex_forks_3"
+    ],
+    "collision_sha256": "5bb5ea3a62b98b316eeea8b0596abb3372757e779478db4bc7c4d082e01753d4",
+    "reachable_after_keys": 9416,
+    "run": 2
+  },
+  {
+    "floor": 2,
+    "runtime_loops": 1,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_18e0ca1f4da39576_diantre_f2_complex_vault",
+      "dx_67c52a8405a2e9d0_diantre_f2_complex_cloister_2",
+      "dx_6e47db70f487caff_diantre_f2_complex_gallery_0",
+      "dx_770b208bbfb59b06_diantre_f2_complex_chambers_0",
+      "dx_912724e9676a2798_diantre_f2_complex_ring_3",
+      "dx_978c07e752aadbed_diantre_f2_complex_barracks_0",
+      "dx_98df1e36aa9159ba_diantre_f2_complex_forks_0",
+      "dx_cdced1fc40290264_diantre_f2_complex_gallery_2",
+      "dx_fd1c7d985a92b922_diantre_f2_complex_grotto_2"
+    ],
+    "collision_sha256": "d3adb078cbdbb8a898b05025ee2f187cb7c8e8dcb00a4741cce1732c6d7182bb",
+    "reachable_after_keys": 8892,
+    "run": 2
+  },
+  {
+    "floor": 3,
+    "runtime_loops": 0,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_062fc00987c13e07_diantre_f3_complex_gallery_2",
+      "dx_1441a345526de093_diantre_f3_complex_barracks_0",
+      "dx_25b07854da90e2cc_diantre_f3_complex_forks_0",
+      "dx_2ca8bb5c56479aa6_diantre_f3_complex_grotto_1",
+      "dx_59e291c66d423ad8_diantre_f3_complex_ring_2",
+      "dx_5e894524f1fe3aae_diantre_f3_complex_vault",
+      "dx_cc616f92e2852890_diantre_f3_complex_forks_2",
+      "dx_cdd3e6b08dbb0c54_diantre_f3_complex_chambers_2",
+      "dx_fcec3a09dabf882a_diantre_f3_complex_gallery_1"
+    ],
+    "collision_sha256": "fd1614f8439628404902482438f74cf57b36beda8aee1f6cbc43d05edb09e589",
+    "reachable_after_keys": 8956,
+    "run": 2
+  },
+  {
+    "floor": 1,
+    "runtime_loops": 1,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_32e0605ea9782320_diantre_f1_complex_chambers_1",
+      "dx_63ccabc0f4225d49_diantre_f1_complex_vault",
+      "dx_6e7f66bde7489e3a_diantre_f1_complex_chambers_0",
+      "dx_73669ac9d1d13ee6_diantre_f1_complex_forks_0",
+      "dx_7f0a7734cadb6844_diantre_f1_complex_ring_1",
+      "dx_819568bd80a254c4_diantre_f1_complex_barracks_0",
+      "dx_be7dabb4a4480cbf_diantre_f1_complex_grotto_1"
+    ],
+    "collision_sha256": "187871941fffa1eed3aa22e32fb31727b72171188c2f3c5f4e8d34d356e788c0",
+    "reachable_after_keys": 8423,
+    "run": 3
+  },
+  {
+    "floor": 2,
+    "runtime_loops": 1,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_116b96bc07af3a08_diantre_f2_complex_barracks_3",
+      "dx_42c7b496a81e067e_diantre_f2_complex_cloister_1",
+      "dx_6e47db70f487caff_diantre_f2_complex_gallery_0",
+      "dx_770b208bbfb59b06_diantre_f2_complex_chambers_0",
+      "dx_783842d324bb8c11_diantre_f2_complex_cloister_3",
+      "dx_978c07e752aadbed_diantre_f2_complex_barracks_0",
+      "dx_c4489489a6125ce5_diantre_f2_complex_gallery_1",
+      "dx_f0402cdbca4236dd_diantre_f2_complex_gallery_3"
+    ],
+    "collision_sha256": "fe4323cec6e339ae6f77af95576afeac0426664f622b389e4fd32521b361a25d",
+    "reachable_after_keys": 8591,
+    "run": 3
+  },
+  {
+    "floor": 3,
+    "runtime_loops": 1,
+    "mandatory_gates": 1,
+    "complex_families": [
+      "dx_26ccd7ee215c8c13_diantre_f3_complex_chambers_3",
+      "dx_3cf9994398f6a8df_diantre_f3_complex_barracks_1",
+      "dx_41ef08144313fb7e_diantre_f3_complex_barracks_2",
+      "dx_59e291c66d423ad8_diantre_f3_complex_ring_2",
+      "dx_75b535eb563ac1ec_diantre_f3_complex_gallery_3"
+    ],
+    "collision_sha256": "4383f56d5c34c8f7ba36256710f437a73523003ed4ce046cbcc12bfda3fbe677",
+    "reachable_after_keys": 6936,
+    "run": 3
+  }
+]

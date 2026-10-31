@@ -1,0 +1,42 @@
+{
+  "inner_chapel_click_and_reload": true,
+  "cavern_two_seals_and_reload": true,
+  "fresh_floors": 9,
+  "distinct_structures": 9,
+  "mandatory_gate_checks": 9,
+  "runtime_loops": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1
+  ],
+  "source": "live native layers and collider",
+  "stock_engine": {
+    "engine_commit": "f9a17a266293a897a1d7eae2d54408b0de39af27",
+    "engine_unmodified": true,
+    "floors": [
+      {
+        "floor": 1,
+        "palette": "tilesetdefs/diantre_dungeon.txt"
+      },
+      {
+        "floor": 2,
+        "palette": "tilesetdefs/diantre_caverns.txt"
+      },
+      {
+        "floor": 3,
+        "palette": "tilesetdefs/diantre_crypts.txt"
+      }
+    ],
+    "native_character_and_hamlet": true,
+    "hamlet_entrance_clicked": true,
+    "return_to_same_hamlet": true
+  },
+  "flare_game_commit": "af6eee6d339ac98011864bfe89da837fe7769c28",
+  "tested_game_data_commit": "41d3a2a0a546c6ff11acf4539445ba57307f9393"
+}
