@@ -128,3 +128,19 @@ Aucun seuil cible de densité n'est encore validé. Il devra résulter des captu
 5. Validation statique + native, captures à l'échelle réelle de la caméra, puis vérification avec moteur Flare standard.
 
 Ce document est un **résultat de lecture du code**, pas une correction des défauts du mod. Les modifications du générateur, leur compilation et leur validation restent à réaliser lors d'une étape distincte.
+
+
+## 7. Faisabilité vérifiée dans le code de Flare 1.15.86
+
+Source moteur figée : **flareteam/flare-engine f9a17a266293a897a1d7eae2d54408b0de39af27**.
+
+- [Map.cpp, loadEnemyGroup, lignes 599–625](https://github.com/flareteam/flare-engine/blob/f9a17a266293a897a1d7eae2d54408b0de39af27/src/Map.cpp#L599-L625) : un groupe natif accepte **un rectangle location=x,y,largeur,hauteur**, **number=min,max**, une catégorie, et [chance](https://github.com/flareteam/flare-engine/blob/f9a17a266293a897a1d7eae2d54408b0de39af27/src/Map.cpp#L626-L632) pour activer ou non le groupe. La taille « 3 à 4 » et la boîte « 7 × 7 » ne sont donc pas des limites imposées par Flare ; ce sont les choix actuels de Diantre.
+- [MapRenderer.cpp, pushEnemyGroup, lignes 119–169](https://github.com/flareteam/flare-engine/blob/f9a17a266293a897a1d7eae2d54408b0de39af27/src/MapRenderer.cpp#L119-L169) : Flare tire un nombre dans l'intervalle demandé et tente des points aléatoires dans ce rectangle. Après un budget d'échecs, il balaie les positions libres dans l'ordre. Il peut rester des apparitions manquantes, signalées dans le journal. **Un immense rectangle ne garantit ni couverture homogène, ni nombre exact d'ennemis réellement présents.**
+- [MapRenderer.cpp, enemyGroupPlaceEnemy, lignes 92–117](https://github.com/flareteam/flare-engine/blob/f9a17a266293a897a1d7eae2d54408b0de39af27/src/MapRenderer.cpp#L92-L117) : la position est contrôlée contre le collisionneur, puis le type est tiré dans la catégorie et le niveau d'apparition configuré est associé à l'ennemi.
+- [Map.cpp, procGenFillArea, lignes 1210–1380](https://github.com/flareteam/flare-engine/blob/f9a17a266293a897a1d7eae2d54408b0de39af27/src/Map.cpp#L1210-L1380) : le moteur assemble des modules d'après les règles de carte ; il ne recalcule pas la géométrie de toutes les pièces avec l'algorithme de Diablo.
+
+**Conséquence pratique : il est possible, sans fork moteur, de produire des groupes natifs plus nombreux, de dimensions et d'effectifs variables, couvrant davantage de zones dans chaque module.** Cette possibilité découle directement des champs et de la fonction de placement vérifiés. Elle permet un premier prototype crédible de population diffuse. En revanche, le *calcul exact d'un quota global après assemblage* analogue à InitMonsters de Diablo n'est pas fourni par ces seules fonctions. Si un tel quota est exigé, sa faisabilité précise, sa persistance et son intégration à l'assemblage devront être étudiées séparément.
+
+**Précautions de mise en œuvre :** éviter que de grands rectangles recouvrent des salles fermées, des portes ou des zones de progression au mauvais moment ; préférer des régions réellement praticables et suffisamment remplies. Vérifier les **unités apparues**, pas seulement les groupes déclarés, comme le fait déjà check_population.py et l'observateur de tests. Faire varier le nombre de groupes et les effectifs à partir des sources génératrices, puis adapter les hypothèses des contrôleurs ; ne pas simplement retirer leur assertion « deux groupes » pour masquer une régression.
+
+La première modification viable est donc **une nouvelle stratégie de production des groupes natifs**, indépendamment de toute modification des XP, des niveaux d'ennemis ou du moteur Flare. Il s'agit d'une faisabilité établie par lecture de code, **pas encore d'une version implémentée ou testée de Diantre**.
