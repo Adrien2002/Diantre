@@ -1,27 +1,31 @@
-# Diantre 0.8.1 — peuplement diffus et décors plus présents
+# Diantre 0.8.2 — densification et réparation des faux passages
 
-Le cœur du mod reste la qualité de la génération : varier les espaces, les
-parcours et les découvertes entre les parties. Le générateur doit se faire
-oublier derrière les lieux produits.
+Le cœur du mod reste la qualité de la génération : les lieux doivent
+rester variés, cohérents, intéressants à explorer, et le générateur doit
+se faire oublier derrière leur architecture.
 
-Les trois étages utilisent une région de 216 × 216 cases, jusqu'à 36 secteurs.
-Le parcours principal reste allongé et accompagné de ramifications.
-Chaque secteur ordinaire reçoit maintenant **11 à 19 ennemis**, répartis en
-plusieurs zones natives de 5 × 5 cases avec solitaires, duos et petits groupes
-allant jusqu'à quatre. Ce nombre dépend des cases praticables admissibles.
-Leur niveau et leur XP restent fixes selon la profondeur.
+Les trois étages utilisent toujours une région de 216 × 216 cases, jusqu'à
+36 secteurs. Depuis la 0.8.1, les secteurs ordinaires prévoient 11 à 19
+ennemis, répartis en groupes variables allant du solitaire au petit groupe
+de quatre, et davantage de détails natifs. Les niveaux d'ennemis et leurs
+récompenses d'XP restent fixes selon la profondeur.
 
-Le décor utilise davantage d'objets des atlas natifs, sans modification des
-images. Il ne s'agit pas encore d'une passe complète de mobilier thématique
-ni d'une correction des incohérences architecturales montrées en captures.
+La **0.8.2** corrige une incohérence graphique importante : des cases
+infranchissables étaient affichées comme des **dalles de sol surélevées**
+au lieu d'un volume de pierre visible. Les modules ordinaires, spéciaux
+et les raccords utilisent maintenant des blocs de maçonnerie pour leurs
+masses solides, et un nouveau contrôle détecte la réapparition de ce
+problème. Les collisions et les règles de progression sont inchangées.
 
-**Validation :** la 0.8.1 a été régénérée et vérifiée statiquement dans
-GitHub Actions, mais aucune nouvelle campagne native ou partie complète n'a
-encore validé la densité effectivement ressentie. Les 30 générations natives
-et la mesure de 157 à 218 ennemis concernent **la 0.8.0 uniquement**.
-Voir [bilan 0.8.1](docs/VALIDATION-densite-0.8.1.md),
-[validation historique 0.8.0](docs/VALIDATION-grands-etages.md) et
-[étude du moteur de Diablo I](docs/ETUDE-DevilutionX-generation-2026-10-31.md).
+**Statut :** génération et contrôles statiques réussis dans GitHub Actions.
+Cette nouvelle représentation **n'a pas encore été vérifiée par une série
+de captures à l'intérieur du moteur Flare standard**. Les jonctions entre
+blocs et la répétition des piliers restent à évaluer visuellement.
+
+Consulter le [bilan architectural 0.8.2](docs/VALIDATION-architecture-0.8.2.md),
+le [bilan de population 0.8.1](docs/VALIDATION-densite-0.8.1.md),
+les [essais natifs historiques 0.8.0](docs/VALIDATION-grands-etages.md)
+et l'[étude de Diablo I](docs/ETUDE-DevilutionX-generation-2026-10-31.md).
 
 ## Trois environnements actuels
 
@@ -102,8 +106,9 @@ du moteur, associé à son cache de carte et à la sauvegarde de test. Le contr�
 porte sur le terrain et distingue les occupants temporaires des obstacles.
 
 Les anciens outils de surface et de validation restent disponibles. Le bilan
-statique de la version actuelle est dans
-[VALIDATION-densite-0.8.1.md](docs/VALIDATION-densite-0.8.1.md). Les essais
+de la correction architecturale 0.8.2 est dans
+[VALIDATION-architecture-0.8.2.md](docs/VALIDATION-architecture-0.8.2.md), et le bilan
+de densité 0.8.1 dans [VALIDATION-densite-0.8.1.md](docs/VALIDATION-densite-0.8.1.md). Les essais
 effectués réellement avec Flare dans VALIDATION-grands-etages.md concernent
 la version 0.8.0, pas la 0.8.1. Le contrôle des pixels des palettes demande
 Pillow pendant le développement. Le travail reste directement sur main.
