@@ -1,5 +1,5 @@
 diff --git a/src/MenuDevConsole.cpp b/src/MenuDevConsole.cpp
-index e6e6268..1b16dd4 100644
+index e6e6268..9652b4a 100644
 --- a/src/MenuDevConsole.cpp
 +++ b/src/MenuDevConsole.cpp
 @@ -50,6 +50,7 @@ FLARE.  If not, see http://www.gnu.org/licenses/
@@ -10,7 +10,7 @@ index e6e6268..1b16dd4 100644
  #include <math.h>
  #include <sstream>
  
-@@ -473,6 +474,27 @@ void MenuDevConsole::execute() {
+@@ -473,6 +474,35 @@ void MenuDevConsole::execute() {
  		return;
  	}
  
@@ -33,6 +33,14 @@ index e6e6268..1b16dd4 100644
 +			for (size_t x = 0; x < w; ++x) out << (x ? "," : "") << mapr->collider.colmap[x][y];
 +			out << "\n";
 +		}
++		for (size_t i = 0; i < entitym->entities.size(); ++i) {
++			const Entity* e = entitym->entities[i];
++			if (e->stats.hero_ally || e->stats.npc) continue;
++			out << "\n[qa_enemy]\nfilename=" << e->type_filename
++			    << "\nlevel=" << e->stats.level << "\nxp=" << e->stats.xp
++			    << "\nlocation=" << e->stats.pos.x << "," << e->stats.pos.y << "\n";
++		}
++		out << "\n[qa_player]\nxp=" << pc->stats.xp << "\nlevel=" << pc->stats.level << "\n";
 +		return;
 +	}
  	if (args[0] == "help") {

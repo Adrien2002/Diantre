@@ -124,5 +124,62 @@
         }
       ]
     }
+  },
+  "population": {
+    "grid": [
+      6,
+      6
+    ],
+    "region": [
+      216,
+      216
+    ],
+    "map": [
+      232,
+      232
+    ],
+    "area_multiplier_from_070": 2.25,
+    "normal_encounter_size": [
+      3,
+      4
+    ],
+    "normal_encounter_zone": [
+      7,
+      7
+    ],
+    "normal_encounter_centre_distance_min": 18,
+    "assumptions": "valid native path; successful spawns; all enemies defeated; no XP bonus",
+    "floors": [
+      {
+        "floor": 1,
+        "normal_variants": 36,
+        "planned_hostiles_min": 130,
+        "planned_hostiles_max": 267,
+        "xp_per_hostile": 2,
+        "planned_base_xp_min": 260,
+        "planned_base_xp_max": 534,
+        "minimum_cumulative_level": 2
+      },
+      {
+        "floor": 2,
+        "normal_variants": 33,
+        "planned_hostiles_min": 130,
+        "planned_hostiles_max": 267,
+        "xp_per_hostile": 4,
+        "planned_base_xp_min": 520,
+        "planned_base_xp_max": 1068,
+        "minimum_cumulative_level": 3
+      },
+      {
+        "floor": 3,
+        "normal_variants": 34,
+        "planned_hostiles_min": 130,
+        "planned_hostiles_max": 267,
+        "xp_per_hostile": 8,
+        "planned_base_xp_min": 1040,
+        "planned_base_xp_max": 2136,
+        "minimum_cumulative_level": 4
+      }
+    ]
   }
 }

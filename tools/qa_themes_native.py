@@ -21,6 +21,7 @@ import time
 from check_surface import parse,layers,reachable
 from check_exploration import check_observed,neighbours
 from dungeon_themes import THEMES
+from check_population import check_observed as check_population
 
 ROOT=Path(__file__).resolve().parents[1]
 MAP_HASH={1:'7811557995279168839',2:'7811557995547604295',3:'7811557995816039751'}
@@ -111,9 +112,11 @@ def main():
                 observed=dump(f'run{run}-f{floor}.txt');state=record(f'run{run}-f{floor}-state')
                 cache=state/(MAP_HASH[floor]+'.txt');ss=parse(cache)
                 assert next(s for s in ss if s['section']=='header')['tileset']==THEMES[floor]['palette']
-                result=check_observed(observed,cache,state/'avatar.txt');result['run']=run;records.append(result)
+                result=check_observed(observed,cache,state/'avatar.txt');result['run']=run
+                result['population']=check_population(observed,cache);records.append(result)
                 (out/'native-results.json').write_text(json.dumps(records,indent=2)+'\n')
-                print(json.dumps({'run':run,'floor':floor,'loops':result['runtime_loops'],'gates':result['mandatory_gates']}),flush=True)
+                print(json.dumps({'run':run,'floor':floor,'loops':result['runtime_loops'],'gates':result['mandatory_gates'],
+                                  'hostiles':result['population']['actual_hostiles'],'xp':result['population']['actual_base_xp']}),flush=True)
                 if floor==3 and chapel_fixture is None:
                     doors=[s for s in ss if s.get('tooltip')=='Door' and any('_complex_'+f+'_' in s.get('set_status','') for f in ('chambers','cloister','ring'))]
                     if doors:chapel_fixture=(state,observed,doors[0])
@@ -168,6 +171,14 @@ def main():
         report.update(fresh_floors=len(records),distinct_structures=len({r['collision_sha256'] for r in records}),
                       mandatory_gate_checks=sum(r['mandatory_gates'] for r in records),
                       runtime_loops=[r['runtime_loops'] for r in records],source='live native layers and collider')
+        report['populations']=[r['population'] for r in records]
+        report['projected_levels_after_clearing']=[]
+        from check_population import level_for_xp
+        for run in range(1,4):
+            total=0;levels=[]
+            for r in (r for r in records if r['run']==run):
+                total+=r['population']['actual_base_xp'];levels.append(level_for_xp(total))
+            report['projected_levels_after_clearing'].append(dict(run=run,levels=levels,base_xp=total))
         (out/'native-results.json').write_text(json.dumps(records,indent=2)+'\n')
         (out/'native-report.json').write_text(json.dumps(report,indent=2)+'\n')
         print(json.dumps({'output':str(out),**report}),flush=True)
