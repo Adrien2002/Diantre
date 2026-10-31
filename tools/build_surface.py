@@ -271,6 +271,7 @@ def update_manifest():
     for variant in range(4):
         manifest["files"].pop(f"maps/town/compact/normal_{variant}.txt", None)
     paths = [ROOT / "maps/town/hamlet_forest.txt", ROOT / "maps/town/biomes.txt",
+             ROOT / "maps/spawn.txt", ROOT / "scripts/town/enter_dungeon.txt",
              ROOT / "scripts/town/return.txt", ROOT / "scripts/town/return_waypoint.txt",
              ROOT / "npcs/diantre_waypoint_town.txt", ROOT / "npcs/diantre_waypoint_f2.txt",
              ROOT / "settings.txt", ROOT / "tilesetdefs/town/compact_palette.txt",
