@@ -14251,7 +14251,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "e4f7f8285f4924f190a04720729ec784fd3815a993a178f2e8738abacc4a89e3",
+      "sha256": "c491a54d5b0e04c91c731903ddf894ae1185552fbe8d62f92ee77686c2ab31eb",
       "bytes": 18844
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_2.txt": {
@@ -14261,7 +14261,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "450c5bc7f22c37c5aac9cb8fb48b5efefe643ed29f5ace83a4738241b876426f",
+      "sha256": "c2330df8442f22ff250c4d367b5743e130a7babef6ee8e8fdea992c046cda13c",
       "bytes": 18810
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_3.txt": {
@@ -14271,7 +14271,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "6f4f09d3a2ecab44bb78d0680c7be9e99093f8056f6c96cd023c5e9abeab5b57",
+      "sha256": "51933734815ec3219e5880f72f0ea2053daadcd4309c3b4b8087215c6087aede",
       "bytes": 18792
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_0.txt": {
@@ -14281,7 +14281,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "9b54d9379245ff34941b0b0b81179b4b5439cd7a0c822913bf250e1c686e080f",
+      "sha256": "12a50e219b0e6317a90a6e977732805d5c7939ffa85dabf6c790d7ae878ac1cd",
       "bytes": 17490
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_1.txt": {
@@ -14311,7 +14311,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "ed680dd23c74bcd16e0c426c34f1d738c9d4787c299295b5b2ed1e2401d20c00",
+      "sha256": "4e27b38e11c385ad2d7555a39ada1949a498df8358816ac0ed38faefac1a814f",
       "bytes": 16976
     },
     "scripts/generation/f1/apply.txt": {
@@ -14321,8 +14321,8 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "ed1dc43f06d500a0aa816af18663fd34a2226517dce73d47a28347d4d4de25d4",
-      "bytes": 693809
+      "sha256": "ebcd2041fcb3da0cb7f2f7294e4432497c614d28718f5798ef600e73d03d3b83",
+      "bytes": 346049
     },
     "scripts/generation/f1/init.txt": {
       "sources": [],
@@ -14481,7 +14481,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "d7e3264c2d42fa6a3a24bbe47e30162e0250722fbbf0e0a6b999dafe4a26dedf",
+      "sha256": "25362575fb3dde8f538e5ac57a7ea4016bcc272f052a203767fc1c85adf2909d",
       "bytes": 17439
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_1.txt": {
@@ -14501,7 +14501,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "2c4bd5ae27b6e3aaae500746d17d2a407e34b153e1765085e6dc9a02456ff0ac",
+      "sha256": "98bc134afbe5c9adac364b8a03561d64fe479b005d651d580c025abcd8a06476",
       "bytes": 17450
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_3.txt": {
@@ -14511,7 +14511,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "18a46b20c9cc5a58fd14e013e598be8f8bfd65e9d04dc425ff2bd631e6f06c2c",
+      "sha256": "f07161e38224012020507ee70c20d89ca47c79bcad059b18e9097d3322348a39",
       "bytes": 17425
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_0.txt": {
@@ -14601,7 +14601,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "4d5e7dc2531ee5db4332dbc4a9ae36475c0950514e68882bf375beb8ee034453",
+      "sha256": "44ddac42cd714a8330494a1b82cc88846e5b42f35cb51eaf9fad7bc5648c2f56",
       "bytes": 17279
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_1.txt": {
@@ -14611,8 +14611,8 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "cfd5385aee12c37aacd97396cb9c9e2ec9cc7e771102e84ef0ca150efbd424cd",
-      "bytes": 17390
+      "sha256": "e2416b495712d5ed6179a5371bc33345e4607a6b5a0504c9a6864b510039bbb0",
+      "bytes": 17391
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_2.txt": {
       "sources": [],
@@ -14621,7 +14621,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "b3e46b52bad980312f650b41e5251491fd894cea353a30ae750f18716bf53330",
+      "sha256": "4606eeca35a412bfe009fa407d1abc912095e77699802a867e6f12c3e9effc1f",
       "bytes": 17276
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_3.txt": {
@@ -14631,7 +14631,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "e11adf3068720c977a19c0653f03a4e26415b61672bcc9acebc029494889ed1e",
+      "sha256": "a6c7ed8b85b7914cf034f852c01bcca3f575af399c1a3113c1dcc7cc89cbc528",
       "bytes": 17395
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_0.txt": {
@@ -14801,8 +14801,8 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "9e62d070598123657fa791fb5f8cd5b6a35adcc86bcdaeef76800abaffc63012",
-      "bytes": 693809
+      "sha256": "5b3bb7010fd0cf0a9f2cad8dcb3e9f5e98a1ac04203badc3d3e8f0ac4eb13717",
+      "bytes": 346049
     },
     "scripts/generation/f2/init.txt": {
       "sources": [],
@@ -15211,8 +15211,8 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "a09c6a9a852f0be4b91c4b5a623f91a28d8e1dd8dc17ac88eeb9c440fe1533a3",
-      "bytes": 18868
+      "sha256": "a6b20449e5abf522be586725fe03fea0d76120bc771383f1b6784a245f3df0f7",
+      "bytes": 18867
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_1.txt": {
       "sources": [],
@@ -15221,7 +15221,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "3064d7c91cbcfb4d613e50ac43b76445b3bfefb143ba011808f233846583a31c",
+      "sha256": "4aeee66215990153ca2c29c607c41a0a39e4fa2bf8faae2e3fd9e243ae1e44f3",
       "bytes": 18865
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_2.txt": {
@@ -15231,7 +15231,7 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "3660146f779fc3220b658b92b537c6ddd30f3eccaaa42effa18a88c1520c2d58",
+      "sha256": "6c2cafdbc06d6513498e10d307a0905bc9836f71c92b07afc4a40fe9e0f25800",
       "bytes": 18847
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_3.txt": {
@@ -15291,8 +15291,8 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
       ],
-      "sha256": "4fbac431110e88d0537840136c0d7baa876bdd8f0cf8fe1bbef48dea22a9d35f",
-      "bytes": 693809
+      "sha256": "b73051ff4779860e1af9efde6debef7da5c00aec219004443ad987716fd97523",
+      "bytes": 346049
     },
     "scripts/generation/f3/init.txt": {
       "sources": [],

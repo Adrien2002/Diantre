@@ -262,7 +262,7 @@ spawn_level=default
 
 [enemy]
 type=enemy
-location=11,1,7,7
+location=12,1,7,7
 category=diantre_depth_2
 number=3,4
 spawn_level=default

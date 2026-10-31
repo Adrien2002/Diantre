@@ -77,14 +77,18 @@ def check_assets():
             geometries.add(tuple(tuple(row) for row in data['collision']))
             assert all(data['collision'][0][i] and data['collision'][35][i]
                        and data['collision'][i][0] and data['collision'][i][35] for i in range(36))
-            for mask,link_variant in product(product((False,True),repeat=4),range(3)):
+            # Each side can be absent, copied by native assembly, or opened
+            # later by the carving-only runtime script.
+            for mask,link_variant in product(product((0,1,2),repeat=4),range(3)):
                 if not any(mask):continue
                 ld=layers(parse(folder/f'links_{link_variant}.txt'))
                 d=copy.deepcopy(data)
                 for on,(x,y,w,h) in zip(mask,rects):
                     if on:
                         for name in d:
-                            for yy in range(y,y+h):d[name][yy][x:x+w]=ld[name][yy][x:x+w]
+                            for yy in range(y,y+h):
+                                for xx in range(x,x+w):
+                                    if on==1 or ld['collision'][yy][xx]==0:d[name][yy][xx]=ld[name][yy][xx]
                 ports=[p for on,p in zip(mask,PORTS) if on]
                 if '_vault_' in p.name or (floor==3 and any(p.name.startswith('complex_'+name+'_') for name in ('cloister','chambers','ring'))):
                     chest=next(s for s in ss if s.get('tooltip')=='Treasure Chest')
@@ -139,6 +143,7 @@ def check_assets():
                 assert 0<=x<REGION_SIZE and 0<=y<REGION_SIZE
                 sectors.add((x//36,y//36))
                 if name=='topology':assert tile in (0,4100)
+                if name=='collision':assert tile==0,'A runtime opening must never close existing terrain'
                 assert not (25<=x%36<=33 and 25<=y%36<=33)
             assert len(sectors)==2,'Both ends must open atomically'
     return {'complex_configurations':combinations,'families':len(families),'status_names_checked':check_status_hashes(),

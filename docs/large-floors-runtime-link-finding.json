@@ -1,0 +1,10 @@
+{
+  "tested_game_data_commit": "33de1e0d0d2c37fa31fefe647d1ba5827df6a1f9",
+  "floor": 1,
+  "enemy": "enemies/lvl1_zombie_rotting.txt",
+  "native_position": [104.5, 129.5],
+  "native_collision_value": 3,
+  "finding": "A runtime link copied its whole native edge strip after spawning, replacing walkable side cells with solid caps and trapping an actual hostile.",
+  "correction": "Runtime links only carve their walkable cells. Spawn pockets preserve capacity under every native exit mask and all three link variants.",
+  "regression_checks": "Mixed absent/native/runtime exit states; no collision-closing mapmods; actual native hostile reachability and population budgets."
+}

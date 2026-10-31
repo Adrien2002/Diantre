@@ -348,10 +348,18 @@ def encounter_groups(floor,data,rng,protected=()):
     Native spawning still checks each selected tile against the collider.
     """
     candidates=[];c=data['collision']
+    # Native links replace an entire edge strip before spawning. Keep enough
+    # valid cells even when all four strips are selected by the assembler.
+    safe={(x,y) for y,row in enumerate(c) for x,t in enumerate(row) if t==0}
+    for variant in range(3):
+        link=parse(ROOT/f'maps/iron_labyrinth/generated/f{floor}/links_{variant}.txt');lc=layers(link)['collision']
+        for side in (s for s in link if 'procgen_link' in s):
+            x,y,w,h=map(int,side['location'].split(','))
+            safe.difference_update((xx,yy) for yy in range(y,y+h) for xx in range(x,x+w) if lc[yy][xx]!=0)
     for y in range(4,SIZE-4):
         for x in range(4,SIZE-4):
             if c[y][x]!=0 or any(abs(x-px)+abs(y-py)<4 for px,py in protected):continue
-            count=sum(c[yy][xx]==0 for yy in range(y-3,y+4) for xx in range(x-3,x+4))
+            count=sum((xx,yy) in safe for yy in range(y-3,y+4) for xx in range(x-3,x+4))
             if count>=16:candidates.append((x,y))
     assert candidates,('No encounter pocket',floor)
     rng.shuffle(candidates);anchor=candidates[0]
@@ -414,6 +422,11 @@ def loop_scripts(floor,link):
                     for name in LAYERS:
                         for yy in range(y,y+h):
                             for xx in range(x,x+w):
+                                # Runtime openings must only carve. Copying
+                                # the full native strip also closes side cells
+                                # after monsters have spawned, trapping them
+                                # inside newly installed walls.
+                                if tiles['collision'][yy][xx]!=0:continue
                                 mods.append(f"{name},{ox+xx},{oy+yy},{tiles[name][yy][xx]}")
                 apply.append(event(requires_status=status,mapmod=";".join(mods)))
     selection=[event(random_status="clear"),*candidates,event(random_status="roll"),

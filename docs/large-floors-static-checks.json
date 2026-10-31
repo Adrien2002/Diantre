@@ -1,12 +1,12 @@
 {
   "exploration": {
-    "complex_configurations": 4320,
+    "complex_configurations": 23040,
     "families": 8,
     "status_names_checked": 627,
     "distinct_complex_collisions": 96,
     "two_seal_puzzles": 12,
     "stage_safe_candidate_edges": 180,
-    "sealed_room_link_checks": 1080
+    "sealed_room_link_checks": 5760
   },
   "themes": {
     "themes": [

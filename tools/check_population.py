@@ -6,6 +6,8 @@ Budgets assume all placed hostiles are defeated, without equipment/party bonuses
 They do not establish combat difficulty or a complete manual playthrough.
 """
 from collections import Counter
+from itertools import product
+import copy
 from pathlib import Path
 import argparse
 import json
@@ -34,6 +36,8 @@ def check_assets():
         rules=ROOT/f'maps/procgen_rules/iron_labyrinth_f{floor}.txt'
         paths=[ROOT/l.split('=',1)[1] for l in rules.read_text().splitlines() if l.startswith('filename=')]
         per_type={};normal_count=0
+        link=parse(ROOT/f'maps/iron_labyrinth/exploration/f{floor}/links_0.txt');link_data=layers(link)
+        strips=[tuple(map(int,s['location'].split(','))) for s in link if 'procgen_link' in s]
         for path in paths:
             sections=parse(path);h=next(s for s in sections if s['section']=='header')
             groups=[s for s in sections if s['section']=='enemy'];kind=h['procgen_type']
@@ -46,6 +50,15 @@ def check_assets():
                 assert (w,h)==(7,7) and limits(g)==(3,4),(path,g)
                 assert sum(data['collision'][yy][xx]==0 for yy in range(y,y+h) for xx in range(x,x+w))>=16,(path,'Cramped spawn area')
             assert sum((a-b)**2 for a,b in zip(*centres))>=18**2,(path,'Encounter zones too close')
+            for mask,variant in product(product((False,True),repeat=4),range(3)):
+                link_data=layers(parse(ROOT/f'maps/iron_labyrinth/exploration/f{floor}/links_{variant}.txt'))
+                c=copy.deepcopy(data['collision'])
+                for selected,(x,y,w,h) in zip(mask,strips):
+                    if selected:
+                        for yy in range(y,y+h):c[yy][x:x+w]=link_data['collision'][yy][x:x+w]
+                for g in groups:
+                    x,y,w,h=map(int,g['location'].split(','))
+                    assert sum(c[yy][xx]==0 for yy in range(y,y+h) for xx in range(x,x+w))>=limits(g)[1],(path,'Native edge strip removes spawn pocket',mask)
         assert normal_count>=GRID*GRID-4,'Unique normal pool too small for a one-gate floor'
         for kind in ('door_north_south','door_west_east','start'):
             assert all(hi==0 for lo,hi in per_type[kind])
