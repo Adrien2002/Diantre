@@ -41,6 +41,14 @@ def main():
                 if name=='collision':continue
                 assert {t for row in rows for t in row}<={0,*tiles},(path,name,'undefined tile')
             assert all(t for row in data['background'] for t in row),'Missing ground beneath structure'
+            # Regression test for the player's screenshot: an impassable mass
+            # must not be drawn with a flat raised-floor graphic. Test every
+            # native complex, special room and link overlay.
+            for y,row in enumerate(data['collision']):
+                for x,collision in enumerate(row):
+                    if collision==3:
+                        tile=data['object'][y][x]
+                        assert 136<=tile<=151,(path,x,y,'Solid mass has no full masonry block',tile)
             if not path.name.startswith('complex_'):continue
             checked+=1;details+=sum(512<=t<=515 for row in data['object'] for t in row)
             rails+=sum(t in (530,531) for row in data['background_fringe'] for t in row)

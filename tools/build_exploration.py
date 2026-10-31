@@ -285,7 +285,10 @@ class Complex:
                     data["collision"][y][x]=0
                 else:
                     adjacent=any((x+dx,y+dy) in self.walk for dx,dy in ((1,0),(-1,0),(0,1),(0,-1)))
-                    data["object"][y][x]=144 if adjacent else 153+self.rng.randrange(8)
+                    # All non-walkable masses must render as actual stone.
+                    # Raised floor sprites (153-160) looked like open, walkable
+                    # platforms even though collision=3 blocked the hero.
+                    data["object"][y][x]=144
                     data["collision"][y][x]=1 if adjacent else 3
         dress_layers(self.floor,data)
         for (x,y),tile in self.props.items():
@@ -412,6 +415,13 @@ def install_copy(source,destination,floor):
     # event, enemy and link rectangle verbatim.
     destination.write_text(text.rstrip()+"\n")
     sections=parse(destination);data=layers(sections);dress_layers(floor,data)
+    # Legacy specials and link overlays still contain raised floor textures
+    # on collision=3. They must have a visible stone volume too; merely fixing
+    # Complex.build would leave gaps whenever Flare copies a link strip.
+    for y,row in enumerate(data['collision']):
+        for x,collision in enumerate(row):
+            if collision==3 and 153<=data['object'][y][x]<=160:
+                data['object'][y][x]=144
     header=text.split('[layer]',1)[0].strip()
     other=[b for b in re.split(r'\n(?=\[)',text) if b.startswith(('[event]','[enemy]','[npc]'))]
     if kind=='normal':
@@ -510,7 +520,7 @@ def main():
                                  "loop_rule":"one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"},indent=2)+"\n")
     manifest_path=ROOT/'ASSET_MANIFEST.json';manifest=json.loads(manifest_path.read_text())
     for key in removed:manifest['files'].pop(key,None)
-    note="Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+    note="Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
     for p in changed:
         key=p.relative_to(ROOT).as_posix();record=manifest['files'].get(key,{"sources":[],"changes":[]})
         raw=p.read_bytes();record.update(sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw))
