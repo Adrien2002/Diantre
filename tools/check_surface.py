@@ -9,6 +9,7 @@ import json
 ROOT = Path(__file__).resolve().parents[1] / "diantre"
 EXPECTED = {"florin", "udana", "yora", "abasi", "martigan", "bakat", "loren"}
 ENTRANCE_X, ENTRANCE_Y = 12, 2
+STASH_X, STASH_Y = 7, 9
 WAYPOINT_X, WAYPOINT_Y = 9, 14
 
 
@@ -57,6 +58,9 @@ def main():
     initial = layers(town)
     town_waypoints = [s for s in town if s["section"] == "npc" and s.get("filename") == "npcs/diantre_waypoint_town.txt"]
     assert len(town_waypoints) == 1 and town_waypoints[0]["location"] == "9,14,1,1", "Town waypoint must always exist"
+    stashes = [s for s in town if s["section"] == "event" and s.get("stash") == "true"]
+    assert len(stashes) == 1 and stashes[0]["location"] == "7,9,1,1", "Shared stash must be beside northern houses"
+    assert STASH_Y not in (10, 11, 12) and STASH_X not in (11, 12, 13), "Stash must not stand on either main street"
     kinds = ("start", "normal_a", "normal_b", "end")
     chunks = {(kind, variant): parse(ROOT / f"maps/town/compact/{kind}_{variant}.txt")
               for kind in kinds for variant in range(4)}
@@ -165,9 +169,37 @@ def main():
             assert data["cliff_00"][ENTRANCE_Y][ENTRANCE_X]==0,"Doorway still blocked by lowest cliff sprite"
             assert all(data[f"cliff_{n:02}"][ENTRANCE_Y][ENTRANCE_X]==28000+2*n
                        for n in range(1,16)),"Cliff above entrance not continuous"
+            assert all(data[f"cliff_{n:02}"][ENTRANCE_Y][ENTRANCE_X+1]==0
+                       for n in (0,1)),"Right cliff still visually clips portal"
+            assert all(data[f"cliff_{n:02}"][ENTRANCE_Y][ENTRANCE_X+1]==28000+2*n+1
+                       for n in range(2,16)),"Upper right cliff must remain intact"
             assert data["object"][ENTRANCE_Y][ENTRANCE_X]==228,"Native mine doorway missing"
+            # Measured directly from the native tileset geometry. The x=13
+            # wall begins 96-74=22 px right of x=12, inside the right-hand
+            # 185-89=96 px of the mine door. x=14 begins beyond that frame.
+            sprite_by_id = {}
+            for tileline in (ROOT/"tilesetdefs/tileset_grassland.txt").read_text().splitlines():
+                if tileline.startswith("tile="):
+                    parts = [int(v) for v in tileline[5:].split(",")]
+                    if parts[0] in (53,228):
+                        sprite_by_id[parts[0]] = parts[1:]
+            _,_,rock_w,rock_h,rock_ox,rock_oy = sprite_by_id[53]
+            _,_,door_w,door_h,door_ox,door_oy = sprite_by_id[228]
+            assert 0 < 96-rock_ox < door_w-door_ox < 192-rock_ox
+            assert -rock_oy > -door_oy and -rock_oy < door_h-door_oy
+            assert -(rock_oy+180) < -door_oy < -(rock_oy+180)+rock_h
+            assert -(rock_oy+360)+rock_h < -door_oy
             assert (12, 3) in seen and (12, 4) in seen, "Dungeon entrance disconnected"
-            assert any(p in seen for p in ((13, 14), (15, 14), (14, 13), (14, 15))), "Stash disconnected"
+            assert data["object"][STASH_Y][STASH_X] == 76, "Shared stash sprite missing"
+            assert c[STASH_Y][STASH_X] == 1, "Shared stash must remain physically solid"
+            assert c[14][14] == 0 and data["object"][14][14] == 0, "Previous crossroads chest not cleared"
+            assert any((STASH_X+dx, STASH_Y+dy) in seen
+                       for dx,dy in ((0,1), (0,-1), (1,0), (-1,0))), "Shared stash unreachable"
+            # The northern cabin pieces are at local x=4/5 and x=9/10.
+            # This checks the chest stays near a house for every variant.
+            nearby_roof = [(x,y) for y,row in enumerate(data["object"]) for x,t in enumerate(row)
+                           if t in (208,209,210,211) and abs(x-STASH_X)+abs(y-STASH_Y)<=4]
+            assert nearby_roof, (variants,arrangement,"Stash no longer near a cabin")
             assert all(c[y][x] == 1 for x, y in occupied), "Walkable cabin footprint"
             assert all(c[y][x] == 1 for y in range(3) for x in range(len(c[0]))), "Passage behind mountain"
             assert all(c[0][x] == c[-1][x] == 1 for x in range(len(c[0])))
@@ -177,7 +209,7 @@ def main():
                       "merchants_per_layout": 7, "entrance": [12, 3],
                       "checks": ["merchant access", "cabin footprints", "north entrance access",
                                  "stash access", "mountain inaccessible", "closed perimeter",
-                                 "merchant canopy clearance", "roof setback", "cliff layer order"]}, indent=2))
+                                 "merchant canopy clearance", "roof setback", "cliff layer order", "right-hand portal clearance", "stash beside cabin"]}, indent=2))
 
 
 if __name__ == "__main__":

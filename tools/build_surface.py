@@ -15,6 +15,7 @@ LAYERS = ("background_base", "background", *(f"cliff_{i:02}" for i in range(CLIF
 WIDTH, HEIGHT = 44, 44
 CHUNK_W, CHUNK_H = 12, 12
 ENTRANCE = (12, 2)
+STASH = (7, 9)  # beside the northern cabins, not on either main street
 WAYPOINT_TOWN = (9, 14)
 STREET_Y = 10
 GROUPS = {
@@ -162,11 +163,16 @@ def build_town():
 
     for level in range(CLIFF_LEVELS):
         for x in range(WIDTH):
-            # The native mine doorway is a complete sprite. The bottom cliff
-            # piece under it covers the entry's interior with rock, making
-            # the doorway look clipped. Cut only this lowest piece; keep
-            # all higher courses and both lateral cliff columns intact.
-            if level == 0 and x == ENTRANCE[0]:
+            # Sprite 228 (the portal) extends 96 screen pixels right of its
+            # anchor. The cliff from x=13 starts just 22 pixels to its right
+            # and overlaps the portal frame. Removing only x=12/level 0
+            # (0.8.3) therefore left its RIGHT side visibly cut off.
+            # Cliff levels 0 and 1 at x=13 overlap the door vertically;
+            # level 2 and above are entirely above it. Recess the doorway
+            # on the right without opening the physical north perimeter.
+            if (x == ENTRANCE[0] and level == 0) or (
+                x == ENTRANCE[0] + 1 and level in (0, 1)
+            ):
                 continue
             overlay(f"cliff_{level:02}", x, ENTRANCE[1], 28000 + level * 2 + x % 2)
     # Native mine opening, set into the recessed lowest course of rock.
@@ -177,8 +183,10 @@ def build_town():
     for y in (11, 12):
         for x in range(3, 28):
             overlay("background", x, y, 40 + (x + y) % 8)
-    overlay("object", 14, 14, 76)
-    overlay("collision", 14, 14, 1)
+    # Shared stash sits just off the horizontal street in the gap between
+    # northern cabins (all four town variants), not in the crossroad.
+    overlay("object", *STASH, 76)
+    overlay("collision", *STASH, 1)
 
     m.objects.append(
         "[event]\ntype=event\nlocation=0,0,24,24\n"
@@ -199,7 +207,7 @@ def build_town():
         "[event]\ntype=event\nlocation=12,3,1,1\nhotspot=location\n"
         "tooltip=Dungeon Entrance\nscript=scripts/town/enter_dungeon.txt\n",
         "[event]\ntype=event\nlocation=12,4,1,1\nactivate=on_trigger\nintermap_id=dungeon_exit\n",
-        "[event]\ntype=event\nlocation=14,14,1,1\nhotspot=location\n"
+        f"[event]\ntype=event\nlocation={STASH[0]},{STASH[1]},1,1\nhotspot=location\n"
         "stash=true\ntooltip=Shared Stash\nsoundfx=soundfx/wood_open.ogg\n",
     ))
     # Native animated obelisk and an event hotspot on its southern approach.
@@ -262,7 +270,7 @@ def update_manifest():
              ROOT / "npcs/diantre_waypoint_town.txt", ROOT / "npcs/diantre_waypoint_f2.txt",
              ROOT / "settings.txt", ROOT / "tilesetdefs/town/compact_palette.txt",
              *sorted((ROOT / "maps/town/compact").glob("*.txt"))]
-    note = "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
+    note = "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins."
     for file in paths:
         key = file.relative_to(ROOT).as_posix()
         record = manifest["files"].get(key, {"sources": [], "changes": []})
