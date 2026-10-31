@@ -7,7 +7,7 @@
       "variant": 0,
       "floor_cells": 603,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -17,7 +17,7 @@
       "variant": 1,
       "floor_cells": 604,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -27,7 +27,7 @@
       "variant": 2,
       "floor_cells": 614,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -37,7 +37,7 @@
       "variant": 3,
       "floor_cells": 614,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -47,7 +47,7 @@
       "variant": 0,
       "floor_cells": 639,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -57,7 +57,7 @@
       "variant": 1,
       "floor_cells": 628,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -67,7 +67,7 @@
       "variant": 2,
       "floor_cells": 630,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -77,7 +77,7 @@
       "variant": 3,
       "floor_cells": 657,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -107,7 +107,7 @@
       "variant": 2,
       "floor_cells": 430,
       "rooms": 4,
-      "details": 3,
+      "details": 5,
       "inner_chapel": false
     },
     {
@@ -117,7 +117,7 @@
       "variant": 3,
       "floor_cells": 438,
       "rooms": 4,
-      "details": 3,
+      "details": 4,
       "inner_chapel": false
     },
     {
@@ -127,7 +127,7 @@
       "variant": 0,
       "floor_cells": 639,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -137,7 +137,7 @@
       "variant": 1,
       "floor_cells": 656,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -147,7 +147,7 @@
       "variant": 2,
       "floor_cells": 621,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -157,7 +157,7 @@
       "variant": 3,
       "floor_cells": 621,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -167,7 +167,7 @@
       "variant": 0,
       "floor_cells": 638,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -177,7 +177,7 @@
       "variant": 1,
       "floor_cells": 637,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -187,7 +187,7 @@
       "variant": 2,
       "floor_cells": 644,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -197,7 +197,7 @@
       "variant": 3,
       "floor_cells": 631,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -207,7 +207,7 @@
       "variant": 0,
       "floor_cells": 513,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -217,7 +217,7 @@
       "variant": 1,
       "floor_cells": 493,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -227,7 +227,7 @@
       "variant": 2,
       "floor_cells": 513,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -237,7 +237,7 @@
       "variant": 3,
       "floor_cells": 533,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -247,7 +247,7 @@
       "variant": 0,
       "floor_cells": 591,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -257,7 +257,7 @@
       "variant": 1,
       "floor_cells": 581,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -267,7 +267,7 @@
       "variant": 2,
       "floor_cells": 598,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -277,7 +277,7 @@
       "variant": 3,
       "floor_cells": 607,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -287,7 +287,7 @@
       "variant": 0,
       "floor_cells": 706,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -297,7 +297,7 @@
       "variant": 1,
       "floor_cells": 706,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -307,7 +307,7 @@
       "variant": 2,
       "floor_cells": 724,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -317,7 +317,7 @@
       "variant": 3,
       "floor_cells": 686,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -327,7 +327,7 @@
       "variant": 0,
       "floor_cells": 457,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -337,7 +337,7 @@
       "variant": 1,
       "floor_cells": 527,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -347,7 +347,7 @@
       "variant": 2,
       "floor_cells": 451,
       "rooms": 4,
-      "details": 4,
+      "details": 5,
       "inner_chapel": false
     },
     {
@@ -357,7 +357,7 @@
       "variant": 3,
       "floor_cells": 466,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -367,7 +367,7 @@
       "variant": 0,
       "floor_cells": 654,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -377,7 +377,7 @@
       "variant": 1,
       "floor_cells": 612,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -387,7 +387,7 @@
       "variant": 2,
       "floor_cells": 621,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -397,7 +397,7 @@
       "variant": 3,
       "floor_cells": 665,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -407,7 +407,7 @@
       "variant": 0,
       "floor_cells": 628,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -417,7 +417,7 @@
       "variant": 1,
       "floor_cells": 602,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -427,7 +427,7 @@
       "variant": 2,
       "floor_cells": 713,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -437,7 +437,7 @@
       "variant": 3,
       "floor_cells": 694,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -447,7 +447,7 @@
       "variant": 0,
       "floor_cells": 528,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -457,7 +457,7 @@
       "variant": 1,
       "floor_cells": 473,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -467,7 +467,7 @@
       "variant": 2,
       "floor_cells": 532,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -477,7 +477,7 @@
       "variant": 3,
       "floor_cells": 472,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -487,7 +487,7 @@
       "variant": 0,
       "floor_cells": 626,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -497,7 +497,7 @@
       "variant": 1,
       "floor_cells": 656,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -507,7 +507,7 @@
       "variant": 2,
       "floor_cells": 659,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -517,7 +517,7 @@
       "variant": 3,
       "floor_cells": 630,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -527,7 +527,7 @@
       "variant": 0,
       "floor_cells": 591,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -537,7 +537,7 @@
       "variant": 1,
       "floor_cells": 641,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -547,7 +547,7 @@
       "variant": 2,
       "floor_cells": 584,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -557,7 +557,7 @@
       "variant": 3,
       "floor_cells": 716,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -567,7 +567,7 @@
       "variant": 0,
       "floor_cells": 572,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -577,7 +577,7 @@
       "variant": 1,
       "floor_cells": 532,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -587,7 +587,7 @@
       "variant": 2,
       "floor_cells": 555,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -597,7 +597,7 @@
       "variant": 3,
       "floor_cells": 554,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -607,7 +607,7 @@
       "variant": 0,
       "floor_cells": 649,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -617,7 +617,7 @@
       "variant": 1,
       "floor_cells": 713,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -627,7 +627,7 @@
       "variant": 2,
       "floor_cells": 687,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -637,7 +637,7 @@
       "variant": 3,
       "floor_cells": 654,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -647,7 +647,7 @@
       "variant": 0,
       "floor_cells": 850,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -657,7 +657,7 @@
       "variant": 1,
       "floor_cells": 850,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -667,7 +667,7 @@
       "variant": 2,
       "floor_cells": 850,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -677,7 +677,7 @@
       "variant": 3,
       "floor_cells": 848,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -687,7 +687,7 @@
       "variant": 0,
       "floor_cells": 850,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -697,7 +697,7 @@
       "variant": 1,
       "floor_cells": 850,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -707,7 +707,7 @@
       "variant": 2,
       "floor_cells": 854,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -717,7 +717,7 @@
       "variant": 3,
       "floor_cells": 848,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -727,7 +727,7 @@
       "variant": 0,
       "floor_cells": 658,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -737,7 +737,7 @@
       "variant": 1,
       "floor_cells": 661,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -747,7 +747,7 @@
       "variant": 2,
       "floor_cells": 666,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -757,7 +757,7 @@
       "variant": 3,
       "floor_cells": 666,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -767,7 +767,7 @@
       "variant": 0,
       "floor_cells": 670,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -777,7 +777,7 @@
       "variant": 1,
       "floor_cells": 670,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -787,7 +787,7 @@
       "variant": 2,
       "floor_cells": 668,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -797,7 +797,7 @@
       "variant": 3,
       "floor_cells": 668,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": true
     },
     {
@@ -807,7 +807,7 @@
       "variant": 0,
       "floor_cells": 741,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -817,7 +817,7 @@
       "variant": 1,
       "floor_cells": 738,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -827,7 +827,7 @@
       "variant": 2,
       "floor_cells": 720,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -837,7 +837,7 @@
       "variant": 3,
       "floor_cells": 726,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -847,7 +847,7 @@
       "variant": 0,
       "floor_cells": 785,
       "rooms": 6,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -857,7 +857,7 @@
       "variant": 1,
       "floor_cells": 791,
       "rooms": 6,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -867,7 +867,7 @@
       "variant": 2,
       "floor_cells": 797,
       "rooms": 6,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -877,7 +877,7 @@
       "variant": 3,
       "floor_cells": 779,
       "rooms": 6,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -887,7 +887,7 @@
       "variant": 0,
       "floor_cells": 588,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -897,7 +897,7 @@
       "variant": 1,
       "floor_cells": 588,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -907,7 +907,7 @@
       "variant": 2,
       "floor_cells": 598,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -917,7 +917,7 @@
       "variant": 3,
       "floor_cells": 597,
       "rooms": 4,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -927,7 +927,7 @@
       "variant": 0,
       "floor_cells": 735,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -937,7 +937,7 @@
       "variant": 1,
       "floor_cells": 759,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -947,7 +947,7 @@
       "variant": 2,
       "floor_cells": 735,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     },
     {
@@ -957,7 +957,7 @@
       "variant": 3,
       "floor_cells": 735,
       "rooms": 5,
-      "details": 4,
+      "details": 6,
       "inner_chapel": false
     }
   ],
