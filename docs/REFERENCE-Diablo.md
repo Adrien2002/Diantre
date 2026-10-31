@@ -1,6 +1,7 @@
 # Référence de conception : Diablo et grands étages
 
-Travail en cours pour la 0.8.0. Les résultats d’essais seront consignés à part.
+Référence utilisée pour la 0.8.0. Les résultats d’essais sont consignés dans
+[`VALIDATION-grands-etages.md`](VALIDATION-grands-etages.md).
 
 ## Observation de la référence
 
@@ -23,7 +24,7 @@ statistiques de Flare. Le principe retenu pour Diantre est une grande surface
 effective, des lieux nombreux, des groupes locaux modestes et un budget total
 de rencontres mesuré sur l’étage. Aucun code ni graphisme de Diablo n’est repris.
 
-## Application prévue et limites
+## Application réalisée et limites
 
 - Étendre la région de génération de 4 × 4 à 6 × 6 secteurs de 36 cases, soit
   216 × 216 cases et 2,25 fois l’emprise précédente.

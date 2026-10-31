@@ -12,8 +12,11 @@ quatre ennemis. L’XP des ennemis reste inchangée. La référence et les limit
 de cette adaptation de Diablo sont décrites dans
 [`docs/REFERENCE-Diablo.md`](docs/REFERENCE-Diablo.md).
 
-Les essais dans le moteur de cet agrandissement sont en cours. Ce point de
-sauvegarde ne constitue pas encore le bilan final de la 0.8.0.
+Trente étages frais ont été vérifiés dans le moteur : 157 à 218 ennemis par
+étage dans cet échantillon, avec les budgets d’XP nécessaires aux niveaux 2,
+3 puis 4 après nettoyage des trois étages. Les interactions et les sauvegardes
+sont vérifiées, ainsi que le chargement avec le moteur standard. Le bilan et
+les limites sont dans [`docs/VALIDATION-grands-etages.md`](docs/VALIDATION-grands-etages.md).
 
 ## Trois environnements actuels
 
@@ -84,6 +87,7 @@ les règles de progression :
 ```sh
 python3 tools/build_exploration.py
 python3 tools/check_exploration.py
+python3 tools/check_population.py
 python3 tools/check_themes.py
 python3 tools/check_encounters.py
 ```
@@ -94,7 +98,8 @@ porte sur le terrain et distingue les occupants temporaires des obstacles.
 
 Les anciens outils de surface et de validation des modules d’origine restent
 disponibles. Les résultats des essais sont consignés dans
-`docs/VALIDATION-ambiances.md` ; les essais de la 0.6.0 restent dans
+`docs/VALIDATION-grands-etages.md` ; les essais de la 0.7.0 restent dans
+`docs/VALIDATION-ambiances.md` et ceux de la 0.6.0 dans
 `docs/VALIDATION-generation.md`. Le contrôle des pixels de palettes utilise
 Pillow uniquement pour le développement. Le travail se poursuit directement
 sur `main`.

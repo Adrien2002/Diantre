@@ -33,7 +33,7 @@
       "sectors_max": 35
     }
   ],
-  "validation_state": "Native population, progression, interactions and reload checks complete; final unmodified-engine smoke test pending",
+  "validation_state": "Complete: native population, progression, interactions, reload and unmodified-engine compatibility verified",
   "inner_chapel_click_and_reload": true,
   "cavern_two_seals_and_reload": true,
   "projected_levels_after_clearing": [
@@ -159,5 +159,27 @@
     6,
     3,
     3
-  ]
+  ],
+  "stock_engine": {
+    "engine_commit": "f9a17a266293a897a1d7eae2d54408b0de39af27",
+    "engine_unmodified": true,
+    "floors": [
+      {
+        "floor": 1,
+        "palette": "tilesetdefs/diantre_dungeon.txt"
+      },
+      {
+        "floor": 2,
+        "palette": "tilesetdefs/diantre_caverns.txt"
+      },
+      {
+        "floor": 3,
+        "palette": "tilesetdefs/diantre_crypts.txt"
+      }
+    ],
+    "native_character_and_hamlet": true,
+    "hamlet_entrance_clicked": true,
+    "return_to_same_hamlet": true
+  },
+  "incomplete_native_spawn_diagnostics": []
 }
