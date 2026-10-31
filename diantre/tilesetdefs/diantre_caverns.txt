@@ -1,4 +1,4 @@
-# Diantre 0.7.0: caverns; native atlas images unchanged.
+# Diantre 0.8.0: caverns; native atlas images unchanged.
 
 [tileset]
 img=images/tilesets/tileset_cave.png

@@ -1,4 +1,4 @@
-description=Diantre: procedural ruins, caverns and crypts with persistent branching routes using native Flare assets.
+description=Diantre: large procedural ruins, caverns and crypts with dispersed encounters and persistent branching routes.
 game=diantre
-version=0.7.0
+version=0.8.0
 engine_version_min=1.15.0

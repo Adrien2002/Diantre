@@ -17,7 +17,13 @@ from dungeon_themes import THEMES, write_palette, dress_layers, add_details
 
 ROOT = Path(__file__).resolve().parents[1] / "diantre"
 SIZE = 36
-GRID = 4
+GRID = 6
+REGION_SIZE = GRID * SIZE
+MAP_SIZE = REGION_SIZE + 16
+PATH_RULES = dict(doors_max=2, door_spacing_min=5,
+                  main_path_length_min=26, main_path_length_max=30,
+                  main_path_attempts_max=5000, branch_length_min=4,
+                  branch_length_max=6, branches_per_door_level_max=3)
 LEVEL_TILE = 4096
 PORT_TILE = 4100
 LAYERS = ("background", "background_fringe", "object", "topology", "collision")
@@ -322,9 +328,9 @@ class Complex:
                 f"orientation=isometric\ntileset={self.theme['palette']}\nhero_pos=18,18\n"
                 f"procgen_type=normal\nprocgen_unique_status={unique}\n")
         self.events.append(marker_events())
-        enemy=(f"[enemy]\ntype=enemy\nlocation=3,3,30,30\ncategory=diantre_depth_{self.floor}\n"
-               "number=5,9\nspawn_level=default\n")
-        return serialize(header,data,self.events+[enemy]),data
+        protected=[*self.reserved,*self.props,*(p for door in self.doors for p in door),*PORTS]
+        enemies=encounter_groups(self.floor,data,self.rng,protected)
+        return serialize(header,data,self.events+enemies),data
 
 
 def serialize(header,data,events):
@@ -332,6 +338,28 @@ def serialize(header,data,events):
     for name in LAYERS:
         parts.append(f"[layer]\ntype={name}\ndata=\n"+"\n".join(",".join(map(str,r)) for r in data[name])+"\n")
     return "\n".join(parts+events).rstrip()+"\n"
+
+
+def encounter_groups(floor,data,rng,protected=()):
+    """Two small encounters in separate pockets, not one map-wide scatter.
+
+    Keep the previous mean of seven enemies per normal sector. Larger floors
+    provide more encounters; population inside a local pocket stays at 3–4.
+    Native spawning still checks each selected tile against the collider.
+    """
+    candidates=[];c=data['collision']
+    for y in range(4,SIZE-4):
+        for x in range(4,SIZE-4):
+            if c[y][x]!=0 or any(abs(x-px)+abs(y-py)<4 for px,py in protected):continue
+            count=sum(c[yy][xx]==0 for yy in range(y-3,y+4) for xx in range(x-3,x+4))
+            if count>=16:candidates.append((x,y))
+    assert candidates,('No encounter pocket',floor)
+    rng.shuffle(candidates);anchor=candidates[0]
+    first=max(candidates,key=lambda p:(p[0]-anchor[0])**2+(p[1]-anchor[1])**2)
+    second=max(candidates,key=lambda p:(p[0]-first[0])**2+(p[1]-first[1])**2)
+    assert (second[0]-first[0])**2+(second[1]-first[1])**2>=18**2,('Encounter pockets too close',floor,first,second)
+    return [f'[enemy]\ntype=enemy\nlocation={x-3},{y-3},7,7\ncategory=diantre_depth_{floor}\nnumber=3,4\nspawn_level=default\n'
+            for x,y in (first,second)]
 
 
 def install_copy(source,destination,floor):
@@ -354,6 +382,11 @@ def install_copy(source,destination,floor):
     sections=parse(destination);data=layers(sections);dress_layers(floor,data)
     header=text.split('[layer]',1)[0].strip()
     other=[b for b in re.split(r'\n(?=\[)',text) if b.startswith(('[event]','[enemy]','[npc]'))]
+    if kind=='normal':
+        protected=[tuple(map(int,s['location'].split(',')[:2])) for s in sections if s.get('tooltip')]
+        other=[b for b in other if not b.startswith('[enemy]')]
+        seed=int(hashlib.sha256((str(floor)+source.stem).encode()).hexdigest()[:12],16)
+        other.extend(encounter_groups(floor,data,random.Random(seed),protected))
     destination.write_text(serialize(header,data,other))
 
 
@@ -421,23 +454,26 @@ def main():
         loop_scripts(floor,parse(dest/'links_0.txt'))
         changed.extend(sorted((ROOT/f"scripts/generation/f{floor}").glob('*.txt')))
         root=ROOT/f"maps/iron_labyrinth_f{floor}.txt"
-        sections=parse(root);data=layers(sections)
-        data['topology']=[[0]*len(data['collision'][0]) for _ in data['collision']]
+        sections=parse(root)
+        data={name:[[3 if name=='collision' else 0]*MAP_SIZE for _ in range(MAP_SIZE)] for name in LAYERS}
         header=next(s for s in sections if s['section']=='header')
+        header['width']=header['height']=str(MAP_SIZE)
         header['tileset']=theme['palette'];header['title']=f"{theme['title']}: Level {floor}"
         h="[header]\n"+"\n".join(f"{k}={v}" for k,v in header.items() if k not in ('section','mapmods'))+"\n"
         raw_events=[b for b in re.split(r"\n(?=\[)",root.read_text()) if b.startswith('[event]') and 'type=diantre_exploration_init' not in b]
+        raw_events=[re.sub(r'^location=.*$',f'location=0,0,{REGION_SIZE},{REGION_SIZE}',b,flags=re.M)
+                    if 'procgen_filename=' in b else b for b in raw_events]
         raw_events.append(event(type="diantre_exploration_init",location="0,0,1,1",activate="on_load",script=f"scripts/generation/f{floor}/init.txt"))
         root.write_text(serialize(h,data,raw_events));changed.append(root)
         rules=ROOT/f"maps/procgen_rules/iron_labyrinth_f{floor}.txt"
-        settings=rules.read_text().split('[chunks]')[0]
+        settings='[settings]\n'+''.join(f'{k}={v}\n' for k,v in PATH_RULES.items())+'\n'
         rules.write_text(settings+'[chunks]\n'+''.join(f"filename={p.relative_to(ROOT).as_posix()}\n" for p in sorted(dest.glob('*.txt'))));changed.append(rules)
     report=Path(__file__).resolve().parents[1]/'docs/exploration-metrics.json'
-    report.write_text(json.dumps({"complexes":metrics,"extra_loop_chance_percent":40,
+    report.write_text(json.dumps({"complexes":metrics,"grid":GRID,"region_size":REGION_SIZE,"path_rules":PATH_RULES,"extra_loop_chance_percent":40,
                                  "loop_rule":"one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"},indent=2)+"\n")
     manifest_path=ROOT/'ASSET_MANIFEST.json';manifest=json.loads(manifest_path.read_text())
     for key in removed:manifest['files'].pop(key,None)
-    note="Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data."
+    note="Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
     for p in changed:
         key=p.relative_to(ROOT).as_posix();record=manifest['files'].get(key,{"sources":[],"changes":[]})
         raw=p.read_bytes();record.update(sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw))

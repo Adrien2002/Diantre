@@ -961,6 +961,18 @@
       "inner_chapel": false
     }
   ],
+  "grid": 6,
+  "region_size": 216,
+  "path_rules": {
+    "doors_max": 2,
+    "door_spacing_min": 5,
+    "main_path_length_min": 26,
+    "main_path_length_max": 30,
+    "main_path_attempts_max": 5000,
+    "branch_length_min": 4,
+    "branch_length_max": 6,
+    "branches_per_door_level_max": 3
+  },
   "extra_loop_chance_percent": 40,
   "loop_rule": "one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"
 }

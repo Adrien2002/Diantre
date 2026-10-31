@@ -235,13 +235,6 @@ location=24,22,1,1
 activate=on_load
 soundfx=soundfx/environment/open_fire_loop.ogg
 
-[enemy]
-type=enemy
-location=3,3,30,30
-category=diantre_depth_3
-number=5,9
-spawn_level=default
-
 [event]
 type=generation_marker
 location=18,18,1,1
@@ -262,3 +255,17 @@ location=18,18,1,1
 activate=on_load
 procgen_door_level=2
 mapmod=topology,18,18,4098
+
+[enemy]
+type=enemy
+location=1,28,7,7
+category=diantre_depth_3
+number=3,4
+spawn_level=default
+
+[enemy]
+type=enemy
+location=28,1,7,7
+category=diantre_depth_3
+number=3,4
+spawn_level=default

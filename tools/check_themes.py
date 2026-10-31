@@ -8,6 +8,7 @@ from PIL import Image
 from check_surface import parse,layers,reachable
 from dungeon_themes import ROOT,THEMES,read_palette
 from check_exploration import apply_mods,neighbours
+from build_exploration import MAP_SIZE, REGION_SIZE
 
 
 def main():
@@ -29,6 +30,9 @@ def main():
         root=ROOT/f'maps/iron_labyrinth_f{floor}.txt'
         header=next(s for s in parse(root) if s['section']=='header')
         assert header['tileset']==theme['palette'] and header['title']==f"{theme['title']}: Level {floor}"
+        assert int(header['width'])==int(header['height'])==MAP_SIZE
+        region=next(s for s in parse(root) if 'procgen_filename' in s)
+        assert region['location']==f'0,0,{REGION_SIZE},{REGION_SIZE}'
         folder=ROOT/f'maps/iron_labyrinth/exploration/f{floor}'
         for path in sorted(folder.glob('*.txt')):
             ss=parse(path);header=next(s for s in ss if s['section']=='header');data=layers(ss)

@@ -68,7 +68,7 @@ def write_palette(floor):
         tiles[marker]=('images/tilesets/tileset_ruins.png',[0,0,1,1,0,0])
     groups=defaultdict(list)
     for tile,(image,coords) in sorted(tiles.items()):groups[image].append((tile,coords))
-    parts=[f'# Diantre 0.7.0: {theme["id"]}; native atlas images unchanged.']
+    parts=[f'# Diantre 0.8.0: {theme["id"]}; native atlas images unchanged.']
     for image,entries in groups.items():
         parts.extend(['','[tileset]',f'img={image}'])
         for tile,coords in entries:

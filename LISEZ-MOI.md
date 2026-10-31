@@ -1,8 +1,19 @@
-# Diantre 0.7.0 — ruines, cavernes et cryptes
+# Diantre 0.8.0 — grands étages et rencontres dispersées
 
 Le cœur du mod est la qualité de la génération : varier les espaces, les
 parcours et les découvertes entre les parties. Les formes de salles restent
 libres de changer au fil du développement.
+
+Les trois étages utilisent maintenant une région de 216 × 216 cases : jusqu’à
+36 secteurs, contre 16 auparavant, soit une emprise multipliée par 2,25. Le
+parcours principal est allongé et accompagné de ramifications. Dans chaque
+secteur ordinaire, deux petites zones éloignées accueillent chacune trois à
+quatre ennemis. L’XP des ennemis reste inchangée. La référence et les limites
+de cette adaptation de Diablo sont décrites dans
+[`docs/REFERENCE-Diablo.md`](docs/REFERENCE-Diablo.md).
+
+Les essais dans le moteur de cet agrandissement sont en cours. Ce point de
+sauvegarde ne constitue pas encore le bilan final de la 0.8.0.
 
 ## Trois environnements actuels
 

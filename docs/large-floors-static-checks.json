@@ -1,0 +1,128 @@
+{
+  "exploration": {
+    "complex_configurations": 4320,
+    "families": 8,
+    "status_names_checked": 627,
+    "distinct_complex_collisions": 96,
+    "two_seal_puzzles": 12,
+    "stage_safe_candidate_edges": 180,
+    "sealed_room_link_checks": 1080
+  },
+  "themes": {
+    "themes": [
+      {
+        "floor": 1,
+        "theme": "ruins",
+        "palette": "tilesetdefs/diantre_dungeon.txt",
+        "complexes": 32,
+        "distinct_shapes": 32,
+        "decorative_obstacles": 122,
+        "rail_or_nave_cells": 0,
+        "inner_chapels": 0
+      },
+      {
+        "floor": 2,
+        "theme": "caverns",
+        "palette": "tilesetdefs/diantre_caverns.txt",
+        "complexes": 32,
+        "distinct_shapes": 32,
+        "decorative_obstacles": 128,
+        "rail_or_nave_cells": 206,
+        "inner_chapels": 0
+      },
+      {
+        "floor": 3,
+        "theme": "crypts",
+        "palette": "tilesetdefs/diantre_crypts.txt",
+        "complexes": 32,
+        "distinct_shapes": 32,
+        "decorative_obstacles": 128,
+        "rail_or_nave_cells": 412,
+        "inner_chapels": 12
+      }
+    ],
+    "asset_hashes_checked": 1829,
+    "opaque_black_structural_faces": 0
+  },
+  "encounters": {
+    "active_floors": 3,
+    "modules": 139,
+    "enemy_groups": 221,
+    "fixed_pools": {
+      "1": [
+        {
+          "file": "lvl1_goblin_runner.txt",
+          "native_level": 1
+        },
+        {
+          "file": "lvl1_goblin_scamp.txt",
+          "native_level": 1
+        },
+        {
+          "file": "lvl1_skeleton_cracked.txt",
+          "native_level": 1
+        },
+        {
+          "file": "lvl1_zombie_rotting.txt",
+          "native_level": 1
+        }
+      ],
+      "2": [
+        {
+          "file": "lvl2_goblin.txt",
+          "native_level": 2
+        },
+        {
+          "file": "lvl2_goblin_charger.txt",
+          "native_level": 2
+        },
+        {
+          "file": "lvl2_goblin_spearman.txt",
+          "native_level": 2
+        },
+        {
+          "file": "lvl2_skeleton.txt",
+          "native_level": 2
+        },
+        {
+          "file": "lvl2_skeleton_archer.txt",
+          "native_level": 2
+        },
+        {
+          "file": "lvl2_zombie.txt",
+          "native_level": 2
+        }
+      ],
+      "3": [
+        {
+          "file": "lvl3_skeleton_fire_mage.txt",
+          "native_level": 3
+        },
+        {
+          "file": "lvl3_skeleton_ice_mage.txt",
+          "native_level": 3
+        },
+        {
+          "file": "lvl3_skeleton_knight.txt",
+          "native_level": 3
+        },
+        {
+          "file": "lvl3_skeleton_sniper.txt",
+          "native_level": 3
+        },
+        {
+          "file": "lvl3_zombie_bloodthirsty.txt",
+          "native_level": 3
+        },
+        {
+          "file": "lvl3_zombie_brute.txt",
+          "native_level": 3
+        },
+        {
+          "file": "lvl3_zombie_iceclaw.txt",
+          "native_level": 3
+        }
+      ]
+    }
+  }
+}

@@ -14,6 +14,7 @@ import json
 import re
 
 from check_surface import parse, layers, reachable
+from build_exploration import GRID, REGION_SIZE
 
 ROOT=Path(__file__).resolve().parents[1]/'diantre'
 PORTS=((18,0),(18,35),(0,18),(35,18))
@@ -117,10 +118,11 @@ def check_assets():
                 assert all(d['background'][y][25] for y in (28,29)),'No floor under opened gate'
         roll=parse(ROOT/f'scripts/generation/f{floor}/roll.txt')
         apply=parse(ROOT/f'scripts/generation/f{floor}/apply.txt')
-        assert len(roll)==148 and len(apply)==24
+        edges=2*GRID*(GRID-1);candidates=3*edges
+        assert len(roll)==2*candidates+4 and len(apply)==edges
         assert roll[0].get('random_status')=='clear'
-        assert [s.get('random_status') for s in roll[73:76]]==['roll','set','clear']
-        assert all(s.get('random_status','').startswith('append,') for s in roll[1:73])
+        assert [s.get('random_status') for s in roll[candidates+1:candidates+4]]==['roll','set','clear']
+        assert all(s.get('random_status','').startswith('append,') for s in roll[1:candidates+1])
         for s in roll:
             if 'requires_tile' not in s:continue
             req=s['requires_tile'].split(',')
@@ -134,14 +136,14 @@ def check_assets():
             sectors=set()
             for mod in s['mapmods']:
                 name,x,y,tile=mod.split(',');x,y,tile=int(x),int(y),int(tile)
-                assert 0<=x<144 and 0<=y<144
+                assert 0<=x<REGION_SIZE and 0<=y<REGION_SIZE
                 sectors.add((x//36,y//36))
                 if name=='topology':assert tile in (0,4100)
                 assert not (25<=x%36<=33 and 25<=y%36<=33)
             assert len(sectors)==2,'Both ends must open atomically'
     return {'complex_configurations':combinations,'families':len(families),'status_names_checked':check_status_hashes(),
             'distinct_complex_collisions':len(geometries),'two_seal_puzzles':puzzles,
-            'stage_safe_candidate_edges':72,'sealed_room_link_checks':sealed_checks}
+            'stage_safe_candidate_edges':3*2*GRID*(GRID-1),'sealed_room_link_checks':sealed_checks}
 
 
 def check_observed(observed,cache,avatar):

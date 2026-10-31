@@ -255,7 +255,14 @@ mapmod=topology,18,18,4098
 
 [enemy]
 type=enemy
-location=3,3,30,30
+location=2,26,7,7
 category=diantre_depth_3
-number=5,9
+number=3,4
+spawn_level=default
+
+[enemy]
+type=enemy
+location=28,2,7,7
+category=diantre_depth_3
+number=3,4
 spawn_level=default
