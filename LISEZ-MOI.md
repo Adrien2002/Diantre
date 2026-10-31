@@ -1,29 +1,33 @@
-# Diantre 0.8.3 — génération dense et hameau corrigé
+# Diantre 0.8.4 — étages plus compacts et descente visible
 
-Le cœur du mod reste la qualité de la génération : les lieux doivent
-rester variés, cohérents et agréables à explorer. Le générateur doit
-se faire oublier derrière l'architecture.
+Le cœur du mod reste la qualité de la génération : les lieux doivent être
+variés, agréables à explorer, et le générateur doit se faire oublier.
 
-Les donjons conservent leurs trois environnements et la surface de 216 × 216
-cases introduite en 0.8.0. Depuis 0.8.1, les secteurs ordinaires prévoient
-11 à 19 ennemis répartis entre des solitaires et des groupes variables ;
-leur puissance et leur XP restent fixes par profondeur. Depuis 0.8.2,
-les anciennes fausses dalles infranchissables sont représentées par de
-véritables blocs maçonnés.
+Les trois étages actuels utilisent désormais **5 × 5 secteurs de 36 cases**
+(180 × 180 cases de génération, dans une carte technique de 196 × 196),
+contre 6 × 6 auparavant. Le parcours principal est paramétré sur **18 à 21
+secteurs** au lieu de 26 à 30. Les ramifications et les boucles sûres sont
+conservées, ainsi que les mécanismes obligatoires et la progression par clés.
 
-La **0.8.3** corrige deux points visuels du hameau : les cabanes utilisent
-l'assemblage non étiré du village officiel Black Oak City de Flare, et le
-pied de falaise est dégagé au niveau de l'entrée minière sans changer la
-collision du portail. Le moteur Flare standard, les atlas d'origine et les
-sauvegardes personnelles ne sont pas modifiés.
+Les rencontres ordinaires restent diffuses, avec **11 à 19 ennemis par
+secteur ordinaire**, répartis en solitaires et petits groupes. La puissance
+et les XP restent fixes selon la profondeur, sans adaptation au personnage.
 
-**Statut :** régénération et contrôles statiques réussis avec GitHub Actions,
-dont 4 096 assemblages du hameau. Le rendu réel de ces corrections doit
-encore être confirmé par des captures en jeu sur **une nouvelle partie**.
+La **0.8.4** corrige aussi l'absence des dessins d'escaliers dans les
+modules de sortie : le passage interactif existait, mais les **cinq tuiles
+de descente natives** étaient perdues dans la conversion des anciennes cartes.
+Ces tuiles sont restaurées pour chaque étage ; la zone immédiate est dégagée
+des blocs qui masquaient le passage. Aucune image native n'est modifiée.
 
-Voir le [bilan du hameau 0.8.3](docs/VALIDATION-hameau-0.8.3.md),
-le [bilan architectural 0.8.2](docs/VALIDATION-architecture-0.8.2.md)
-et le [bilan de densité 0.8.1](docs/VALIDATION-densite-0.8.1.md).
+**Statut :** génération et contrôles statiques réussis sur GitHub Actions.
+Le rendu des escaliers et le bon compromis de durée d'exploration devront
+être jugés en jeu sur **une nouvelle partie**. Une validation statique ne
+remplace pas une série de donjons générés dans Flare ni une partie jouée.
+
+Voir le [bilan 0.8.4](docs/VALIDATION-compacite-escaliers-0.8.4.md),
+ainsi que les bilans du [hameau 0.8.3](docs/VALIDATION-hameau-0.8.3.md),
+de [l'architecture 0.8.2](docs/VALIDATION-architecture-0.8.2.md)
+et de [la population 0.8.1](docs/VALIDATION-densite-0.8.1.md).
 
 ## Trois environnements actuels
 
