@@ -1,22 +1,27 @@
-# Diantre 0.8.0 — grands étages et rencontres dispersées
+# Diantre 0.8.1 — peuplement diffus et décors plus présents
 
-Le cœur du mod est la qualité de la génération : varier les espaces, les
-parcours et les découvertes entre les parties. Les formes de salles restent
-libres de changer au fil du développement.
+Le cœur du mod reste la qualité de la génération : varier les espaces, les
+parcours et les découvertes entre les parties. Le générateur doit se faire
+oublier derrière les lieux produits.
 
-Les trois étages utilisent maintenant une région de 216 × 216 cases : jusqu’à
-36 secteurs, contre 16 auparavant, soit une emprise multipliée par 2,25. Le
-parcours principal est allongé et accompagné de ramifications. Dans chaque
-secteur ordinaire, deux petites zones éloignées accueillent chacune trois à
-quatre ennemis. L’XP des ennemis reste inchangée. La référence et les limites
-de cette adaptation de Diablo sont décrites dans
-[`docs/REFERENCE-Diablo.md`](docs/REFERENCE-Diablo.md).
+Les trois étages utilisent une région de 216 × 216 cases, jusqu'à 36 secteurs.
+Le parcours principal reste allongé et accompagné de ramifications.
+Chaque secteur ordinaire reçoit maintenant **11 à 19 ennemis**, répartis en
+plusieurs zones natives de 5 × 5 cases avec solitaires, duos et petits groupes
+allant jusqu'à quatre. Ce nombre dépend des cases praticables admissibles.
+Leur niveau et leur XP restent fixes selon la profondeur.
 
-Trente étages frais ont été vérifiés dans le moteur : 157 à 218 ennemis par
-étage dans cet échantillon, avec les budgets d’XP nécessaires aux niveaux 2,
-3 puis 4 après nettoyage des trois étages. Les interactions et les sauvegardes
-sont vérifiées, ainsi que le chargement avec le moteur standard. Le bilan et
-les limites sont dans [`docs/VALIDATION-grands-etages.md`](docs/VALIDATION-grands-etages.md).
+Le décor utilise davantage d'objets des atlas natifs, sans modification des
+images. Il ne s'agit pas encore d'une passe complète de mobilier thématique
+ni d'une correction des incohérences architecturales montrées en captures.
+
+**Validation :** la 0.8.1 a été régénérée et vérifiée statiquement dans
+GitHub Actions, mais aucune nouvelle campagne native ou partie complète n'a
+encore validé la densité effectivement ressentie. Les 30 générations natives
+et la mesure de 157 à 218 ennemis concernent **la 0.8.0 uniquement**.
+Voir [bilan 0.8.1](docs/VALIDATION-densite-0.8.1.md),
+[validation historique 0.8.0](docs/VALIDATION-grands-etages.md) et
+[étude du moteur de Diablo I](docs/ETUDE-DevilutionX-generation-2026-10-31.md).
 
 ## Trois environnements actuels
 
@@ -96,13 +101,12 @@ python3 tools/check_encounters.py
 du moteur, associé à son cache de carte et à la sauvegarde de test. Le contrôle
 porte sur le terrain et distingue les occupants temporaires des obstacles.
 
-Les anciens outils de surface et de validation des modules d’origine restent
-disponibles. Les résultats des essais sont consignés dans
-`docs/VALIDATION-grands-etages.md` ; les essais de la 0.7.0 restent dans
-`docs/VALIDATION-ambiances.md` et ceux de la 0.6.0 dans
-`docs/VALIDATION-generation.md`. Le contrôle des pixels de palettes utilise
-Pillow uniquement pour le développement. Le travail se poursuit directement
-sur `main`.
+Les anciens outils de surface et de validation restent disponibles. Le bilan
+statique de la version actuelle est dans
+[VALIDATION-densite-0.8.1.md](docs/VALIDATION-densite-0.8.1.md). Les essais
+effectués réellement avec Flare dans VALIDATION-grands-etages.md concernent
+la version 0.8.0, pas la 0.8.1. Le contrôle des pixels des palettes demande
+Pillow pendant le développement. Le travail reste directement sur main.
 
 ## Architecture et ressources
 
