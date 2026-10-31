@@ -14,5 +14,9 @@
 - Utiliser des sauvegardes de test séparées de celles du joueur. Créer une
   nouvelle partie entre les séries de génération.
 - Garder les graphismes natifs et un mod jouable avec le moteur Flare standard.
+- La difficulté des ennemis hostiles dépend de l’étage, jamais du niveau ou des
+  caractéristiques du héros. Prévoir un boss aux étages 5, 10, 15 et 20.
+  Utiliser la campagne Empyrean comme référence de progression ; distinguer les
+  candidats de conception des rencontres effectivement intégrées et testées.
 - Communiquer en français. Donner le commit publié et les limites concrètes
   des vérifications effectuées.

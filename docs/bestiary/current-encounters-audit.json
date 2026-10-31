@@ -1,0 +1,81 @@
+{
+  "active_floors": 3,
+  "modules": 144,
+  "enemy_groups": 123,
+  "fixed_pools": {
+    "1": [
+      {
+        "file": "lvl1_goblin_runner.txt",
+        "native_level": 1
+      },
+      {
+        "file": "lvl1_goblin_scamp.txt",
+        "native_level": 1
+      },
+      {
+        "file": "lvl1_skeleton_cracked.txt",
+        "native_level": 1
+      },
+      {
+        "file": "lvl1_zombie_rotting.txt",
+        "native_level": 1
+      }
+    ],
+    "2": [
+      {
+        "file": "lvl2_goblin.txt",
+        "native_level": 2
+      },
+      {
+        "file": "lvl2_goblin_charger.txt",
+        "native_level": 2
+      },
+      {
+        "file": "lvl2_goblin_spearman.txt",
+        "native_level": 2
+      },
+      {
+        "file": "lvl2_skeleton.txt",
+        "native_level": 2
+      },
+      {
+        "file": "lvl2_skeleton_archer.txt",
+        "native_level": 2
+      },
+      {
+        "file": "lvl2_zombie.txt",
+        "native_level": 2
+      }
+    ],
+    "3": [
+      {
+        "file": "lvl3_skeleton_fire_mage.txt",
+        "native_level": 3
+      },
+      {
+        "file": "lvl3_skeleton_ice_mage.txt",
+        "native_level": 3
+      },
+      {
+        "file": "lvl3_skeleton_knight.txt",
+        "native_level": 3
+      },
+      {
+        "file": "lvl3_skeleton_sniper.txt",
+        "native_level": 3
+      },
+      {
+        "file": "lvl3_zombie_bloodthirsty.txt",
+        "native_level": 3
+      },
+      {
+        "file": "lvl3_zombie_brute.txt",
+        "native_level": 3
+      },
+      {
+        "file": "lvl3_zombie_iceclaw.txt",
+        "native_level": 3
+      }
+    ]
+  }
+}

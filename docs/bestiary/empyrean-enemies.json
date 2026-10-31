@@ -1,0 +1,5477 @@
+{
+  "source_repository": "https://github.com/flareteam/flare-game",
+  "source_revision": "af6eee6d339ac98011864bfe89da837fe7769c28",
+  "scope": "Empyrean lvl* variants, including inherited fields and spawn wrappers; excludes adaptive il_* enemies and player summons",
+  "map_matching": "Possible category/level matches and event spawns outside Iron Labyrinth; not chronology or guaranteed appearances",
+  "enemies": [
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl1_skeleton_cracked.txt",
+      "name": "Cracked Skeleton",
+      "level": 1,
+      "rarity": "common",
+      "hp": 60,
+      "categories": [
+        "skeleton",
+        "undead",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "60",
+        "accuracy": "90",
+        "avoidance": "10",
+        "poise": "15",
+        "dmg_melee_min": "10",
+        "dmg_melee_max": "20",
+        "absorb_min": "1",
+        "absorb_max": "1"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_camp.txt",
+          "title": "Goblin Camp",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/perdition_mines.txt",
+          "title": "Perdition Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/salted_field.txt",
+          "title": "Salted Field",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stonewood.txt",
+          "title": "Stonewood",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl1_zombie_raised.txt",
+      "name": "Cursed Zombie",
+      "level": 1,
+      "rarity": "common",
+      "hp": 30,
+      "categories": [
+        "zombie_raised"
+      ],
+      "stats": {
+        "hp": "30",
+        "accuracy": "80",
+        "avoidance": "10",
+        "poise": "20",
+        "dmg_melee_min": "15",
+        "dmg_melee_max": "20"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl1_goblin_runner.txt",
+      "name": "Goblin Runner",
+      "level": 1,
+      "rarity": "uncommon",
+      "hp": 60,
+      "categories": [
+        "goblin_charger",
+        "goblin",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "60",
+        "accuracy": "90",
+        "avoidance": "10",
+        "poise": "15",
+        "dmg_melee_min": "5",
+        "dmg_melee_max": "10",
+        "absorb_min": "1",
+        "absorb_max": "1"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,168,1"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_camp.txt",
+          "title": "Goblin Camp",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_cave.txt",
+          "title": "Goblin Cave",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/salted_field.txt",
+          "title": "Salted Field",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stonewood.txt",
+          "title": "Stonewood",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl1_goblin_scamp.txt",
+      "name": "Goblin Scamp",
+      "level": 1,
+      "rarity": "common",
+      "hp": 50,
+      "categories": [
+        "goblin",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "50",
+        "accuracy": "85",
+        "avoidance": "10",
+        "poise": "10",
+        "dmg_melee_min": "10",
+        "dmg_melee_max": "15"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_camp.txt",
+          "title": "Goblin Camp",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_cave.txt",
+          "title": "Goblin Cave",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/salted_field.txt",
+          "title": "Salted Field",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stonewood.txt",
+          "title": "Stonewood",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl1_zombie_rotting.txt",
+      "name": "Rotting Zombie",
+      "level": 1,
+      "rarity": "common",
+      "hp": 60,
+      "categories": [
+        "zombie",
+        "undead",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "60",
+        "accuracy": "80",
+        "avoidance": "10",
+        "poise": "20",
+        "dmg_melee_min": "15",
+        "dmg_melee_max": "20"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_camp.txt",
+          "title": "Goblin Camp",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/perdition_mines.txt",
+          "title": "Perdition Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/river_trail.txt",
+          "title": "River Trail",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/salted_field.txt",
+          "title": "Salted Field",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stonewood.txt",
+          "title": "Stonewood",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl2_goblin.txt",
+      "name": "Goblin",
+      "level": 2,
+      "rarity": "common",
+      "hp": 75,
+      "categories": [
+        "goblin",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "75",
+        "accuracy": "90",
+        "avoidance": "15",
+        "poise": "13",
+        "dmg_melee_min": "25",
+        "dmg_melee_max": "30"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/merrimead_swamp.txt",
+          "title": "Merrimead Swamp",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl2_goblin_charger.txt",
+      "name": "Goblin Charger",
+      "level": 2,
+      "rarity": "uncommon",
+      "hp": 85,
+      "categories": [
+        "goblin_charger",
+        "goblin",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "85",
+        "accuracy": "95",
+        "avoidance": "15",
+        "poise": "18",
+        "dmg_melee_min": "20",
+        "dmg_melee_max": "25",
+        "absorb_min": "2",
+        "absorb_max": "2"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,168,1"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/merrimead_swamp.txt",
+          "title": "Merrimead Swamp",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl2_goblin_chief.txt",
+      "name": "Goblin Chief",
+      "level": 2,
+      "rarity": "rare",
+      "hp": 260,
+      "categories": [
+        "goblin_chief"
+      ],
+      "stats": {
+        "hp": "260",
+        "accuracy": "95",
+        "avoidance": "20",
+        "poise": "75",
+        "dmg_ment_min": "60",
+        "dmg_ment_max": "70",
+        "absorb_min": "1",
+        "absorb_max": "2"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,166,1",
+        "ranged,166,5",
+        "on_join_combat,167,100"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_cave.txt",
+          "title": "Goblin Cave",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl2_goblin_spearman.txt",
+      "name": "Goblin Spearman",
+      "level": 2,
+      "rarity": "uncommon",
+      "hp": 75,
+      "categories": [
+        "goblin",
+        "goblin_spearman",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "75",
+        "accuracy": "90",
+        "avoidance": "15",
+        "poise": "13",
+        "dmg_melee_min": "25",
+        "dmg_melee_max": "30",
+        "dmg_ranged_min": "30",
+        "dmg_ranged_max": "35",
+        "absorb_min": "1",
+        "absorb_max": "2"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,165,40"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_camp.txt",
+          "title": "Goblin Camp",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/goblin_cave.txt",
+          "title": "Goblin Cave",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/merrimead_swamp.txt",
+          "title": "Merrimead Swamp",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/salted_field.txt",
+          "title": "Salted Field",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl2_krolan.txt",
+      "name": "Krolan",
+      "level": 2,
+      "rarity": "rare",
+      "hp": 340,
+      "categories": [
+        "krolan"
+      ],
+      "stats": {
+        "hp": "340",
+        "accuracy": "95",
+        "avoidance": "15",
+        "poise": "75",
+        "dmg_melee_min": "55",
+        "dmg_melee_max": "65",
+        "absorb_min": "2",
+        "absorb_max": "2"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,20"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/perdition_mines.txt",
+          "title": "Perdition Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl2_skeleton.txt",
+      "name": "Skeleton",
+      "level": 2,
+      "rarity": "common",
+      "hp": 85,
+      "categories": [
+        "skeleton",
+        "undead",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "85",
+        "accuracy": "95",
+        "avoidance": "15",
+        "poise": "18",
+        "dmg_melee_min": "25",
+        "dmg_melee_max": "35",
+        "absorb_min": "2",
+        "absorb_max": "2"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/family_crypt.txt",
+          "title": "Family Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lochport.txt",
+          "title": "Lochport",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lochport_cemetery.txt",
+          "title": "Lochport Cemetery",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/merrimead_swamp.txt",
+          "title": "Merrimead Swamp",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl2_skeleton_archer.txt",
+      "name": "Skeleton Archer",
+      "level": 2,
+      "rarity": "rare",
+      "hp": 75,
+      "categories": [
+        "skeleton_archer",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "75",
+        "accuracy": "100",
+        "avoidance": "25",
+        "poise": "13",
+        "dmg_melee_min": "20",
+        "dmg_melee_max": "25",
+        "dmg_ranged_min": "30",
+        "dmg_ranged_max": "35",
+        "absorb_min": "1",
+        "absorb_max": "2"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,171,50"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/family_crypt.txt",
+          "title": "Family Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lochport.txt",
+          "title": "Lochport",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lochport_cemetery.txt",
+          "title": "Lochport Cemetery",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/merrimead_swamp.txt",
+          "title": "Merrimead Swamp",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl2_zombie.txt",
+      "name": "Zombie",
+      "level": 2,
+      "rarity": "common",
+      "hp": 85,
+      "categories": [
+        "zombie",
+        "undead",
+        "dungeon",
+        "grassland",
+        "zombie_lvl2"
+      ],
+      "stats": {
+        "hp": "85",
+        "accuracy": "85",
+        "avoidance": "15",
+        "poise": "23",
+        "dmg_melee_min": "30",
+        "dmg_melee_max": "35"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/family_crypt.txt",
+          "title": "Family Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lochport.txt",
+          "title": "Lochport",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lochport_cemetery.txt",
+          "title": "Lochport Cemetery",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lochport_cemetery.txt",
+          "title": "Lochport Cemetery",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/merrimead_swamp.txt",
+          "title": "Merrimead Swamp",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_ardwen.txt",
+      "name": "Ardwen",
+      "level": 3,
+      "rarity": "common",
+      "hp": 440,
+      "categories": [
+        "ardwen"
+      ],
+      "stats": {
+        "hp": "440",
+        "accuracy": "90",
+        "avoidance": "20",
+        "poise": "75",
+        "dmg_melee_min": "75",
+        "dmg_melee_max": "80"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "melee,168,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "emp_ardwen_defeated",
+      "wrapper": false,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_ardwen_quest.txt",
+      "name": "Ardwen",
+      "level": 3,
+      "rarity": "common",
+      "hp": 440,
+      "categories": [
+        "ardwen_quest"
+      ],
+      "stats": {
+        "hp": "440",
+        "accuracy": "90",
+        "avoidance": "20",
+        "poise": "75",
+        "dmg_melee_min": "75",
+        "dmg_melee_max": "80"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "melee,168,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "emp_ardwen_defeated",
+      "wrapper": false,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_zombie_bloodthirsty.txt",
+      "name": "Bloodthirsty Zombie",
+      "level": 3,
+      "rarity": "uncommon",
+      "hp": 110,
+      "categories": [
+        "zombie",
+        "undead",
+        "dungeon",
+        "grassland",
+        "zombie_lvl3"
+      ],
+      "stats": {
+        "hp": "110",
+        "accuracy": "90",
+        "avoidance": "20",
+        "poise": "26",
+        "dmg_melee_min": "45",
+        "dmg_melee_max": "50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,168,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_1.txt",
+          "title": "St. Maria: Mausoleum",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_2.txt",
+          "title": "St. Maria: Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_cursed_grave.txt",
+      "name": "Cursed Grave",
+      "level": 3,
+      "rarity": "common",
+      "hp": 200,
+      "categories": [
+        "cursed_grave"
+      ],
+      "stats": {
+        "avoidance": "0",
+        "hp": "200"
+      },
+      "powers": [
+        "melee,169,100",
+        "ranged,169,100"
+      ],
+      "passive_powers": "170",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/lochport_cemetery.txt",
+          "title": "Lochport Cemetery",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_zombie_iceclaw.txt",
+      "name": "Iceclaw Zombie",
+      "level": 3,
+      "rarity": "uncommon",
+      "hp": 90,
+      "categories": [
+        "zombie",
+        "undead",
+        "dungeon",
+        "grassland",
+        "zombie_lvl3"
+      ],
+      "stats": {
+        "hp": "90",
+        "accuracy": "90",
+        "avoidance": "20",
+        "poise": "26",
+        "dmg_melee_min": "45",
+        "dmg_melee_max": "50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,175,10"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_1.txt",
+          "title": "St. Maria: Mausoleum",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_2.txt",
+          "title": "St. Maria: Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_skeleton_fire_mage.txt",
+      "name": "Skeleton Fire Mage",
+      "level": 3,
+      "rarity": "uncommon",
+      "hp": 90,
+      "categories": [
+        "skeleton_mage",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "fire"
+      ],
+      "stats": {
+        "hp": "90",
+        "accuracy": "100",
+        "avoidance": "25",
+        "poise": "16",
+        "absorb_min": "2",
+        "absorb_max": "2",
+        "dmg_melee_min": "35",
+        "dmg_melee_max": "40",
+        "dmg_ment_min": "45",
+        "dmg_ment_max": "50",
+        "fire_resist": "25",
+        "ice_resist": "-50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "ranged,173,50"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_1.txt",
+          "title": "St. Maria: Mausoleum",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_2.txt",
+          "title": "St. Maria: Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_skeleton_ice_mage.txt",
+      "name": "Skeleton Ice Mage",
+      "level": 3,
+      "rarity": "uncommon",
+      "hp": 90,
+      "categories": [
+        "skeleton_mage",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "ice"
+      ],
+      "stats": {
+        "hp": "90",
+        "accuracy": "100",
+        "avoidance": "25",
+        "poise": "16",
+        "absorb_min": "2",
+        "absorb_max": "2",
+        "dmg_melee_min": "35",
+        "dmg_melee_max": "40",
+        "dmg_ment_min": "45",
+        "dmg_ment_max": "50",
+        "fire_resist": "-50",
+        "ice_resist": "25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,172,25"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_1.txt",
+          "title": "St. Maria: Mausoleum",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_2.txt",
+          "title": "St. Maria: Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_skeleton_knight.txt",
+      "name": "Skeleton Knight",
+      "level": 3,
+      "rarity": "common",
+      "hp": 110,
+      "categories": [
+        "skeleton_knight",
+        "skeleton",
+        "undead",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "110",
+        "accuracy": "100",
+        "avoidance": "20",
+        "poise": "21",
+        "dmg_melee_min": "40",
+        "dmg_melee_max": "50",
+        "absorb_min": "3",
+        "absorb_max": "3"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_1.txt",
+          "title": "St. Maria: Mausoleum",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_2.txt",
+          "title": "St. Maria: Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_skeleton_sniper.txt",
+      "name": "Skeleton Sniper",
+      "level": 3,
+      "rarity": "rare",
+      "hp": 100,
+      "categories": [
+        "skeleton_archer",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "100",
+        "accuracy": "105",
+        "avoidance": "30",
+        "poise": "16",
+        "dmg_melee_min": "35",
+        "dmg_melee_max": "40",
+        "dmg_ranged_min": "45",
+        "dmg_ranged_max": "50",
+        "absorb_min": "2",
+        "absorb_max": "3"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,171,50"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_1.txt",
+          "title": "St. Maria: Mausoleum",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_2.txt",
+          "title": "St. Maria: Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl3_zombie_brute.txt",
+      "name": "Zombie Brute",
+      "level": 3,
+      "rarity": "common",
+      "hp": 110,
+      "categories": [
+        "zombie",
+        "undead",
+        "dungeon",
+        "grassland",
+        "zombie_lvl3"
+      ],
+      "stats": {
+        "hp": "110",
+        "accuracy": "90",
+        "avoidance": "20",
+        "poise": "26",
+        "dmg_melee_min": "45",
+        "dmg_melee_max": "50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_1.txt",
+          "title": "St. Maria: Mausoleum",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_2.txt",
+          "title": "St. Maria: Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl4_cid.txt",
+      "name": "Cid",
+      "level": 4,
+      "rarity": "common",
+      "hp": 460,
+      "categories": [
+        "cid"
+      ],
+      "stats": {
+        "hp": "460",
+        "accuracy": "105",
+        "avoidance": "30",
+        "poise": "75",
+        "absorb_min": "3",
+        "absorb_max": "3",
+        "dmg_melee_min": "80",
+        "dmg_melee_max": "85",
+        "dmg_ment_min": "90",
+        "dmg_ment_max": "95"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "ranged,176,70"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_2.txt",
+          "title": "St. Maria: Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl4_geno.txt",
+      "name": "Geno",
+      "level": 4,
+      "rarity": "common",
+      "hp": 460,
+      "categories": [
+        "geno"
+      ],
+      "stats": {
+        "hp": "460",
+        "accuracy": "105",
+        "avoidance": "30",
+        "poise": "75",
+        "absorb_min": "3",
+        "absorb_max": "3",
+        "dmg_melee_min": "80",
+        "dmg_melee_max": "85",
+        "dmg_ment_min": "90",
+        "dmg_ment_max": "95"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "ranged,176,70"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_1.txt",
+          "title": "St. Maria: Mausoleum",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl4_seagate.txt",
+      "name": "Seagate",
+      "level": 4,
+      "rarity": "common",
+      "hp": 2160,
+      "categories": [
+        "seagate"
+      ],
+      "stats": {
+        "hp": "2160",
+        "accuracy": "105",
+        "avoidance": "25",
+        "poise": "100",
+        "dmg_melee_min": "85",
+        "dmg_melee_max": "95",
+        "absorb_min": "4",
+        "absorb_max": "4"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "melee,179,2"
+      ],
+      "passive_powers": "185,194",
+      "defeat_status": "emp_seagate_defeated",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl4_seagate_tombstone.txt",
+      "name": "Seagate's Tombstone",
+      "level": 4,
+      "rarity": "common",
+      "hp": 1000,
+      "categories": [
+        "seagate_tombstone"
+      ],
+      "stats": {
+        "avoidance": "1000",
+        "hp": "1000",
+        "accuracy": "105",
+        "dmg_ment_min": "45",
+        "dmg_ment_max": "55"
+      },
+      "powers": [
+        "melee,172,1",
+        "ranged,172,5"
+      ],
+      "passive_powers": "170",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/st_maria_3.txt",
+          "title": "St. Maria: Crypt",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl5_antlion.txt",
+      "name": "Antlion",
+      "level": 5,
+      "rarity": "uncommon",
+      "hp": 160,
+      "categories": [
+        "antlion",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "160",
+        "accuracy": "105",
+        "avoidance": "45",
+        "poise": "32",
+        "absorb_min": "6",
+        "absorb_max": "8",
+        "dmg_melee_min": "75",
+        "dmg_melee_max": "85"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,168,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/abandoned_mines.txt",
+          "title": "Abandoned Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/blackmire_mines.txt",
+          "title": "Blackmire Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_amir.txt",
+          "title": "Fort Amir",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl5_antlion_freezer.txt",
+      "name": "Antlion Freezer",
+      "level": 5,
+      "rarity": "uncommon",
+      "hp": 140,
+      "categories": [
+        "antlion",
+        "antlion_ice",
+        "ice",
+        "snowplains"
+      ],
+      "stats": {
+        "hp": "140",
+        "accuracy": "105",
+        "avoidance": "45",
+        "poise": "22",
+        "absorb_min": "5",
+        "absorb_max": "6",
+        "dmg_melee_min": "65",
+        "dmg_melee_max": "70",
+        "dmg_ment_min": "80",
+        "dmg_ment_max": "85",
+        "fire_resist": "-50",
+        "ice_resist": "25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "ranged,172,50"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/abandoned_mines.txt",
+          "title": "Abandoned Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_amir.txt",
+          "title": "Fort Amir",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/grot_lagoon.txt",
+          "title": "Grot Lagoon",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lake_kuuma.txt",
+          "title": "Lake Kuuma",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl5_frozen_corpse.txt",
+      "name": "Frozen Corpse",
+      "level": 5,
+      "rarity": "uncommon",
+      "hp": 160,
+      "categories": [
+        "zombie",
+        "undead",
+        "dungeon",
+        "snowplains"
+      ],
+      "stats": {
+        "hp": "160",
+        "accuracy": "100",
+        "avoidance": "30",
+        "poise": "32",
+        "dmg_melee_min": "75",
+        "dmg_melee_max": "80",
+        "fire_resist": "-25",
+        "ice_resist": "10"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,175,10"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/abandoned_mines.txt",
+          "title": "Abandoned Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/blackmire_mines.txt",
+          "title": "Blackmire Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_amir.txt",
+          "title": "Fort Amir",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/grot_lagoon.txt",
+          "title": "Grot Lagoon",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lake_kuuma.txt",
+          "title": "Lake Kuuma",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl5_goblin_hurler.txt",
+      "name": "Goblin Hurler",
+      "level": 5,
+      "rarity": "uncommon",
+      "hp": 150,
+      "categories": [
+        "goblin",
+        "goblin_spearman",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "150",
+        "accuracy": "105",
+        "avoidance": "30",
+        "poise": "22",
+        "dmg_melee_min": "70",
+        "dmg_melee_max": "75",
+        "dmg_ranged_min": "75",
+        "dmg_ranged_max": "80",
+        "absorb_min": "4",
+        "absorb_max": "5"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "ranged,165,50"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/abandoned_mines.txt",
+          "title": "Abandoned Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/blackmire_mines.txt",
+          "title": "Blackmire Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_amir.txt",
+          "title": "Fort Amir",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/grot_lagoon.txt",
+          "title": "Grot Lagoon",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lake_kuuma.txt",
+          "title": "Lake Kuuma",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl5_goblin_vanguard.txt",
+      "name": "Goblin Vanguard",
+      "level": 5,
+      "rarity": "common",
+      "hp": 150,
+      "categories": [
+        "goblin",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "150",
+        "accuracy": "105",
+        "avoidance": "30",
+        "poise": "22",
+        "dmg_melee_min": "70",
+        "dmg_melee_max": "75"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/abandoned_mines.txt",
+          "title": "Abandoned Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/blackmire_mines.txt",
+          "title": "Blackmire Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_amir.txt",
+          "title": "Fort Amir",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/grot_lagoon.txt",
+          "title": "Grot Lagoon",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lake_kuuma.txt",
+          "title": "Lake Kuuma",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl5_skeleton_frostsword.txt",
+      "name": "Skeleton Frostsword",
+      "level": 5,
+      "rarity": "common",
+      "hp": 160,
+      "categories": [
+        "skeleton",
+        "undead",
+        "dungeon",
+        "snowplains"
+      ],
+      "stats": {
+        "hp": "160",
+        "accuracy": "110",
+        "avoidance": "30",
+        "poise": "27",
+        "dmg_melee_min": "70",
+        "dmg_melee_max": "80",
+        "absorb_min": "5",
+        "absorb_max": "5",
+        "fire_resist": "-25",
+        "ice_resist": "10"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,180,10"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/abandoned_mines.txt",
+          "title": "Abandoned Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/blackmire_mines.txt",
+          "title": "Blackmire Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_amir.txt",
+          "title": "Fort Amir",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/grot_lagoon.txt",
+          "title": "Grot Lagoon",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/lake_kuuma.txt",
+          "title": "Lake Kuuma",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_antlion_burster.txt",
+      "name": "Antlion Burster",
+      "level": 6,
+      "rarity": "rare",
+      "hp": 155,
+      "categories": [
+        "antlion_burster",
+        "antlion_burster_lvl6"
+      ],
+      "stats": {
+        "hp": "155",
+        "accuracy": "125",
+        "avoidance": "35",
+        "poise": "25",
+        "absorb_min": "6",
+        "absorb_max": "7",
+        "dmg_ment_min": "155",
+        "dmg_ment_max": "160",
+        "fire_resist": "25",
+        "ice_resist": "-50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,182,100"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/antlion_nest.txt",
+          "title": "Antlion Nest",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_breach.txt",
+          "title": "The Breach",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_antlion_hatchling.txt",
+      "name": "Antlion Hatchling",
+      "level": 6,
+      "rarity": "common",
+      "hp": 60,
+      "categories": [
+        "antlion_hatchling"
+      ],
+      "stats": {
+        "hp": "60",
+        "accuracy": "100",
+        "avoidance": "60",
+        "poise": "25",
+        "dmg_melee_min": "55",
+        "dmg_melee_max": "60"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/antlion_nest.txt",
+          "title": "Antlion Nest",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_antlion_slasher.txt",
+      "name": "Antlion Slasher",
+      "level": 6,
+      "rarity": "uncommon",
+      "hp": 185,
+      "categories": [
+        "antlion",
+        "dungeon",
+        "snowplains"
+      ],
+      "stats": {
+        "hp": "185",
+        "accuracy": "110",
+        "avoidance": "50",
+        "poise": "35",
+        "absorb_min": "7",
+        "absorb_max": "9",
+        "dmg_melee_min": "90",
+        "dmg_melee_max": "100"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,168,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/antlion_nest.txt",
+          "title": "Antlion Nest",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_pass.txt",
+          "title": "Stormrock Pass",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_breach.txt",
+          "title": "The Breach",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_antlion_spitter.txt",
+      "name": "Antlion Spitter",
+      "level": 6,
+      "rarity": "common",
+      "hp": 165,
+      "categories": [
+        "antlion",
+        "antlion_fire",
+        "fire"
+      ],
+      "stats": {
+        "hp": "165",
+        "accuracy": "110",
+        "avoidance": "50",
+        "poise": "25",
+        "absorb_min": "6",
+        "absorb_max": "7",
+        "dmg_melee_min": "80",
+        "dmg_melee_max": "85",
+        "dmg_ment_min": "95",
+        "dmg_ment_max": "100",
+        "fire_resist": "25",
+        "ice_resist": "-50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "ranged,173,50"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/antlion_nest.txt",
+          "title": "Antlion Nest",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_breach.txt",
+          "title": "The Breach",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_antlion_frostbite.txt",
+      "name": "Frostbite Antlion",
+      "level": 6,
+      "rarity": "common",
+      "hp": 165,
+      "categories": [
+        "antlion",
+        "antlion_ice",
+        "ice",
+        "snowplains"
+      ],
+      "stats": {
+        "hp": "165",
+        "accuracy": "110",
+        "avoidance": "50",
+        "poise": "25",
+        "absorb_min": "6",
+        "absorb_max": "7",
+        "dmg_melee_min": "80",
+        "dmg_melee_max": "85",
+        "dmg_ment_min": "95",
+        "dmg_ment_max": "100",
+        "fire_resist": "-50",
+        "ice_resist": "25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "ranged,172,50"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/antlion_nest.txt",
+          "title": "Antlion Nest",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_pass.txt",
+          "title": "Stormrock Pass",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_breach.txt",
+          "title": "The Breach",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_gruzza.txt",
+      "name": "Gruzza",
+      "level": 6,
+      "rarity": "rare",
+      "hp": 740,
+      "categories": [
+        "gruzza"
+      ],
+      "stats": {
+        "hp": "740",
+        "accuracy": "115",
+        "avoidance": "35",
+        "poise": "75",
+        "dmg_melee_min": "110",
+        "dmg_melee_max": "115",
+        "absorb_min": "6",
+        "absorb_max": "6"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,168,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/fort_amir.txt",
+          "title": "Fort Amir",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_prioss.txt",
+      "name": "Prioss",
+      "level": 6,
+      "rarity": "rare",
+      "hp": 700,
+      "categories": [
+        "prioss"
+      ],
+      "stats": {
+        "hp": "700",
+        "accuracy": "110",
+        "avoidance": "35",
+        "poise": "25",
+        "dmg_melee_min": "115",
+        "dmg_melee_max": "120",
+        "dmg_ranged_min": "120",
+        "dmg_ranged_max": "125",
+        "absorb_min": "5",
+        "absorb_max": "6"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "ranged,184,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/grot_lagoon.txt",
+          "title": "Grot Lagoon",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_skeleton_assassin.txt",
+      "name": "Skeleton Assassin",
+      "level": 6,
+      "rarity": "common",
+      "hp": 175,
+      "categories": [
+        "skeleton_archer",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "snowplains"
+      ],
+      "stats": {
+        "hp": "175",
+        "accuracy": "120",
+        "avoidance": "45",
+        "poise": "25",
+        "dmg_melee_min": "80",
+        "dmg_melee_max": "85",
+        "dmg_ranged_min": "90",
+        "dmg_ranged_max": "95",
+        "absorb_min": "5",
+        "absorb_max": "6"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,3",
+        "ranged,171,50"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_pass.txt",
+          "title": "Stormrock Pass",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl6_skeleton_frost_mage.txt",
+      "name": "Skeleton Frost Mage",
+      "level": 6,
+      "rarity": "uncommon",
+      "hp": 165,
+      "categories": [
+        "skeleton_mage",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "ice",
+        "snowplains"
+      ],
+      "stats": {
+        "hp": "165",
+        "accuracy": "115",
+        "avoidance": "40",
+        "poise": "25",
+        "absorb_min": "5",
+        "absorb_max": "5",
+        "dmg_melee_min": "80",
+        "dmg_melee_max": "85",
+        "dmg_ment_min": "90",
+        "dmg_ment_max": "95",
+        "fire_resist": "-50",
+        "ice_resist": "25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,3",
+        "melee,183,7",
+        "ranged,172,50"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_pass.txt",
+          "title": "Stormrock Pass",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl7_antlion_queen.txt",
+      "name": "Antlion Queen",
+      "level": 7,
+      "rarity": "rare",
+      "hp": 840,
+      "categories": [
+        "antlion_queen"
+      ],
+      "stats": {
+        "hp": "840",
+        "accuracy": "110",
+        "avoidance": "50",
+        "poise": "35",
+        "absorb_min": "8",
+        "absorb_max": "10",
+        "dmg_melee_min": "135",
+        "dmg_melee_max": "145"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,168,3",
+        "melee,179,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/stormrock_ruins.txt",
+          "title": "Stormrock Ruins",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl7_wyvern_fire.txt",
+      "name": "Fire Wyvern",
+      "level": 7,
+      "rarity": "uncommon",
+      "hp": 210,
+      "categories": [
+        "wyvern",
+        "wyvern_fire"
+      ],
+      "stats": {
+        "hp": "210",
+        "accuracy": "125",
+        "avoidance": "55",
+        "poise": "28",
+        "dmg_melee_min": "95",
+        "dmg_melee_max": "100",
+        "dmg_ment_min": "105",
+        "dmg_ment_max": "115",
+        "absorb_min": "6",
+        "absorb_max": "7",
+        "fire_resist": "25",
+        "ice_resist": "-50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,173,60"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_1.txt",
+          "title": "Temple of Mez: Basement",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_2.txt",
+          "title": "Temple of Mez: Main Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_3.txt",
+          "title": "Temple of Mez: Entrance",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl7_wyvern_ice.txt",
+      "name": "Ice Wyvern",
+      "level": 7,
+      "rarity": "uncommon",
+      "hp": 210,
+      "categories": [
+        "wyvern",
+        "wyvern_ice"
+      ],
+      "stats": {
+        "hp": "210",
+        "accuracy": "125",
+        "avoidance": "55",
+        "poise": "28",
+        "dmg_melee_min": "95",
+        "dmg_melee_max": "100",
+        "dmg_ment_min": "105",
+        "dmg_ment_max": "115",
+        "absorb_min": "6",
+        "absorb_max": "7",
+        "fire_resist": "-50",
+        "ice_resist": "25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,172,60"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_1.txt",
+          "title": "Temple of Mez: Basement",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_2.txt",
+          "title": "Temple of Mez: Main Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_3.txt",
+          "title": "Temple of Mez: Entrance",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl7_skeleton_basher.txt",
+      "name": "Skeleton Basher",
+      "level": 7,
+      "rarity": "common",
+      "hp": 210,
+      "categories": [
+        "skeleton_basher",
+        "undead",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "210",
+        "accuracy": "120",
+        "avoidance": "40",
+        "poise": "33",
+        "dmg_melee_min": "100",
+        "dmg_melee_max": "110",
+        "absorb_min": "7",
+        "absorb_max": "7"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,186,10"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_1.txt",
+          "title": "Temple of Mez: Basement",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_2.txt",
+          "title": "Temple of Mez: Main Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl7_vampiric_zombie.txt",
+      "name": "Vampiric Zombie",
+      "level": 7,
+      "rarity": "common",
+      "hp": 210,
+      "categories": [
+        "zombie",
+        "zombie_vampire",
+        "undead",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "210",
+        "accuracy": "110",
+        "avoidance": "40",
+        "poise": "38",
+        "dmg_melee_min": "105",
+        "dmg_melee_max": "110"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,4",
+        "melee,187,6"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_1.txt",
+          "title": "Temple of Mez: Basement",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_2.txt",
+          "title": "Temple of Mez: Main Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl7_wyvern.txt",
+      "name": "Wyvern",
+      "level": 7,
+      "rarity": "common",
+      "hp": 220,
+      "categories": [
+        "wyvern",
+        "wyvern_normal"
+      ],
+      "stats": {
+        "hp": "220",
+        "accuracy": "120",
+        "avoidance": "50",
+        "poise": "33",
+        "dmg_melee_min": "100",
+        "dmg_melee_max": "110",
+        "absorb_min": "7",
+        "absorb_max": "7"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,168,2"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_1.txt",
+          "title": "Temple of Mez: Basement",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_2.txt",
+          "title": "Temple of Mez: Main Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_3.txt",
+          "title": "Temple of Mez: Entrance",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl8_kylana.txt",
+      "name": "Kylana",
+      "level": 8,
+      "rarity": "rare",
+      "hp": 940,
+      "categories": [
+        "kylana"
+      ],
+      "stats": {
+        "hp": "940",
+        "accuracy": "120",
+        "avoidance": "60",
+        "poise": "41",
+        "absorb_min": "9",
+        "absorb_max": "11",
+        "dmg_melee_min": "150",
+        "dmg_melee_max": "160"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "melee,168,5",
+        "melee,179,3"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_2.txt",
+          "title": "Temple of Mez: Main Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl8_mez.txt",
+      "name": "Mez",
+      "level": 8,
+      "rarity": "rare",
+      "hp": 3760,
+      "categories": [
+        "mez"
+      ],
+      "stats": {
+        "hp": "3760",
+        "accuracy": "130",
+        "avoidance": "60",
+        "poise": "100",
+        "dmg_melee_min": "140",
+        "dmg_melee_max": "145",
+        "dmg_ment_min": "150",
+        "dmg_ment_max": "160",
+        "absorb_min": "7",
+        "absorb_max": "8"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,168,2",
+        "melee,189,10",
+        "ranged,190,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "emp_mez_defeated",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_3.txt",
+          "title": "Temple of Mez: Entrance",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl8_zola.txt",
+      "name": "Zola",
+      "level": 8,
+      "rarity": "rare",
+      "hp": 940,
+      "categories": [
+        "zola"
+      ],
+      "stats": {
+        "hp": "940",
+        "accuracy": "110",
+        "avoidance": "40",
+        "poise": "38",
+        "dmg_melee_min": "150",
+        "dmg_melee_max": "155"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,4",
+        "melee,187,6",
+        "ranged,188,8"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/temple_of_mez_1.txt",
+          "title": "Temple of Mez: Basement",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl9_antlion_sprayer.txt",
+      "name": "Antlion Sprayer",
+      "level": 9,
+      "rarity": "uncommon",
+      "hp": 240,
+      "categories": [
+        "antlion",
+        "antlion_fire",
+        "fire",
+        "dungeon",
+        "grassland",
+        "antlion_sprayer"
+      ],
+      "stats": {
+        "hp": "240",
+        "accuracy": "125",
+        "avoidance": "65",
+        "poise": "34",
+        "absorb_min": "9",
+        "absorb_max": "10",
+        "dmg_ment_min": "140",
+        "dmg_ment_max": "145",
+        "fire_resist": "25",
+        "ice_resist": "-50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,191,15",
+        "ranged,191,60"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/mog_caverns.txt",
+          "title": "Mog Caverns",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_highlands.txt",
+          "title": "Nazia Highlands",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_mines.txt",
+          "title": "Nazia Mines",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_mines.txt",
+          "title": "Nazia Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_underground.txt",
+          "title": "Nazia Underground",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/southern_ridge.txt",
+          "title": "Southern Ridge",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl9_goblin_hunter.txt",
+      "name": "Goblin Hunter",
+      "level": 9,
+      "rarity": "uncommon",
+      "hp": 250,
+      "categories": [
+        "goblin",
+        "goblin_spearman",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "250",
+        "accuracy": "125",
+        "avoidance": "50",
+        "poise": "34",
+        "dmg_melee_min": "130",
+        "dmg_melee_max": "135",
+        "dmg_ranged_min": "135",
+        "dmg_ranged_max": "140",
+        "absorb_min": "8",
+        "absorb_max": "9"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,7",
+        "ranged,165,60"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/mog_caverns.txt",
+          "title": "Mog Caverns",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_highlands.txt",
+          "title": "Nazia Highlands",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_mines.txt",
+          "title": "Nazia Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_underground.txt",
+          "title": "Nazia Underground",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/southern_ridge.txt",
+          "title": "Southern Ridge",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl9_goblin_shaker.txt",
+      "name": "Goblin Shaker",
+      "level": 9,
+      "rarity": "common",
+      "hp": 240,
+      "categories": [
+        "goblin",
+        "goblin_shaman",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "240",
+        "accuracy": "130",
+        "avoidance": "55",
+        "poise": "34",
+        "dmg_melee_min": "135",
+        "dmg_melee_max": "145",
+        "dmg_ment_min": "135",
+        "dmg_ment_max": "145",
+        "absorb_min": "8",
+        "absorb_max": "9"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,179,10",
+        "on_join_combat,167,100"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/mog_caverns.txt",
+          "title": "Mog Caverns",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_highlands.txt",
+          "title": "Nazia Highlands",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_mines.txt",
+          "title": "Nazia Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_underground.txt",
+          "title": "Nazia Underground",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/southern_ridge.txt",
+          "title": "Southern Ridge",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl9_goblin_sprinter.txt",
+      "name": "Goblin Sprinter",
+      "level": 9,
+      "rarity": "uncommon",
+      "hp": 290,
+      "categories": [
+        "goblin_charger",
+        "goblin",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "290",
+        "accuracy": "130",
+        "avoidance": "50",
+        "poise": "39",
+        "dmg_melee_min": "125",
+        "dmg_melee_max": "130",
+        "absorb_min": "9",
+        "absorb_max": "9"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,168,1"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/mog_caverns.txt",
+          "title": "Mog Caverns",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_highlands.txt",
+          "title": "Nazia Highlands",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_mines.txt",
+          "title": "Nazia Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_underground.txt",
+          "title": "Nazia Underground",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/southern_ridge.txt",
+          "title": "Southern Ridge",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl9_wyvern_tundra.txt",
+      "name": "Tundra Wyvern",
+      "level": 9,
+      "rarity": "uncommon",
+      "hp": 260,
+      "categories": [
+        "wyvern",
+        "wyvern_ice",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "260",
+        "accuracy": "135",
+        "avoidance": "65",
+        "poise": "34",
+        "dmg_melee_min": "125",
+        "dmg_melee_max": "130",
+        "dmg_ment_min": "135",
+        "dmg_ment_max": "145",
+        "absorb_min": "8",
+        "absorb_max": "9",
+        "fire_resist": "-50",
+        "ice_resist": "25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "melee,183,15"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/mog_caverns.txt",
+          "title": "Mog Caverns",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_highlands.txt",
+          "title": "Nazia Highlands",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_underground.txt",
+          "title": "Nazia Underground",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/southern_ridge.txt",
+          "title": "Southern Ridge",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl10_zombie_leecher.txt",
+      "name": "Leecher Zombie",
+      "level": 10,
+      "rarity": "uncommon",
+      "hp": 285,
+      "categories": [
+        "zombie",
+        "undead",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "285",
+        "accuracy": "125",
+        "avoidance": "55",
+        "poise": "47",
+        "dmg_melee_min": "150",
+        "dmg_melee_max": "155"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,4",
+        "melee,187,6"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/black_oak_city.txt",
+          "title": "Black Oak City",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/black_oak_farm.txt",
+          "title": "Black Oak Farm",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/dilapidated_sewers.txt",
+          "title": "Dilapidated Sewers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_nasu.txt",
+          "title": "Fort Nasu",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl10_minotaur.txt",
+      "name": "Minotaur",
+      "level": 10,
+      "rarity": "common",
+      "hp": 305,
+      "categories": [
+        "minotaur",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "305",
+        "accuracy": "135",
+        "avoidance": "55",
+        "poise": "52",
+        "dmg_melee_min": "150",
+        "dmg_melee_max": "160",
+        "dmg_ranged_min": "145",
+        "dmg_ranged_max": "155",
+        "absorb_min": "10",
+        "absorb_max": "11"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "ranged,192,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/black_oak_city.txt",
+          "title": "Black Oak City",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/black_oak_farm.txt",
+          "title": "Black Oak Farm",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/dilapidated_sewers.txt",
+          "title": "Dilapidated Sewers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_nasu.txt",
+          "title": "Fort Nasu",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl10_minotaur_necromancer.txt",
+      "name": "Minotaur Necromancer",
+      "level": 10,
+      "rarity": "rare",
+      "hp": 385,
+      "categories": [
+        "minotaur",
+        "minotaur_necromancer",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "385",
+        "accuracy": "135",
+        "avoidance": "55",
+        "poise": "52",
+        "absorb_min": "10",
+        "absorb_max": "11",
+        "dmg_ment_min": "140",
+        "dmg_ment_max": "145"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,193,2",
+        "ranged,193,3",
+        "melee,195,1",
+        "ranged,195,2",
+        "on_join_combat,197,100",
+        "melee,197,5",
+        "ranged,197,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/black_oak_city.txt",
+          "title": "Black Oak City",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/black_oak_farm.txt",
+          "title": "Black Oak Farm",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/dilapidated_sewers.txt",
+          "title": "Dilapidated Sewers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_nasu.txt",
+          "title": "Fort Nasu",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl10_mog.txt",
+      "name": "Mog",
+      "level": 10,
+      "rarity": "common",
+      "hp": 1220,
+      "categories": [
+        "mog"
+      ],
+      "stats": {
+        "hp": "1220",
+        "accuracy": "135",
+        "avoidance": "55",
+        "poise": "52",
+        "dmg_melee_min": "180",
+        "dmg_melee_max": "190",
+        "dmg_ranged_min": "175",
+        "dmg_ranged_max": "185",
+        "absorb_min": "10",
+        "absorb_max": "11"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "ranged,192,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/mog_caverns.txt",
+          "title": "Mog Caverns",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/mog_caverns.txt",
+          "title": "Mog Caverns",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl10_skeleton_minion.txt",
+      "name": "Skeleton Minion",
+      "level": 10,
+      "rarity": "common",
+      "hp": 160,
+      "categories": [
+        "lvl10_skeleton_minion"
+      ],
+      "stats": {
+        "hp": "160",
+        "accuracy": "135",
+        "avoidance": "55",
+        "poise": "42",
+        "dmg_melee_min": "115",
+        "dmg_melee_max": "125",
+        "absorb_min": "10",
+        "absorb_max": "10"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "185,194",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl10_skeleton_sharpshooter.txt",
+      "name": "Skeleton Sharpshooter",
+      "level": 10,
+      "rarity": "uncommon",
+      "hp": 275,
+      "categories": [
+        "skeleton_archer",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "275",
+        "accuracy": "140",
+        "avoidance": "65",
+        "poise": "37",
+        "dmg_melee_min": "140",
+        "dmg_melee_max": "145",
+        "dmg_ranged_min": "150",
+        "dmg_ranged_max": "155",
+        "absorb_min": "9",
+        "absorb_max": "10"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "ranged,196,80"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/black_oak_city.txt",
+          "title": "Black Oak City",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/black_oak_farm.txt",
+          "title": "Black Oak Farm",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/dilapidated_sewers.txt",
+          "title": "Dilapidated Sewers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/fort_nasu.txt",
+          "title": "Fort Nasu",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl10_xonun.txt",
+      "name": "Xonun",
+      "level": 10,
+      "rarity": "rare",
+      "hp": 1060,
+      "categories": [
+        "xonun"
+      ],
+      "stats": {
+        "hp": "1060",
+        "accuracy": "135",
+        "avoidance": "60",
+        "poise": "37",
+        "absorb_min": "9",
+        "absorb_max": "9",
+        "dmg_melee_min": "140",
+        "dmg_melee_max": "145",
+        "dmg_ment_min": "150",
+        "dmg_ment_max": "155",
+        "lightning_resist": "-50",
+        "dark_resist": "25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "melee,201,5",
+        "ranged,201,15"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/nazia_mines.txt",
+          "title": "Nazia Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl11_skeleton_blaze.txt",
+      "name": "Blaze Skeleton",
+      "level": 11,
+      "rarity": "uncommon",
+      "hp": 290,
+      "categories": [
+        "skeleton_mage",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "fire"
+      ],
+      "stats": {
+        "hp": "290",
+        "accuracy": "140",
+        "avoidance": "65",
+        "poise": "40",
+        "absorb_min": "10",
+        "absorb_max": "10",
+        "dmg_melee_min": "155",
+        "dmg_melee_max": "160",
+        "dmg_ment_min": "165",
+        "dmg_ment_max": "170",
+        "fire_resist": "50",
+        "ice_resist": "-25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "ranged,173,50",
+        "ranged,203,100"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_1.txt",
+          "title": "Wizard's Tower: Entrance Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_2.txt",
+          "title": "Wizard's Tower: Research Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_3.txt",
+          "title": "Wizard's Tower: Laboratory",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl11_buchi.txt",
+      "name": "Buchi",
+      "level": 11,
+      "rarity": "rare",
+      "hp": 1160,
+      "categories": [
+        "buchi"
+      ],
+      "stats": {
+        "hp": "1160",
+        "accuracy": "135",
+        "avoidance": "75",
+        "poise": "40",
+        "absorb_min": "11",
+        "absorb_max": "12",
+        "dmg_melee_min": "185",
+        "dmg_melee_max": "190",
+        "dmg_ment_min": "200",
+        "dmg_ment_max": "205",
+        "fire_resist": "-25",
+        "ice_resist": "50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "ranged,172,5",
+        "melee,183,10",
+        "ranged,183,2"
+      ],
+      "passive_powers": "",
+      "defeat_status": "emp_nasu_buchi",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/fort_nasu.txt",
+          "title": "Fort Nasu",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl11_sentry_fire.txt",
+      "name": "Fire Sentry",
+      "level": 11,
+      "rarity": "common",
+      "hp": 600,
+      "categories": [
+        "fire_sentry",
+        "sentry"
+      ],
+      "stats": {
+        "avoidance": "0",
+        "hp": "600",
+        "accuracy": "140",
+        "dmg_ment_min": "165",
+        "dmg_ment_max": "170"
+      },
+      "powers": [
+        "melee,206,100",
+        "ranged,206,100"
+      ],
+      "passive_powers": "170",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_1.txt",
+          "title": "Wizard's Tower: Entrance Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_2.txt",
+          "title": "Wizard's Tower: Research Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_3.txt",
+          "title": "Wizard's Tower: Laboratory",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl11_skeleton_frost.txt",
+      "name": "Frost Skeleton",
+      "level": 11,
+      "rarity": "uncommon",
+      "hp": 290,
+      "categories": [
+        "skeleton_mage",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "ice"
+      ],
+      "stats": {
+        "hp": "290",
+        "accuracy": "140",
+        "avoidance": "65",
+        "poise": "40",
+        "absorb_min": "10",
+        "absorb_max": "10",
+        "dmg_melee_min": "155",
+        "dmg_melee_max": "160",
+        "dmg_ment_min": "165",
+        "dmg_ment_max": "170",
+        "ice_resist": "50",
+        "fire_resist": "-25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "ranged,172,50",
+        "ranged,204,100"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_1.txt",
+          "title": "Wizard's Tower: Entrance Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_2.txt",
+          "title": "Wizard's Tower: Research Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_3.txt",
+          "title": "Wizard's Tower: Laboratory",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl11_sentry_ice.txt",
+      "name": "Ice Sentry",
+      "level": 11,
+      "rarity": "common",
+      "hp": 600,
+      "categories": [
+        "ice_sentry",
+        "sentry"
+      ],
+      "stats": {
+        "avoidance": "0",
+        "hp": "600",
+        "accuracy": "140",
+        "dmg_ment_min": "165",
+        "dmg_ment_max": "170"
+      },
+      "powers": [
+        "melee,205,100",
+        "ranged,205,100"
+      ],
+      "passive_powers": "170",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_1.txt",
+          "title": "Wizard's Tower: Entrance Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_2.txt",
+          "title": "Wizard's Tower: Research Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_3.txt",
+          "title": "Wizard's Tower: Laboratory",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl11_skeleton_protector.txt",
+      "name": "Skeleton Protector",
+      "level": 11,
+      "rarity": "common",
+      "hp": 310,
+      "categories": [
+        "skeleton_protector",
+        "undead",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "310",
+        "accuracy": "140",
+        "avoidance": "60",
+        "poise": "45",
+        "dmg_melee_min": "160",
+        "dmg_melee_max": "170",
+        "absorb_min": "11",
+        "absorb_max": "11"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,202,10"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_1.txt",
+          "title": "Wizard's Tower: Entrance Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_2.txt",
+          "title": "Wizard's Tower: Research Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_3.txt",
+          "title": "Wizard's Tower: Laboratory",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl11_antlion_venom.txt",
+      "name": "Venom Antlion",
+      "level": 11,
+      "rarity": "uncommon",
+      "hp": 290,
+      "categories": [
+        "antlion",
+        "dungeon"
+      ],
+      "stats": {
+        "hp": "290",
+        "accuracy": "135",
+        "avoidance": "75",
+        "poise": "40",
+        "absorb_min": "11",
+        "absorb_max": "12",
+        "dmg_melee_min": "155",
+        "dmg_melee_max": "160",
+        "dmg_ment_min": "170",
+        "dmg_ment_max": "175",
+        "lightning_resist": "-25",
+        "dark_resist": "50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,239,5",
+        "ranged,239,10",
+        "ranged,240,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_1.txt",
+          "title": "Wizard's Tower: Entrance Hall",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_2.txt",
+          "title": "Wizard's Tower: Research Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_3.txt",
+          "title": "Wizard's Tower: Laboratory",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl12_cyl.txt",
+      "name": "Cyl",
+      "level": 12,
+      "rarity": "common",
+      "hp": 1340,
+      "categories": [
+        "cyl"
+      ],
+      "stats": {
+        "hp": "1340",
+        "accuracy": "145",
+        "avoidance": "65",
+        "poise": "48",
+        "dmg_melee_min": "200",
+        "dmg_melee_max": "205",
+        "absorb_min": "12",
+        "absorb_max": "12"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,168,2",
+        "melee,179,1"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_2.txt",
+          "title": "Wizard's Tower: Research Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl12_metzger.txt",
+      "name": "Metzger",
+      "level": 12,
+      "rarity": "common",
+      "hp": 5040,
+      "categories": [
+        "metzger"
+      ],
+      "stats": {
+        "hp": "5040",
+        "accuracy": "145",
+        "avoidance": "70",
+        "poise": "100",
+        "absorb_min": "11",
+        "absorb_max": "11",
+        "dmg_melee_min": "200",
+        "dmg_melee_max": "205",
+        "dmg_ment_min": "210",
+        "dmg_ment_max": "215",
+        "lightning_resist": "50",
+        "dark_resist": "50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,183,10",
+        "melee,236,5",
+        "ranged,236,20",
+        "melee,237,5",
+        "ranged,237,5",
+        "on_half_dead,237,100"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "emp_metzger_defeated",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_3.txt",
+          "title": "Wizard's Tower: Laboratory",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl12_nishi.txt",
+      "name": "Nishi",
+      "level": 12,
+      "rarity": "common",
+      "hp": 1340,
+      "categories": [
+        "nishi"
+      ],
+      "stats": {
+        "hp": "1340",
+        "accuracy": "150",
+        "avoidance": "80",
+        "poise": "43",
+        "dmg_melee_min": "200",
+        "dmg_melee_max": "205",
+        "dmg_ment_min": "195",
+        "dmg_ment_max": "205",
+        "absorb_min": "11",
+        "absorb_max": "12",
+        "fire_resist": "50",
+        "ice_resist": "-25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,173,60"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/wizards_tower_1.txt",
+          "title": "Wizard's Tower: Entrance Hall",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl13_antlion_larva.txt",
+      "name": "Antlion Larva",
+      "level": 13,
+      "rarity": "common",
+      "hp": 130,
+      "categories": [
+        "antlion_larva"
+      ],
+      "stats": {
+        "hp": "130",
+        "accuracy": "135",
+        "avoidance": "95",
+        "poise": "46",
+        "dmg_melee_min": "185",
+        "dmg_melee_max": "190"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl13_antlion_fossilized.txt",
+      "name": "Fossilized Antlion",
+      "level": 13,
+      "rarity": "uncommon",
+      "hp": 340,
+      "categories": [
+        "antlion",
+        "antlion_ice",
+        "ice",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "340",
+        "accuracy": "145",
+        "avoidance": "85",
+        "poise": "46",
+        "absorb_min": "13",
+        "absorb_max": "14",
+        "dmg_melee_min": "185",
+        "dmg_melee_max": "190",
+        "dmg_ment_min": "200",
+        "dmg_ment_max": "205",
+        "ice_resist": "25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "on_join_combat,244,100",
+        "melee,164,10",
+        "melee,179,15",
+        "ranged,172,50"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld.txt",
+          "title": "Underworld",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_catacombs.txt",
+          "title": "Underworld Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_mines.txt",
+          "title": "Underworld Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl13_goblin_thief.txt",
+      "name": "Goblin Thief",
+      "level": 13,
+      "rarity": "uncommon",
+      "hp": 360,
+      "categories": [
+        "goblin_charger",
+        "goblin",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "360",
+        "accuracy": "150",
+        "avoidance": "70",
+        "poise": "51",
+        "dmg_melee_min": "185",
+        "dmg_melee_max": "190",
+        "absorb_min": "13",
+        "absorb_max": "13"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,243,2"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld.txt",
+          "title": "Underworld",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_catacombs.txt",
+          "title": "Underworld Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_mines.txt",
+          "title": "Underworld Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl13_skeleton_shadowstep.txt",
+      "name": "Shadowstep Skeleton",
+      "level": 13,
+      "rarity": "common",
+      "hp": 350,
+      "categories": [
+        "skeleton_archer",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "350",
+        "accuracy": "155",
+        "avoidance": "80",
+        "poise": "46",
+        "dmg_melee_min": "185",
+        "dmg_melee_max": "190",
+        "dmg_ranged_min": "195",
+        "dmg_ranged_max": "200",
+        "absorb_min": "12",
+        "absorb_max": "13"
+      },
+      "powers": [
+        "beacon,161,100",
+        "on_join_combat,242,100",
+        "ranged,242,50",
+        "melee,164,1",
+        "ranged,171,80",
+        "ranged,196,80"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld.txt",
+          "title": "Underworld",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_catacombs.txt",
+          "title": "Underworld Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_mines.txt",
+          "title": "Underworld Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl13_zombie_vomit.txt",
+      "name": "Vomit Zombie",
+      "level": 13,
+      "rarity": "common",
+      "hp": 360,
+      "categories": [
+        "zombie",
+        "undead",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "360",
+        "accuracy": "140",
+        "avoidance": "70",
+        "poise": "56",
+        "dmg_melee_min": "195",
+        "dmg_melee_max": "200",
+        "dmg_ment_min": "195",
+        "dmg_ment_max": "200"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,168,5",
+        "ranged,239,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld.txt",
+          "title": "Underworld",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_catacombs.txt",
+          "title": "Underworld Catacombs",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_mines.txt",
+          "title": "Underworld Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl13_zombie_miner.txt",
+      "name": "Zombie Miner",
+      "level": 13,
+      "rarity": "common",
+      "hp": 360,
+      "categories": [
+        "zombie_miner"
+      ],
+      "stats": {
+        "hp": "360",
+        "accuracy": "140",
+        "avoidance": "70",
+        "poise": "56",
+        "dmg_melee_min": "195",
+        "dmg_melee_max": "200"
+      },
+      "powers": [
+        "melee,241,10",
+        "ranged,241,10"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_mines.txt",
+          "title": "Underworld Mines",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl14_antlion_firethorn.txt",
+      "name": "Firethorn Antlion",
+      "level": 14,
+      "rarity": "uncommon",
+      "hp": 365,
+      "categories": [
+        "antlion",
+        "antlion_fire",
+        "fire",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "365",
+        "accuracy": "150",
+        "avoidance": "90",
+        "poise": "49",
+        "absorb_min": "14",
+        "absorb_max": "15",
+        "dmg_melee_min": "200",
+        "dmg_melee_max": "205",
+        "dmg_ment_min": "215",
+        "dmg_ment_max": "220",
+        "fire_resist": "25",
+        "ice_resist": "-50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,10",
+        "ranged,253,50"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/oasis.txt",
+          "title": "Oasis",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/torture_chambers.txt",
+          "title": "Torture Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl14_skeleton_shocker.txt",
+      "name": "Shocker Skeleton",
+      "level": 14,
+      "rarity": "uncommon",
+      "hp": 365,
+      "categories": [
+        "skeleton_mage",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "lightning",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "365",
+        "accuracy": "155",
+        "avoidance": "80",
+        "poise": "49",
+        "absorb_min": "13",
+        "absorb_max": "13",
+        "dmg_melee_min": "200",
+        "dmg_melee_max": "205",
+        "dmg_ment_min": "210",
+        "dmg_ment_max": "215",
+        "lightning_resist": "50",
+        "dark_resist": "-25"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,1",
+        "ranged,174,50",
+        "on_join_combat,167,100"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/oasis.txt",
+          "title": "Oasis",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/torture_chambers.txt",
+          "title": "Torture Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl14_goblin_sonic.txt",
+      "name": "Sonic Goblin",
+      "level": 14,
+      "rarity": "common",
+      "hp": 385,
+      "categories": [
+        "goblin_charger",
+        "goblin",
+        "dungeon",
+        "grassland"
+      ],
+      "stats": {
+        "hp": "385",
+        "accuracy": "155",
+        "avoidance": "75",
+        "poise": "54",
+        "dmg_melee_min": "200",
+        "dmg_melee_max": "205",
+        "absorb_min": "14",
+        "absorb_max": "14"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,254,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/oasis.txt",
+          "title": "Oasis",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/torture_chambers.txt",
+          "title": "Torture Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_spawn_wyvern_ancient.txt",
+      "name": "Ancient Wyvern",
+      "level": 15,
+      "rarity": "common",
+      "hp": 410,
+      "categories": [
+        "lvl15_dungeon",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "410",
+        "accuracy": "165",
+        "avoidance": "95",
+        "poise": "52",
+        "dmg_melee_min": "215",
+        "dmg_melee_max": "220",
+        "dmg_ment_min": "210",
+        "dmg_ment_max": "220",
+        "absorb_min": "14",
+        "absorb_max": "15"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,168,10",
+        "ranged,173,60"
+      ],
+      "passive_powers": "194",
+      "defeat_status": "",
+      "wrapper": true,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_wyvern_ancient.txt",
+      "name": "Ancient Wyvern",
+      "level": 15,
+      "rarity": "common",
+      "hp": 410,
+      "categories": [
+        "wyvern",
+        "wyvern_normal",
+        "dungeon",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "410",
+        "accuracy": "165",
+        "avoidance": "95",
+        "poise": "52",
+        "dmg_melee_min": "215",
+        "dmg_melee_max": "220",
+        "dmg_ment_min": "210",
+        "dmg_ment_max": "220",
+        "absorb_min": "14",
+        "absorb_max": "15"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,168,10",
+        "ranged,173,60"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_pit.txt",
+          "title": "The Pit",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_1.txt",
+          "title": "Underworld Stronghold: Foyer",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_2.txt",
+          "title": "Underworld Stronghold: Barracks",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_arzoz.txt",
+      "name": "Arzoz",
+      "level": 15,
+      "rarity": "common",
+      "hp": 1640,
+      "categories": [
+        "arzoz"
+      ],
+      "stats": {
+        "hp": "1640",
+        "accuracy": "160",
+        "avoidance": "80",
+        "poise": "57",
+        "dmg_melee_min": "250",
+        "dmg_melee_max": "260",
+        "absorb_min": "15",
+        "absorb_max": "15"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,186,10"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/oasis.txt",
+          "title": "Oasis",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/oasis.txt",
+          "title": "Oasis",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_hobgoblin.txt",
+      "name": "Hobgoblin",
+      "level": 15,
+      "rarity": "common",
+      "hp": 400,
+      "categories": [
+        "goblin",
+        "dungeon",
+        "grassland",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "400",
+        "accuracy": "155",
+        "avoidance": "80",
+        "poise": "52",
+        "dmg_melee_min": "220",
+        "dmg_melee_max": "225"
+      },
+      "powers": [
+        "beacon,161,100",
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,260,2"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_pit.txt",
+          "title": "The Pit",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_1.txt",
+          "title": "Underworld Stronghold: Foyer",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_2.txt",
+          "title": "Underworld Stronghold: Barracks",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_spawn_hobgoblin.txt",
+      "name": "Hobgoblin",
+      "level": 15,
+      "rarity": "common",
+      "hp": 400,
+      "categories": [
+        "lvl15_dungeon",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "400",
+        "accuracy": "155",
+        "avoidance": "80",
+        "poise": "52",
+        "dmg_melee_min": "220",
+        "dmg_melee_max": "225"
+      },
+      "powers": [
+        "beacon,161,100",
+        "beacon,161,100",
+        "melee,164,5",
+        "ranged,260,2"
+      ],
+      "passive_powers": "194",
+      "defeat_status": "",
+      "wrapper": true,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_hobgoblin_archer.txt",
+      "name": "Hobgoblin Archer",
+      "level": 15,
+      "rarity": "uncommon",
+      "hp": 400,
+      "categories": [
+        "goblin",
+        "goblin_archer",
+        "dungeon",
+        "grassland",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "400",
+        "accuracy": "155",
+        "avoidance": "80",
+        "poise": "52",
+        "dmg_melee_min": "220",
+        "dmg_melee_max": "225",
+        "dmg_ranged_min": "225",
+        "dmg_ranged_max": "230",
+        "absorb_min": "14",
+        "absorb_max": "15"
+      },
+      "powers": [
+        "beacon,161,100",
+        "beacon,161,100",
+        "melee,259,2",
+        "ranged,259,40"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_pit.txt",
+          "title": "The Pit",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_1.txt",
+          "title": "Underworld Stronghold: Foyer",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_2.txt",
+          "title": "Underworld Stronghold: Barracks",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_spawn_hobgoblin_archer.txt",
+      "name": "Hobgoblin Archer",
+      "level": 15,
+      "rarity": "uncommon",
+      "hp": 400,
+      "categories": [
+        "lvl15_dungeon",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "400",
+        "accuracy": "155",
+        "avoidance": "80",
+        "poise": "52",
+        "dmg_melee_min": "220",
+        "dmg_melee_max": "225",
+        "dmg_ranged_min": "225",
+        "dmg_ranged_max": "230",
+        "absorb_min": "14",
+        "absorb_max": "15"
+      },
+      "powers": [
+        "beacon,161,100",
+        "beacon,161,100",
+        "melee,259,2",
+        "ranged,259,40"
+      ],
+      "passive_powers": "194",
+      "defeat_status": "",
+      "wrapper": true,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_kayl.txt",
+      "name": "Kayl",
+      "level": 15,
+      "rarity": "common",
+      "hp": 410,
+      "categories": [
+        "kayl"
+      ],
+      "stats": {
+        "hp": "410",
+        "accuracy": "150",
+        "avoidance": "80",
+        "poise": "62",
+        "dmg_melee_min": "225",
+        "dmg_melee_max": "230"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/oasis.txt",
+          "title": "Oasis",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_lorund.txt",
+      "name": "Lorund",
+      "level": 15,
+      "rarity": "common",
+      "hp": 410,
+      "categories": [
+        "lorund"
+      ],
+      "stats": {
+        "hp": "410",
+        "accuracy": "150",
+        "avoidance": "80",
+        "poise": "62",
+        "dmg_melee_min": "225",
+        "dmg_melee_max": "230"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/oasis.txt",
+          "title": "Oasis",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_nerin.txt",
+      "name": "Nerin",
+      "level": 15,
+      "rarity": "common",
+      "hp": 410,
+      "categories": [
+        "nerin"
+      ],
+      "stats": {
+        "hp": "410",
+        "accuracy": "150",
+        "avoidance": "80",
+        "poise": "62",
+        "dmg_melee_min": "225",
+        "dmg_melee_max": "230"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/oasis.txt",
+          "title": "Oasis",
+          "kind": "event",
+          "spawn_level": "event-defined"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_antlion_shivering.txt",
+      "name": "Shivering Antlion",
+      "level": 15,
+      "rarity": "uncommon",
+      "hp": 390,
+      "categories": [
+        "antlion",
+        "dungeon",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "390",
+        "accuracy": "155",
+        "avoidance": "95",
+        "poise": "52",
+        "absorb_min": "15",
+        "absorb_max": "16",
+        "dmg_melee_min": "215",
+        "dmg_melee_max": "220",
+        "dmg_ment_min": "230",
+        "dmg_ment_max": "235"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,258,10"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_pit.txt",
+          "title": "The Pit",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_1.txt",
+          "title": "Underworld Stronghold: Foyer",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_2.txt",
+          "title": "Underworld Stronghold: Barracks",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_spawn_antlion_shivering.txt",
+      "name": "Shivering Antlion",
+      "level": 15,
+      "rarity": "uncommon",
+      "hp": 390,
+      "categories": [
+        "lvl15_dungeon",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "390",
+        "accuracy": "155",
+        "avoidance": "95",
+        "poise": "52",
+        "absorb_min": "15",
+        "absorb_max": "16",
+        "dmg_melee_min": "215",
+        "dmg_melee_max": "220",
+        "dmg_ment_min": "230",
+        "dmg_ment_max": "235"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,258,10"
+      ],
+      "passive_powers": "194",
+      "defeat_status": "",
+      "wrapper": true,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_skeleton_guardian.txt",
+      "name": "Skeleton Guardian",
+      "level": 15,
+      "rarity": "uncommon",
+      "hp": 410,
+      "categories": [
+        "skeleton_knight",
+        "skeleton",
+        "undead",
+        "dungeon",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "410",
+        "accuracy": "160",
+        "avoidance": "80",
+        "poise": "57",
+        "dmg_melee_min": "220",
+        "dmg_melee_max": "230",
+        "absorb_min": "15",
+        "absorb_max": "15"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,8",
+        "melee,168,10",
+        "on_half_dead,257,100"
+      ],
+      "passive_powers": "185",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_1.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_10.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_2.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_3.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_4.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_5.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_6.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_7.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_8.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/halls_of_infinity/halls_of_infinity_9.txt",
+          "title": "Halls of Infinity",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/the_pit.txt",
+          "title": "The Pit",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_1.txt",
+          "title": "Underworld Stronghold: Foyer",
+          "kind": "group",
+          "spawn_level": "default"
+        },
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_2.txt",
+          "title": "Underworld Stronghold: Barracks",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_spawn_skeleton_guardian.txt",
+      "name": "Skeleton Guardian",
+      "level": 15,
+      "rarity": "uncommon",
+      "hp": 410,
+      "categories": [
+        "lvl15_dungeon",
+        "can_heal"
+      ],
+      "stats": {
+        "hp": "410",
+        "accuracy": "160",
+        "avoidance": "80",
+        "poise": "57",
+        "dmg_melee_min": "220",
+        "dmg_melee_max": "230",
+        "absorb_min": "15",
+        "absorb_max": "15"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,8",
+        "melee,168,10",
+        "on_half_dead,257,100"
+      ],
+      "passive_powers": "185,194",
+      "defeat_status": "",
+      "wrapper": true,
+      "possible_campaign_maps": []
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl15_vohn.txt",
+      "name": "Vohn",
+      "level": 15,
+      "rarity": "rare",
+      "hp": 1640,
+      "categories": [
+        "vohn"
+      ],
+      "stats": {
+        "hp": "1640",
+        "accuracy": "150",
+        "avoidance": "80",
+        "poise": "62",
+        "dmg_melee_min": "255",
+        "dmg_melee_max": "260"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,201,5",
+        "ranged,188,2",
+        "ranged,240,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/torture_chambers.txt",
+          "title": "Torture Chambers",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl16_forgotten_grave.txt",
+      "name": "Forgotten Grave",
+      "level": 16,
+      "rarity": "common",
+      "hp": 1700,
+      "categories": [
+        "forgotten_grave"
+      ],
+      "stats": {
+        "avoidance": "0",
+        "hp": "1700",
+        "poise": "100"
+      },
+      "powers": [
+        "melee,262,100",
+        "ranged,262,100"
+      ],
+      "passive_powers": "170",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/the_pit.txt",
+          "title": "The Pit",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl16_lezaith.txt",
+      "name": "Lezaith",
+      "level": 16,
+      "rarity": "common",
+      "hp": 13280,
+      "categories": [
+        "lezaith"
+      ],
+      "stats": {
+        "hp": "13280",
+        "accuracy": "165",
+        "avoidance": "90",
+        "poise": "55",
+        "absorb_min": "15",
+        "absorb_max": "15",
+        "dmg_melee_min": "260",
+        "dmg_melee_max": "265",
+        "dmg_ment_min": "270",
+        "dmg_ment_max": "275"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,179,5",
+        "melee,183,2",
+        "melee,263,1",
+        "melee,264,1",
+        "melee,265,1",
+        "melee,266,1",
+        "melee,267,1",
+        "ranged,263,50",
+        "ranged,264,50",
+        "ranged,265,50",
+        "ranged,266,50",
+        "ranged,267,50"
+      ],
+      "passive_powers": "185,287",
+      "defeat_status": "emp_lezaith_defeated",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/the_pit.txt",
+          "title": "The Pit",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl16_ogel.txt",
+      "name": "Ogel",
+      "level": 16,
+      "rarity": "common",
+      "hp": 1820,
+      "categories": [
+        "ogel"
+      ],
+      "stats": {
+        "hp": "1820",
+        "accuracy": "165",
+        "avoidance": "85",
+        "poise": "70",
+        "dmg_melee_min": "270",
+        "dmg_melee_max": "280",
+        "dmg_ranged_min": "265",
+        "dmg_ranged_max": "275",
+        "absorb_min": "16",
+        "absorb_max": "17"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,2",
+        "melee,168,5",
+        "ranged,192,5",
+        "ranged,256,5"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_1.txt",
+          "title": "Underworld Stronghold: Foyer",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    },
+    {
+      "file": "mods/empyrean_campaign/enemies/lvl16_rakk.txt",
+      "name": "Rakk",
+      "level": 16,
+      "rarity": "common",
+      "hp": 1740,
+      "categories": [
+        "rakk"
+      ],
+      "stats": {
+        "hp": "1740",
+        "accuracy": "170",
+        "avoidance": "100",
+        "poise": "55",
+        "dmg_melee_min": "260",
+        "dmg_melee_max": "265",
+        "dmg_ment_min": "255",
+        "dmg_ment_max": "265",
+        "absorb_min": "15",
+        "absorb_max": "16",
+        "fire_resist": "-25",
+        "ice_resist": "50"
+      },
+      "powers": [
+        "beacon,161,100",
+        "melee,164,5",
+        "melee,261,20",
+        "ranged,172,60"
+      ],
+      "passive_powers": "",
+      "defeat_status": "",
+      "wrapper": false,
+      "possible_campaign_maps": [
+        {
+          "file": "mods/empyrean_campaign/maps/underworld_stronghold_2.txt",
+          "title": "Underworld Stronghold: Barracks",
+          "kind": "group",
+          "spawn_level": "default"
+        }
+      ]
+    }
+  ]
+}

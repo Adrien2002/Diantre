@@ -1,0 +1,102 @@
+name,native_level,hp,rarity,categories,defeat_status,spawn_wrapper,possible_campaign_maps,source_file
+Cracked Skeleton,1,60,common,"skeleton,undead,dungeon",,False,Goblin Camp; Perdition Mines; Salted Field; Stonewood,mods/empyrean_campaign/enemies/lvl1_skeleton_cracked.txt
+Cursed Zombie,1,30,common,zombie_raised,,False,,mods/empyrean_campaign/enemies/lvl1_zombie_raised.txt
+Goblin Runner,1,60,uncommon,"goblin_charger,goblin,dungeon,grassland",,False,Goblin Camp; Goblin Cave; Salted Field; Stonewood,mods/empyrean_campaign/enemies/lvl1_goblin_runner.txt
+Goblin Scamp,1,50,common,"goblin,dungeon,grassland",,False,Goblin Camp; Goblin Cave; Salted Field; Stonewood,mods/empyrean_campaign/enemies/lvl1_goblin_scamp.txt
+Rotting Zombie,1,60,common,"zombie,undead,dungeon,grassland",,False,Goblin Camp; Perdition Mines; River Trail; Salted Field; Stonewood,mods/empyrean_campaign/enemies/lvl1_zombie_rotting.txt
+Goblin,2,75,common,"goblin,dungeon,grassland",,False,Merrimead Swamp,mods/empyrean_campaign/enemies/lvl2_goblin.txt
+Goblin Charger,2,85,uncommon,"goblin_charger,goblin,dungeon,grassland",,False,Merrimead Swamp,mods/empyrean_campaign/enemies/lvl2_goblin_charger.txt
+Goblin Chief,2,260,rare,goblin_chief,,False,Goblin Cave,mods/empyrean_campaign/enemies/lvl2_goblin_chief.txt
+Goblin Spearman,2,75,uncommon,"goblin,goblin_spearman,dungeon,grassland",,False,Goblin Camp; Goblin Cave; Merrimead Swamp; Salted Field,mods/empyrean_campaign/enemies/lvl2_goblin_spearman.txt
+Krolan,2,340,rare,krolan,,False,Perdition Mines,mods/empyrean_campaign/enemies/lvl2_krolan.txt
+Skeleton,2,85,common,"skeleton,undead,dungeon",,False,Family Crypt; Lochport; Lochport Cemetery; Merrimead Swamp,mods/empyrean_campaign/enemies/lvl2_skeleton.txt
+Skeleton Archer,2,75,rare,"skeleton_archer,skeleton,undead,dungeon,grassland",,False,Family Crypt; Lochport; Lochport Cemetery; Merrimead Swamp,mods/empyrean_campaign/enemies/lvl2_skeleton_archer.txt
+Zombie,2,85,common,"zombie,undead,dungeon,grassland,zombie_lvl2",,False,Family Crypt; Lochport; Lochport Cemetery; Merrimead Swamp,mods/empyrean_campaign/enemies/lvl2_zombie.txt
+Ardwen,3,440,common,ardwen,emp_ardwen_defeated,False,,mods/empyrean_campaign/enemies/lvl3_ardwen.txt
+Ardwen,3,440,common,ardwen_quest,emp_ardwen_defeated,False,,mods/empyrean_campaign/enemies/lvl3_ardwen_quest.txt
+Bloodthirsty Zombie,3,110,uncommon,"zombie,undead,dungeon,grassland,zombie_lvl3",,False,St. Maria: Catacombs; St. Maria: Crypt; St. Maria: Mausoleum,mods/empyrean_campaign/enemies/lvl3_zombie_bloodthirsty.txt
+Cursed Grave,3,200,common,cursed_grave,,False,Lochport Cemetery,mods/empyrean_campaign/enemies/lvl3_cursed_grave.txt
+Iceclaw Zombie,3,90,uncommon,"zombie,undead,dungeon,grassland,zombie_lvl3",,False,St. Maria: Catacombs; St. Maria: Crypt; St. Maria: Mausoleum,mods/empyrean_campaign/enemies/lvl3_zombie_iceclaw.txt
+Skeleton Fire Mage,3,90,uncommon,"skeleton_mage,skeleton,undead,dungeon,fire",,False,St. Maria: Catacombs; St. Maria: Crypt; St. Maria: Mausoleum,mods/empyrean_campaign/enemies/lvl3_skeleton_fire_mage.txt
+Skeleton Ice Mage,3,90,uncommon,"skeleton_mage,skeleton,undead,dungeon,ice",,False,St. Maria: Catacombs; St. Maria: Crypt; St. Maria: Mausoleum,mods/empyrean_campaign/enemies/lvl3_skeleton_ice_mage.txt
+Skeleton Knight,3,110,common,"skeleton_knight,skeleton,undead,dungeon",,False,St. Maria: Catacombs; St. Maria: Crypt; St. Maria: Mausoleum,mods/empyrean_campaign/enemies/lvl3_skeleton_knight.txt
+Skeleton Sniper,3,100,rare,"skeleton_archer,skeleton,undead,dungeon,grassland",,False,St. Maria: Catacombs; St. Maria: Crypt; St. Maria: Mausoleum,mods/empyrean_campaign/enemies/lvl3_skeleton_sniper.txt
+Zombie Brute,3,110,common,"zombie,undead,dungeon,grassland,zombie_lvl3",,False,St. Maria: Catacombs; St. Maria: Crypt; St. Maria: Mausoleum,mods/empyrean_campaign/enemies/lvl3_zombie_brute.txt
+Cid,4,460,common,cid,,False,St. Maria: Catacombs,mods/empyrean_campaign/enemies/lvl4_cid.txt
+Geno,4,460,common,geno,,False,St. Maria: Mausoleum,mods/empyrean_campaign/enemies/lvl4_geno.txt
+Seagate,4,2160,common,seagate,emp_seagate_defeated,False,St. Maria: Crypt,mods/empyrean_campaign/enemies/lvl4_seagate.txt
+Seagate's Tombstone,4,1000,common,seagate_tombstone,,False,St. Maria: Crypt,mods/empyrean_campaign/enemies/lvl4_seagate_tombstone.txt
+Antlion,5,160,uncommon,"antlion,dungeon",,False,Abandoned Mines; Blackmire Mines; Fort Amir,mods/empyrean_campaign/enemies/lvl5_antlion.txt
+Antlion Freezer,5,140,uncommon,"antlion,antlion_ice,ice,snowplains",,False,Abandoned Mines; Fort Amir; Grot Lagoon; Lake Kuuma,mods/empyrean_campaign/enemies/lvl5_antlion_freezer.txt
+Frozen Corpse,5,160,uncommon,"zombie,undead,dungeon,snowplains",,False,Abandoned Mines; Blackmire Mines; Fort Amir; Grot Lagoon; Lake Kuuma,mods/empyrean_campaign/enemies/lvl5_frozen_corpse.txt
+Goblin Hurler,5,150,uncommon,"goblin,goblin_spearman,dungeon",,False,Abandoned Mines; Blackmire Mines; Fort Amir; Grot Lagoon; Lake Kuuma,mods/empyrean_campaign/enemies/lvl5_goblin_hurler.txt
+Goblin Vanguard,5,150,common,"goblin,dungeon",,False,Abandoned Mines; Blackmire Mines; Fort Amir; Grot Lagoon; Lake Kuuma,mods/empyrean_campaign/enemies/lvl5_goblin_vanguard.txt
+Skeleton Frostsword,5,160,common,"skeleton,undead,dungeon,snowplains",,False,Abandoned Mines; Blackmire Mines; Fort Amir; Grot Lagoon; Lake Kuuma,mods/empyrean_campaign/enemies/lvl5_skeleton_frostsword.txt
+Antlion Burster,6,155,rare,"antlion_burster,antlion_burster_lvl6",,False,Antlion Nest; Stormrock Ruins; The Breach,mods/empyrean_campaign/enemies/lvl6_antlion_burster.txt
+Antlion Hatchling,6,60,common,antlion_hatchling,,False,Antlion Nest; Stormrock Ruins,mods/empyrean_campaign/enemies/lvl6_antlion_hatchling.txt
+Antlion Slasher,6,185,uncommon,"antlion,dungeon,snowplains",,False,Antlion Nest; Stormrock Pass; Stormrock Ruins; The Breach,mods/empyrean_campaign/enemies/lvl6_antlion_slasher.txt
+Antlion Spitter,6,165,common,"antlion,antlion_fire,fire",,False,Antlion Nest; Stormrock Ruins; The Breach,mods/empyrean_campaign/enemies/lvl6_antlion_spitter.txt
+Frostbite Antlion,6,165,common,"antlion,antlion_ice,ice,snowplains",,False,Antlion Nest; Stormrock Pass; Stormrock Ruins; The Breach,mods/empyrean_campaign/enemies/lvl6_antlion_frostbite.txt
+Gruzza,6,740,rare,gruzza,,False,Fort Amir,mods/empyrean_campaign/enemies/lvl6_gruzza.txt
+Prioss,6,700,rare,prioss,,False,Grot Lagoon,mods/empyrean_campaign/enemies/lvl6_prioss.txt
+Skeleton Assassin,6,175,common,"skeleton_archer,skeleton,undead,dungeon,snowplains",,False,Stormrock Pass; Stormrock Ruins,mods/empyrean_campaign/enemies/lvl6_skeleton_assassin.txt
+Skeleton Frost Mage,6,165,uncommon,"skeleton_mage,skeleton,undead,dungeon,ice,snowplains",,False,Stormrock Pass; Stormrock Ruins,mods/empyrean_campaign/enemies/lvl6_skeleton_frost_mage.txt
+Antlion Queen,7,840,rare,antlion_queen,,False,Stormrock Ruins,mods/empyrean_campaign/enemies/lvl7_antlion_queen.txt
+Fire Wyvern,7,210,uncommon,"wyvern,wyvern_fire",,False,Temple of Mez: Basement; Temple of Mez: Entrance; Temple of Mez: Main Hall,mods/empyrean_campaign/enemies/lvl7_wyvern_fire.txt
+Ice Wyvern,7,210,uncommon,"wyvern,wyvern_ice",,False,Temple of Mez: Basement; Temple of Mez: Entrance; Temple of Mez: Main Hall,mods/empyrean_campaign/enemies/lvl7_wyvern_ice.txt
+Skeleton Basher,7,210,common,"skeleton_basher,undead,dungeon",,False,Temple of Mez: Basement; Temple of Mez: Main Hall,mods/empyrean_campaign/enemies/lvl7_skeleton_basher.txt
+Vampiric Zombie,7,210,common,"zombie,zombie_vampire,undead,dungeon",,False,Temple of Mez: Basement; Temple of Mez: Main Hall,mods/empyrean_campaign/enemies/lvl7_vampiric_zombie.txt
+Wyvern,7,220,common,"wyvern,wyvern_normal",,False,Temple of Mez: Basement; Temple of Mez: Entrance; Temple of Mez: Main Hall,mods/empyrean_campaign/enemies/lvl7_wyvern.txt
+Kylana,8,940,rare,kylana,,False,Temple of Mez: Main Hall,mods/empyrean_campaign/enemies/lvl8_kylana.txt
+Mez,8,3760,rare,mez,emp_mez_defeated,False,Temple of Mez: Entrance,mods/empyrean_campaign/enemies/lvl8_mez.txt
+Zola,8,940,rare,zola,,False,Temple of Mez: Basement,mods/empyrean_campaign/enemies/lvl8_zola.txt
+Antlion Sprayer,9,240,uncommon,"antlion,antlion_fire,fire,dungeon,grassland,antlion_sprayer",,False,Mog Caverns; Nazia Highlands; Nazia Mines; Nazia Underground; Southern Ridge,mods/empyrean_campaign/enemies/lvl9_antlion_sprayer.txt
+Goblin Hunter,9,250,uncommon,"goblin,goblin_spearman,dungeon,grassland",,False,Mog Caverns; Nazia Highlands; Nazia Mines; Nazia Underground; Southern Ridge,mods/empyrean_campaign/enemies/lvl9_goblin_hunter.txt
+Goblin Shaker,9,240,common,"goblin,goblin_shaman,dungeon,grassland",,False,Mog Caverns; Nazia Highlands; Nazia Mines; Nazia Underground; Southern Ridge,mods/empyrean_campaign/enemies/lvl9_goblin_shaker.txt
+Goblin Sprinter,9,290,uncommon,"goblin_charger,goblin,dungeon,grassland",,False,Mog Caverns; Nazia Highlands; Nazia Mines; Nazia Underground; Southern Ridge,mods/empyrean_campaign/enemies/lvl9_goblin_sprinter.txt
+Tundra Wyvern,9,260,uncommon,"wyvern,wyvern_ice,dungeon,grassland",,False,Mog Caverns; Nazia Highlands; Nazia Underground; Southern Ridge,mods/empyrean_campaign/enemies/lvl9_wyvern_tundra.txt
+Leecher Zombie,10,285,uncommon,"zombie,undead,dungeon,grassland",,False,Black Oak City; Black Oak Farm; Dilapidated Sewers; Fort Nasu,mods/empyrean_campaign/enemies/lvl10_zombie_leecher.txt
+Minotaur,10,305,common,"minotaur,dungeon,grassland",,False,Black Oak City; Black Oak Farm; Dilapidated Sewers; Fort Nasu,mods/empyrean_campaign/enemies/lvl10_minotaur.txt
+Minotaur Necromancer,10,385,rare,"minotaur,minotaur_necromancer,dungeon,grassland",,False,Black Oak City; Black Oak Farm; Dilapidated Sewers; Fort Nasu,mods/empyrean_campaign/enemies/lvl10_minotaur_necromancer.txt
+Mog,10,1220,common,mog,,False,Mog Caverns,mods/empyrean_campaign/enemies/lvl10_mog.txt
+Skeleton Minion,10,160,common,lvl10_skeleton_minion,,False,,mods/empyrean_campaign/enemies/lvl10_skeleton_minion.txt
+Skeleton Sharpshooter,10,275,uncommon,"skeleton_archer,skeleton,undead,dungeon,grassland",,False,Black Oak City; Black Oak Farm; Dilapidated Sewers; Fort Nasu,mods/empyrean_campaign/enemies/lvl10_skeleton_sharpshooter.txt
+Xonun,10,1060,rare,xonun,,False,Nazia Mines,mods/empyrean_campaign/enemies/lvl10_xonun.txt
+Blaze Skeleton,11,290,uncommon,"skeleton_mage,skeleton,undead,dungeon,fire",,False,Wizard's Tower: Entrance Hall; Wizard's Tower: Laboratory; Wizard's Tower: Research Chambers,mods/empyrean_campaign/enemies/lvl11_skeleton_blaze.txt
+Buchi,11,1160,rare,buchi,emp_nasu_buchi,False,Fort Nasu,mods/empyrean_campaign/enemies/lvl11_buchi.txt
+Fire Sentry,11,600,common,"fire_sentry,sentry",,False,Wizard's Tower: Entrance Hall; Wizard's Tower: Laboratory; Wizard's Tower: Research Chambers,mods/empyrean_campaign/enemies/lvl11_sentry_fire.txt
+Frost Skeleton,11,290,uncommon,"skeleton_mage,skeleton,undead,dungeon,ice",,False,Wizard's Tower: Entrance Hall; Wizard's Tower: Laboratory; Wizard's Tower: Research Chambers,mods/empyrean_campaign/enemies/lvl11_skeleton_frost.txt
+Ice Sentry,11,600,common,"ice_sentry,sentry",,False,Wizard's Tower: Entrance Hall; Wizard's Tower: Laboratory; Wizard's Tower: Research Chambers,mods/empyrean_campaign/enemies/lvl11_sentry_ice.txt
+Skeleton Protector,11,310,common,"skeleton_protector,undead,dungeon",,False,Wizard's Tower: Entrance Hall; Wizard's Tower: Laboratory; Wizard's Tower: Research Chambers,mods/empyrean_campaign/enemies/lvl11_skeleton_protector.txt
+Venom Antlion,11,290,uncommon,"antlion,dungeon",,False,Wizard's Tower: Entrance Hall; Wizard's Tower: Laboratory; Wizard's Tower: Research Chambers,mods/empyrean_campaign/enemies/lvl11_antlion_venom.txt
+Cyl,12,1340,common,cyl,,False,Wizard's Tower: Research Chambers,mods/empyrean_campaign/enemies/lvl12_cyl.txt
+Metzger,12,5040,common,metzger,emp_metzger_defeated,False,Wizard's Tower: Laboratory,mods/empyrean_campaign/enemies/lvl12_metzger.txt
+Nishi,12,1340,common,nishi,,False,Wizard's Tower: Entrance Hall,mods/empyrean_campaign/enemies/lvl12_nishi.txt
+Antlion Larva,13,130,common,antlion_larva,,False,,mods/empyrean_campaign/enemies/lvl13_antlion_larva.txt
+Fossilized Antlion,13,340,uncommon,"antlion,antlion_ice,ice,dungeon,grassland",,False,Halls of Infinity; Underworld; Underworld Catacombs; Underworld Mines,mods/empyrean_campaign/enemies/lvl13_antlion_fossilized.txt
+Goblin Thief,13,360,uncommon,"goblin_charger,goblin,dungeon,grassland",,False,Halls of Infinity; Underworld; Underworld Catacombs; Underworld Mines,mods/empyrean_campaign/enemies/lvl13_goblin_thief.txt
+Shadowstep Skeleton,13,350,common,"skeleton_archer,skeleton,undead,dungeon,grassland",,False,Halls of Infinity; Underworld; Underworld Catacombs; Underworld Mines,mods/empyrean_campaign/enemies/lvl13_skeleton_shadowstep.txt
+Vomit Zombie,13,360,common,"zombie,undead,dungeon,grassland",,False,Halls of Infinity; Underworld; Underworld Catacombs; Underworld Mines,mods/empyrean_campaign/enemies/lvl13_zombie_vomit.txt
+Zombie Miner,13,360,common,zombie_miner,,False,Underworld Mines,mods/empyrean_campaign/enemies/lvl13_zombie_miner.txt
+Firethorn Antlion,14,365,uncommon,"antlion,antlion_fire,fire,dungeon,grassland",,False,Halls of Infinity; Oasis; Torture Chambers,mods/empyrean_campaign/enemies/lvl14_antlion_firethorn.txt
+Shocker Skeleton,14,365,uncommon,"skeleton_mage,skeleton,undead,dungeon,lightning,grassland",,False,Halls of Infinity; Oasis; Torture Chambers,mods/empyrean_campaign/enemies/lvl14_skeleton_shocker.txt
+Sonic Goblin,14,385,common,"goblin_charger,goblin,dungeon,grassland",,False,Halls of Infinity; Oasis; Torture Chambers,mods/empyrean_campaign/enemies/lvl14_goblin_sonic.txt
+Ancient Wyvern,15,410,common,"lvl15_dungeon,can_heal",,True,,mods/empyrean_campaign/enemies/lvl15_spawn_wyvern_ancient.txt
+Ancient Wyvern,15,410,common,"wyvern,wyvern_normal,dungeon,can_heal",,False,Halls of Infinity; The Pit; Underworld Stronghold: Barracks; Underworld Stronghold: Foyer,mods/empyrean_campaign/enemies/lvl15_wyvern_ancient.txt
+Arzoz,15,1640,common,arzoz,,False,Oasis,mods/empyrean_campaign/enemies/lvl15_arzoz.txt
+Hobgoblin,15,400,common,"goblin,dungeon,grassland,can_heal",,False,Halls of Infinity; The Pit; Underworld Stronghold: Barracks; Underworld Stronghold: Foyer,mods/empyrean_campaign/enemies/lvl15_hobgoblin.txt
+Hobgoblin,15,400,common,"lvl15_dungeon,can_heal",,True,,mods/empyrean_campaign/enemies/lvl15_spawn_hobgoblin.txt
+Hobgoblin Archer,15,400,uncommon,"goblin,goblin_archer,dungeon,grassland,can_heal",,False,Halls of Infinity; The Pit; Underworld Stronghold: Barracks; Underworld Stronghold: Foyer,mods/empyrean_campaign/enemies/lvl15_hobgoblin_archer.txt
+Hobgoblin Archer,15,400,uncommon,"lvl15_dungeon,can_heal",,True,,mods/empyrean_campaign/enemies/lvl15_spawn_hobgoblin_archer.txt
+Kayl,15,410,common,kayl,,False,Oasis,mods/empyrean_campaign/enemies/lvl15_kayl.txt
+Lorund,15,410,common,lorund,,False,Oasis,mods/empyrean_campaign/enemies/lvl15_lorund.txt
+Nerin,15,410,common,nerin,,False,Oasis,mods/empyrean_campaign/enemies/lvl15_nerin.txt
+Shivering Antlion,15,390,uncommon,"antlion,dungeon,can_heal",,False,Halls of Infinity; The Pit; Underworld Stronghold: Barracks; Underworld Stronghold: Foyer,mods/empyrean_campaign/enemies/lvl15_antlion_shivering.txt
+Shivering Antlion,15,390,uncommon,"lvl15_dungeon,can_heal",,True,,mods/empyrean_campaign/enemies/lvl15_spawn_antlion_shivering.txt
+Skeleton Guardian,15,410,uncommon,"skeleton_knight,skeleton,undead,dungeon,can_heal",,False,Halls of Infinity; The Pit; Underworld Stronghold: Barracks; Underworld Stronghold: Foyer,mods/empyrean_campaign/enemies/lvl15_skeleton_guardian.txt
+Skeleton Guardian,15,410,uncommon,"lvl15_dungeon,can_heal",,True,,mods/empyrean_campaign/enemies/lvl15_spawn_skeleton_guardian.txt
+Vohn,15,1640,rare,vohn,,False,Torture Chambers,mods/empyrean_campaign/enemies/lvl15_vohn.txt
+Forgotten Grave,16,1700,common,forgotten_grave,,False,The Pit,mods/empyrean_campaign/enemies/lvl16_forgotten_grave.txt
+Lezaith,16,13280,common,lezaith,emp_lezaith_defeated,False,The Pit,mods/empyrean_campaign/enemies/lvl16_lezaith.txt
+Ogel,16,1820,common,ogel,,False,Underworld Stronghold: Foyer,mods/empyrean_campaign/enemies/lvl16_ogel.txt
+Rakk,16,1740,common,rakk,,False,Underworld Stronghold: Barracks,mods/empyrean_campaign/enemies/lvl16_rakk.txt

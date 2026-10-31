@@ -40,6 +40,12 @@ Créer une nouvelle partie pour examiner la nouvelle génération. Flare conserv
 les cartes déjà générées dans les sauvegardes. Le hameau forestier, les sept
 marchands et le retour vers la ville restent disponibles.
 
+Les ennemis actuels ont leurs caractéristiques natives fixes ; leur difficulté
+ne dépend pas du niveau du héros. La progression prévue sur vingt étages, avec
+un boss tous les cinq étages, est décrite dans
+[`docs/PROGRESSION-fixe.md`](docs/PROGRESSION-fixe.md), avec le catalogue de
+référence d’Empyrean. Les vingt étages et leurs boss restent à intégrer.
+
 ## Développement
 
 Les données de jeu sont des fichiers natifs Flare. Les outils Python génèrent
