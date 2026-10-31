@@ -9935,7 +9935,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ]
     },
     "maps/iron_labyrinth_f2.txt": {
@@ -9951,7 +9952,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ]
     },
     "maps/iron_labyrinth_f3.txt": {
@@ -9967,7 +9969,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f1.txt": {
@@ -9983,7 +9986,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f2.txt": {
@@ -9999,7 +10003,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f3.txt": {
@@ -10015,7 +10020,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ]
     },
     "maps/spawn.txt": {
@@ -10035,7 +10041,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ]
     },
     "maps/town/cave.txt": {
@@ -12605,11 +12612,12 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ]
     },
     "settings.txt": {
-      "sha256": "f07c712514eeb90afbd4ec8b0306ec6e0935a65922f7d3f0e4785457116fed85",
+      "sha256": "b9de4ed9e82607e6cb2554a6e2c42bb5437a61728663700732136a113aa83a5d",
       "bytes": 192,
       "sources": [
         "diantre/settings.txt"
@@ -12623,7 +12631,9 @@
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ]
     },
     "soundfx/door_open.ogg": {
@@ -13673,17 +13683,19 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
-      "sha256": "72d990bd5f4756ab7996c67aea911b5c9b2900f71b32951e9200feb23ac052bc",
-      "bytes": 145443
+      "sha256": "ff2aca2538c0f746919d997985c69bf3ac03495a0abd73fd77d99d4f912ad7ea",
+      "bytes": 145739
     },
     "tilesetdefs/town/compact_palette.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "b865491c8bd6acaf85d097f735c46a1c26ee47c7e909d2352f81419221315094",
       "bytes": 1935
@@ -13693,7 +13705,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "95bed27ad7c626d0a2e7d70c42a1cd307594726b84e7d4c7ab6382b76fabfbdd",
       "bytes": 6898
@@ -13703,7 +13716,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "871ded0186b83c018831e22efe341c5d7383661eeb1c39a3b8af3e45f2da5469",
       "bytes": 6898
@@ -13713,7 +13727,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "46b1e2857039429959a2a03268d60c7be05dc8c5cd00c4756856c929c185cba5",
       "bytes": 6898
@@ -13723,7 +13738,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "0da5c7daa0665903ff30b927d0ffcb861ae537562eae930afae39b38dce6ee58",
       "bytes": 6898
@@ -13733,7 +13749,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "b7b166e883d5a7494979a83c6e1032a69f0ae1d2ff2bcef27e5ecfdfc97949fe",
       "bytes": 6932
@@ -13743,7 +13760,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "7f125cb2bcc83ae65eb865e46ffe92d2039ef4903223b40fadb9b3bd5c4ff244",
       "bytes": 7118
@@ -13753,7 +13771,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "f6e45f5008f510df62063350afe976cfb085582ec1ebe567a5ceed991e518c16",
       "bytes": 7120
@@ -13763,7 +13782,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "e5b729e93663313b50e155d107b33fbf4f26671c8f7251a27f91f0daaa961bf2",
       "bytes": 7118
@@ -13773,7 +13793,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "576d6a90c16d66173b352b81c92fb30861c42bf9804f5ae770ca8ca68ff75b45",
       "bytes": 7120
@@ -13783,7 +13804,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "9fb12057c3cac9866683df57849eda863802e0d5d28ea930cdcff15db694d41a",
       "bytes": 7111
@@ -13793,7 +13815,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "d6f26d589982abbb887c006be6282379607ce0a94b5f2e1b460b675dbee5fb13",
       "bytes": 7113
@@ -13803,7 +13826,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "8a7151c193d50b62a9e9c0472e2a0f9b16b6c50bbd14719d89c2ce476748f575",
       "bytes": 7111
@@ -13813,7 +13837,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "6ba4d8033ef8ee806bd6acc56a272067c523b368046a002ec5126b16cd73ede8",
       "bytes": 7113
@@ -13823,7 +13848,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "77ed63b35f7271aea2bd6489748af8edd46728ef5fc3115d7099929de4b3edf9",
       "bytes": 854
@@ -13833,7 +13859,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "d2db0afc3434edf523988f1edc9cd5ab7c3ece562c6eed678e23c407b0af47fe",
       "bytes": 7068
@@ -13843,7 +13870,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "148ecc1eaccd14b1e6637c2718a0fe81ddbf5bdbb2e9896dbdc0650ea6439ded",
       "bytes": 7070
@@ -13853,7 +13881,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "ff89f42e9ba7480dc0437d39710756c5b98ca094c7ad48667f0ba4d81417897d",
       "bytes": 7068
@@ -13863,7 +13892,8 @@
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
         "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
-        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
       ],
       "sha256": "b863fdd94bd05624a479c49a8c77ae09860003f89704aa9833205afdc6b96250",
       "bytes": 7070
@@ -13876,7 +13906,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f4653da28b88c38b9ab3b3e62381079fafa06c322fd0af30953abad63fe3ca57",
       "bytes": 10487
@@ -13889,7 +13920,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "76b075d2a8ffdef6bb0437857e2d7ea053217390acd9dbaa261d31a22e4ebe7a",
       "bytes": 17327
@@ -13902,7 +13934,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "4570badd86223397ae85bd29004aa3b70cb367bacba5bf814d8e8ab53adc6826",
       "bytes": 17111
@@ -13915,7 +13948,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f09c39cd892b94b0804bf3a4780f0e657e5ff465dff7e0b384a45ede8eb302f7",
       "bytes": 17110
@@ -13928,7 +13962,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "fe57818cf088f9e06af4381fa8732bc76a2ebd5a3c94ff2315f12b500a95bf8e",
       "bytes": 17862
@@ -13941,7 +13976,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "22d8dcbe4cb245ec5b18434ff40b067db5c5f1dfc8a838a70ef9830ccd911b78",
       "bytes": 17774
@@ -13954,7 +13990,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "29ed8ee1bb4aa7c6eb43252c64b1cd5fe91ecf26c5d8d1a0b4cab6cd3c621f61",
       "bytes": 17860
@@ -13967,7 +14004,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "6bb083b25958c47396c7ae96942437239747892a31185748028f63c2d558623e",
       "bytes": 17772
@@ -13980,7 +14018,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "b1f272406d392278aa3aa83a74bfbcf213c3af1619df4c0f76a26600e1c9d26c",
       "bytes": 17193
@@ -13993,7 +14032,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "fcc05a04eb46b53f233377d72f675c8db966266fdff42b6d1548bd91e356afa4",
       "bytes": 16863
@@ -14006,7 +14046,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "866cd7700fe2004dcbaecd951920c83c1bb0d748b99d451924d38168fba73604",
       "bytes": 17306
@@ -14019,7 +14060,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "a47ddc22ae2438525d1c478b088511f1f5ff9eeef1e225eca721ef378b42a31a",
       "bytes": 17244
@@ -14032,7 +14074,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "8f87df8d9143a464ec5ff1897fb7a21455b89f516876ae2efacd77eb6e40a0fa",
       "bytes": 17194
@@ -14045,7 +14088,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "5c4710fdc72347952beea6c892244f139a380c72f8acf326121f0ed97cf1338b",
       "bytes": 16941
@@ -14058,7 +14102,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "5eada4c53b75989c4b54c10f7de62dbb908e7a36993ecb9625d4f8a2ce1d8d1a",
       "bytes": 16693
@@ -14071,7 +14116,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "b05ce1fb26e3fc4a137853e4f3a08cde15914117239e1cc7e6f1ca76323a5db3",
       "bytes": 16461
@@ -14084,7 +14130,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "5711816e48169073e20b5e45c5adee86e77d428c5397e0bd7a79b2a6edd49680",
       "bytes": 17055
@@ -14097,7 +14144,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "e2ce9e289993599bbde703111983427741370ce9978c156c6635f251635a2dd3",
       "bytes": 17427
@@ -14110,7 +14158,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "3de5c6effef2b7c0562aa242f38d76a595149e1cf537a16fdaef323bdef70cf6",
       "bytes": 17606
@@ -14123,7 +14172,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "1fc20c09151c4ad14b224c29e9925d3712c9294a116832845e09fad1250c92f3",
       "bytes": 17498
@@ -14136,7 +14186,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "206d1e252f198ee865325e2a4bd4cda898e1956735a7d304a1a88f0d50c37f42",
       "bytes": 17590
@@ -14149,7 +14200,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f335c06562e6a9f54907efe3be3308d1c2422d2c77b2dfed01e2bd2c668aed27",
       "bytes": 18090
@@ -14162,7 +14214,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f5f44a0fdea4ab5fc6125cacae2294595801d7f4ea7de149a0728e12d798b261",
       "bytes": 18017
@@ -14175,7 +14228,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "e85044d5c7cb440da956bd000fb1a74ded9c1b3ace6915e375c80f241ebd74c4",
       "bytes": 18116
@@ -14188,7 +14242,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "ef3324b6f1f31a3c9ea6ed5f4fca050b9c8faad7e7a75f668f87082c75c18ad6",
       "bytes": 18054
@@ -14201,7 +14256,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "959f72ced0515ba0c8290636e71eb1fa980215fc98d09f8a680eab71a2bd9c10",
       "bytes": 17734
@@ -14214,7 +14270,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "b9f38ba85309e6a552002645f998b6b8047627fc956e3f180aa1cf461397b689",
       "bytes": 17784
@@ -14227,7 +14284,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "191e1db367bd20acbba8a96cba1c36f85059d7f6a3f65621b6c394c7c5a500df",
       "bytes": 17851
@@ -14240,7 +14298,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d2aaf830301f0b3b5e68dcb72d199a17e9e11b3987c672708297a34988faf427",
       "bytes": 17741
@@ -14253,7 +14312,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "91624357b19799cd1a11cb84e4448e006a1de45cac29ed3849c57cfddebb32a3",
       "bytes": 17616
@@ -14266,7 +14326,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f4b35a0c4c2e70035eded73fac0315d3e273077e6ee6d85307a94797d4ab8a29",
       "bytes": 17488
@@ -14279,7 +14340,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "5f55bd4ff908b4374ae61cf9bc53398675c1b03c1f7f2b2b445f3be19db33491",
       "bytes": 17467
@@ -14292,7 +14354,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "bf30cb83cfc5ee7e0ee81cccaf1f5e46d74b4b160dff0495782857d006407f16",
       "bytes": 17374
@@ -14305,7 +14368,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "eea1300736ebb2032631e894e7b38ac85f39570f49834d82331ab56f01dcbfe0",
       "bytes": 17449
@@ -14318,7 +14382,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d84c39f78151555e8d33f3de175ec605a68e8d70fd6ba04d6925ee85100b4576",
       "bytes": 17452
@@ -14331,7 +14396,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "c14fc1f954ef143daa93bd9de95fd79dcdc1cf80b7523d6d3ec1db7af8fffa36",
       "bytes": 17531
@@ -14344,7 +14410,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "4d7477fa0220a83580c47a66b513343c5cca5be887c0f411d44c4e564d10b501",
       "bytes": 17463
@@ -14357,7 +14424,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "c992f63a41ced860a799d35aabe3e7b5283263aa44c92a649272b8ea0dbbe879",
       "bytes": 17779
@@ -14370,7 +14438,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "c1bb27e6cc89e3e09307cb231d70c28844cac767655f824e25571c0303776720",
       "bytes": 17638
@@ -14383,7 +14452,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "08c4f1258dd1cc250d047cbd8abd00e2fe4f4e403d99da12397459cfa7c6fd43",
       "bytes": 17687
@@ -14396,7 +14466,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "0e8e52e8be6ef93a44007b224658741de03c8e0d68e4472a1400ff9ca37ec3e0",
       "bytes": 17648
@@ -14409,7 +14480,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "ad61557e7dc1a739e355d626065f5d71fb45fabfa9e1df1820843176db98cd39",
       "bytes": 19287
@@ -14422,7 +14494,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "12f5a934823d4acfd52e58b29e8429639780f9a6686a3b2dd27be7b52ebc4729",
       "bytes": 19212
@@ -14435,7 +14508,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "633834951d42b59ed148c5ea1712a544c74ec5bd9ed0565ace5eb053036f1ccb",
       "bytes": 19272
@@ -14448,7 +14522,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "5bea1e7935fb7af14653131477f880ccc3b3844fd5ae4065165daac86ba2fe38",
       "bytes": 19530
@@ -14461,7 +14536,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "cce886734d22ba97e02288f7459f8ab41db1c16e6abf4a54272dcb41e512a301",
       "bytes": 17861
@@ -14474,7 +14550,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "33c5b0a9c354abdd2ea0869aad5cbd81427f3886d9edda469b5c6fcc21c1cb80",
       "bytes": 17952
@@ -14487,7 +14564,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "6688e4f488004d65494f7e51f7d356592b078182f6ecf17010d07e235f9fff75",
       "bytes": 17917
@@ -14500,7 +14578,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "81e85c3ae2a7c02bb196c507ac396813072415d16e9ef2b489dd884c0dd3d80c",
       "bytes": 17439
@@ -14513,7 +14592,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "2bbe2d64056619fc10f0285cd7edf9a7e9bec05c95068214394dfeef22f44b06",
       "bytes": 228459
@@ -14526,7 +14606,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "fd32ff557ed4917e27c06f7c91d4707b19568ae9b656a87fc752d9531e77c1d7",
       "bytes": 307
@@ -14539,7 +14620,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "28b7c2a36734b03a60fee868f06cf3b28ec206bed22942b24e8f814b1a33f918",
       "bytes": 36460
@@ -14552,7 +14634,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "442dbb7ae81c1ce40660e9c1fbbf66725e99886ef9d9f3c6d1e4aff5dbf36790",
       "bytes": 17016
@@ -14565,7 +14648,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "a1fa22d3241a7e943a25efabf1fade1ff6192b33b3e4d307771e0804ba2b92e1",
       "bytes": 17862
@@ -14578,7 +14662,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "21a62f9c418ecac2e27e1cb7c646855b52d144e296301078388410589bd937d5",
       "bytes": 17774
@@ -14591,7 +14676,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "1a461d366902d110ba5586b92270c9f7f7296391e2f9314d5c517a84619b7d5f",
       "bytes": 17860
@@ -14604,7 +14690,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "6b4338ec04750811f33704eb476e5406adc7547316dd0e802f301c26901bf065",
       "bytes": 17772
@@ -14617,7 +14704,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "4e9563827e0251afe3d76e08f5b0145aa51df6a3aa5ada3c2d5e4c9230e6d0b7",
       "bytes": 17193
@@ -14630,7 +14718,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "fe2dc8806cc95967272112eef234b6d436266f93af3b6edb661b10ba33859bb2",
       "bytes": 17306
@@ -14643,7 +14732,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "e43ab6fef2b59b456615e870256475cadbff03d12cbf820b564fb2a4a5150b66",
       "bytes": 17244
@@ -14656,7 +14746,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "96f92526dfa96d3713288aa37a5211703d4250c5ac72fba315057e2abed2a3fa",
       "bytes": 17194
@@ -14669,7 +14760,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "83ddae547f382b95dc39b7674528b584cd9e6ef607d6e69f4daf5934444d62d2",
       "bytes": 16941
@@ -14682,7 +14774,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f454c389fe18ee7ba56c6c1df877dbd89b955c4cbe710f725e29db33667724ab",
       "bytes": 16693
@@ -14695,7 +14788,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "4b35a3bd3819801b9b7aa99db1f774e4bc82fbee05003db98367d3d09cf54024",
       "bytes": 16461
@@ -14708,10 +14802,11 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
-      "sha256": "3f762587104e556a62b9d5e6a7a7ea61953d76421d28f0549f332a7ae8194ef6",
-      "bytes": 17078
+      "sha256": "fc664016bbd29913d4bde702189312416666547cb290c8bbce8822e5cfd80b32",
+      "bytes": 17413
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_0.txt": {
       "sources": [],
@@ -14721,7 +14816,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "05083c23b3eadd53be92b69123639a569160a3f0e8353c8b3af45a3f3aaf2fd7",
       "bytes": 17717
@@ -14734,7 +14830,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "ce47c44a249b41abbde22b8774b3394a632b9d455c5de2ecc6d9aa0a03f7643c",
       "bytes": 17857
@@ -14747,7 +14844,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "96d7873c760220bd96d308f302126660d560b7751bd2b993b1179cb159a3abc5",
       "bytes": 17817
@@ -14760,7 +14858,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "fb2ce896b4350d127d2bbd295c09e50cb1c37f6383f7393f203ac84c50698d2b",
       "bytes": 17888
@@ -14773,7 +14872,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "356766b6640dbe0ad0f9dd961e899daeb6649341c2f42b90e0ba7ef60bcc0539",
       "bytes": 17602
@@ -14786,7 +14886,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "32f551d8475292368f3754b2bae91b1f5c1643a252f361fc82831f0cc89a58ed",
       "bytes": 18240
@@ -14799,7 +14900,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "a37869673477861c72194aa16b62d2ebf4d0fad8bdd57cd8198505be9d9ff706",
       "bytes": 18221
@@ -14812,7 +14914,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "36f0171bf2cf45240b65f2c0d8b8ad70a94d65cc0cb332a1edb93b87c7a7fe3e",
       "bytes": 17302
@@ -14825,7 +14928,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "105792e007d7c23182287a6e08b967cfcdebd81d24cfd8ae8ad441e02993922a",
       "bytes": 17557
@@ -14838,7 +14942,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "088f2a489abfbfe0f52d5e08cc6a4d881f79b0e9a370604db665b5bca0bc4d85",
       "bytes": 17609
@@ -14851,7 +14956,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "c35fa773c9578be57f8d3add25b3e243cab14be2e66305e9514e18d9d1035521",
       "bytes": 17385
@@ -14864,7 +14970,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "934b8a0f21f1c37c44f20694465556123e0769a60e16ecdf83c4424299c8fa98",
       "bytes": 17516
@@ -14877,7 +14984,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "eb32fda7943e08f507f8bcc4d6cf6f1fc2727dc874890c3156f3a2a0022d6d1e",
       "bytes": 17649
@@ -14890,7 +14998,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "46878720385147fad30548d1e6cdea1571fe3b061b5d91d3e1abdf5b57f8c6a9",
       "bytes": 17669
@@ -14903,7 +15012,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "85a40c0af37b015f54d415105effab669a7622756fb9b14b8008c6f644317c7e",
       "bytes": 17555
@@ -14916,7 +15026,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "2f65d9ce0957a89a398f8460cde98fd5e17df22e52ab2514763132fd55a429e9",
       "bytes": 17767
@@ -14929,7 +15040,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "b4303a416cebb8bc077279f1471a8e7fc99c1ed39d245b32d70af94d2b1d6fda",
       "bytes": 18266
@@ -14942,7 +15054,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d99e0c4d54207774d4f42f6728fc4c4ee5af30fe468a076e7ddf3297fe1d659e",
       "bytes": 17558
@@ -14955,7 +15068,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "ccf9c1eea4c864806ca8cfab6ac0433b4687eb3161d2dfd6b761b3fb525dab59",
       "bytes": 17459
@@ -14968,7 +15082,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "76794b64c62e1f5df2c9bd0a7c24503bb363d7a4f80aa53761209342156912b4",
       "bytes": 17517
@@ -14981,7 +15096,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "329388eeccb056ded0b787c9cbee366d39ec1738504d48d8148e19ad8fe7d5b2",
       "bytes": 17625
@@ -14994,7 +15110,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f11ec85fe9fd3adf424c29abab56c82701f18e9d6d13380c093fcd5256f252db",
       "bytes": 17341
@@ -15007,7 +15124,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d9b8e412ffc990719dba8eca52d839ff31f030af7421c971772eceedd065356a",
       "bytes": 17546
@@ -15020,7 +15138,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "0f8f2d4b2f4bdd0aa1c7b7862c7f1651f079b4e4c91dbff04fc6b88a94e828cd",
       "bytes": 17376
@@ -15033,7 +15152,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "4f381dd6ae3f37d301f7c175ebd85fc699325c80ac365dfea7999b74d626a8e3",
       "bytes": 19230
@@ -15046,7 +15166,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "1c23c24fc286f7c86569164d67743b48a65fc5524570ef602449ec639b26f444",
       "bytes": 19311
@@ -15059,7 +15180,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "c55e509f40bb7093adcdf4918b8f7cd8d5de1018c0e8989c2225057a3133f7bf",
       "bytes": 19358
@@ -15072,7 +15194,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "60b782e5ce493939bd4e7d43fcbbc8dc64c0ababa12e6b481e5635ee94e84978",
       "bytes": 19359
@@ -15085,7 +15208,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "620bb77225b9d2594bad350135de2bbf3600c334895a2f9e1603d25a2eb1cb52",
       "bytes": 18201
@@ -15098,7 +15222,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "713624e511404f6a1d826403745326017d9a8a62a8487a03c802bbdc57c0f051",
       "bytes": 17440
@@ -15111,7 +15236,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "3074640313eb44ab9f21a4ec5be505b53c3c4648a2f4b677e8ae3530daac7daa",
       "bytes": 18037
@@ -15124,7 +15250,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "4de3b7e908bf64fb77f388822571c5d34269aef8f76e6a7a9be0dc082bc14427",
       "bytes": 17554
@@ -15137,7 +15264,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "612e7abebd169d484252de21733c07fdc954d288bcaff4ddfa943ec2ea46a827",
       "bytes": 228459
@@ -15150,7 +15278,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "ef0bd0d11c674eda5873cf27788c032035c92469d539782e0cba22bc8c629121",
       "bytes": 307
@@ -15163,7 +15292,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "75865188ca8a55fe868555da5e314607848bff8a12232390a47a569f92846672",
       "bytes": 36460
@@ -15176,7 +15306,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "a88250ec06592fa50fc851a021315774983256b2edb0d7e3c15f1367d360ff07",
       "bytes": 17049
@@ -15189,7 +15320,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "ab5b16b37b517cd9a26e3e3a4a231228e9f166cc5a104d839e854ecc383c874b",
       "bytes": 17861
@@ -15202,7 +15334,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f578ca3423f0ab9855a1e147ea4a436b316c18cc949ecec908566199f2b04db9",
       "bytes": 17773
@@ -15215,7 +15348,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d2b728d9eceed3bf6c26aac3fe5c6fa8a9fe20a9ef8fb5b6bf7933f059cc7cae",
       "bytes": 17859
@@ -15228,7 +15362,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "3593175fc97efd780608d2d7c18c3d71986e45cf40a81a7d9dddbfe88bfa92ec",
       "bytes": 17771
@@ -15241,7 +15376,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "54ae709194c1c93c434fb61fe6111e0bf1e98ce9c23ec2315b0738d995b3bfae",
       "bytes": 17174
@@ -15254,7 +15390,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f1420ea60cd0ca04765c4c83c758c7e885fdeb7dcb8613288f51c4d7165cac6e",
       "bytes": 16954
@@ -15267,7 +15404,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "80d4b057cb6d46bbb2647e0ca7d3492029e9158f3968d7f39372fa80ad8d0db4",
       "bytes": 17305
@@ -15280,7 +15418,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "f4a8c7abab740cce906a0d2cdcd74e72bb2391b6643aa884276b94a70e74a869",
       "bytes": 17243
@@ -15293,7 +15432,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "787144c3fbc0a0a89aec4e5f7d08a3e022646ce02395ee8af96eaeda833b3668",
       "bytes": 17193
@@ -15306,7 +15446,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d794be849003d6400f8cbb047bf254f10d5369c7d5ecca332237c56b8a8101a9",
       "bytes": 16940
@@ -15319,7 +15460,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "4307e7417e59e71dc3cc5cdd63c0efa2b9d28655a03fa03b65c99e03359f4261",
       "bytes": 16692
@@ -15332,7 +15474,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "2b67b90b4f75ba28a00a68592ae7b5849dfd94f79a2691ef0c47cd7c5b454775",
       "bytes": 16460
@@ -15345,7 +15488,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "5bbe805288231d9241d14ef94d1be70f348bbf1bbd071c96e1f07a971161af5c",
       "bytes": 17077
@@ -15358,7 +15502,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "c855ada2cc11076dcd219ce3a23e2c7ee80e2d378d2577617256aa72cb393a81",
       "bytes": 17907
@@ -15371,7 +15516,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "582c0aa545fab9d9fa43899aff519968a88b16b57383e774bfaef63b0d5290cc",
       "bytes": 17910
@@ -15384,7 +15530,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "118db2c18646df3919d7677e26edb2776e89e2fda9393b3852395a34172ca80a",
       "bytes": 17817
@@ -15397,7 +15544,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "a240e5cc82d8d16f30640ba4fa49ba62589b6502a9a8399bdbc463634f18a6fc",
       "bytes": 17913
@@ -15410,7 +15558,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "29bdaded650f00ea73d4b08dc6870becae35469165d44b6a5313dbd7730d31fa",
       "bytes": 17908
@@ -15423,7 +15572,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "6db55564a8ffb9cb5df2d83de574209dd18da10dea90ee083721fa3d61c2e2c6",
       "bytes": 17909
@@ -15436,7 +15586,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "9db5c89b33bc61fee635af924ea62c6082947a4bb1b57ed34bbf32be9d0948e8",
       "bytes": 17809
@@ -15449,7 +15600,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "17ade12d4e0ec8712c99e2f42dc0aab7b214f88f73b08c1d8a76d36833bc63e2",
       "bytes": 18003
@@ -15462,7 +15614,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "3f87f9483fac96f54bda5c7896ffc02fc01abc7b7295f87a73565be990148203",
       "bytes": 17546
@@ -15475,7 +15628,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "2ddbe961b74c7dbcbbdc583e48d8e4c1823e90d912f77bb243fe59145ebaf2d8",
       "bytes": 17543
@@ -15488,7 +15642,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "44189a5d83599c3c071722a58b3e337fa5a6d508030c693acf22e2469c0f4da6",
       "bytes": 17717
@@ -15501,7 +15656,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "ee99ca45b3dd9b52852ddc1c2543d96bd713e79a3906b7ebea09080a4c373717",
       "bytes": 17717
@@ -15514,7 +15670,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "0d9bbe35ada620fcbbd8cd8affb92bc158714d5a37a4af4af9b89d016850cfbd",
       "bytes": 18053
@@ -15527,7 +15684,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "faac2ab935c9f0d9dec3d8c885f0dd71568036a07859312edbc556a16f30d241",
       "bytes": 18055
@@ -15540,7 +15698,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "6d3285af28e337f1ea358d51097080b579ae8b1116a1f7a9c07aeee68994ccfc",
       "bytes": 17965
@@ -15553,7 +15712,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d74928d34903bf1d9ddaac6043801586d570fdf2642e73b8578ad34c46247620",
       "bytes": 17966
@@ -15566,7 +15726,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "aefc73e14624e6ca73bfbd7cfea0a795a25e8f415eacf9f1792ab1f8d032902e",
       "bytes": 17486
@@ -15579,7 +15740,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "cfe1f7fdf8ab4c9bc281cfd33ee9f8be7006c1fde7e937ed6acdb82aacd76ca6",
       "bytes": 17398
@@ -15592,7 +15754,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "9e4b3488a02c942e491f7ccaeb41fee507f1d8a455c6e643256e00ccdb25e906",
       "bytes": 17620
@@ -15605,7 +15768,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d03f9bfd8d5834cc67c4bba4df4e944cf75a3ebb4210daa34064602fa2c9b2a2",
       "bytes": 17425
@@ -15618,7 +15782,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "9113fdd74cb8613e5d7c61b5170247bc469763d59dee247033860861f0f75095",
       "bytes": 17296
@@ -15631,7 +15796,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "9b0ee7835077438b861605aa7ded9335399fc7575f71a9dfc2668edebf0295ed",
       "bytes": 17559
@@ -15644,7 +15810,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "d4077ab4612dc43a6604e27d793b9c94a2e33277fa2b80352d90e259f0a769bf",
       "bytes": 17363
@@ -15657,7 +15824,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "223da1e1ad5d094d7ba915f22b3800236baac12027abd3431272f25f4b2f08d9",
       "bytes": 17402
@@ -15670,7 +15838,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "92fc4f59578dddd247a4a9b206931bcc10d7db1252ff26d6bf1c57e553b9dcd3",
       "bytes": 19329
@@ -15683,7 +15852,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "9ec8fcc83c578e8416f1f9549d5632411931b297365080117a48cbf021998d65",
       "bytes": 19329
@@ -15696,7 +15866,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "c3b2b022af1dee27d633563cd09cea24f19a3e9c696682f0c012083956d02667",
       "bytes": 19218
@@ -15709,7 +15880,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "a72e796c95c86fca27f1819608dc57eac7ef97303af3abf4a6f8d534886bb556",
       "bytes": 19322
@@ -15722,7 +15894,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "44c1d3b69002834e7ed64d182795fa1faecee7b1395ceb34b2f52be692a047cf",
       "bytes": 17495
@@ -15735,7 +15908,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "81c1705c310b9759919ddea452bd62bf632fe2603e97e4abc466dd1a884e3eca",
       "bytes": 17356
@@ -15748,7 +15922,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "eb1b64ee8f427fafbbfdc617c23cd5f83660af73e161ccdbe10f76ec58cf99a0",
       "bytes": 17306
@@ -15761,7 +15936,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "ff8ddc6dd57a4d099d7a3f854db8100bb3e88a41fac1957cb56053b36d82eec8",
       "bytes": 17493
@@ -15774,7 +15950,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "feb22bbc569d6caa2b60acdc452157d65d49b3d6b933ed22c796f6c441ddd74c",
       "bytes": 228459
@@ -15787,7 +15964,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "05765ed3d9c74d4b32ed378fc3664e0f16f2b9d76e007a0fba0256f07510556d",
       "bytes": 307
@@ -15800,7 +15978,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "dbb77e18f938cf6fb31f6b687b408781d04c1609abe322f9e940acda2df6cf79",
       "bytes": 36460
@@ -15812,7 +15991,8 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "a09fdb9a61c50f3d7f493f3166e5954dbb5aa5153e99a99fe28f442a00b3d97c",
       "bytes": 10339
@@ -15824,10 +16004,35 @@
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
         "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
-        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+        "Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat.",
+        "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
       ],
       "sha256": "4445c85e86ae91ad578cc46b97f974fcaf59fe8b4dfdff0b28cfcf22c251f89e",
       "bytes": 10550
+    },
+    "scripts/town/return_waypoint.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
+      ],
+      "sha256": "eee87ba1407d431a5118f9c7315d66de1f3f5f29bbacc1855e628b0000c27ed7",
+      "bytes": 1419
+    },
+    "npcs/diantre_waypoint_town.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
+      ],
+      "sha256": "1ba54571b45575892f65ad6839a50d87e940a1c2d75765cd76a8fd361e66e548",
+      "bytes": 708
+    },
+    "npcs/diantre_waypoint_f2.txt": {
+      "sources": [],
+      "changes": [
+        "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
+      ],
+      "sha256": "0002d15902e74816047c12fdbf5cf6b48bfc4f47ab60b65cb3b7dc36c562a96b",
+      "bytes": 915
     }
   }
 }

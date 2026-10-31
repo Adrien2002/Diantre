@@ -3449,3 +3449,26 @@ hotspot=location
 stash=true
 tooltip=Shared Stash
 soundfx=soundfx/wood_open.ogg
+
+
+[npc]
+type=npc
+location=9,14,1,1
+direction=5
+filename=npcs/diantre_waypoint_town.txt
+
+
+[event]
+type=event
+location=9,15,1,1
+activate=on_trigger
+hotspot=location
+npc=npcs/diantre_waypoint_town.txt
+repeat=true
+cooldown=2s
+
+
+[event]
+type=event
+location=10,15,1,1
+intermap_id=diantre_waypoint_town
