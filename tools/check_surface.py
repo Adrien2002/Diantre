@@ -9,6 +9,7 @@ import json
 ROOT = Path(__file__).resolve().parents[1] / "diantre"
 EXPECTED = {"florin", "udana", "yora", "abasi", "martigan", "bakat", "loren"}
 ENTRANCE_X, ENTRANCE_Y = 12, 2
+WAYPOINT_X, WAYPOINT_Y = 9, 14
 
 
 def parse(path):
@@ -54,6 +55,8 @@ def reachable(collision, start):
 def main():
     town = parse(ROOT / "maps/town/hamlet_forest.txt")
     initial = layers(town)
+    town_waypoints = [s for s in town if s["section"] == "npc" and s.get("filename") == "npcs/diantre_waypoint_town.txt"]
+    assert len(town_waypoints) == 1 and town_waypoints[0]["location"] == "9,14,1,1", "Town waypoint must always exist"
     kinds = ("start", "normal_a", "normal_b", "end")
     chunks = {(kind, variant): parse(ROOT / f"maps/town/compact/{kind}_{variant}.txt")
               for kind in kinds for variant in range(4)}
@@ -145,6 +148,10 @@ def main():
             assert len(npcs) == 7 and {n for n, _, _ in npcs} == EXPECTED, npcs
             assert len({(x, y) for _, x, y in npcs}) == 7
             assert c[spawn[1]][spawn[0]] == 0, spawn
+            for x,y in ((WAYPOINT_X,WAYPOINT_Y),(WAYPOINT_X,WAYPOINT_Y+1),
+                        (WAYPOINT_X+1,WAYPOINT_Y+1)):
+                assert c[y][x] == 0 and (x,y) in seen, (variants, arrangement, "Unreachable waypoint", (x,y))
+                assert data["object"][y][x] == 0, (variants, arrangement, "Waypoint covered by decoration", (x,y))
             for name, x, y in npcs:
                 assert (x, y) in seen, (variants, arrangement, "unreachable merchant", name)
                 assert any((x + dx, y + dy) in seen for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))

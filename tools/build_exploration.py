@@ -431,6 +431,23 @@ def install_copy(source,destination,floor):
         other=[b for b in other if not b.startswith('[enemy]')]
         seed=int(hashlib.sha256((str(floor)+source.stem).encode()).hexdigest()[:12],16)
         other.extend(encounter_groups(floor,data,random.Random(seed),protected))
+    if kind=='start' and floor==2:
+        # The first even-floor waypoint is discovered only when the player
+        # touches its actual portal. The NPC uses a native animated obelisk.
+        wx,wy=23,20
+        trigger=(wx,wy+1)
+        landing=(wx-1,wy+1)
+        assert all(data['collision'][y][x]==0 and data['object'][y][x]==0
+                   for x,y in ((wx,wy),trigger,landing)),('Waypoint footprint blocked',floor)
+        other.append(f"[npc]\ntype=npc\nlocation={wx},{wy},1,1\n"
+                     "direction=5\nfilename=npcs/diantre_waypoint_f2.txt\n")
+        other.append(event(type='event',location=f'{trigger[0]},{trigger[1]},1,1',
+                           activate='on_trigger',hotspot='location',
+                           npc='npcs/diantre_waypoint_f2.txt',
+                           set_status='diantre_waypoint_f2',save_game='true',
+                           cooldown='2s',repeat='true'))
+        other.append(event(type='event',location=f'{landing[0]},{landing[1]},1,1',
+                           intermap_id='diantre_waypoint_f2'))
     destination.write_text(serialize(header,data,other))
 
 
@@ -559,7 +576,7 @@ def main():
                                  "loop_rule":"one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"},indent=2)+"\n")
     manifest_path=ROOT/'ASSET_MANIFEST.json';manifest=json.loads(manifest_path.read_text())
     for key in removed:manifest['files'].pop(key,None)
-    note="Diantre 0.8.4: compact 5x5 floors and restored native descending staircase; fixed-depth combat."
+    note="Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
     for p in changed:
         key=p.relative_to(ROOT).as_posix();record=manifest['files'].get(key,{"sources":[],"changes":[]})
         raw=p.read_bytes();record.update(sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw))

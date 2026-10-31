@@ -9,6 +9,9 @@ on:
       - 'tools/check_population.py'
       - 'tools/build_surface.py'
       - 'tools/check_surface.py'
+      - 'tools/check_waypoints.py'
+      - 'diantre/npcs/diantre_waypoint_*.txt'
+      - 'diantre/scripts/town/return_waypoint.txt'
       - '.github/workflows/regenerate-diantre.yml'
   workflow_dispatch:
 
@@ -38,6 +41,7 @@ jobs:
           python3 -B tools/check_themes.py
           python3 -B tools/check_encounters.py
           python3 -B tools/check_surface.py
+          python3 -B tools/check_waypoints.py
       - name: Commit and push generated artifacts on main
         run: |
           git add diantre/ docs/exploration-metrics.json

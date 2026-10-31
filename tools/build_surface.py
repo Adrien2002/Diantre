@@ -15,6 +15,7 @@ LAYERS = ("background_base", "background", *(f"cliff_{i:02}" for i in range(CLIF
 WIDTH, HEIGHT = 44, 44
 CHUNK_W, CHUNK_H = 12, 12
 ENTRANCE = (12, 2)
+WAYPOINT_TOWN = (9, 14)
 STREET_Y = 10
 GROUPS = {
     "start": ("florin", "udana"),
@@ -201,6 +202,17 @@ def build_town():
         "[event]\ntype=event\nlocation=14,14,1,1\nhotspot=location\n"
         "stash=true\ntooltip=Shared Stash\nsoundfx=soundfx/wood_open.ogg\n",
     ))
+    # Native animated obelisk and an event hotspot on its southern approach.
+    wx, wy = WAYPOINT_TOWN
+    m.objects.extend((
+        f"[npc]\ntype=npc\nlocation={wx},{wy},1,1\n"
+        "direction=5\nfilename=npcs/diantre_waypoint_town.txt\n",
+        f"[event]\ntype=event\nlocation={wx},{wy+1},1,1\n"
+        "activate=on_trigger\nhotspot=location\n"
+        "npc=npcs/diantre_waypoint_town.txt\nrepeat=true\ncooldown=2s\n",
+        f"[event]\ntype=event\nlocation={wx+1},{wy+1},1,1\n"
+        "intermap_id=diantre_waypoint_town\n",
+    ))
     m.write("maps/town/hamlet_forest.txt",
             "hero_pos=12,4\ntitle=Woodland Hamlet\nmusic=music/town_theme.ogg\nfogofwar=0")
 
@@ -246,10 +258,11 @@ def update_manifest():
     for variant in range(4):
         manifest["files"].pop(f"maps/town/compact/normal_{variant}.txt", None)
     paths = [ROOT / "maps/town/hamlet_forest.txt", ROOT / "maps/town/biomes.txt",
-             ROOT / "scripts/town/return.txt", ROOT / "settings.txt",
-             ROOT / "tilesetdefs/town/compact_palette.txt",
+             ROOT / "scripts/town/return.txt", ROOT / "scripts/town/return_waypoint.txt",
+             ROOT / "npcs/diantre_waypoint_town.txt", ROOT / "npcs/diantre_waypoint_f2.txt",
+             ROOT / "settings.txt", ROOT / "tilesetdefs/town/compact_palette.txt",
              *sorted((ROOT / "maps/town/compact").glob("*.txt"))]
-    note = "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
+    note = "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock."
     for file in paths:
         key = file.relative_to(ROOT).as_posix()
         record = manifest["files"].get(key, {"sources": [], "changes": []})
