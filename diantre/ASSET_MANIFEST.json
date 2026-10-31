@@ -10028,7 +10028,8 @@
       ],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ]
     },
     "maps/town/cave.txt": {
@@ -12597,11 +12598,12 @@
       ],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ]
     },
     "settings.txt": {
-      "sha256": "76ea7b60d6260a3e7a225a1114935dacb654971c246d3435d5914a9c4607c0c7",
+      "sha256": "b50b161991a8c17cb07cc528bf0a1f090d2a8190406990efa250ec6905d65652",
       "bytes": 190,
       "sources": [
         "diantre/settings.txt"
@@ -12613,7 +12615,8 @@
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
         "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
-        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ]
     },
     "soundfx/door_open.ogg": {
@@ -13662,16 +13665,18 @@
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "2611fb7efb8b15f4976d6ca6fdffd6327eadc125e3ae94a219cd4c55005e979f",
-      "bytes": 145474
+      "sha256": "72d990bd5f4756ab7996c67aea911b5c9b2900f71b32951e9200feb23ac052bc",
+      "bytes": 145443
     },
     "tilesetdefs/town/compact_palette.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
       "sha256": "b865491c8bd6acaf85d097f735c46a1c26ee47c7e909d2352f81419221315094",
       "bytes": 1935
@@ -13680,7 +13685,8 @@
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
       "sha256": "95bed27ad7c626d0a2e7d70c42a1cd307594726b84e7d4c7ab6382b76fabfbdd",
       "bytes": 6898
@@ -13689,16 +13695,18 @@
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "5b45b2b9c6c38fa4d0693587cf9928d37f1c86096edd846005da9567b799989a",
-      "bytes": 6900
+      "sha256": "871ded0186b83c018831e22efe341c5d7383661eeb1c39a3b8af3e45f2da5469",
+      "bytes": 6898
     },
     "maps/town/compact/end_2.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
       "sha256": "46b1e2857039429959a2a03268d60c7be05dc8c5cd00c4756856c929c185cba5",
       "bytes": 6898
@@ -13707,16 +13715,18 @@
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "703de09f86ebe2f1c0d2a38f300aa2b605e2a45cbd7baa16cf756f74c1663883",
-      "bytes": 6900
+      "sha256": "0da5c7daa0665903ff30b927d0ffcb861ae537562eae930afae39b38dce6ee58",
+      "bytes": 6898
     },
     "maps/town/compact/links.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
       "sha256": "b7b166e883d5a7494979a83c6e1032a69f0ae1d2ff2bcef27e5ecfdfc97949fe",
       "bytes": 6932
@@ -13725,79 +13735,88 @@
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "d87bcc7ca8c189d54f788a19fc2e1cd15a8cf84edfa063c13c50cebf080af735",
-      "bytes": 7120
+      "sha256": "7f125cb2bcc83ae65eb865e46ffe92d2039ef4903223b40fadb9b3bd5c4ff244",
+      "bytes": 7118
     },
     "maps/town/compact/normal_a_1.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "750962003c9a08bd78645a6e75949efb8286161fb4f64ea8d2596a7892223302",
-      "bytes": 7122
+      "sha256": "f6e45f5008f510df62063350afe976cfb085582ec1ebe567a5ceed991e518c16",
+      "bytes": 7120
     },
     "maps/town/compact/normal_a_2.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "314969f7742a9c05b817420513842d9b5b08fb3b73543cde0325e9fc25afd9bd",
-      "bytes": 7120
+      "sha256": "e5b729e93663313b50e155d107b33fbf4f26671c8f7251a27f91f0daaa961bf2",
+      "bytes": 7118
     },
     "maps/town/compact/normal_a_3.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "d28dae3022b6fe48f156105c7a9a78f2a52eeb68cf19fce9752ec7aa950fb5ff",
-      "bytes": 7122
+      "sha256": "576d6a90c16d66173b352b81c92fb30861c42bf9804f5ae770ca8ca68ff75b45",
+      "bytes": 7120
     },
     "maps/town/compact/normal_b_0.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "7e019294a44287caced3fb2be94da2e5e854356cbf2ca3dc21720e0229b59a9b",
-      "bytes": 7113
+      "sha256": "9fb12057c3cac9866683df57849eda863802e0d5d28ea930cdcff15db694d41a",
+      "bytes": 7111
     },
     "maps/town/compact/normal_b_1.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "bcb7b36683cf5640fed80de5f2b82acb4ae96171da651bfee4058383cf3a1d1b",
-      "bytes": 7115
+      "sha256": "d6f26d589982abbb887c006be6282379607ce0a94b5f2e1b460b675dbee5fb13",
+      "bytes": 7113
     },
     "maps/town/compact/normal_b_2.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "6507de05d62ccd1e9cecce1c68e4d1a77d9040515541bb3d2d7f0cef033fae96",
-      "bytes": 7113
+      "sha256": "8a7151c193d50b62a9e9c0472e2a0f9b16b6c50bbd14719d89c2ce476748f575",
+      "bytes": 7111
     },
     "maps/town/compact/normal_b_3.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "3504038a600ccfd4b6c990b902db0523b1458cfcc6bf855afe8c30dedbce8323",
-      "bytes": 7115
+      "sha256": "6ba4d8033ef8ee806bd6acc56a272067c523b368046a002ec5126b16cd73ede8",
+      "bytes": 7113
     },
     "maps/town/compact/rules.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
       "sha256": "77ed63b35f7271aea2bd6489748af8edd46728ef5fc3115d7099929de4b3edf9",
       "bytes": 854
@@ -13806,37 +13825,41 @@
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "4bff1d1a7815444e8c48f7a755fb69dc92cbac20cad7bb1a91d12c3df41e268d",
-      "bytes": 7070
+      "sha256": "d2db0afc3434edf523988f1edc9cd5ab7c3ece562c6eed678e23c407b0af47fe",
+      "bytes": 7068
     },
     "maps/town/compact/start_1.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "57172d7a9f518781f3b3e9fae3925941682a3161f337de2b6a2e1edd2d2d6beb",
-      "bytes": 7072
+      "sha256": "148ecc1eaccd14b1e6637c2718a0fe81ddbf5bdbb2e9896dbdc0650ea6439ded",
+      "bytes": 7070
     },
     "maps/town/compact/start_2.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "d5a8d910fc276a7ef7b3e9774dfd84e8b0d16a655d95d8c8c87db7e6a05b01b9",
-      "bytes": 7070
+      "sha256": "ff89f42e9ba7480dc0437d39710756c5b98ca094c7ad48667f0ba4d81417897d",
+      "bytes": 7068
     },
     "maps/town/compact/start_3.txt": {
       "sources": [],
       "changes": [
         "Diantre 0.5.0: compact outdoor surface inspired by Angband; original map data.",
-        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+        "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data.",
+        "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
       ],
-      "sha256": "47d086e7ea7a77264381c6e02c8a8a1d83e329e098992b5046902249dcbd4c6f",
-      "bytes": 7072
+      "sha256": "b863fdd94bd05624a479c49a8c77ae09860003f89704aa9833205afdc6b96250",
+      "bytes": 7070
     },
     "tilesetdefs/diantre_dungeon.txt": {
       "sources": [],
