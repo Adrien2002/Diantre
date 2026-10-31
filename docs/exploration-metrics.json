@@ -87,7 +87,7 @@
       "variant": 0,
       "floor_cells": 441,
       "rooms": 4,
-      "details": 2,
+      "details": 3,
       "inner_chapel": false
     },
     {
@@ -107,7 +107,7 @@
       "variant": 2,
       "floor_cells": 430,
       "rooms": 4,
-      "details": 5,
+      "details": 4,
       "inner_chapel": false
     },
     {
@@ -117,7 +117,7 @@
       "variant": 3,
       "floor_cells": 438,
       "rooms": 4,
-      "details": 4,
+      "details": 3,
       "inner_chapel": false
     },
     {

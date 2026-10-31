@@ -9933,7 +9933,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ]
     },
     "maps/iron_labyrinth_f2.txt": {
@@ -9947,7 +9948,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ]
     },
     "maps/iron_labyrinth_f3.txt": {
@@ -9961,7 +9963,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f1.txt": {
@@ -9975,7 +9978,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f2.txt": {
@@ -9989,7 +9993,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f3.txt": {
@@ -10003,7 +10008,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ]
     },
     "maps/spawn.txt": {
@@ -12595,7 +12601,7 @@
       ]
     },
     "settings.txt": {
-      "sha256": "fa3666ec1a9160a9dde9aff2456e85396d9565d5548ba8341494d27c50d9f483",
+      "sha256": "76ea7b60d6260a3e7a225a1114935dacb654971c246d3435d5914a9c4607c0c7",
       "bytes": 190,
       "sources": [
         "diantre/settings.txt"
@@ -12606,7 +12612,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ]
     },
     "soundfx/door_open.ogg": {
@@ -13837,7 +13844,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "f4653da28b88c38b9ab3b3e62381079fafa06c322fd0af30953abad63fe3ca57",
       "bytes": 10487
@@ -13848,9 +13856,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "f6a387a3e8dc81e6832a92c2756c90f7aebab1daa45b285ac24d642df87d1e2b",
+      "sha256": "76b075d2a8ffdef6bb0437857e2d7ea053217390acd9dbaa261d31a22e4ebe7a",
       "bytes": 17327
     },
     "maps/iron_labyrinth/exploration/f1/cavern_0.txt": {
@@ -13859,9 +13868,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d5ca8b4566550dd4a14e9aab1181a4ed3dad225af5f79520dbc3c704ffd3f2e3",
+      "sha256": "4570badd86223397ae85bd29004aa3b70cb367bacba5bf814d8e8ab53adc6826",
       "bytes": 17111
     },
     "maps/iron_labyrinth/exploration/f1/courtyard_0.txt": {
@@ -13870,9 +13880,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "3581e3f08d5defe0ff4cd96cbad6a9df8e5d5d2a6c7a543f67f2abc4f12f32ed",
+      "sha256": "f09c39cd892b94b0804bf3a4780f0e657e5ff465dff7e0b384a45ede8eb302f7",
       "bytes": 17110
     },
     "maps/iron_labyrinth/exploration/f1/door_ns_0.txt": {
@@ -13881,9 +13892,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "49244217c92920096d3c2f7ac90e31069cbab9f3b57c4f062a468e5ef12332c2",
+      "sha256": "fe57818cf088f9e06af4381fa8732bc76a2ebd5a3c94ff2315f12b500a95bf8e",
       "bytes": 17862
     },
     "maps/iron_labyrinth/exploration/f1/door_ns_1.txt": {
@@ -13892,9 +13904,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "daceb0a6e772d6194d53034d8e717c2ee3614f6f1a3cad7c8c37619cc05a4594",
+      "sha256": "22d8dcbe4cb245ec5b18434ff40b067db5c5f1dfc8a838a70ef9830ccd911b78",
       "bytes": 17774
     },
     "maps/iron_labyrinth/exploration/f1/door_we_0.txt": {
@@ -13903,9 +13916,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d2ea3245d224b9c3499383fe3c1f625a3e4f6617467fc7d84269dcae57448c15",
+      "sha256": "29ed8ee1bb4aa7c6eb43252c64b1cd5fe91ecf26c5d8d1a0b4cab6cd3c621f61",
       "bytes": 17860
     },
     "maps/iron_labyrinth/exploration/f1/door_we_1.txt": {
@@ -13914,9 +13928,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d8aa6c89edede93bc53e382e9c2bc46f7424465e844f9022fdd68cbacf519679",
+      "sha256": "6bb083b25958c47396c7ae96942437239747892a31185748028f63c2d558623e",
       "bytes": 17772
     },
     "maps/iron_labyrinth/exploration/f1/end.txt": {
@@ -13925,9 +13940,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "e30eafe435224224aff1124fe5b958574cddb91f65b9c2bd570619610c8b201d",
+      "sha256": "4a40c85e219f09ba61fb464e1c9a79ebb4a240a00ad09459b94651d61e675877",
       "bytes": 17223
     },
     "maps/iron_labyrinth/exploration/f1/great_hall_0.txt": {
@@ -13936,9 +13952,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "fd2bf34a909e6c4893b10a60872b10859715e99f083d4471bcb905d42895fdf1",
+      "sha256": "fcc05a04eb46b53f233377d72f675c8db966266fdff42b6d1548bd91e356afa4",
       "bytes": 16863
     },
     "maps/iron_labyrinth/exploration/f1/key_0.txt": {
@@ -13947,9 +13964,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "0793fc01d5703b177137cac6631fa60e133ae0da1e13a626549d82426afb2f9b",
+      "sha256": "866cd7700fe2004dcbaecd951920c83c1bb0d748b99d451924d38168fba73604",
       "bytes": 17306
     },
     "maps/iron_labyrinth/exploration/f1/key_1.txt": {
@@ -13958,9 +13976,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "069917ec1b9fe0225cf64b183c6876446bf349fd73d4274eed5947d980f37486",
+      "sha256": "a47ddc22ae2438525d1c478b088511f1f5ff9eeef1e225eca721ef378b42a31a",
       "bytes": 17244
     },
     "maps/iron_labyrinth/exploration/f1/key_2.txt": {
@@ -13969,9 +13988,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "da116cd5986baa0d7d0f29463d586990fe9ac5bd9e780c11a26864acd8249110",
+      "sha256": "8f87df8d9143a464ec5ff1897fb7a21455b89f516876ae2efacd77eb6e40a0fa",
       "bytes": 17194
     },
     "maps/iron_labyrinth/exploration/f1/links_0.txt": {
@@ -13980,9 +14000,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "9595eee242aa46012404c382e00842e0adf5d51feffac77c8e6475d74da72461",
+      "sha256": "5c4710fdc72347952beea6c892244f139a380c72f8acf326121f0ed97cf1338b",
       "bytes": 16941
     },
     "maps/iron_labyrinth/exploration/f1/links_1.txt": {
@@ -13991,9 +14012,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "dbbf630d0e47c23aca1253da5329e58fb6a66dddabf3e662dd178fbacd8a031a",
+      "sha256": "5eada4c53b75989c4b54c10f7de62dbb908e7a36993ecb9625d4f8a2ce1d8d1a",
       "bytes": 16693
     },
     "maps/iron_labyrinth/exploration/f1/links_2.txt": {
@@ -14002,9 +14024,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "756c16c72554e477670a71a3ff52c802a503a387a548edc7524c657bf7073bf2",
+      "sha256": "b05ce1fb26e3fc4a137853e4f3a08cde15914117239e1cc7e6f1ca76323a5db3",
       "bytes": 16461
     },
     "maps/iron_labyrinth/exploration/f1/start.txt": {
@@ -14013,9 +14036,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "2ada0b8dadd757c9238149f764542cc8de78b22b292d0639f16404dca071876b",
+      "sha256": "5711816e48169073e20b5e45c5adee86e77d428c5397e0bd7a79b2a6edd49680",
       "bytes": 17055
     },
     "maps/iron_labyrinth/exploration/f1/complex_cloister_0.txt": {
@@ -14024,10 +14048,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "1871f25d88342e3993af2b36e135ae5e59308a5f666b8e7652aa251928a1cb7a",
-      "bytes": 17521
+      "sha256": "e2ce9e289993599bbde703111983427741370ce9978c156c6635f251635a2dd3",
+      "bytes": 17427
     },
     "maps/iron_labyrinth/exploration/f1/complex_cloister_1.txt": {
       "sources": [],
@@ -14035,10 +14060,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "5f44b1f9dfefc3982fc23e3e5a5da66a99c0d81578df5117e6a105d1d9935c82",
-      "bytes": 17517
+      "sha256": "3de5c6effef2b7c0562aa242f38d76a595149e1cf537a16fdaef323bdef70cf6",
+      "bytes": 17606
     },
     "maps/iron_labyrinth/exploration/f1/complex_cloister_2.txt": {
       "sources": [],
@@ -14046,9 +14072,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "b908d6b9278441340f76ed0e6c1a3944d4e8d5662a51cf33f768b719a4046c34",
+      "sha256": "1fc20c09151c4ad14b224c29e9925d3712c9294a116832845e09fad1250c92f3",
       "bytes": 17498
     },
     "maps/iron_labyrinth/exploration/f1/complex_cloister_3.txt": {
@@ -14057,10 +14084,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "59c949d4b73fd2c753cad1b2882daecd24b735e9a7c2bf440d3797337d0c404f",
-      "bytes": 17498
+      "sha256": "206d1e252f198ee865325e2a4bd4cda898e1956735a7d304a1a88f0d50c37f42",
+      "bytes": 17590
     },
     "maps/iron_labyrinth/exploration/f1/complex_chambers_0.txt": {
       "sources": [],
@@ -14068,10 +14096,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "a5c0bae5e1fda8489dc41416f5ee0478d58a9389f96c50b5afb9106c80b77601",
-      "bytes": 18181
+      "sha256": "f335c06562e6a9f54907efe3be3308d1c2422d2c77b2dfed01e2bd2c668aed27",
+      "bytes": 18090
     },
     "maps/iron_labyrinth/exploration/f1/complex_chambers_1.txt": {
       "sources": [],
@@ -14079,10 +14108,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d7d372b1ddb388920169baedbc16019194de350f9fe4babc577b5640585ac83d",
-      "bytes": 18205
+      "sha256": "f5f44a0fdea4ab5fc6125cacae2294595801d7f4ea7de149a0728e12d798b261",
+      "bytes": 18017
     },
     "maps/iron_labyrinth/exploration/f1/complex_chambers_2.txt": {
       "sources": [],
@@ -14090,10 +14120,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "67edb02941411f2152263e17dd75ad43a7b56f84fc3745933d2307488589d9c1",
-      "bytes": 18205
+      "sha256": "e85044d5c7cb440da956bd000fb1a74ded9c1b3ace6915e375c80f241ebd74c4",
+      "bytes": 18116
     },
     "maps/iron_labyrinth/exploration/f1/complex_chambers_3.txt": {
       "sources": [],
@@ -14101,9 +14132,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "bdda70550f1b35f81fcb8511a08ae48b8b306dddb0592055fa121a2fec980e06",
+      "sha256": "ef3324b6f1f31a3c9ea6ed5f4fca050b9c8faad7e7a75f668f87082c75c18ad6",
       "bytes": 18054
     },
     "maps/iron_labyrinth/exploration/f1/complex_grotto_0.txt": {
@@ -14112,10 +14144,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "3112c2653a3377b9c337ac964238ac1a1d3fbc964688fd4c1366bf757b1edef7",
-      "bytes": 17733
+      "sha256": "959f72ced0515ba0c8290636e71eb1fa980215fc98d09f8a680eab71a2bd9c10",
+      "bytes": 17734
     },
     "maps/iron_labyrinth/exploration/f1/complex_grotto_1.txt": {
       "sources": [],
@@ -14123,10 +14156,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "ab510b37d42e184ecad83f49f0cf65c4acde4e15fc763e7bf045728351525f2f",
-      "bytes": 17876
+      "sha256": "b9f38ba85309e6a552002645f998b6b8047627fc956e3f180aa1cf461397b689",
+      "bytes": 17784
     },
     "maps/iron_labyrinth/exploration/f1/complex_grotto_2.txt": {
       "sources": [],
@@ -14134,10 +14168,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "a781f8d43a7538de7611f0f279d627e60fed0f888c14d325db5e4165e1ad4778",
-      "bytes": 17757
+      "sha256": "191e1db367bd20acbba8a96cba1c36f85059d7f6a3f65621b6c394c7c5a500df",
+      "bytes": 17851
     },
     "maps/iron_labyrinth/exploration/f1/complex_grotto_3.txt": {
       "sources": [],
@@ -14145,10 +14180,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "be701f16798cfd868b60d9534f427e35fa1391cfeba73ac7f23f1f9fb00870d4",
-      "bytes": 17835
+      "sha256": "d2aaf830301f0b3b5e68dcb72d199a17e9e11b3987c672708297a34988faf427",
+      "bytes": 17741
     },
     "maps/iron_labyrinth/exploration/f1/complex_ring_0.txt": {
       "sources": [],
@@ -14156,10 +14192,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "98f35b1f1aa8b4e0f5635f73fc7a94968539255a64e8b9da03c49701653dd624",
-      "bytes": 17618
+      "sha256": "91624357b19799cd1a11cb84e4448e006a1de45cac29ed3849c57cfddebb32a3",
+      "bytes": 17616
     },
     "maps/iron_labyrinth/exploration/f1/complex_ring_1.txt": {
       "sources": [],
@@ -14167,10 +14204,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "7ae225a4726c034d4d7bd253bd2b29047c8be0f6154d544aeccae477d3a3f45d",
-      "bytes": 17396
+      "sha256": "f4b35a0c4c2e70035eded73fac0315d3e273077e6ee6d85307a94797d4ab8a29",
+      "bytes": 17488
     },
     "maps/iron_labyrinth/exploration/f1/complex_ring_2.txt": {
       "sources": [],
@@ -14178,10 +14216,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "adb19a077757209d1999e3c6d3a44cb71a00dd497b1347b08cb00cc625a22977",
-      "bytes": 17560
+      "sha256": "5f55bd4ff908b4374ae61cf9bc53398675c1b03c1f7f2b2b445f3be19db33491",
+      "bytes": 17467
     },
     "maps/iron_labyrinth/exploration/f1/complex_ring_3.txt": {
       "sources": [],
@@ -14189,10 +14228,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "b28757a8f20a2bc5340cb7f6b1a4ff47d4071c38357070de68e8ee747002bbc3",
-      "bytes": 17466
+      "sha256": "bf30cb83cfc5ee7e0ee81cccaf1f5e46d74b4b160dff0495782857d006407f16",
+      "bytes": 17374
     },
     "maps/iron_labyrinth/exploration/f1/complex_barracks_0.txt": {
       "sources": [],
@@ -14200,10 +14240,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "ee1123fbd551ede9fca7642d0f37b392dac7c7477dcfd80fc99c6642c1aba6c0",
-      "bytes": 17538
+      "sha256": "eea1300736ebb2032631e894e7b38ac85f39570f49834d82331ab56f01dcbfe0",
+      "bytes": 17449
     },
     "maps/iron_labyrinth/exploration/f1/complex_barracks_1.txt": {
       "sources": [],
@@ -14211,9 +14252,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "e8b605f4ab1f04d2b93d3f1fd080d36d68988a004f9720a6f0e4f663978dbc75",
+      "sha256": "d84c39f78151555e8d33f3de175ec605a68e8d70fd6ba04d6925ee85100b4576",
       "bytes": 17452
     },
     "maps/iron_labyrinth/exploration/f1/complex_barracks_2.txt": {
@@ -14222,10 +14264,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "15f27ee4bd0579001d919f329a63846e98732fb02034687ebb60d2c6f0ae3bd8",
-      "bytes": 17527
+      "sha256": "c14fc1f954ef143daa93bd9de95fd79dcdc1cf80b7523d6d3ec1db7af8fffa36",
+      "bytes": 17531
     },
     "maps/iron_labyrinth/exploration/f1/complex_barracks_3.txt": {
       "sources": [],
@@ -14233,10 +14276,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "37a27b2d265b1c1540b0f3a52550d5305b6296093ab5f250e178ab8aa7268a22",
-      "bytes": 17554
+      "sha256": "4d7477fa0220a83580c47a66b513343c5cca5be887c0f411d44c4e564d10b501",
+      "bytes": 17463
     },
     "maps/iron_labyrinth/exploration/f1/complex_forks_0.txt": {
       "sources": [],
@@ -14244,10 +14288,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "3be7afef34f0c756982e2924d6c2cf248d080093d02d5d1f39ef5a78b2f3a5e7",
-      "bytes": 17783
+      "sha256": "c992f63a41ced860a799d35aabe3e7b5283263aa44c92a649272b8ea0dbbe879",
+      "bytes": 17779
     },
     "maps/iron_labyrinth/exploration/f1/complex_forks_1.txt": {
       "sources": [],
@@ -14255,10 +14300,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "a46431d16ebbdf15dffc7191e1a8521ae1854e2899886ebaf8fd584583bf4dbb",
-      "bytes": 17726
+      "sha256": "c1bb27e6cc89e3e09307cb231d70c28844cac767655f824e25571c0303776720",
+      "bytes": 17638
     },
     "maps/iron_labyrinth/exploration/f1/complex_forks_2.txt": {
       "sources": [],
@@ -14266,10 +14312,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "7029b085ccdd401dd67c35bdc4858d1cf237704a3cd3b77595f043a54f9ac0d8",
-      "bytes": 17779
+      "sha256": "08c4f1258dd1cc250d047cbd8abd00e2fe4f4e403d99da12397459cfa7c6fd43",
+      "bytes": 17687
     },
     "maps/iron_labyrinth/exploration/f1/complex_forks_3.txt": {
       "sources": [],
@@ -14277,10 +14324,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "c61116d67d91d90196904ad313408bacc913dac3d5db471144126d14d4143a5c",
-      "bytes": 17558
+      "sha256": "0e8e52e8be6ef93a44007b224658741de03c8e0d68e4472a1400ff9ca37ec3e0",
+      "bytes": 17648
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_0.txt": {
       "sources": [],
@@ -14288,10 +14336,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "42d6c0211c675fc70c4fc27c9b909e56e141fd19f134b32767d60221bc2d31b6",
-      "bytes": 19195
+      "sha256": "ad61557e7dc1a739e355d626065f5d71fb45fabfa9e1df1820843176db98cd39",
+      "bytes": 19287
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_1.txt": {
       "sources": [],
@@ -14299,10 +14348,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "5465e1e9035b16e2d3a52ae96dc443f6f28a012b06e886aab735dc187985b7dd",
-      "bytes": 19306
+      "sha256": "12f5a934823d4acfd52e58b29e8429639780f9a6686a3b2dd27be7b52ebc4729",
+      "bytes": 19212
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_2.txt": {
       "sources": [],
@@ -14310,10 +14360,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "51735a26f960f409dae0a2061c214c6364350c52192fe65abab3d9e942870fe1",
-      "bytes": 19273
+      "sha256": "633834951d42b59ed148c5ea1712a544c74ec5bd9ed0565ace5eb053036f1ccb",
+      "bytes": 19272
     },
     "maps/iron_labyrinth/exploration/f1/complex_vault_3.txt": {
       "sources": [],
@@ -14321,10 +14372,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "6c3df3e6614112bc90cecd98d5cc4bc3ee3ec2df60975e0c34f2dd677703380b",
-      "bytes": 19253
+      "sha256": "5bea1e7935fb7af14653131477f880ccc3b3844fd5ae4065165daac86ba2fe38",
+      "bytes": 19530
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_0.txt": {
       "sources": [],
@@ -14332,10 +14384,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "c4811da283e29e59502ca9f1e2706b9dc3cfd8af57b269134e070343db36328b",
-      "bytes": 18139
+      "sha256": "cce886734d22ba97e02288f7459f8ab41db1c16e6abf4a54272dcb41e512a301",
+      "bytes": 17861
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_1.txt": {
       "sources": [],
@@ -14343,10 +14396,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d1595cc1c16337990e9329c5b0ffa4c01ae1bb56cc5bf823bd03bac1db002a1a",
-      "bytes": 18045
+      "sha256": "33c5b0a9c354abdd2ea0869aad5cbd81427f3886d9edda469b5c6fcc21c1cb80",
+      "bytes": 17952
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_2.txt": {
       "sources": [],
@@ -14354,10 +14408,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "6842bf0fb92d8cc2b13bedf93f4e83d0a19b75763ede44c0a2186f6bf044ab8d",
-      "bytes": 17916
+      "sha256": "6688e4f488004d65494f7e51f7d356592b078182f6ecf17010d07e235f9fff75",
+      "bytes": 17917
     },
     "maps/iron_labyrinth/exploration/f1/complex_gallery_3.txt": {
       "sources": [],
@@ -14365,10 +14420,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "c661e80b84c3c7a6bcee1ba04bb4a7822e3711711f97b1b77749a001e2eb5844",
-      "bytes": 17436
+      "sha256": "81e85c3ae2a7c02bb196c507ac396813072415d16e9ef2b489dd884c0dd3d80c",
+      "bytes": 17439
     },
     "scripts/generation/f1/apply.txt": {
       "sources": [],
@@ -14376,7 +14432,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "ebcd2041fcb3da0cb7f2f7294e4432497c614d28718f5798ef600e73d03d3b83",
       "bytes": 346049
@@ -14387,7 +14444,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "fd32ff557ed4917e27c06f7c91d4707b19568ae9b656a87fc752d9531e77c1d7",
       "bytes": 307
@@ -14398,7 +14456,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "bf3cb8fd858bf7809fb879958b2c03e93a6df53403c0cd1c3d4612893f9d9a47",
       "bytes": 54868
@@ -14409,9 +14468,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "2c3f31a754f20c47f838d16009fa791c0df8d4ebbf6b79cc7f7ecbabb689b820",
+      "sha256": "442dbb7ae81c1ce40660e9c1fbbf66725e99886ef9d9f3c6d1e4aff5dbf36790",
       "bytes": 17016
     },
     "maps/iron_labyrinth/exploration/f2/door_ns_0.txt": {
@@ -14420,9 +14480,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "f9dab99f7607f2e7c42798c1ad45f609b048440b5f03b80d16a030520ad0abcb",
+      "sha256": "a1fa22d3241a7e943a25efabf1fade1ff6192b33b3e4d307771e0804ba2b92e1",
       "bytes": 17862
     },
     "maps/iron_labyrinth/exploration/f2/door_ns_1.txt": {
@@ -14431,9 +14492,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "27651bad1b99df1a7cd7fd4b552ed535effe3e2d995c5538dcd0eb9e34179662",
+      "sha256": "21a62f9c418ecac2e27e1cb7c646855b52d144e296301078388410589bd937d5",
       "bytes": 17774
     },
     "maps/iron_labyrinth/exploration/f2/door_we_0.txt": {
@@ -14442,9 +14504,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "7bf01e3f7056a1ed1768b756f186df00181415ccf0c5524fbf26038464b53ccc",
+      "sha256": "1a461d366902d110ba5586b92270c9f7f7296391e2f9314d5c517a84619b7d5f",
       "bytes": 17860
     },
     "maps/iron_labyrinth/exploration/f2/door_we_1.txt": {
@@ -14453,9 +14516,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "4a66b1c40cc7e53df8ae41781ea9cf1134d8d8dfc56d0aed69da25a17d87aa96",
+      "sha256": "6b4338ec04750811f33704eb476e5406adc7547316dd0e802f301c26901bf065",
       "bytes": 17772
     },
     "maps/iron_labyrinth/exploration/f2/end.txt": {
@@ -14464,9 +14528,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "369a44cffa80d16eb58a0c34db937aa1d3584b94b1c23207c8440942997d1470",
+      "sha256": "be9fdf539b54f469037f4f77855bb0464993032f2cd7a95549116e1c3ea9ce72",
       "bytes": 17223
     },
     "maps/iron_labyrinth/exploration/f2/key_0.txt": {
@@ -14475,9 +14540,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "9e7ab3b42e6c99959f5a30d7a9d20ab44e4242a2a8ef334c5e89c93821446262",
+      "sha256": "fe2dc8806cc95967272112eef234b6d436266f93af3b6edb661b10ba33859bb2",
       "bytes": 17306
     },
     "maps/iron_labyrinth/exploration/f2/key_1.txt": {
@@ -14486,9 +14552,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "1a0a89a7b74e5672a6fd32322477f322b9e757a93c8c34e52c4e3a4e59b3dbe7",
+      "sha256": "e43ab6fef2b59b456615e870256475cadbff03d12cbf820b564fb2a4a5150b66",
       "bytes": 17244
     },
     "maps/iron_labyrinth/exploration/f2/key_2.txt": {
@@ -14497,9 +14564,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "13fc12df0438f24ed16dd1ceb7ae5dd4cc241b11db6985ab42f078acbcb7fb44",
+      "sha256": "96f92526dfa96d3713288aa37a5211703d4250c5ac72fba315057e2abed2a3fa",
       "bytes": 17194
     },
     "maps/iron_labyrinth/exploration/f2/links_0.txt": {
@@ -14508,9 +14576,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "1f248cbe1d95a0bf7f9a2440edc7354f1d57bf8b10db889b29f78fe5a35ac072",
+      "sha256": "83ddae547f382b95dc39b7674528b584cd9e6ef607d6e69f4daf5934444d62d2",
       "bytes": 16941
     },
     "maps/iron_labyrinth/exploration/f2/links_1.txt": {
@@ -14519,9 +14588,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "93b80370b80a32cfd3f98d2f45104defb9a83235f06391b9b65e92eb6e5523e4",
+      "sha256": "f454c389fe18ee7ba56c6c1df877dbd89b955c4cbe710f725e29db33667724ab",
       "bytes": 16693
     },
     "maps/iron_labyrinth/exploration/f2/links_2.txt": {
@@ -14530,9 +14600,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "85f9d8b38d5b0f8caf81a9ddb43d452421abf11117d1a350608fffc638c94083",
+      "sha256": "4b35a3bd3819801b9b7aa99db1f774e4bc82fbee05003db98367d3d09cf54024",
       "bytes": 16461
     },
     "maps/iron_labyrinth/exploration/f2/start.txt": {
@@ -14541,9 +14612,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "469e6d5a3df6b3e491c6956a7546b4e6085b86ffc6d1bb484e39f3a0e35ee815",
+      "sha256": "3f762587104e556a62b9d5e6a7a7ea61953d76421d28f0549f332a7ae8194ef6",
       "bytes": 17078
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_0.txt": {
@@ -14552,10 +14624,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "a97a20e1190b67249a8b60178bce26e95992c70fb4ff57ab312e080438da2e9a",
-      "bytes": 17809
+      "sha256": "05083c23b3eadd53be92b69123639a569160a3f0e8353c8b3af45a3f3aaf2fd7",
+      "bytes": 17717
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_1.txt": {
       "sources": [],
@@ -14563,10 +14636,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "75e0593a4aa958c7d5d6a22df274136a67700b2afb5f8c334d5969dbd85cb14d",
-      "bytes": 17581
+      "sha256": "ce47c44a249b41abbde22b8774b3394a632b9d455c5de2ecc6d9aa0a03f7643c",
+      "bytes": 17857
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_2.txt": {
       "sources": [],
@@ -14574,10 +14648,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "0ff2fa72515d5245f8d21ab2624fc10710ccbee1e8c6de927f844e786eb151f0",
-      "bytes": 17910
+      "sha256": "96d7873c760220bd96d308f302126660d560b7751bd2b993b1179cb159a3abc5",
+      "bytes": 17817
     },
     "maps/iron_labyrinth/exploration/f2/complex_cloister_3.txt": {
       "sources": [],
@@ -14585,10 +14660,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "a7d39b30c35fc40ea6d480566e1845979250ca8e609a6540160c7d18f1afa828",
-      "bytes": 17796
+      "sha256": "fb2ce896b4350d127d2bbd295c09e50cb1c37f6383f7393f203ac84c50698d2b",
+      "bytes": 17888
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_0.txt": {
       "sources": [],
@@ -14596,10 +14672,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "8fcf84a2153dec80c380b8259acca7291e327d226bdab5b8531e7ae8f771669f",
-      "bytes": 17511
+      "sha256": "356766b6640dbe0ad0f9dd961e899daeb6649341c2f42b90e0ba7ef60bcc0539",
+      "bytes": 17602
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_1.txt": {
       "sources": [],
@@ -14607,10 +14684,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "f2887fe455f8385ca32aa8e235595615362ed1d9a8047e64d08e444bb343d73b",
-      "bytes": 18244
+      "sha256": "32f551d8475292368f3754b2bae91b1f5c1643a252f361fc82831f0cc89a58ed",
+      "bytes": 18240
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_2.txt": {
       "sources": [],
@@ -14618,10 +14696,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "0b8f28f3680c284260595b135ad87119ab227a951ed20504f8c10abb6c06d3b8",
-      "bytes": 17947
+      "sha256": "a37869673477861c72194aa16b62d2ebf4d0fad8bdd57cd8198505be9d9ff706",
+      "bytes": 18221
     },
     "maps/iron_labyrinth/exploration/f2/complex_chambers_3.txt": {
       "sources": [],
@@ -14629,10 +14708,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "75fc0e87f975eb3d448bcacb9a20eec514f51bedebb7346f465d3c7ab4dc3fa9",
-      "bytes": 17579
+      "sha256": "36f0171bf2cf45240b65f2c0d8b8ad70a94d65cc0cb332a1edb93b87c7a7fe3e",
+      "bytes": 17302
     },
     "maps/iron_labyrinth/exploration/f2/complex_grotto_0.txt": {
       "sources": [],
@@ -14640,10 +14720,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "8dde2be1832caa49d4d2ea04b6213fd7b18d8842bbad8e060adbd7094981a837",
-      "bytes": 17556
+      "sha256": "105792e007d7c23182287a6e08b967cfcdebd81d24cfd8ae8ad441e02993922a",
+      "bytes": 17557
     },
     "maps/iron_labyrinth/exploration/f2/complex_grotto_1.txt": {
       "sources": [],
@@ -14651,10 +14732,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "59ab53443aa85707e56788e7558f72895c7fee57b68ebfd7e0ca52db50242804",
-      "bytes": 17606
+      "sha256": "088f2a489abfbfe0f52d5e08cc6a4d881f79b0e9a370604db665b5bca0bc4d85",
+      "bytes": 17609
     },
     "maps/iron_labyrinth/exploration/f2/complex_grotto_2.txt": {
       "sources": [],
@@ -14662,10 +14744,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "448ab64d04ae14ca2737babbf9070460cb0ff4831e51b122dcc203e4519f8cd6",
-      "bytes": 17387
+      "sha256": "c35fa773c9578be57f8d3add25b3e243cab14be2e66305e9514e18d9d1035521",
+      "bytes": 17385
     },
     "maps/iron_labyrinth/exploration/f2/complex_grotto_3.txt": {
       "sources": [],
@@ -14673,10 +14756,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "227322842929edc8332aa00e29f04b319d9b456f3e2a144d23e9ad24486c263c",
-      "bytes": 17703
+      "sha256": "934b8a0f21f1c37c44f20694465556123e0769a60e16ecdf83c4424299c8fa98",
+      "bytes": 17516
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_0.txt": {
       "sources": [],
@@ -14684,10 +14768,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "531991488825d8545e83e32121a041ce610d57adfc513480058b7bfb47f6652e",
-      "bytes": 17557
+      "sha256": "eb32fda7943e08f507f8bcc4d6cf6f1fc2727dc874890c3156f3a2a0022d6d1e",
+      "bytes": 17649
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_1.txt": {
       "sources": [],
@@ -14695,10 +14780,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "56ae701fba746a7055afda8bd812f14474c8b8c721ef6fc3d501cb470327593e",
-      "bytes": 17667
+      "sha256": "46878720385147fad30548d1e6cdea1571fe3b061b5d91d3e1abdf5b57f8c6a9",
+      "bytes": 17669
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_2.txt": {
       "sources": [],
@@ -14706,10 +14792,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "98aadc9f68d29af995ec440b641c4d4666ae6197251227d6cad5d64124646b94",
-      "bytes": 17557
+      "sha256": "85a40c0af37b015f54d415105effab669a7622756fb9b14b8008c6f644317c7e",
+      "bytes": 17555
     },
     "maps/iron_labyrinth/exploration/f2/complex_ring_3.txt": {
       "sources": [],
@@ -14717,10 +14804,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "6cf14c91f045330a989057e6b83df25c7f7f5d6833424b1ecdac1e299b9bff6d",
-      "bytes": 17673
+      "sha256": "2f65d9ce0957a89a398f8460cde98fd5e17df22e52ab2514763132fd55a429e9",
+      "bytes": 17767
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_0.txt": {
       "sources": [],
@@ -14728,10 +14816,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "cbb5af723fc945e7458afb62c628bbde9568bad9a5cc0579a8da251dba12cf1c",
-      "bytes": 18081
+      "sha256": "b4303a416cebb8bc077279f1471a8e7fc99c1ed39d245b32d70af94d2b1d6fda",
+      "bytes": 18266
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_1.txt": {
       "sources": [],
@@ -14739,10 +14828,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "ddabfffc8f01ce3b62897c61d70a96d590263f50793e96d2b9787285e8b9703d",
-      "bytes": 17553
+      "sha256": "d99e0c4d54207774d4f42f6728fc4c4ee5af30fe468a076e7ddf3297fe1d659e",
+      "bytes": 17558
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_2.txt": {
       "sources": [],
@@ -14750,10 +14840,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "ab97bb8e0c92640ee0acbc607e00f07640059abf25f325e66d7d9c24189dfee7",
-      "bytes": 17645
+      "sha256": "ccf9c1eea4c864806ca8cfab6ac0433b4687eb3161d2dfd6b761b3fb525dab59",
+      "bytes": 17459
     },
     "maps/iron_labyrinth/exploration/f2/complex_barracks_3.txt": {
       "sources": [],
@@ -14761,10 +14852,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "14ee841eaa28845a7e5953bc4ec7c2540822b8dad44bd90a2241912e5ca4fada",
-      "bytes": 17611
+      "sha256": "76794b64c62e1f5df2c9bd0a7c24503bb363d7a4f80aa53761209342156912b4",
+      "bytes": 17517
     },
     "maps/iron_labyrinth/exploration/f2/complex_forks_0.txt": {
       "sources": [],
@@ -14772,10 +14864,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "a33cba57afc3c31a12384eb51bc7b68a38fa1ab72bd8be24110312c23974a234",
-      "bytes": 17719
+      "sha256": "329388eeccb056ded0b787c9cbee366d39ec1738504d48d8148e19ad8fe7d5b2",
+      "bytes": 17625
     },
     "maps/iron_labyrinth/exploration/f2/complex_forks_1.txt": {
       "sources": [],
@@ -14783,10 +14876,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "c806959096815d81c2640424b61831ca7d6c30fbee0f2502860a32a9832e3f69",
-      "bytes": 17526
+      "sha256": "f11ec85fe9fd3adf424c29abab56c82701f18e9d6d13380c093fcd5256f252db",
+      "bytes": 17341
     },
     "maps/iron_labyrinth/exploration/f2/complex_forks_2.txt": {
       "sources": [],
@@ -14794,10 +14888,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "336d6db7e72ff0eeefce547b2975ed2bb7976ff13bf94a1026c16b4a1cac7aa3",
-      "bytes": 17639
+      "sha256": "d9b8e412ffc990719dba8eca52d839ff31f030af7421c971772eceedd065356a",
+      "bytes": 17546
     },
     "maps/iron_labyrinth/exploration/f2/complex_forks_3.txt": {
       "sources": [],
@@ -14805,10 +14900,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "35ccca8a831a06bc581d5122f85d2d5d6505fe52c1c128f0fb31a556f1ada5f9",
-      "bytes": 17468
+      "sha256": "0f8f2d4b2f4bdd0aa1c7b7862c7f1651f079b4e4c91dbff04fc6b88a94e828cd",
+      "bytes": 17376
     },
     "maps/iron_labyrinth/exploration/f2/complex_vault_0.txt": {
       "sources": [],
@@ -14816,10 +14912,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "22eac06d010a4f130a6ddf56d4e902093baae6bf0978bbd93a6ab0c7d4b667f6",
-      "bytes": 19233
+      "sha256": "4f381dd6ae3f37d301f7c175ebd85fc699325c80ac365dfea7999b74d626a8e3",
+      "bytes": 19230
     },
     "maps/iron_labyrinth/exploration/f2/complex_vault_1.txt": {
       "sources": [],
@@ -14827,10 +14924,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "359d0409605d1a929604e942fa81cf3313f0fa0421772ca8fd60e2d05cac254f",
-      "bytes": 19309
+      "sha256": "1c23c24fc286f7c86569164d67743b48a65fc5524570ef602449ec639b26f444",
+      "bytes": 19311
     },
     "maps/iron_labyrinth/exploration/f2/complex_vault_2.txt": {
       "sources": [],
@@ -14838,10 +14936,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "25ba0eef9b431a003f39787bfb622cdc2377acd846c3aa11533e86ba6efd5da8",
-      "bytes": 19265
+      "sha256": "c55e509f40bb7093adcdf4918b8f7cd8d5de1018c0e8989c2225057a3133f7bf",
+      "bytes": 19358
     },
     "maps/iron_labyrinth/exploration/f2/complex_vault_3.txt": {
       "sources": [],
@@ -14849,10 +14948,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "f8c6c73fe7973a565905f623225997d60d5bdbf9d29ce8f54734a896043d03f2",
-      "bytes": 19268
+      "sha256": "60b782e5ce493939bd4e7d43fcbbc8dc64c0ababa12e6b481e5635ee94e84978",
+      "bytes": 19359
     },
     "maps/iron_labyrinth/exploration/f2/complex_gallery_0.txt": {
       "sources": [],
@@ -14860,10 +14960,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "b176140d697db2a911f7b95a47b7f689646fa72757a5e4c406cb627f6b0164a7",
-      "bytes": 18107
+      "sha256": "620bb77225b9d2594bad350135de2bbf3600c334895a2f9e1603d25a2eb1cb52",
+      "bytes": 18201
     },
     "maps/iron_labyrinth/exploration/f2/complex_gallery_1.txt": {
       "sources": [],
@@ -14871,10 +14972,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "ae7bf1fa8bc5267230387a7bc46743d889bb5cd2878040417be2cf6035f63b11",
-      "bytes": 17624
+      "sha256": "713624e511404f6a1d826403745326017d9a8a62a8487a03c802bbdc57c0f051",
+      "bytes": 17440
     },
     "maps/iron_labyrinth/exploration/f2/complex_gallery_2.txt": {
       "sources": [],
@@ -14882,10 +14984,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "dfbffde7e4062f67cf5ae30fb5df9af0aa02328e8b573ed97246cd0a81b6aa40",
-      "bytes": 18222
+      "sha256": "3074640313eb44ab9f21a4ec5be505b53c3c4648a2f4b677e8ae3530daac7daa",
+      "bytes": 18037
     },
     "maps/iron_labyrinth/exploration/f2/complex_gallery_3.txt": {
       "sources": [],
@@ -14893,10 +14996,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "35df838ff95712218e00b4011727155af380c55575b7b5a29c7494852312a57d",
-      "bytes": 17556
+      "sha256": "4de3b7e908bf64fb77f388822571c5d34269aef8f76e6a7a9be0dc082bc14427",
+      "bytes": 17554
     },
     "scripts/generation/f2/apply.txt": {
       "sources": [],
@@ -14904,7 +15008,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "5b3bb7010fd0cf0a9f2cad8dcb3e9f5e98a1ac04203badc3d3e8f0ac4eb13717",
       "bytes": 346049
@@ -14915,7 +15020,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "ef0bd0d11c674eda5873cf27788c032035c92469d539782e0cba22bc8c629121",
       "bytes": 307
@@ -14926,7 +15032,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "a56c6674d3414030534b3149863442038e4a7c2eaeea6b6f1eeb7039104c2c07",
       "bytes": 54868
@@ -14937,9 +15044,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "f6cda65ab5e26adf4378fd87dbc0b5542da7eb1585dcae9101e3da150f76090f",
+      "sha256": "a88250ec06592fa50fc851a021315774983256b2edb0d7e3c15f1367d360ff07",
       "bytes": 17049
     },
     "maps/iron_labyrinth/exploration/f3/door_ns_0.txt": {
@@ -14948,9 +15056,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "cea3992d74041a0ae4d0a087c382028d2a9e9b6f53f60c4af78d4544db9caae3",
+      "sha256": "ab5b16b37b517cd9a26e3e3a4a231228e9f166cc5a104d839e854ecc383c874b",
       "bytes": 17861
     },
     "maps/iron_labyrinth/exploration/f3/door_ns_1.txt": {
@@ -14959,9 +15068,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "7053f3a290ac0d6dbfc838c8ac5ca147b6ba16aa5123cfc5c15409ae886a7f03",
+      "sha256": "f578ca3423f0ab9855a1e147ea4a436b316c18cc949ecec908566199f2b04db9",
       "bytes": 17773
     },
     "maps/iron_labyrinth/exploration/f3/door_we_0.txt": {
@@ -14970,9 +15080,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "1d543de3eaf72e91fca9d8e12fe426f522fc106cc55ccc2c37f3ac6bda8576cd",
+      "sha256": "d2b728d9eceed3bf6c26aac3fe5c6fa8a9fe20a9ef8fb5b6bf7933f059cc7cae",
       "bytes": 17859
     },
     "maps/iron_labyrinth/exploration/f3/door_we_1.txt": {
@@ -14981,9 +15092,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "73b81dd4ad5fb39bef965356a87024281f571b8c633da0ad7e419e774b51f58c",
+      "sha256": "3593175fc97efd780608d2d7c18c3d71986e45cf40a81a7d9dddbfe88bfa92ec",
       "bytes": 17771
     },
     "maps/iron_labyrinth/exploration/f3/end.txt": {
@@ -14992,9 +15104,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "6e86c6f3bc4b6d5c94f7bf6066c5900e1ecf360d112227f99a8172fecb8862d9",
+      "sha256": "5f5b621890f62a1ee08ea66b732b9367dbf8dda3acedfe654ef9fd3ed37c34ca",
       "bytes": 17204
     },
     "maps/iron_labyrinth/exploration/f3/great_hall_0.txt": {
@@ -15003,9 +15116,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "029141d9c5f710d25a145b4b3ae2c2d53a114f5e6180abdb29faee306e6adcef",
+      "sha256": "f1420ea60cd0ca04765c4c83c758c7e885fdeb7dcb8613288f51c4d7165cac6e",
       "bytes": 16954
     },
     "maps/iron_labyrinth/exploration/f3/key_0.txt": {
@@ -15014,9 +15128,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "389de8e5c78264955a53bb4ee543c4bdc53a9b9b297454c9a1393ba930d90331",
+      "sha256": "80d4b057cb6d46bbb2647e0ca7d3492029e9158f3968d7f39372fa80ad8d0db4",
       "bytes": 17305
     },
     "maps/iron_labyrinth/exploration/f3/key_1.txt": {
@@ -15025,9 +15140,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "56a2216323ce9c4a64159c789a018422043775fc8574c20a0fbdbeb2ed878148",
+      "sha256": "f4a8c7abab740cce906a0d2cdcd74e72bb2391b6643aa884276b94a70e74a869",
       "bytes": 17243
     },
     "maps/iron_labyrinth/exploration/f3/key_2.txt": {
@@ -15036,9 +15152,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "8b4d731c015be1ad6399445f504737323483ad8705dc4b73c8d50a36b4bfeb6f",
+      "sha256": "787144c3fbc0a0a89aec4e5f7d08a3e022646ce02395ee8af96eaeda833b3668",
       "bytes": 17193
     },
     "maps/iron_labyrinth/exploration/f3/links_0.txt": {
@@ -15047,9 +15164,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "a5f0beb31fcdd6e9fb1dabcb3b0640ca1dada4f5b74c4779807ae00c0846dffe",
+      "sha256": "d794be849003d6400f8cbb047bf254f10d5369c7d5ecca332237c56b8a8101a9",
       "bytes": 16940
     },
     "maps/iron_labyrinth/exploration/f3/links_1.txt": {
@@ -15058,9 +15176,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "fcbc039e43dd902a49db7b8334a44486939de56dd2517cab2d761b4f321168fc",
+      "sha256": "4307e7417e59e71dc3cc5cdd63c0efa2b9d28655a03fa03b65c99e03359f4261",
       "bytes": 16692
     },
     "maps/iron_labyrinth/exploration/f3/links_2.txt": {
@@ -15069,9 +15188,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "8caf420a0a9043bc744798d7bd09f2ddd437e7a47084f6e66314448a9a3b6fb0",
+      "sha256": "2b67b90b4f75ba28a00a68592ae7b5849dfd94f79a2691ef0c47cd7c5b454775",
       "bytes": 16460
     },
     "maps/iron_labyrinth/exploration/f3/start.txt": {
@@ -15080,9 +15200,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "5d94ebb030744d38d6e77d823d0b9dbe7f1018e0553c3e56e9d8a8aae8cecf1c",
+      "sha256": "5bbe805288231d9241d14ef94d1be70f348bbf1bbd071c96e1f07a971161af5c",
       "bytes": 17077
     },
     "maps/iron_labyrinth/exploration/f3/complex_cloister_0.txt": {
@@ -15091,10 +15212,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "daa986557f8900f646b9e6623a95e15c8666f0b54c72386b7415faae1ad0467c",
-      "bytes": 17818
+      "sha256": "c855ada2cc11076dcd219ce3a23e2c7ee80e2d378d2577617256aa72cb393a81",
+      "bytes": 17907
     },
     "maps/iron_labyrinth/exploration/f3/complex_cloister_1.txt": {
       "sources": [],
@@ -15102,10 +15224,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d34aaf1c399aaed47380b5277d3a7f73516d97e9ea150c05ad384be76f259b29",
-      "bytes": 17816
+      "sha256": "582c0aa545fab9d9fa43899aff519968a88b16b57383e774bfaef63b0d5290cc",
+      "bytes": 17910
     },
     "maps/iron_labyrinth/exploration/f3/complex_cloister_2.txt": {
       "sources": [],
@@ -15113,10 +15236,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d4b57aa31b390566f5d0706148a669e1fd09ed566a89abb60673ec597467a46f",
-      "bytes": 17911
+      "sha256": "118db2c18646df3919d7677e26edb2776e89e2fda9393b3852395a34172ca80a",
+      "bytes": 17817
     },
     "maps/iron_labyrinth/exploration/f3/complex_cloister_3.txt": {
       "sources": [],
@@ -15124,10 +15248,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "718729c50f20ade1fbfc300d0023d0e6a1e1bf21a91203cfee8f6d767409d422",
-      "bytes": 17820
+      "sha256": "a240e5cc82d8d16f30640ba4fa49ba62589b6502a9a8399bdbc463634f18a6fc",
+      "bytes": 17913
     },
     "maps/iron_labyrinth/exploration/f3/complex_chambers_0.txt": {
       "sources": [],
@@ -15135,10 +15260,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "e1cfe87f7bbf0376ec05d22b1cac6ca695f61fe59de7f7f2b5f1036875c04525",
-      "bytes": 17817
+      "sha256": "29bdaded650f00ea73d4b08dc6870becae35469165d44b6a5313dbd7730d31fa",
+      "bytes": 17908
     },
     "maps/iron_labyrinth/exploration/f3/complex_chambers_1.txt": {
       "sources": [],
@@ -15146,10 +15272,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "42e89c2d431b9c1c0cf8f379de2d08083d6f11d4e42ce333f3217c8cd9958081",
-      "bytes": 17817
+      "sha256": "6db55564a8ffb9cb5df2d83de574209dd18da10dea90ee083721fa3d61c2e2c6",
+      "bytes": 17909
     },
     "maps/iron_labyrinth/exploration/f3/complex_chambers_2.txt": {
       "sources": [],
@@ -15157,10 +15284,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "62e98339e6c101513e1325955193c928294f02d64e4d75eea7785b367aadf900",
-      "bytes": 17716
+      "sha256": "9db5c89b33bc61fee635af924ea62c6082947a4bb1b57ed34bbf32be9d0948e8",
+      "bytes": 17809
     },
     "maps/iron_labyrinth/exploration/f3/complex_chambers_3.txt": {
       "sources": [],
@@ -15168,10 +15296,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "4ad9d35afd3d220f43e5476dbf8c7db5fd19c007728dfada059aacfc4145d9f7",
-      "bytes": 17728
+      "sha256": "17ade12d4e0ec8712c99e2f42dc0aab7b214f88f73b08c1d8a76d36833bc63e2",
+      "bytes": 18003
     },
     "maps/iron_labyrinth/exploration/f3/complex_grotto_0.txt": {
       "sources": [],
@@ -15179,10 +15308,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "8a190e14caef2c42b88d5ea7435d03ada8dc11b947297ce421c2e72b60594b52",
-      "bytes": 17638
+      "sha256": "3f87f9483fac96f54bda5c7896ffc02fc01abc7b7295f87a73565be990148203",
+      "bytes": 17546
     },
     "maps/iron_labyrinth/exploration/f3/complex_grotto_1.txt": {
       "sources": [],
@@ -15190,10 +15320,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "05fbf2e413b1b9ec66724311e8fb449717afbf7a2c4fdf7e9cfbab005f2cc17d",
-      "bytes": 17541
+      "sha256": "2ddbe961b74c7dbcbbdc583e48d8e4c1823e90d912f77bb243fe59145ebaf2d8",
+      "bytes": 17543
     },
     "maps/iron_labyrinth/exploration/f3/complex_grotto_2.txt": {
       "sources": [],
@@ -15201,10 +15332,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "36ddc8b9d32fbb971cfaf0983396fa1cc3298d027d9de055d776159cf682d790",
-      "bytes": 17531
+      "sha256": "44189a5d83599c3c071722a58b3e337fa5a6d508030c693acf22e2469c0f4da6",
+      "bytes": 17717
     },
     "maps/iron_labyrinth/exploration/f3/complex_grotto_3.txt": {
       "sources": [],
@@ -15212,10 +15344,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d88570832f53677ea1bdb83a7566ef03a9fa6912b55d5a755160a00c8e1931c2",
-      "bytes": 17715
+      "sha256": "ee99ca45b3dd9b52852ddc1c2543d96bd713e79a3906b7ebea09080a4c373717",
+      "bytes": 17717
     },
     "maps/iron_labyrinth/exploration/f3/complex_ring_0.txt": {
       "sources": [],
@@ -15223,10 +15356,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "eca9d9a599a3e831b217b5a415611452560e9bb68f8bd7908215d85b0d934a88",
-      "bytes": 18055
+      "sha256": "0d9bbe35ada620fcbbd8cd8affb92bc158714d5a37a4af4af9b89d016850cfbd",
+      "bytes": 18053
     },
     "maps/iron_labyrinth/exploration/f3/complex_ring_1.txt": {
       "sources": [],
@@ -15234,10 +15368,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d4ba6e78ce1ded1659b00fc81a4fb5e96352e88958954c4c2846a102a66d087a",
-      "bytes": 17963
+      "sha256": "faac2ab935c9f0d9dec3d8c885f0dd71568036a07859312edbc556a16f30d241",
+      "bytes": 18055
     },
     "maps/iron_labyrinth/exploration/f3/complex_ring_2.txt": {
       "sources": [],
@@ -15245,10 +15380,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "1b56b1b89fea5643b653c5136e7dc6090eb71719b6efa93c29290b33ddad79eb",
-      "bytes": 17966
+      "sha256": "6d3285af28e337f1ea358d51097080b579ae8b1116a1f7a9c07aeee68994ccfc",
+      "bytes": 17965
     },
     "maps/iron_labyrinth/exploration/f3/complex_ring_3.txt": {
       "sources": [],
@@ -15256,10 +15392,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "682d025ac2f4941464ea8a653ac563ab50a7ec3d6200f49f87658fa3ee2fed33",
-      "bytes": 18151
+      "sha256": "d74928d34903bf1d9ddaac6043801586d570fdf2642e73b8578ad34c46247620",
+      "bytes": 17966
     },
     "maps/iron_labyrinth/exploration/f3/complex_barracks_0.txt": {
       "sources": [],
@@ -15267,10 +15404,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "a7f8fcc2e0b83d86fd8ea1b8875b7484b4c9eb90508c46357a8cd618536d61d7",
-      "bytes": 17396
+      "sha256": "aefc73e14624e6ca73bfbd7cfea0a795a25e8f415eacf9f1792ab1f8d032902e",
+      "bytes": 17486
     },
     "maps/iron_labyrinth/exploration/f3/complex_barracks_1.txt": {
       "sources": [],
@@ -15278,10 +15416,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "bdf17139102a5b65d2bde794cc90317c70c823b52b937eb61ebe081f11339d41",
-      "bytes": 17492
+      "sha256": "cfe1f7fdf8ab4c9bc281cfd33ee9f8be7006c1fde7e937ed6acdb82aacd76ca6",
+      "bytes": 17398
     },
     "maps/iron_labyrinth/exploration/f3/complex_barracks_2.txt": {
       "sources": [],
@@ -15289,10 +15428,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "3ac39ec10dc96b2262b37394ee895b9420be6b34b845844e65f620564751a4c2",
-      "bytes": 17529
+      "sha256": "9e4b3488a02c942e491f7ccaeb41fee507f1d8a455c6e643256e00ccdb25e906",
+      "bytes": 17620
     },
     "maps/iron_labyrinth/exploration/f3/complex_barracks_3.txt": {
       "sources": [],
@@ -15300,10 +15440,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "e1f641a23c837c0422f1b63292f202530772a1be3f66b5ebf880dd9703244ccb",
-      "bytes": 17517
+      "sha256": "d03f9bfd8d5834cc67c4bba4df4e944cf75a3ebb4210daa34064602fa2c9b2a2",
+      "bytes": 17425
     },
     "maps/iron_labyrinth/exploration/f3/complex_forks_0.txt": {
       "sources": [],
@@ -15311,10 +15452,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "dc07391113ea66018f04a3dbb0e4699c6336423540511a3f9fe9ae39bde9361c",
-      "bytes": 17387
+      "sha256": "9113fdd74cb8613e5d7c61b5170247bc469763d59dee247033860861f0f75095",
+      "bytes": 17296
     },
     "maps/iron_labyrinth/exploration/f3/complex_forks_1.txt": {
       "sources": [],
@@ -15322,10 +15464,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "77cdd5a0acd6240458536d173255d1ad6f40e3e7e79b867bba4fe78a543919c2",
-      "bytes": 17470
+      "sha256": "9b0ee7835077438b861605aa7ded9335399fc7575f71a9dfc2668edebf0295ed",
+      "bytes": 17559
     },
     "maps/iron_labyrinth/exploration/f3/complex_forks_2.txt": {
       "sources": [],
@@ -15333,10 +15476,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "2a408bbc65eb75ea41e82056472b0e473e69ac5e56270c99165da3771c29b284",
-      "bytes": 17364
+      "sha256": "d4077ab4612dc43a6604e27d793b9c94a2e33277fa2b80352d90e259f0a769bf",
+      "bytes": 17363
     },
     "maps/iron_labyrinth/exploration/f3/complex_forks_3.txt": {
       "sources": [],
@@ -15344,10 +15488,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "1b1fd8afa2fc557552247273be1200d2d695416768475104638703b6d4e90450",
-      "bytes": 17494
+      "sha256": "223da1e1ad5d094d7ba915f22b3800236baac12027abd3431272f25f4b2f08d9",
+      "bytes": 17402
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_0.txt": {
       "sources": [],
@@ -15355,10 +15500,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "2bb5d9c8bd1928e13f0a58d378ac9a2194a72cafbae250d564e2a18fbe46dbb1",
-      "bytes": 19144
+      "sha256": "92fc4f59578dddd247a4a9b206931bcc10d7db1252ff26d6bf1c57e553b9dcd3",
+      "bytes": 19329
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_1.txt": {
       "sources": [],
@@ -15366,10 +15512,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "e89c03f2892f2332c0c64af2a0cea244975156152b1fecde28584a8eddede067",
-      "bytes": 19237
+      "sha256": "9ec8fcc83c578e8416f1f9549d5632411931b297365080117a48cbf021998d65",
+      "bytes": 19329
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_2.txt": {
       "sources": [],
@@ -15377,10 +15524,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "0e5d134a289e34346b538ecef5c25728d87210f1685928f3a2da3c7e87ed0301",
-      "bytes": 19401
+      "sha256": "c3b2b022af1dee27d633563cd09cea24f19a3e9c696682f0c012083956d02667",
+      "bytes": 19218
     },
     "maps/iron_labyrinth/exploration/f3/complex_vault_3.txt": {
       "sources": [],
@@ -15388,9 +15536,10 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "50b91eb1648c9e70ad0ef17d4a802d56c7f4eb9e1d103f86f186dffa329b35db",
+      "sha256": "a72e796c95c86fca27f1819608dc57eac7ef97303af3abf4a6f8d534886bb556",
       "bytes": 19322
     },
     "maps/iron_labyrinth/exploration/f3/complex_gallery_0.txt": {
@@ -15399,10 +15548,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "d3478e164295cb8c542b7bbb866b4f762b91d090fcbabc22b09a45a8c2c72ffa",
-      "bytes": 17493
+      "sha256": "44c1d3b69002834e7ed64d182795fa1faecee7b1395ceb34b2f52be692a047cf",
+      "bytes": 17495
     },
     "maps/iron_labyrinth/exploration/f3/complex_gallery_1.txt": {
       "sources": [],
@@ -15410,10 +15560,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "91e74c73e626e19eeb13ce019b35b99532b43dd8e876831174eedd07eb85f9d9",
-      "bytes": 17352
+      "sha256": "81c1705c310b9759919ddea452bd62bf632fe2603e97e4abc466dd1a884e3eca",
+      "bytes": 17356
     },
     "maps/iron_labyrinth/exploration/f3/complex_gallery_2.txt": {
       "sources": [],
@@ -15421,10 +15572,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "30d1c9c3c73981542d185db5bef472fd9811ba8e51fe0bc9943b14753bd21916",
-      "bytes": 17403
+      "sha256": "eb1b64ee8f427fafbbfdc617c23cd5f83660af73e161ccdbe10f76ec58cf99a0",
+      "bytes": 17306
     },
     "maps/iron_labyrinth/exploration/f3/complex_gallery_3.txt": {
       "sources": [],
@@ -15432,10 +15584,11 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
-      "sha256": "33bb8f7e996c329af1d5da7e10d64f97c625bc7b05e7922a0789317572d3bea5",
-      "bytes": 17401
+      "sha256": "ff8ddc6dd57a4d099d7a3f854db8100bb3e88a41fac1957cb56053b36d82eec8",
+      "bytes": 17493
     },
     "scripts/generation/f3/apply.txt": {
       "sources": [],
@@ -15443,7 +15596,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "b73051ff4779860e1af9efde6debef7da5c00aec219004443ad987716fd97523",
       "bytes": 346049
@@ -15454,7 +15608,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "05765ed3d9c74d4b32ed378fc3664e0f16f2b9d76e007a0fba0256f07510556d",
       "bytes": 307
@@ -15465,7 +15620,8 @@
         "Diantre 0.6.0: room complexes and persistent runtime loops within the same progression stage; original map/script data.",
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "927bd195b3786a98ef93bd73f7c074c444bab52936216b02b0466094b9e88224",
       "bytes": 54868
@@ -15475,7 +15631,8 @@
       "changes": [
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "a09fdb9a61c50f3d7f493f3166e5954dbb5aa5153e99a99fe28f442a00b3d97c",
       "bytes": 10339
@@ -15485,7 +15642,8 @@
       "changes": [
         "Diantre 0.7.0: native ruins, caverns and crypts; themed architecture and details; original map/script data.",
         "Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP.",
-        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
+        "Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine.",
+        "Diantre 0.8.2: visible masonry for all solid masses; fixed enemy XP, native scenery and stock engine."
       ],
       "sha256": "4445c85e86ae91ad578cc46b97f974fcaf59fe8b4dfdff0b28cfcf22c251f89e",
       "bytes": 10550
