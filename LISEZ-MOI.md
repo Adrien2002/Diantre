@@ -1,31 +1,29 @@
-# Diantre 0.8.2 — densification et réparation des faux passages
+# Diantre 0.8.3 — génération dense et hameau corrigé
 
 Le cœur du mod reste la qualité de la génération : les lieux doivent
-rester variés, cohérents, intéressants à explorer, et le générateur doit
-se faire oublier derrière leur architecture.
+rester variés, cohérents et agréables à explorer. Le générateur doit
+se faire oublier derrière l'architecture.
 
-Les trois étages utilisent toujours une région de 216 × 216 cases, jusqu'à
-36 secteurs. Depuis la 0.8.1, les secteurs ordinaires prévoient 11 à 19
-ennemis, répartis en groupes variables allant du solitaire au petit groupe
-de quatre, et davantage de détails natifs. Les niveaux d'ennemis et leurs
-récompenses d'XP restent fixes selon la profondeur.
+Les donjons conservent leurs trois environnements et la surface de 216 × 216
+cases introduite en 0.8.0. Depuis 0.8.1, les secteurs ordinaires prévoient
+11 à 19 ennemis répartis entre des solitaires et des groupes variables ;
+leur puissance et leur XP restent fixes par profondeur. Depuis 0.8.2,
+les anciennes fausses dalles infranchissables sont représentées par de
+véritables blocs maçonnés.
 
-La **0.8.2** corrige une incohérence graphique importante : des cases
-infranchissables étaient affichées comme des **dalles de sol surélevées**
-au lieu d'un volume de pierre visible. Les modules ordinaires, spéciaux
-et les raccords utilisent maintenant des blocs de maçonnerie pour leurs
-masses solides, et un nouveau contrôle détecte la réapparition de ce
-problème. Les collisions et les règles de progression sont inchangées.
+La **0.8.3** corrige deux points visuels du hameau : les cabanes utilisent
+l'assemblage non étiré du village officiel Black Oak City de Flare, et le
+pied de falaise est dégagé au niveau de l'entrée minière sans changer la
+collision du portail. Le moteur Flare standard, les atlas d'origine et les
+sauvegardes personnelles ne sont pas modifiés.
 
-**Statut :** génération et contrôles statiques réussis dans GitHub Actions.
-Cette nouvelle représentation **n'a pas encore été vérifiée par une série
-de captures à l'intérieur du moteur Flare standard**. Les jonctions entre
-blocs et la répétition des piliers restent à évaluer visuellement.
+**Statut :** régénération et contrôles statiques réussis avec GitHub Actions,
+dont 4 096 assemblages du hameau. Le rendu réel de ces corrections doit
+encore être confirmé par des captures en jeu sur **une nouvelle partie**.
 
-Consulter le [bilan architectural 0.8.2](docs/VALIDATION-architecture-0.8.2.md),
-le [bilan de population 0.8.1](docs/VALIDATION-densite-0.8.1.md),
-les [essais natifs historiques 0.8.0](docs/VALIDATION-grands-etages.md)
-et l'[étude de Diablo I](docs/ETUDE-DevilutionX-generation-2026-10-31.md).
+Voir le [bilan du hameau 0.8.3](docs/VALIDATION-hameau-0.8.3.md),
+le [bilan architectural 0.8.2](docs/VALIDATION-architecture-0.8.2.md)
+et le [bilan de densité 0.8.1](docs/VALIDATION-densite-0.8.1.md).
 
 ## Trois environnements actuels
 
