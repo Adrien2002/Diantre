@@ -8,6 +8,7 @@ import json
 
 ROOT = Path(__file__).resolve().parents[1] / "diantre"
 EXPECTED = {"florin", "udana", "yora", "abasi", "martigan", "bakat", "loren"}
+ENTRANCE_X, ENTRANCE_Y = 12, 2
 
 
 def parse(path):
@@ -77,6 +78,20 @@ def main():
         # Flare's chunk copier assumes square chunks when copying full layers.
         assert width == height, "Non-square map cannot be safely copied by Flare"
         layer_names = list(layers(sections))
+        # The original Empyrean cabin is a four-piece sprite assembly.
+        # A second 210 middle segment has no counterpart in the native
+        # Black Oak City prefab and caused a visible roof/façade mismatch.
+        object_rows=layers(sections)["object"]
+        cabin_bases=[(x,y) for y,row in enumerate(object_rows)
+                     for x,t in enumerate(row) if t==209]
+        for x,y in cabin_bases:
+            assert x>=1 and y>=2,(x,y,"Cabin out of bounds")
+            assert object_rows[y][x-1]==208,(x,y,"Missing left cabin end")
+            assert object_rows[y-1][x]==210,(x,y,"Missing middle roof tile")
+            assert object_rows[y-2][x]==211,(x,y,"Missing end roof tile")
+            assert y<3 or object_rows[y-3][x]!=210,(x,y,"Repeated roof segment")
+        assert sum(t==210 for row in object_rows for t in row)==len(cabin_bases),"Orphan middle cabin segment"
+        assert sum(t==211 for row in object_rows for t in row)==len(cabin_bases),"Orphan cabin roof cap"
         cliff_layers = [n for n in layer_names if n.startswith("cliff_")]
         assert len(cliff_layers) == 16
         assert all(layer_names.index(n) < layer_names.index("object") for n in cliff_layers), "Cliff must render behind trees"
@@ -140,6 +155,10 @@ def main():
                     top = ((tx-x)+(ty-y))*48-oy
                     for body_y in (-120, -60):
                         assert not (left <= 0 < left+tw and top <= body_y < top+th), ("Tree can hide merchant", name, (x,y), (tx,ty))
+            assert data["cliff_00"][ENTRANCE_Y][ENTRANCE_X]==0,"Doorway still blocked by lowest cliff sprite"
+            assert all(data[f"cliff_{n:02}"][ENTRANCE_Y][ENTRANCE_X]==28000+2*n
+                       for n in range(1,16)),"Cliff above entrance not continuous"
+            assert data["object"][ENTRANCE_Y][ENTRANCE_X]==228,"Native mine doorway missing"
             assert (12, 3) in seen and (12, 4) in seen, "Dungeon entrance disconnected"
             assert any(p in seen for p in ((13, 14), (15, 14), (14, 13), (14, 15))), "Stash disconnected"
             assert all(c[y][x] == 1 for x, y in occupied), "Walkable cabin footprint"

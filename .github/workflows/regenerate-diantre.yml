@@ -7,6 +7,8 @@ on:
       - 'tools/build_exploration.py'
       - 'tools/dungeon_themes.py'
       - 'tools/check_population.py'
+      - 'tools/build_surface.py'
+      - 'tools/check_surface.py'
       - '.github/workflows/regenerate-diantre.yml'
   workflow_dispatch:
 
@@ -25,14 +27,17 @@ jobs:
           python-version: '3.12'
       - name: Install static validation dependencies
         run: python3 -m pip install Pillow
-      - name: Regenerate the native Flare maps and asset manifest
-        run: python3 -B tools/build_exploration.py
+      - name: Regenerate the hamlet and native Flare dungeon maps
+        run: |
+          python3 -B tools/build_surface.py
+          python3 -B tools/build_exploration.py
       - name: Verify the generated maps
         run: |
           python3 -B tools/check_exploration.py
           python3 -B tools/check_population.py
           python3 -B tools/check_themes.py
           python3 -B tools/check_encounters.py
+          python3 -B tools/check_surface.py
       - name: Commit and push generated artifacts on main
         run: |
           git add diantre/ docs/exploration-metrics.json

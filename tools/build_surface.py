@@ -56,14 +56,17 @@ class Map:
             else:
                 y += 1 if b[1] > y else -1
 
-    def cabin(self, merchant, x, y, length):
-        """Same native log-cabin assembly used in Black Oak City, not ruins."""
+    def cabin(self, merchant, x, y):
+        """Use the exact 208/209/210/211 cabin footprint from Black Oak City.
+
+        The native source uses one middle tile (210), not an extended repeat:
+        repeating it could introduce visible seams in the roof and façade.
+        """
         self.set("object", x - 1, y, 208)
         self.set("object", x, y, 209)
-        for cy in range(y - length + 2, y):
-            self.set("object", x, cy, 210)
-        self.set("object", x, y - length + 1, 211)
-        for cy in range(y - length + 1, y + 1):
+        self.set("object", x, y - 1, 210)
+        self.set("object", x, y - 2, 211)
+        for cy in range(y - 2, y + 1):
             for cx in (x - 1, x):
                 self.set("collision", cx, cy, 1)
         npc_x, npc_y = x, y + 2
@@ -113,7 +116,7 @@ def build_chunks():
             if variant >= 2:
                 order.reverse()
             for i, (merchant, (x, y)) in enumerate(zip(order, positions)):
-                m.cabin(merchant, x, y, 3 + (variant + i) % 2)
+                m.cabin(merchant, x, y)
             unique = f"\nprocgen_unique_status=diantre_compact_{kind}" if kind.startswith("normal") else ""
             m.write(f"maps/town/compact/{kind}_{variant}.txt",
                     f"hero_pos=6,{STREET_Y}\nprocgen_type={kind.split('_')[0]}{unique}")
@@ -158,8 +161,14 @@ def build_town():
 
     for level in range(CLIFF_LEVELS):
         for x in range(WIDTH):
+            # The native mine doorway is a complete sprite. The bottom cliff
+            # piece under it covers the entry's interior with rock, making
+            # the doorway look clipped. Cut only this lowest piece; keep
+            # all higher courses and both lateral cliff columns intact.
+            if level == 0 and x == ENTRANCE[0]:
+                continue
             overlay(f"cliff_{level:02}", x, ENTRANCE[1], 28000 + level * 2 + x % 2)
-    # Native mine opening, set into that same single rock face.
+    # Native mine opening, set into the recessed lowest course of rock.
     overlay("object", ENTRANCE[0], ENTRANCE[1], 228)
     for y in range(3, 27):
         for x in range(11, 14):
@@ -240,7 +249,7 @@ def update_manifest():
              ROOT / "scripts/town/return.txt", ROOT / "settings.txt",
              ROOT / "tilesetdefs/town/compact_palette.txt",
              *sorted((ROOT / "maps/town/compact").glob("*.txt"))]
-    note = "Diantre 0.5.1: closer shop lots, unobstructed merchants and a continuous northern cliff; original map data."
+    note = "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved."
     for file in paths:
         key = file.relative_to(ROOT).as_posix()
         record = manifest["files"].get(key, {"sources": [], "changes": []})
