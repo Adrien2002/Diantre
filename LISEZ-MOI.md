@@ -1,34 +1,45 @@
-# Diantre 0.8.6 — entrée dégagée et coffre hors de la rue
+# Diantre 0.8.7 — persistance des cartes et entrée réorientée
 
-Le moteur Flare standard reste le seul moteur nécessaire pour jouer.
-La génération actuelle conserve ses trois étages compacts (5 × 5 secteurs),
-leurs combats et leur progression fixe, les escaliers restaurés en 0.8.4
-et les portails permanents inaugurés en 0.8.5.
+Diantre conserve ses trois étages procéduraux de 5 × 5 secteurs, leurs
+combats à difficulté fixe, les escaliers visibles (0.8.4), le coffre
+près des cabanes (0.8.6) et le premier portail permanent à l'étage 2
+(0.8.5). Aucun changement n'a été apporté à ces mécaniques de combat.
 
-La **0.8.6** apporte deux corrections ciblées au hameau forestier :
+La **0.8.7** traite trois régressions observées en jeu :
 
-- **Entrée du donjon :** après le dégagement central effectué en 0.8.3,
-  deux éléments de falaise continuaient d'empiéter sur le côté droit du
-  portail. Les deux niveaux inférieurs de la colonne de droite ont été
-  retirés ; la partie supérieure de la falaise, l'entrée interactive
-  et les collisions demeurent inchangées.
-- **Coffre partagé :** déplacé de **(14,14)** (au croisement des rues)
-  à **(7,9)**, dans le passage entre deux cabanes au nord du hameau,
-  à proximité de l'entrée et hors de l'axe de circulation. Ce coffre
-  n'est associé à aucune habitation personnelle du personnage.
+- **Carte régénérée après la mort :** le démarrage utilise désormais
+  un délai de 350 ms après la première sauvegarde, afin de laisser
+  Flare créer le répertoire de cache du personnage avant la
+  première génération. L'entrée du donjon applique également
+  une sauvegarde avant son chargement différé de 250 ms.
+- **Marchands disparus :** les variantes de maisons possédaient des
+  marqueurs de sélection persistants. En cas de régénération,
+  ces marques pouvaient éliminer les deux familles intermédiaires
+  et ne laisser que **trois des sept marchands**. Elles sont
+  désormais effacées après la génération, avant les sorties et
+  lors des retours vers le village. Les variantes restent uniques
+  pendant leur assemblage.
+- **Entrée de mine :** suppression du sprite 228 dont la porte
+  violette était orientée vers le mauvais côté, remplacement
+  par la variante native 224, et restauration de la continuité
+  de la falaise à droite. Le passage et son déclencheur sont
+  inchangés. Le coffre reste en (7,9), près des maisons.
 
-La version conserve également le **premier portail permanent à l'étage 2**,
-dont la destination apparaît au village seulement après découverte.
+**Contrôles statiques : réussis** sur GitHub Actions, dont 23 040
+configurations de modules, 4 096 compositions du village et
+1 832 vérifications de fichiers. **À confirmer en jeu :** les
+cache de cartes persistent réellement après une mort / résurrection,
+les sept vendeurs restent présents au retour, et le nouveau visuel
+d'entrée correspond bien à une ouverture vers le nord.
 
-**Statut :** cartes régénérées et tests statiques réussis (GitHub Actions :
-23 040 configurations de raccords, 4 096 assemblages du hameau).
-**La nouvelle découpe de l'entrée et le coffre doivent encore être
-vérifiés visuellement dans Flare.** Commencer une nouvelle partie :
-les anciennes cartes générées peuvent rester dans les sauvegardes.
+Pour vérifier les changements, utiliser **un nouveau personnage**.
+Les fichiers de cartes précédemment enregistrés dans des sauvegardes
+anciennes ne sont pas écrasés par la mise à jour : ne supprimez pas les
+anciennes sauvegardes pour tester.
 
-Consulter le [bilan du hameau 0.8.6](docs/VALIDATION-hameau-0.8.6.md),
-le [bilan des portails 0.8.5](docs/VALIDATION-portails-0.8.5.md)
-et le [bilan de compacité 0.8.4](docs/VALIDATION-compacite-escaliers-0.8.4.md).
+Voir [le rapport 0.8.7](docs/VALIDATION-persistance-0.8.7.md),
+[le bilan 0.8.6](docs/VALIDATION-hameau-0.8.6.md)
+et [les portails 0.8.5](docs/VALIDATION-portails-0.8.5.md).
 
 ## Trois environnements actuels
 
