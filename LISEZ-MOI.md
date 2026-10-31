@@ -1,30 +1,34 @@
-# Diantre 0.8.5 — portails permanents et menu de destinations
+# Diantre 0.8.6 — entrée dégagée et coffre hors de la rue
 
-Le moteur Flare standard reste le seul moteur requis pour jouer. La génération
-actuelle conserve trois étages, la grille de **5 × 5 secteurs**, les rencontres
-diffuses, les escaliers restaurés et les corrections du hameau.
+Le moteur Flare standard reste le seul moteur nécessaire pour jouer.
+La génération actuelle conserve ses trois étages compacts (5 × 5 secteurs),
+leurs combats et leur progression fixe, les escaliers restaurés en 0.8.4
+et les portails permanents inaugurés en 0.8.5.
 
-La **0.8.5** ajoute le premier **point de passage permanent** : un obélisque
-animé natif est présent dans le village et un autre est garanti près de
-l'arrivée à l'**étage 2**. En marchant sur la zone du portail, le joueur ouvre
-le menu de dialogue de Flare en surimpression. L'étage 1 est disponible dès
-le début ; l'étage 2 apparaît seulement après l'activation de son portail.
-Le déverrouillage est sauvegardé définitivement pour ce personnage.
+La **0.8.6** apporte deux corrections ciblées au hameau forestier :
 
-Le portail de l'étage 2 propose aussi un retour au village. Les retours
-utilisent des points d'arrivée dédiés sans contourner les clés de progression.
-Les futurs étages pairs (4, 6, 8, etc.) reprendront le même fonctionnement
-quand ils auront été intégrés. Ce menu utilise **l'interface native de
-Flare** plutôt qu'une reproduction graphique exacte de celle de Diablo II.
+- **Entrée du donjon :** après le dégagement central effectué en 0.8.3,
+  deux éléments de falaise continuaient d'empiéter sur le côté droit du
+  portail. Les deux niveaux inférieurs de la colonne de droite ont été
+  retirés ; la partie supérieure de la falaise, l'entrée interactive
+  et les collisions demeurent inchangées.
+- **Coffre partagé :** déplacé de **(14,14)** (au croisement des rues)
+  à **(7,9)**, dans le passage entre deux cabanes au nord du hameau,
+  à proximité de l'entrée et hors de l'axe de circulation. Ce coffre
+  n'est associé à aucune habitation personnelle du personnage.
 
-**Statut :** génération et tests statiques réussis sur GitHub Actions :
-23 040 configurations de raccords et 4 096 assemblages du hameau.
-Les animations et interactions n'ont pas encore été vérifiées dans une
-nouvelle partie native 0.8.5. **Créer un nouveau personnage pour tester.**
+La version conserve également le **premier portail permanent à l'étage 2**,
+dont la destination apparaît au village seulement après découverte.
 
-Consulter le [bilan des portails 0.8.5](docs/VALIDATION-portails-0.8.5.md),
-la [validation des étages compacts 0.8.4](docs/VALIDATION-compacite-escaliers-0.8.4.md)
-et le [bilan du hameau 0.8.3](docs/VALIDATION-hameau-0.8.3.md).
+**Statut :** cartes régénérées et tests statiques réussis (GitHub Actions :
+23 040 configurations de raccords, 4 096 assemblages du hameau).
+**La nouvelle découpe de l'entrée et le coffre doivent encore être
+vérifiés visuellement dans Flare.** Commencer une nouvelle partie :
+les anciennes cartes générées peuvent rester dans les sauvegardes.
+
+Consulter le [bilan du hameau 0.8.6](docs/VALIDATION-hameau-0.8.6.md),
+le [bilan des portails 0.8.5](docs/VALIDATION-portails-0.8.5.md)
+et le [bilan de compacité 0.8.4](docs/VALIDATION-compacite-escaliers-0.8.4.md).
 
 ## Trois environnements actuels
 
