@@ -1,0 +1,46 @@
+name: Regenerate and validate Diantre
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_exploration.py'
+      - 'tools/dungeon_themes.py'
+      - 'tools/check_population.py'
+      - '.github/workflows/regenerate-diantre.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install static validation dependencies
+        run: python3 -m pip install Pillow
+      - name: Regenerate the native Flare maps and asset manifest
+        run: python3 -B tools/build_exploration.py
+      - name: Verify the generated maps
+        run: |
+          python3 -B tools/check_exploration.py
+          python3 -B tools/check_population.py
+          python3 -B tools/check_themes.py
+          python3 -B tools/check_encounters.py
+      - name: Commit and push generated artifacts on main
+        run: |
+          git add diantre/ docs/exploration-metrics.json
+          if git diff --cached --quiet; then
+            echo "No regenerated artifact changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Regenerate Diantre data after verified generator changes [skip ci]"
+          git push origin HEAD:main
