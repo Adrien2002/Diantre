@@ -563,7 +563,12 @@ def main():
         header['width']=header['height']=str(MAP_SIZE)
         header['tileset']=theme['palette'];header['title']=f"{theme['title']}: Level {floor}"
         h="[header]\n"+"\n".join(f"{k}={v}" for k,v in header.items() if k not in ('section','mapmods'))+"\n"
-        raw_events=[b for b in re.split(r"\n(?=\[)",root.read_text()) if b.startswith('[event]') and 'type=diantre_exploration_init' not in b]
+        # Remove our generated hooks before re-adding them. This builder
+        # reads the previously generated root; it must be idempotent.
+        generated_hooks=('type=diantre_exploration_init',
+                         'type=diantre_chunk_selection_cleanup')
+        raw_events=[block for block in re.split(r"\n(?=\[)",root.read_text())
+                    if block.startswith('[event]') and not any(marker in block for marker in generated_hooks)]
         raw_events=[re.sub(r'^location=.*$',f'location=0,0,{REGION_SIZE},{REGION_SIZE}',b,flags=re.M)
                     if 'procgen_filename=' in b else b for b in raw_events]
         raw_events.append(event(type="diantre_exploration_init",location="0,0,1,1",activate="on_load",script=f"scripts/generation/f{floor}/init.txt"))
