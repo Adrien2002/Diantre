@@ -116,7 +116,7 @@ data=
 159,158,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,156,158
 157,160,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,154,155
 153,159,154,144,144,144,144,144,144,144,144,144,144,144,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,144,144,144,155,158,156
-159,157,159,158,153,154,144,144,144,144,144,144,144,159,144,376,0,377,144,0,0,0,0,0,0,0,0,0,0,0,144,160,158,155,154,159
+159,157,159,158,153,154,144,144,144,144,144,144,144,159,144,378,379,144,144,0,0,0,0,0,0,0,0,0,0,0,144,160,158,155,154,159
 157,156,155,155,159,144,0,0,0,0,0,0,0,144,144,0,0,0,144,144,0,0,0,0,0,0,0,0,0,0,0,144,160,156,157,158
 159,158,158,156,144,0,0,0,0,0,0,0,0,0,0,0,0,0,144,157,144,0,0,0,0,0,0,0,0,0,0,144,153,159,156,154
 157,155,159,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,159,144,0,0,0,0,0,0,0,0,0,0,0,144,154,157,155
@@ -234,22 +234,22 @@ mapmod=object,27,27,267
 
 [event]
 type=event
-location=15,22,3,1
+location=15,22,2,1
 activate=on_interact
 hotspot=location
 tooltip=Door
 requires_not_status=dx_52bdc52eff24a3a9_diantre_f2_complex_barracks_0_door_0
-mapmod=collision,15,22,0;object,15,22,0;collision,16,22,0;object,16,22,0;collision,17,22,0;object,17,22,0
+mapmod=collision,15,22,0;object,15,22,0;collision,16,22,0;object,16,22,0
 set_status=dx_52bdc52eff24a3a9_diantre_f2_complex_barracks_0_door_0
 repeat=false
 soundfx=soundfx/door_open.ogg
 
 [event]
 type=event
-location=15,22,3,1
+location=15,22,2,1
 activate=on_load
 requires_status=dx_52bdc52eff24a3a9_diantre_f2_complex_barracks_0_door_0
-mapmod=collision,15,22,0;object,15,22,0;collision,16,22,0;object,16,22,0;collision,17,22,0;object,17,22,0
+mapmod=collision,15,22,0;object,15,22,0;collision,16,22,0;object,16,22,0
 
 [event]
 type=generation_marker

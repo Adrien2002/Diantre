@@ -229,7 +229,7 @@ class Complex:
         for y in range(y1,y2+1):
             for x in range(x1,x2+1):
                 if x in (x1,x2) or y in (y1,y2):self.walk.discard((x,y))
-        points=[(x,y1) for x in range(17,20)]
+        points=[(x,y1) for x in range(17,19)]
         self.walk.update(points);self.doors.append(points)
 
     def puzzle(self):
@@ -240,7 +240,7 @@ class Complex:
         self.corridor((22,28),(24,28))
         self.corridor((22,28),(20,20))
         gate=((25,28),(25,29))
-        self.props[gate[0]],self.props[gate[1]]=378,379
+        self.props[gate[0]],self.props[gate[1]]=377,376
         opened=stable_status(self.prefix+"_open")
         changes=";".join(f"collision,{x},{y},0;object,{x},{y},0" for x,y in gate)
         self.events.append(event(type="event",location="25,28,1,2",activate="static",
@@ -284,8 +284,8 @@ class Complex:
         dress_layers(self.floor,data)
         for (x,y),tile in self.props.items():
             data["object"][y][x]=tile
-            data["collision"][y][x]=1 if tile in (378,379) else 2
-            if tile in (378,379):data["background"][y][x]=24
+            data["collision"][y][x]=1 if tile in (376,377) else 2
+            if tile in (376,377):data["background"][y][x]=24
         if self.family in ("barracks","gallery","chambers") and not self.doors:
             candidates=[]
             for y in range(8,28):
@@ -296,20 +296,25 @@ class Complex:
                             candidates.append((x,y))
             if candidates:
                 x,y=self.rng.choice(candidates)
-                self.doors.append([(xx,y) for xx in range(x-1,x+2)])
+                # The native closed leaves span two adjacent cells. Seal the
+                # spare corridor cell with masonry rather than an invisible
+                # third collision cell between disconnected gate sprites.
+                self.walk.discard((x+1,y))
+                data['object'][y][x+1]=144;data['collision'][y][x+1]=1
+                self.doors.append([(x-1,y),(x,y)])
         for index,points in enumerate(self.doors):
             x,y=points[0]
             for xx,yy in points:
                 data['background'][yy][xx]=24
                 data['collision'][yy][xx]=1
                 data['object'][yy][xx]=0
-            data['object'][y][x]=376;data['object'][y][x+2]=377
+            data['object'][y][x]=378;data['object'][y][x+1]=379
             change=';'.join(f'collision,{xx},{yy},0;object,{xx},{yy},0' for xx,yy in points)
             status=stable_status(self.prefix+f'_door_{index}')
-            self.events.append(event(type='event',location=f'{x},{y},3,1',activate='on_interact',
+            self.events.append(event(type='event',location=f'{x},{y},2,1',activate='on_interact',
                 hotspot='location',tooltip='Door',requires_not_status=status,mapmod=change,
                 set_status=status,repeat='false',soundfx='soundfx/door_open.ogg'))
-            self.events.append(event(type='event',location=f'{x},{y},3,1',activate='on_load',
+            self.events.append(event(type='event',location=f'{x},{y},2,1',activate='on_load',
                 requires_status=status,mapmod=change))
         self.details=add_details(self,data)
         unique=stable_status(f"diantre_f{self.floor}_complex_{self.family}"+(f"_{self.variant}" if self.family!="vault" else ""))

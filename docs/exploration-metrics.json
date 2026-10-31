@@ -45,7 +45,7 @@
       "theme": "ruins",
       "family": "chambers",
       "variant": 0,
-      "floor_cells": 640,
+      "floor_cells": 639,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -55,7 +55,7 @@
       "theme": "ruins",
       "family": "chambers",
       "variant": 1,
-      "floor_cells": 629,
+      "floor_cells": 628,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -65,7 +65,7 @@
       "theme": "ruins",
       "family": "chambers",
       "variant": 2,
-      "floor_cells": 631,
+      "floor_cells": 630,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -75,7 +75,7 @@
       "theme": "ruins",
       "family": "chambers",
       "variant": 3,
-      "floor_cells": 658,
+      "floor_cells": 657,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -285,7 +285,7 @@
       "theme": "ruins",
       "family": "gallery",
       "variant": 0,
-      "floor_cells": 707,
+      "floor_cells": 706,
       "rooms": 4,
       "details": 4,
       "inner_chapel": false
@@ -295,7 +295,7 @@
       "theme": "ruins",
       "family": "gallery",
       "variant": 1,
-      "floor_cells": 707,
+      "floor_cells": 706,
       "rooms": 4,
       "details": 4,
       "inner_chapel": false
@@ -305,7 +305,7 @@
       "theme": "ruins",
       "family": "gallery",
       "variant": 2,
-      "floor_cells": 725,
+      "floor_cells": 724,
       "rooms": 4,
       "details": 4,
       "inner_chapel": false
@@ -375,7 +375,7 @@
       "theme": "caverns",
       "family": "chambers",
       "variant": 1,
-      "floor_cells": 613,
+      "floor_cells": 612,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -385,7 +385,7 @@
       "theme": "caverns",
       "family": "chambers",
       "variant": 2,
-      "floor_cells": 622,
+      "floor_cells": 621,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -485,7 +485,7 @@
       "theme": "caverns",
       "family": "barracks",
       "variant": 0,
-      "floor_cells": 627,
+      "floor_cells": 626,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -605,7 +605,7 @@
       "theme": "caverns",
       "family": "gallery",
       "variant": 0,
-      "floor_cells": 650,
+      "floor_cells": 649,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -625,7 +625,7 @@
       "theme": "caverns",
       "family": "gallery",
       "variant": 2,
-      "floor_cells": 688,
+      "floor_cells": 687,
       "rooms": 5,
       "details": 4,
       "inner_chapel": false
@@ -645,7 +645,7 @@
       "theme": "crypts",
       "family": "cloister",
       "variant": 0,
-      "floor_cells": 851,
+      "floor_cells": 850,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -655,7 +655,7 @@
       "theme": "crypts",
       "family": "cloister",
       "variant": 1,
-      "floor_cells": 851,
+      "floor_cells": 850,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -665,7 +665,7 @@
       "theme": "crypts",
       "family": "cloister",
       "variant": 2,
-      "floor_cells": 851,
+      "floor_cells": 850,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -675,7 +675,7 @@
       "theme": "crypts",
       "family": "cloister",
       "variant": 3,
-      "floor_cells": 849,
+      "floor_cells": 848,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -685,7 +685,7 @@
       "theme": "crypts",
       "family": "chambers",
       "variant": 0,
-      "floor_cells": 851,
+      "floor_cells": 850,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -695,7 +695,7 @@
       "theme": "crypts",
       "family": "chambers",
       "variant": 1,
-      "floor_cells": 851,
+      "floor_cells": 850,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -705,7 +705,7 @@
       "theme": "crypts",
       "family": "chambers",
       "variant": 2,
-      "floor_cells": 855,
+      "floor_cells": 854,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -715,7 +715,7 @@
       "theme": "crypts",
       "family": "chambers",
       "variant": 3,
-      "floor_cells": 849,
+      "floor_cells": 848,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -765,7 +765,7 @@
       "theme": "crypts",
       "family": "ring",
       "variant": 0,
-      "floor_cells": 671,
+      "floor_cells": 670,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -775,7 +775,7 @@
       "theme": "crypts",
       "family": "ring",
       "variant": 1,
-      "floor_cells": 671,
+      "floor_cells": 670,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -785,7 +785,7 @@
       "theme": "crypts",
       "family": "ring",
       "variant": 2,
-      "floor_cells": 669,
+      "floor_cells": 668,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true
@@ -795,7 +795,7 @@
       "theme": "crypts",
       "family": "ring",
       "variant": 3,
-      "floor_cells": 669,
+      "floor_cells": 668,
       "rooms": 5,
       "details": 4,
       "inner_chapel": true

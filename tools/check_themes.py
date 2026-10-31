@@ -41,6 +41,12 @@ def main():
             checked+=1;details+=sum(512<=t<=515 for row in data['object'] for t in row)
             rails+=sum(t in (530,531) for row in data['background_fringe'] for t in row)
             shapes.add(hashlib.sha256(bytes(t for row in data['collision'] for t in row)).hexdigest())
+            for door in (s for s in ss if s.get('tooltip')=='Door'):
+                x,y,w,h=map(int,door['location'].split(','))
+                assert (w,h)==(2,1) and data['object'][y][x:x+2]==[378,379],(path,'misaligned horizontal door')
+            for gate in (s for s in ss if s.get('activate')=='static' and '_complex_vault_' in s.get('set_status','')):
+                x,y,w,h=map(int,gate['location'].split(','))
+                assert (w,h)==(1,2) and [data['object'][y+i][x] for i in range(2)]==[377,376],(path,'misaligned vertical gate')
             family=path.stem.rsplit('_',1)[0].removeprefix('complex_')
             if floor==3 and family in ('cloister','chambers','ring'):
                 chapels+=1

@@ -110,7 +110,7 @@ data=
 157,157,156,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,154,159,160
 159,157,155,156,144,144,144,0,0,0,144,144,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,158,160,157
 159,158,157,158,155,156,144,0,0,0,144,153,144,0,0,0,0,0,0,0,0,0,0,144,144,144,144,144,144,144,144,144,158,157,154,160
-157,153,159,154,157,156,144,376,0,377,144,144,144,0,0,0,0,0,0,0,0,0,0,144,144,144,144,144,144,144,153,160,160,160,158,156
+157,153,159,154,157,156,144,378,379,144,144,144,144,0,0,0,0,0,0,0,0,0,0,144,144,144,144,144,144,144,153,160,160,160,158,156
 157,156,155,154,153,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,0,0,0,0,0,0,144,154,155,158,156,158
 159,160,156,157,154,144,0,0,0,0,0,0,0,0,0,0,0,264,0,0,0,0,0,144,0,0,0,0,0,0,144,156,153,158,155,160
 159,158,155,157,159,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,0,0,0,0,0,0,144,156,153,156,158,158
@@ -234,22 +234,22 @@ mapmod=object,17,18,267
 
 [event]
 type=event
-location=7,16,3,1
+location=7,16,2,1
 activate=on_interact
 hotspot=location
 tooltip=Door
 requires_not_status=dx_857de0f59aa4b30b_diantre_f1_complex_chambers_3_door_0
-mapmod=collision,7,16,0;object,7,16,0;collision,8,16,0;object,8,16,0;collision,9,16,0;object,9,16,0
+mapmod=collision,7,16,0;object,7,16,0;collision,8,16,0;object,8,16,0
 set_status=dx_857de0f59aa4b30b_diantre_f1_complex_chambers_3_door_0
 repeat=false
 soundfx=soundfx/door_open.ogg
 
 [event]
 type=event
-location=7,16,3,1
+location=7,16,2,1
 activate=on_load
 requires_status=dx_857de0f59aa4b30b_diantre_f1_complex_chambers_3_door_0
-mapmod=collision,7,16,0;object,7,16,0;collision,8,16,0;object,8,16,0;collision,9,16,0;object,9,16,0
+mapmod=collision,7,16,0;object,7,16,0;collision,8,16,0;object,8,16,0
 
 [event]
 type=generation_marker

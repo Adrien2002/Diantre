@@ -112,6 +112,7 @@ def main():
                 cache=state/(MAP_HASH[floor]+'.txt');ss=parse(cache)
                 assert next(s for s in ss if s['section']=='header')['tileset']==THEMES[floor]['palette']
                 result=check_observed(observed,cache,state/'avatar.txt');result['run']=run;records.append(result)
+                (out/'native-results.json').write_text(json.dumps(records,indent=2)+'\n')
                 print(json.dumps({'run':run,'floor':floor,'loops':result['runtime_loops'],'gates':result['mandatory_gates']}),flush=True)
                 if floor==3 and chapel_fixture is None:
                     doors=[s for s in ss if s.get('tooltip')=='Door' and any('_complex_'+f+'_' in s.get('set_status','') for f in ('chambers','cloister','ring'))]
@@ -133,10 +134,12 @@ def main():
         stand=press(door,terrain(first));opened=dump('chapel-open.txt')
         assert not neighbours(chest,reachable(terrain(first)['collision'],stand)),'Chapel reward bypassed its door'
         assert neighbours(chest,reachable(terrain(opened)['collision'],stand)),'Door did not open the inner chapel'
+        console('/save_game=true')
         assert door['set_status'] in flags(),'Door state was not saved'
-        console('/save_game=true');halt();start('chapel-reload');again=dump('chapel-reload.txt')
+        halt();start('chapel-reload');again=dump('chapel-reload.txt')
         assert all(terrain(opened)[k]==terrain(again)[k] for k in ('background','background_fringe','object','topology','collision')),'Chapel or loop changed on reload'
         report['inner_chapel_click_and_reload']=True
+        (out/'native-report.json').write_text(json.dumps(report,indent=2)+'\n')
         assert vault_fixture is not None,'No cavern vault was generated for native QA'
         state,floor=vault_fixture;restore_fixture(state,'cavern-vault');ss=parse(state/(MAP_HASH[floor]+'.txt'))
         seals=sorted([s for s in ss if s.get('tooltip')=='Vault Seal'],key=lambda s:s['set_status'])
