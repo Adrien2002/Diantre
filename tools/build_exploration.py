@@ -22,7 +22,7 @@ REGION_SIZE = GRID * SIZE
 MAP_SIZE = REGION_SIZE + 16
 PATH_RULES = dict(doors_max=2, door_spacing_min=5,
                   main_path_length_min=26, main_path_length_max=30,
-                  main_path_attempts_max=5000, branch_length_min=4,
+                  main_path_attempts_max=200000, branch_length_min=4,
                   branch_length_max=6, branches_per_door_level_max=3)
 LEVEL_TILE = 4096
 PORT_TILE = 4100

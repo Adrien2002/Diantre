@@ -9962,8 +9962,8 @@
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f1.txt": {
-      "sha256": "01b652202ee6ae6bb0b1209c7963c7abb743e879c9377b5b52314345f0dd73e4",
-      "bytes": 3195,
+      "sha256": "f40dfd515c69843f6d3209e2b1b4da856df9b4a839c2217b02396593d03ac878",
+      "bytes": 3197,
       "sources": [
         "diantre/maps/procgen_rules/iron_labyrinth_f1.txt"
       ],
@@ -9975,8 +9975,8 @@
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f2.txt": {
-      "sha256": "4d773d2cee96fc5a7ce5190426a0a08141428885f5b4e0b858d8bf7d0532cdc9",
-      "bytes": 3015,
+      "sha256": "6d13d4c662e354bcd8c875b2441491ededf74495de901f26ba56f876009920ad",
+      "bytes": 3017,
       "sources": [
         "diantre/maps/procgen_rules/iron_labyrinth_f2.txt"
       ],
@@ -9988,8 +9988,8 @@
       ]
     },
     "maps/procgen_rules/iron_labyrinth_f3.txt": {
-      "sha256": "e1fddfb8973a8bd4a5e8bb2aa1220c3f1de65319e640ce345795765d08ba204f",
-      "bytes": 3078,
+      "sha256": "3b2a6cedf232c2fd4c622f2a367d40e3c768982f75747038a91684ba7e76612a",
+      "bytes": 3080,
       "sources": [
         "diantre/maps/procgen_rules/iron_labyrinth_f3.txt"
       ],

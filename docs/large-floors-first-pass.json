@@ -1,0 +1,87 @@
+{
+  "game_data_commit": "724bb2b657ea8ae076e4877a09aafa652a481533",
+  "finding": "5000-attempt limit exhausted twice; one floor collapsed to 12 sectors. Increase attempt budget and reject short native paths in QA.",
+  "observations": [
+    {
+      "run": 1,
+      "floor": 1,
+      "main_path_length": 26,
+      "attempts": 946,
+      "occupied_sectors": 32,
+      "hostiles": 198,
+      "base_xp": 396
+    },
+    {
+      "run": 1,
+      "floor": 2,
+      "main_path_length": 26,
+      "attempts": 481,
+      "occupied_sectors": 32,
+      "hostiles": 198,
+      "base_xp": 792
+    },
+    {
+      "run": 1,
+      "floor": 3,
+      "main_path_length": 11,
+      "attempts": 5000,
+      "occupied_sectors": 12,
+      "hostiles": 69,
+      "base_xp": 552
+    },
+    {
+      "run": 2,
+      "floor": 1,
+      "main_path_length": 26,
+      "attempts": 347,
+      "occupied_sectors": 33,
+      "hostiles": 199,
+      "base_xp": 398
+    },
+    {
+      "run": 2,
+      "floor": 2,
+      "main_path_length": 26,
+      "attempts": 184,
+      "occupied_sectors": 31,
+      "hostiles": 187,
+      "base_xp": 748
+    },
+    {
+      "run": 2,
+      "floor": 3,
+      "main_path_length": 26,
+      "attempts": 166,
+      "occupied_sectors": 33,
+      "hostiles": 202,
+      "base_xp": 1616
+    },
+    {
+      "run": 3,
+      "floor": 1,
+      "main_path_length": 26,
+      "attempts": 879,
+      "occupied_sectors": 28,
+      "hostiles": 162,
+      "base_xp": 324
+    },
+    {
+      "run": 3,
+      "floor": 2,
+      "main_path_length": 19,
+      "attempts": 5000,
+      "occupied_sectors": 32,
+      "hostiles": 204,
+      "base_xp": 816
+    },
+    {
+      "run": 3,
+      "floor": 3,
+      "main_path_length": 26,
+      "attempts": 129,
+      "occupied_sectors": 26,
+      "hostiles": 154,
+      "base_xp": 1232
+    }
+  ]
+}

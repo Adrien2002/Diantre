@@ -21,6 +21,7 @@ import time
 from check_surface import parse,layers,reachable
 from check_exploration import check_observed,neighbours
 from dungeon_themes import THEMES
+from build_exploration import PATH_RULES
 from check_population import check_observed as check_population
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -31,6 +32,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--lab',type=Path,required=True)
     parser.add_argument('--engine-repo',type=Path,required=True)
+    parser.add_argument('--runs',type=int,default=3,help='Independent fresh save series, each with three floors')
     args=parser.parse_args();lab=args.lab.resolve();engine=args.engine_repo.resolve()
     stamp=str(time.time_ns());out=lab/('native-'+stamp);out.mkdir()
     cfg=out/'config/flare';cfg.mkdir(parents=True)
@@ -100,7 +102,7 @@ def main():
         screenshot('initial-created.png')
         assert (save/'avatar.txt').exists(),'Native character creation failed'
         template=(save/'avatar.txt').read_text();(out/'native-avatar-template.txt').write_text(template);halt()
-        for run in range(1,4):
+        for run in range(1,args.runs+1):
             data_root(f'run{run}');save.mkdir(parents=True)
             text=re.sub(r'^spawn=.*$','spawn=maps/iron_labyrinth_f1.txt,0,0',template,flags=re.M)
             text=re.sub(r'^campaign=.*$','campaign=diantre_town_hamlet_forest',text,flags=re.M)
@@ -114,6 +116,12 @@ def main():
                 assert next(s for s in ss if s['section']=='header')['tileset']==THEMES[floor]['palette']
                 result=check_observed(observed,cache,state/'avatar.txt');result['run']=run
                 result['population']=check_population(observed,cache);records.append(result)
+                generated=re.findall(r'Generated main path with length=(\d+) and branches=(\d+)\. Generator attempts: (\d+)',(out/f'run{run}.log').read_text())
+                assert generated,'Missing native generation measurements'
+                length,branches,attempts=map(int,generated[-1])
+                assert PATH_RULES['main_path_length_min']<=length<=PATH_RULES['main_path_length_max'],('Native main path too short',length,attempts)
+                assert attempts<PATH_RULES['main_path_attempts_max'],('Native generation exhausted attempts',attempts)
+                result['generation']=dict(main_path_length=length,branch_roots=branches,attempts=attempts)
                 (out/'native-results.json').write_text(json.dumps(records,indent=2)+'\n')
                 print(json.dumps({'run':run,'floor':floor,'loops':result['runtime_loops'],'gates':result['mandatory_gates'],
                                   'hostiles':result['population']['actual_hostiles'],'xp':result['population']['actual_base_xp']}),flush=True)
@@ -174,7 +182,7 @@ def main():
         report['populations']=[r['population'] for r in records]
         report['projected_levels_after_clearing']=[]
         from check_population import level_for_xp
-        for run in range(1,4):
+        for run in range(1,args.runs+1):
             total=0;levels=[]
             for r in (r for r in records if r['run']==run):
                 total+=r['population']['actual_base_xp'];levels.append(level_for_xp(total))
