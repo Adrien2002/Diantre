@@ -1,3 +1,8 @@
+# Reset *town* chunk selection hints before any return, even from an
+# older cached dungeon that predates the 0.8.7 on-mapexit fix.
+[event]
+unset_status=diantre_compact_normal_a,diantre_compact_normal_b
+
 [event]
 requires_status=diantre_town_hamlet_forest
 intermap=maps/town/hamlet_forest.txt,-1,-1,dungeon_exit

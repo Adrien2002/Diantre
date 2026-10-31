@@ -567,6 +567,17 @@ def main():
         raw_events=[re.sub(r'^location=.*$',f'location=0,0,{REGION_SIZE},{REGION_SIZE}',b,flags=re.M)
                     if 'procgen_filename=' in b else b for b in raw_events]
         raw_events.append(event(type="diantre_exploration_init",location="0,0,1,1",activate="on_load",script=f"scripts/generation/f{floor}/init.txt"))
+        # Unique chunk markers are selection hints during procgen, not
+        # permanent quest states. If a cached map is lost, stale hints can
+        # exclude all the room variants on the next visit. Clear only after
+        # generation and on map exit, preserving real dungeon progression.
+        unique_statuses=sorted({stable_status(f"diantre_f{floor}_complex_{family}"+
+                                               (f"_{variant}" if family!="vault" else ""))
+                                for family in FAMILIES for variant in range(4)})
+        for activation in ("on_load","on_mapexit"):
+            raw_events.append(event(type="diantre_chunk_selection_cleanup",
+                                    location="0,0,1,1",activate=activation,
+                                    unset_status=",".join(unique_statuses)))
         root.write_text(serialize(h,data,raw_events));changed.append(root)
         rules=ROOT/f"maps/procgen_rules/iron_labyrinth_f{floor}.txt"
         settings='[settings]\n'+''.join(f'{k}={v}\n' for k,v in PATH_RULES.items())+'\n'
@@ -576,7 +587,7 @@ def main():
                                  "loop_rule":"one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"},indent=2)+"\n")
     manifest_path=ROOT/'ASSET_MANIFEST.json';manifest=json.loads(manifest_path.read_text())
     for key in removed:manifest['files'].pop(key,None)
-    note="Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons."
+    note="Diantre 0.8.7: per-character cache startup and removal of stale procgen selection states."
     for p in changed:
         key=p.relative_to(ROOT).as_posix();record=manifest['files'].get(key,{"sources":[],"changes":[]})
         raw=p.read_bytes();record.update(sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw))

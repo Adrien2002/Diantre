@@ -1,4 +1,12 @@
+# Always save the character, and flush merchant uniqueness markers before
+# loading a procedural dungeon. The delayed map transition allows Flare's
+# normal save path to finish before generating/caching the new floor.
 [event]
+unset_status=diantre_compact_normal_a,diantre_compact_normal_b
 set_status=emp_il_f1
+save_game=true
+
+[event]
+delay=250ms
 intermap=maps/iron_labyrinth_f1.txt
 soundfx=soundfx/environment/stairs.ogg

@@ -10,6 +10,9 @@ on:
       - 'tools/build_surface.py'
       - 'tools/check_surface.py'
       - 'tools/check_waypoints.py'
+      - 'tools/check_persistence.py'
+      - 'diantre/maps/spawn.txt'
+      - 'diantre/scripts/town/enter_dungeon.txt'
       - 'diantre/npcs/diantre_waypoint_*.txt'
       - 'diantre/scripts/town/return_waypoint.txt'
       - '.github/workflows/regenerate-diantre.yml'
@@ -42,6 +45,7 @@ jobs:
           python3 -B tools/check_encounters.py
           python3 -B tools/check_surface.py
           python3 -B tools/check_waypoints.py
+          python3 -B tools/check_persistence.py
       - name: Commit and push generated artifacts on main
         run: |
           git add diantre/ docs/exploration-metrics.json

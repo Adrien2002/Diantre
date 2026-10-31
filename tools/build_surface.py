@@ -163,20 +163,17 @@ def build_town():
 
     for level in range(CLIFF_LEVELS):
         for x in range(WIDTH):
-            # Sprite 228 (the portal) extends 96 screen pixels right of its
-            # anchor. The cliff from x=13 starts just 22 pixels to its right
-            # and overlaps the portal frame. Removing only x=12/level 0
-            # (0.8.3) therefore left its RIGHT side visibly cut off.
-            # Cliff levels 0 and 1 at x=13 overlap the door vertically;
-            # level 2 and above are entirely above it. Recess the doorway
-            # on the right without opening the physical north perimeter.
-            if (x == ENTRANCE[0] and level == 0) or (
-                x == ENTRANCE[0] + 1 and level in (0, 1)
-            ):
+            # Restore the continuous right-hand mountain face. The former
+            # west-facing purple gateway was the wrong sprite, not a cliff
+            # defect: removing the adjacent rocks opened a visible notch.
+            # Keep only the original minimal lowest-course cut under the
+            # actual northern entrance.
+            if x == ENTRANCE[0] and level == 0:
                 continue
             overlay(f"cliff_{level:02}", x, ENTRANCE[1], 28000 + level * 2 + x % 2)
-    # Native mine opening, set into the recessed lowest course of rock.
-    overlay("object", ENTRANCE[0], ENTRANCE[1], 228)
+    # Use the alternate native north-facing mine aperture (224), not the
+    # west-facing purple door (228). The interaction stays at (12,3).
+    overlay("object", ENTRANCE[0], ENTRANCE[1], 224)
     for y in range(3, 27):
         for x in range(11, 14):
             overlay("background", x, y, 40 + (x + y) % 8)
@@ -196,6 +193,14 @@ def build_town():
     # the perimeter, plateau and main access, preserving each generated lot.
     m.objects.append("[event]\ntype=event\nlocation=0,0,1,1\nactivate=on_load\n"
                      + "\n".join(modifications) + "\n")
+    # One-time chunk uniqueness is useful *during* generation, but leaving
+    # those statuses set after generation starves both merchant families if
+    # a cached map cannot be opened: the next visit generated empty lots.
+    # Clear them on load and before any departure.
+    for activation in ("on_load", "on_mapexit"):
+        m.objects.append("[event]\ntype=event\nlocation=0,0,1,1\n"
+                         f"activate={activation}\n"
+                         "unset_status=diantre_compact_normal_a,diantre_compact_normal_b\n")
     m.objects.append(
         "[event]\ntype=event\nlocation=0,0,1,1\nactivate=on_load\n"
         "set_status=diantre_town_hamlet_forest\n"
@@ -270,7 +275,7 @@ def update_manifest():
              ROOT / "npcs/diantre_waypoint_town.txt", ROOT / "npcs/diantre_waypoint_f2.txt",
              ROOT / "settings.txt", ROOT / "tilesetdefs/town/compact_palette.txt",
              *sorted((ROOT / "maps/town/compact").glob("*.txt"))]
-    note = "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins."
+    note = "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
     for file in paths:
         key = file.relative_to(ROOT).as_posix()
         record = manifest["files"].get(key, {"sources": [], "changes": []})
