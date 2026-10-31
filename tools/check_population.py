@@ -43,13 +43,21 @@ def check_assets():
             groups=[s for s in sections if s['section']=='enemy'];kind=h['procgen_type']
             per_type.setdefault(kind,[]).append(tuple(sum(limits(s)[i] for s in groups) for i in (0,1)))
             if kind!='normal':continue
-            normal_count+=1;assert len(groups)==2,(path,'Two separate encounters required')
-            data=layers(sections);centres=[]
+            normal_count+=1
+            assert 4<=len(groups)<=19,(path,'Diffuse encounter group count',len(groups))
+            data=layers(sections);centres=[];counts=[]
             for g in groups:
-                x,y,w,h=map(int,g['location'].split(','));centres.append((x+3,y+3))
-                assert (w,h)==(7,7) and limits(g)==(3,4),(path,g)
-                assert sum(data['collision'][yy][xx]==0 for yy in range(y,y+h) for xx in range(x,x+w))>=16,(path,'Cramped spawn area')
-            assert sum((a-b)**2 for a,b in zip(*centres))>=18**2,(path,'Encounter zones too close')
+                x,y,w,h=map(int,g['location'].split(','))
+                centre=x+2,y+2;centres.append(centre)
+                lo,hi=limits(g);counts.append(lo)
+                assert (w,h)==(5,5) and 1<=lo==hi<=4,(path,'Variable native group',g)
+                assert sum(data['collision'][yy][xx]==0
+                           for yy in range(y,y+h) for xx in range(x,x+w))>=max(12,3*hi),(path,'Cramped spawn area')
+            assert 11<=sum(counts)<=19,(path,'Population budget outside density band',sum(counts))
+            assert 1 in counts and any(count>=3 for count in counts),(path,'Missing solitary or grouped encounters')
+            assert all(abs(x1-x2)>=5 or abs(y1-y2)>=5
+                       for i,(x1,y1) in enumerate(centres)
+                       for x2,y2 in centres[i+1:]),(path,'Overlapping encounter regions')
             for mask,variant in product(product((False,True),repeat=4),range(3)):
                 link_data=layers(parse(ROOT/f'maps/iron_labyrinth/exploration/f{floor}/links_{variant}.txt'))
                 c=copy.deepcopy(data['collision'])
@@ -58,7 +66,7 @@ def check_assets():
                         for yy in range(y,y+h):c[yy][x:x+w]=link_data['collision'][yy][x:x+w]
                 for g in groups:
                     x,y,w,h=map(int,g['location'].split(','))
-                    assert sum(c[yy][xx]==0 for yy in range(y,y+h) for xx in range(x,x+w))>=limits(g)[1],(path,'Native edge strip removes spawn pocket',mask)
+                    assert sum(c[yy][xx]==0 for yy in range(y,y+h) for xx in range(x,x+w))>=max(12,3*limits(g)[1]),(path,'Native edge strip removes spawn region',mask)
         assert normal_count>=GRID*GRID-4,'Unique normal pool too small for a one-gate floor'
         for kind in ('door_north_south','door_west_east','start'):
             assert all(hi==0 for lo,hi in per_type[kind])
@@ -84,8 +92,8 @@ def check_assets():
                             planned_base_xp_min=low*xp_each,planned_base_xp_max=high*xp_each,
                             minimum_cumulative_level=level_for_xp(cumulative)))
     return dict(grid=[GRID,GRID],region=[REGION_SIZE,REGION_SIZE],map=[MAP_SIZE,MAP_SIZE],
-                area_multiplier_from_070=GRID*GRID/16,normal_encounter_size=[3,4],
-                normal_encounter_zone=[7,7],normal_encounter_centre_distance_min=18,
+                area_multiplier_from_070=GRID*GRID/16,normal_group_size=[1,4],
+                normal_encounter_zone=[5,5],normal_sector_population=[11,19],
                 assumptions='valid native path; successful spawns; all enemies defeated; no XP bonus',floors=summary)
 
 
@@ -100,7 +108,7 @@ def check_observed(observed,cache):
     groups=[s for s in sections if s['section']=='enemy'];lo=sum(limits(s)[0] for s in groups);hi=sum(limits(s)[1] for s in groups)
     enemies=[s for s in live if s['section']=='qa_enemy'];assert enemies,'Observer did not export actual entities'
     assert lo<=len(enemies)<=hi,('Native population differs from group budget',lo,len(enemies),hi)
-    assert len(enemies)>=130,('Floor does not support the intended XP progression',len(enemies))
+    assert len(enemies)>=210,('Floor is unexpectedly underpopulated',len(enemies))
     floor=next(i for i in range(1,4) if any(s.get('category')==f'diantre_depth_{i}' for s in groups))
     data=layers(live);data['collision']=[[0 if t in (7,8) else t for t in row] for row in data['collision']]
     for s in sections:

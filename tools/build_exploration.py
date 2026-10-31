@@ -341,34 +341,58 @@ def serialize(header,data,events):
 
 
 def encounter_groups(floor,data,rng,protected=()):
-    """Two small encounters in separate pockets, not one map-wide scatter.
+    """Scatter varied encounters throughout safe, walkable terrain.
 
-    Keep the previous mean of seven enemies per normal sector. Larger floors
-    provide more encounters; population inside a local pocket stays at 3–4.
-    Native spawning still checks each selected tile against the collider.
+    Each normal complex gets a density budget based on its available ground.
+    Smaller independent regions produce singles, pairs and several sizes of
+    groups instead of two prescribed 3-4-enemy pockets. Flare's stock engine
+    chooses the exact spawn cells inside each 5x5 native rectangle.
     """
-    candidates=[];c=data['collision']
-    # Native links replace an entire edge strip before spawning. Keep enough
-    # valid cells even when all four strips are selected by the assembler.
+    c=data['collision']
     safe={(x,y) for y,row in enumerate(c) for x,t in enumerate(row) if t==0}
+    # Native links can replace edge strips before enemies are spawned.
+    # Evaluate all supported link variants, not merely the base drawing.
     for variant in range(3):
-        link=parse(ROOT/f'maps/iron_labyrinth/generated/f{floor}/links_{variant}.txt');lc=layers(link)['collision']
+        link=parse(ROOT/f'maps/iron_labyrinth/generated/f{floor}/links_{variant}.txt')
+        lc=layers(link)['collision']
         for side in (s for s in link if 'procgen_link' in s):
             x,y,w,h=map(int,side['location'].split(','))
-            safe.difference_update((xx,yy) for yy in range(y,y+h) for xx in range(x,x+w) if lc[yy][xx]!=0)
+            safe.difference_update((xx,yy) for yy in range(y,y+h)
+                                   for xx in range(x,x+w) if lc[yy][xx]!=0)
+
+    protected=tuple(protected)
+    candidates=[]
     for y in range(4,SIZE-4):
         for x in range(4,SIZE-4):
-            if c[y][x]!=0 or any(abs(x-px)+abs(y-py)<4 for px,py in protected):continue
-            count=sum((xx,yy) in safe for yy in range(y-3,y+4) for xx in range(x-3,x+4))
-            if count>=16:candidates.append((x,y))
-    assert candidates,('No encounter pocket',floor)
-    rng.shuffle(candidates);anchor=candidates[0]
-    first=max(candidates,key=lambda p:(p[0]-anchor[0])**2+(p[1]-anchor[1])**2)
-    second=max(candidates,key=lambda p:(p[0]-first[0])**2+(p[1]-first[1])**2)
-    assert (second[0]-first[0])**2+(second[1]-first[1])**2>=18**2,('Encounter pockets too close',floor,first,second)
-    return [f'[enemy]\ntype=enemy\nlocation={x-3},{y-3},7,7\ncategory=diantre_depth_{floor}\nnumber=3,4\nspawn_level=default\n'
-            for x,y in (first,second)]
+            if (x,y) not in safe:
+                continue
+            if any(abs(x-px)+abs(y-py)<4 for px,py in protected):
+                continue
+            capacity=sum((xx,yy) in safe for yy in range(y-2,y+3)
+                         for xx in range(x-2,x+3))
+            if capacity>=12:
+                candidates.append((x,y,capacity))
 
+    # A normal sector typically has several hundred safe floor cells; the
+    # 11-19 budget is a deliberately conservative first density increase.
+    budget=max(11,min(19,len(safe)//40+rng.randint(-1,2)))
+    sizes=[1,2,3]             # Both solos and groups are guaranteed to occur.
+    remaining=budget-sum(sizes)
+    while remaining:
+        size=rng.choice([n for n in (1,2,2,3,3,4) if n<=remaining])
+        sizes.append(size)
+        remaining-=size
+    rng.shuffle(sizes)
+    selected=[]
+    for count in sizes:
+        viable=[(x,y) for x,y,capacity in candidates
+                if capacity>=max(12,3*count)
+                and all(abs(x-ox)>=5 or abs(y-oy)>=5 for ox,oy in selected)]
+        assert viable,('Insufficient distinct encounter locations',floor,budget,count,len(selected))
+        x,y=rng.choice(viable)
+        selected.append((x,y))
+    return [f'[enemy]\ntype=enemy\nlocation={x-2},{y-2},5,5\ncategory=diantre_depth_{floor}\nnumber={count}\nspawn_level=default\n'
+            for (x,y),count in zip(selected,sizes)]
 
 def install_copy(source,destination,floor):
     palette=THEMES[floor]['palette']
@@ -486,7 +510,7 @@ def main():
                                  "loop_rule":"one guaranteed when eligible; same door level, normal/start/end sectors, unused exits only"},indent=2)+"\n")
     manifest_path=ROOT/'ASSET_MANIFEST.json';manifest=json.loads(manifest_path.read_text())
     for key in removed:manifest['files'].pop(key,None)
-    note="Diantre 0.8.0: larger exploration floors and distributed encounters; native graphics and fixed enemy XP."
+    note="Diantre 0.8.1: varied diffuse encounters and richer native scenery; fixed enemy XP and stock engine."
     for p in changed:
         key=p.relative_to(ROOT).as_posix();record=manifest['files'].get(key,{"sources":[],"changes":[]})
         raw=p.read_bytes();record.update(sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw))

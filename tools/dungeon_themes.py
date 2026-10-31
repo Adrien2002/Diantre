@@ -94,9 +94,12 @@ def add_details(builder,data):
         if all((x+dx,y+dy) in builder.walk for dx in range(-2,3) for dy in range(-2,3)):
             candidates.append((x,y))
     builder.rng.shuffle(candidates);placed=[];theme=THEMES[builder.floor]
+    # Keep large passageways clear, but give substantial open rooms more
+    # environmental landmarks than the old four-object hard limit.
+    target=min(11,max(6,len(candidates)//35))
     for x,y in candidates:
-        if len(placed)>=4:break
-        if any(abs(x-px)+abs(y-py)<6 for px,py in placed):continue
+        if len(placed)>=target:break
+        if any(abs(x-px)+abs(y-py)<5 for px,py in placed):continue
         tile=theme['props'][len(placed)%len(theme['props'])]
         data['object'][y][x]=tile;data['collision'][y][x]=2;placed.append((x,y))
     if builder.floor==2 and builder.family in ('gallery','barracks'):
