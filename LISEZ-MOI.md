@@ -1,45 +1,29 @@
-# Diantre 0.8.7 — persistance des cartes et entrée réorientée
+# Diantre 0.8.8 — vraie ouverture vers le nord
 
-Diantre conserve ses trois étages procéduraux de 5 × 5 secteurs, leurs
-combats à difficulté fixe, les escaliers visibles (0.8.4), le coffre
-près des cabanes (0.8.6) et le premier portail permanent à l'étage 2
-(0.8.5). Aucun changement n'a été apporté à ces mécaniques de combat.
+La 0.8.8 corrige **uniquement l'apparence de l'entrée du donjon dans le
+hameau** : la porte latérale a été remplacée par le montage natif à deux
+tuiles `230` et `231`, copié de l'orientation utilisée sur la façade nord
+de *Frontier Outpost*, carte officielle de Flare.
 
-La **0.8.7** traite trois régressions observées en jeu :
+Dans ce modèle, les deux éléments occupent des cases adjacentes **sur une
+même ligne du mur** ; le personnage les approche par le sud. La mine
+dans Diantre conserve son hotspot en `(12,3)`, ses collisions et sa
+falaise telles qu'en 0.8.7. Aucun changement de gameplay, de PNJ,
+de coffre, de sauvegarde ni de génération des donjons n'est apporté
+par ce correctif.
 
-- **Carte régénérée après la mort :** le démarrage utilise désormais
-  un délai de 350 ms après la première sauvegarde, afin de laisser
-  Flare créer le répertoire de cache du personnage avant la
-  première génération. L'entrée du donjon applique également
-  une sauvegarde avant son chargement différé de 250 ms.
-- **Marchands disparus :** les variantes de maisons possédaient des
-  marqueurs de sélection persistants. En cas de régénération,
-  ces marques pouvaient éliminer les deux familles intermédiaires
-  et ne laisser que **trois des sept marchands**. Elles sont
-  désormais effacées après la génération, avant les sorties et
-  lors des retours vers le village. Les variantes restent uniques
-  pendant leur assemblage.
-- **Entrée de mine :** suppression du sprite 228 dont la porte
-  violette était orientée vers le mauvais côté, remplacement
-  par la variante native 224, et restauration de la continuité
-  de la falaise à droite. Le passage et son déclencheur sont
-  inchangés. Le coffre reste en (7,9), près des maisons.
+**Contrôles :** cartes régénérées et tests statiques réussis sur
+[GitHub Actions](https://github.com/Adrien2002/Diantre/actions/runs/41315176247).
+La cohérence du couple de sprites et l'accès depuis le sud ont été
+vérifiés. **Le rendu en jeu doit encore être confirmé sur une nouvelle
+partie**, en particulier l'absence de recouvrement avec la falaise.
 
-**Contrôles statiques : réussis** sur GitHub Actions, dont 23 040
-configurations de modules, 4 096 compositions du village et
-1 832 vérifications de fichiers. **À confirmer en jeu :** les
-cache de cartes persistent réellement après une mort / résurrection,
-les sept vendeurs restent présents au retour, et le nouveau visuel
-d'entrée correspond bien à une ouverture vers le nord.
+Pour la persistance des cartes et la présence des sept vendeurs,
+les correctifs de la 0.8.7 restent en place et nécessitent toujours
+un essai complet après mort et retour au village.
 
-Pour vérifier les changements, utiliser **un nouveau personnage**.
-Les fichiers de cartes précédemment enregistrés dans des sauvegardes
-anciennes ne sont pas écrasés par la mise à jour : ne supprimez pas les
-anciennes sauvegardes pour tester.
-
-Voir [le rapport 0.8.7](docs/VALIDATION-persistance-0.8.7.md),
-[le bilan 0.8.6](docs/VALIDATION-hameau-0.8.6.md)
-et [les portails 0.8.5](docs/VALIDATION-portails-0.8.5.md).
+Voir [validation de l'entrée 0.8.8](docs/VALIDATION-entree-nord-0.8.8.md)
+et [rapport de persistance 0.8.7](docs/VALIDATION-persistance-0.8.7.md).
 
 ## Trois environnements actuels
 
