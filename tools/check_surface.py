@@ -174,10 +174,12 @@ def main():
                        for n in range(1,16)),"Cliff above entrance not continuous"
             assert all(data[f"cliff_{n:02}"][ENTRANCE_Y][ENTRANCE_X+1]==28000+2*n+1
                        for n in range(16)),"Restore continuous right rock column"
-            assert data["object"][ENTRANCE_Y][ENTRANCE_X]==224,"North-facing mine aperture missing"
-            assert data["object"][ENTRANCE_Y][ENTRANCE_X]!=228,"West-facing gateway must be removed"
+            assert data["object"][ENTRANCE_Y][ENTRANCE_X-1]==230, "Left half of north-facing mine entrance missing"
+            assert data["object"][ENTRANCE_Y][ENTRANCE_X]==231, "Right half of north-facing mine entrance missing"
+            assert all(data["object"][ENTRANCE_Y][x] not in (224,227,228) for x in (ENTRANCE_X-1,ENTRANCE_X)), "Sideways entrance must not be used"
             native=(ROOT/"tilesetdefs/tileset_grassland.txt").read_text()
-            assert any(l.startswith("tile=224,") for l in native.splitlines()), "Undefined native north-facing entrance tile"
+            assert all(any(l.startswith(f"tile={tile},") for l in native.splitlines()) for tile in (230,231)), "Missing native two-piece north entrance"
+            assert all((x,ENTRANCE_Y+1) in seen for x in (ENTRANCE_X-1,ENTRANCE_X)), "North entrance must be approachable from the south"
             assert (12, 3) in seen and (12, 4) in seen, "Dungeon entrance disconnected"
             assert data["object"][STASH_Y][STASH_X] == 76, "Shared stash sprite missing"
             assert c[STASH_Y][STASH_X] == 1, "Shared stash must remain physically solid"
@@ -198,7 +200,7 @@ def main():
                       "merchants_per_layout": 7, "entrance": [12, 3],
                       "checks": ["merchant access", "cabin footprints", "north entrance access",
                                  "stash access", "mountain inaccessible", "closed perimeter",
-                                 "merchant canopy clearance", "roof setback", "cliff layer order", "continuous right-hand rock", "north-facing aperture", "merchant uniqueness reset", "stash beside cabin"]}, indent=2))
+                                 "merchant canopy clearance", "roof setback", "cliff layer order", "continuous right-hand rock", "native 230+231 north-wall entrance", "merchant uniqueness reset", "stash beside cabin"]}, indent=2))
 
 
 if __name__ == "__main__":

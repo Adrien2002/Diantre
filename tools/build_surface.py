@@ -171,9 +171,13 @@ def build_town():
             if x == ENTRANCE[0] and level == 0:
                 continue
             overlay(f"cliff_{level:02}", x, ENTRANCE[1], 28000 + level * 2 + x % 2)
-    # Use the alternate native north-facing mine aperture (224), not the
-    # west-facing purple door (228). The interaction stays at (12,3).
-    overlay("object", ENTRANCE[0], ENTRANCE[1], 224)
+    # Match Flare's actual NORTH-wall entry in Frontier Outpost:
+    # two adjacent pieces (230 at x=19, 231 at x=20), both on the same
+    # y=11 wall row, approached from y=12. Tiles 224 and 228 instead
+    # describe a sideways opening, e.g. Perdition Harbor Cave.
+    # The existing (12,3) hotspot, north cliff and collision are unchanged.
+    overlay("object", ENTRANCE[0] - 1, ENTRANCE[1], 230)
+    overlay("object", ENTRANCE[0], ENTRANCE[1], 231)
     for y in range(3, 27):
         for x in range(11, 14):
             overlay("background", x, y, 40 + (x + y) % 8)
@@ -276,7 +280,7 @@ def update_manifest():
              ROOT / "npcs/diantre_waypoint_town.txt", ROOT / "npcs/diantre_waypoint_f2.txt",
              ROOT / "settings.txt", ROOT / "tilesetdefs/town/compact_palette.txt",
              *sorted((ROOT / "maps/town/compact").glob("*.txt"))]
-    note = "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+    note = "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
     for file in paths:
         key = file.relative_to(ROOT).as_posix()
         record = manifest["files"].get(key, {"sources": [], "changes": []})
