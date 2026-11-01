@@ -10037,7 +10037,8 @@
         "diantre/maps/spawn.txt"
       ],
       "changes": [
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ]
     },
     "maps/town/biomes.txt": {
@@ -10052,7 +10053,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ]
     },
     "maps/town/cave.txt": {
@@ -12612,7 +12614,8 @@
         "diantre/scripts/town/enter_dungeon.txt"
       ],
       "changes": [
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ]
     },
     "scripts/town/return.txt": {
@@ -12627,11 +12630,12 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ]
     },
     "settings.txt": {
-      "sha256": "cb7404754dbc13a31d081580779129c0c694c147e55ba1070266c0e677d00036",
+      "sha256": "aba83c6d3c80eb6c6dd4caa7bd2f57ed77de3bb2208a50e2884be19f39f14c0a",
       "bytes": 192,
       "sources": [
         "diantre/settings.txt"
@@ -12650,7 +12654,8 @@
         "Diantre 0.8.5: saved waypoint on floor 2, native travel choices and compact dungeons.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
         "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
-        "Diantre 0.8.7: per-character cache startup and removal of stale procgen selection states."
+        "Diantre 0.8.7: per-character cache startup and removal of stale procgen selection states.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ]
     },
     "soundfx/door_open.ogg": {
@@ -13703,10 +13708,11 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
-      "sha256": "3af64a43b5f2ad2c52da8e0d612669211d8371f4178fcfe9f6765c1a0f4acb46",
-      "bytes": 145972
+      "sha256": "adfe137462b9a9d4b1f2e438705c666092028bbc35289c5c2ea2de425586fd27",
+      "bytes": 145997
     },
     "tilesetdefs/town/compact_palette.txt": {
       "sources": [],
@@ -13716,7 +13722,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "b865491c8bd6acaf85d097f735c46a1c26ee47c7e909d2352f81419221315094",
       "bytes": 1935
@@ -13729,7 +13736,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "95bed27ad7c626d0a2e7d70c42a1cd307594726b84e7d4c7ab6382b76fabfbdd",
       "bytes": 6898
@@ -13742,7 +13750,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "871ded0186b83c018831e22efe341c5d7383661eeb1c39a3b8af3e45f2da5469",
       "bytes": 6898
@@ -13755,7 +13764,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "46b1e2857039429959a2a03268d60c7be05dc8c5cd00c4756856c929c185cba5",
       "bytes": 6898
@@ -13768,7 +13778,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "0da5c7daa0665903ff30b927d0ffcb861ae537562eae930afae39b38dce6ee58",
       "bytes": 6898
@@ -13781,7 +13792,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "b7b166e883d5a7494979a83c6e1032a69f0ae1d2ff2bcef27e5ecfdfc97949fe",
       "bytes": 6932
@@ -13794,7 +13806,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "7f125cb2bcc83ae65eb865e46ffe92d2039ef4903223b40fadb9b3bd5c4ff244",
       "bytes": 7118
@@ -13807,7 +13820,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "f6e45f5008f510df62063350afe976cfb085582ec1ebe567a5ceed991e518c16",
       "bytes": 7120
@@ -13820,7 +13834,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "e5b729e93663313b50e155d107b33fbf4f26671c8f7251a27f91f0daaa961bf2",
       "bytes": 7118
@@ -13833,7 +13848,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "576d6a90c16d66173b352b81c92fb30861c42bf9804f5ae770ca8ca68ff75b45",
       "bytes": 7120
@@ -13846,7 +13862,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "9fb12057c3cac9866683df57849eda863802e0d5d28ea930cdcff15db694d41a",
       "bytes": 7111
@@ -13859,7 +13876,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "d6f26d589982abbb887c006be6282379607ce0a94b5f2e1b460b675dbee5fb13",
       "bytes": 7113
@@ -13872,7 +13890,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "8a7151c193d50b62a9e9c0472e2a0f9b16b6c50bbd14719d89c2ce476748f575",
       "bytes": 7111
@@ -13885,7 +13904,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "6ba4d8033ef8ee806bd6acc56a272067c523b368046a002ec5126b16cd73ede8",
       "bytes": 7113
@@ -13898,7 +13918,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "77ed63b35f7271aea2bd6489748af8edd46728ef5fc3115d7099929de4b3edf9",
       "bytes": 854
@@ -13911,7 +13932,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "d2db0afc3434edf523988f1edc9cd5ab7c3ece562c6eed678e23c407b0af47fe",
       "bytes": 7068
@@ -13924,7 +13946,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "148ecc1eaccd14b1e6637c2718a0fe81ddbf5bdbb2e9896dbdc0650ea6439ded",
       "bytes": 7070
@@ -13937,7 +13960,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "ff89f42e9ba7480dc0437d39710756c5b98ca094c7ad48667f0ba4d81417897d",
       "bytes": 7068
@@ -13950,7 +13974,8 @@
         "Diantre 0.8.3: native-length log cabins and recessed cliff entrance; original assets preserved.",
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "b863fdd94bd05624a479c49a8c77ae09860003f89704aa9833205afdc6b96250",
       "bytes": 7070
@@ -16223,7 +16248,8 @@
       "changes": [
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "46e3cea1b54862b6ae1a17d17a9bb2796b4bdf5d260dea1b722564000fd2e2f2",
       "bytes": 1623
@@ -16233,7 +16259,8 @@
       "changes": [
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "1ba54571b45575892f65ad6839a50d87e940a1c2d75765cd76a8fd361e66e548",
       "bytes": 708
@@ -16243,7 +16270,8 @@
       "changes": [
         "Diantre 0.8.5: permanent native Flare waypoints with gated travel menu and saved unlock.",
         "Diantre 0.8.6: clear right-hand rock overlap at mine entrance and move stash beside northern cabins.",
-        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion."
+        "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
+        "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
       "sha256": "0002d15902e74816047c12fdbf5cf6b48bfc4f47ab60b65cb3b7dc36c562a96b",
       "bytes": 915
