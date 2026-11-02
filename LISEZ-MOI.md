@@ -1,29 +1,29 @@
-# Diantre 0.8.8 — vraie ouverture vers le nord
+# Diantre 0.8.9 — destinations des portails simplifiées
 
-La 0.8.8 corrige **uniquement l'apparence de l'entrée du donjon dans le
-hameau** : la porte latérale a été remplacée par le montage natif à deux
-tuiles `230` et `231`, copié de l'orientation utilisée sur la façade nord
-de *Frontier Outpost*, carte officielle de Flare.
+La **0.8.9** retire l'étage 1 des menus des obélisques : il s'agit
+de l'entrée naturelle du donjon, pas d'un point de passage fixe.
+Le réseau de téléportation propose uniquement les étages pairs
+déjà déverrouillés : pour les trois étages actuels, seul **l'étage 2**
+peut être sélectionné, après sa découverte.
 
-Dans ce modèle, les deux éléments occupent des cases adjacentes **sur une
-même ligne du mur** ; le personnage les approche par le sud. La mine
-dans Diantre conserve son hotspot en `(12,3)`, ses collisions et sa
-falaise telles qu'en 0.8.7. Aucun changement de gameplay, de PNJ,
-de coffre, de sauvegarde ni de génération des donjons n'est apporté
-par ce correctif.
+Depuis l'obélisque du village, le menu propose l'étage 2 uniquement
+lorsque `diantre_waypoint_f2` est enregistré. Avant cela, seule
+l'option d'annulation subsiste. Depuis celui de l'étage 2, le
+**retour au village**, l'étage 2 et l'annulation restent disponibles.
 
-**Contrôles :** cartes régénérées et tests statiques réussis sur
-[GitHub Actions](https://github.com/Adrien2002/Diantre/actions/runs/41315176247).
-La cohérence du couple de sprites et l'accès depuis le sud ont été
-vérifiés. **Le rendu en jeu doit encore être confirmé sur une nouvelle
-partie**, en particulier l'absence de recouvrement avec la falaise.
+L'accès normal à l'étage 1, les escaliers, les clés, les cartes
+procédurales, les marchands, le coffre et l'entrée du donjon
+ne sont pas modifiés. Les changements concernent les deux
+dialogues natifs de Flare et leur validation automatique.
 
-Pour la persistance des cartes et la présence des sept vendeurs,
-les correctifs de la 0.8.7 restent en place et nécessitent toujours
-un essai complet après mort et retour au village.
+**Statut :** la structure des menus est contrôlée automatiquement
+avec la régénération GitHub Actions. Comme pour les versions
+précédentes, l'affichage et la navigation du dialogue devront
+être vérifiés en jeu.
 
-Voir [validation de l'entrée 0.8.8](docs/VALIDATION-entree-nord-0.8.8.md)
-et [rapport de persistance 0.8.7](docs/VALIDATION-persistance-0.8.7.md).
+Consulter le [bilan de la 0.8.9](docs/VALIDATION-menu-portails-0.8.9.md),
+la [correction de l'entrée 0.8.8](docs/VALIDATION-entree-nord-0.8.8.md)
+et la [validation de persistance 0.8.7](docs/VALIDATION-persistance-0.8.7.md).
 
 ## Trois environnements actuels
 

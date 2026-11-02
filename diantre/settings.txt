@@ -1,4 +1,4 @@
 description=Diantre: compact procedural ruins, caverns and crypts with diffuse encounters, native scenery and persistent branching routes.
 game=diantre
-version=0.8.8
+version=0.8.9
 engine_version_min=1.15.0

@@ -1,21 +1,14 @@
-# Native Flare talker dialog overlays gameplay and filters locked destinations.
+# Native Flare talker: only previously discovered even-floor waypoints are destinations.
+# Floor 1 is reached normally through the dungeon entrance.
 name=Ancient Waypoint
 animations=animations/npcs/return_obelisk1.txt
 talker=true
 
 [dialog]
 topic=Travel
-response=floor_1
 response=floor_2
 response=cancel
 him=Choose a discovered destination.
-
-[dialog]
-id=floor_1
-topic=Level 1 - Ancient Ruins
-response_only=true
-intermap=maps/iron_labyrinth_f1.txt,-1,-1,stairs_up
-soundfx=soundfx/environment/teleporter.ogg,0,0
 
 [dialog]
 id=floor_2

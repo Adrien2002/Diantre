@@ -32,12 +32,14 @@ def inspect_menu(path,has_town):
     main=[n for n in nodes if not n.get("response_only")]
     assert len(main)==1 and main[0]["topic"]=="Travel",(path,main)
     targets={n["id"]:n for n in nodes if n.get("response_only")=="true"}
-    expected={"floor_1","floor_2","cancel"}|({"town"} if has_town else set())
+    expected={"floor_2","cancel"}|({"town"} if has_town else set())
     assert set(main[0]["responses"])==set(targets)==expected,(path,targets)
     assert targets["floor_2"]["requires_status"]==UNLOCK,(path,"Ungated level 2")
     assert targets["floor_2"]["intermap"]=="maps/iron_labyrinth_f2.txt,-1,-1,diantre_waypoint_f2"
-    assert targets["floor_1"]["intermap"]=="maps/iron_labyrinth_f1.txt,-1,-1,stairs_up"
-    assert not any("requires_status" in targets[n] for n in ("floor_1","cancel"))
+    # Only activated even floors may be selected; floor 1 is the normal entrance.
+    assert "floor_1" not in raw and "iron_labyrinth_f1.txt" not in raw, (path,"Level 1 must not appear in waypoint menu")
+    assert all(k in {"floor_2","town","cancel"} for k in targets), (path,"Unexpected destination")
+    assert "requires_status" not in targets["cancel"]
     if has_town:
         assert targets["town"]["script"]=="scripts/town/return_waypoint.txt"
         assert main[0]["set_status"]==UNLOCK
@@ -84,7 +86,7 @@ def main():
     ret=(ROOT/"scripts/town/return_waypoint.txt").read_text()
     assert "requires_status=diantre_town_hamlet_forest\nintermap=maps/town/hamlet_forest.txt,-1,-1,diantre_waypoint_town" in ret
     assert ret.count("intermap=")==(ROOT/"scripts/town/return.txt").read_text().count("intermap=")
-    print(json.dumps(dict(waypoints=2,unlocked_floors=[1,2],initially_available=[1],
+    print(json.dumps(dict(waypoints=2,waypoint_destination_floors=[2],initially_available=[],
                           unlock_status=UNLOCK,menu_nodes=[n1,n2],
                           native_animations=True,persistent_activation=True),indent=2))
 
