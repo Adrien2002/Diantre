@@ -12635,7 +12635,7 @@
       ]
     },
     "settings.txt": {
-      "sha256": "aba83c6d3c80eb6c6dd4caa7bd2f57ed77de3bb2208a50e2884be19f39f14c0a",
+      "sha256": "4fcdbb7c5627edc1dc62982f3e91193e8589f7e27483b92bacea149321be9b45",
       "bytes": 192,
       "sources": [
         "diantre/settings.txt"
@@ -16262,8 +16262,8 @@
         "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
         "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
-      "sha256": "1ba54571b45575892f65ad6839a50d87e940a1c2d75765cd76a8fd361e66e548",
-      "bytes": 708
+      "sha256": "c9c87ade04aad0fcc6466f84bb2f9b5063bed70496b93ee8e9398f0a360ab730",
+      "bytes": 591
     },
     "npcs/diantre_waypoint_f2.txt": {
       "sources": [],
@@ -16273,8 +16273,8 @@
         "Diantre 0.8.7: north-facing mine entry and guard against merchant status exhaustion.",
         "Diantre 0.8.8: native two-piece northern cave entrance (230+231); preserve 0.8.7 persistence fixes."
       ],
-      "sha256": "0002d15902e74816047c12fdbf5cf6b48bfc4f47ab60b65cb3b7dc36c562a96b",
-      "bytes": 915
+      "sha256": "e48ceef4665d6054d2849224447c84a7e6bede88d5e3c31d4186555e37de4aeb",
+      "bytes": 811
     }
   }
 }
